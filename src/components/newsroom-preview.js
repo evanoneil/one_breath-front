@@ -8,20 +8,17 @@ import { responsiveTitle3 } from "./typography.module.css";
 
 function NewsroomPreview(props) {
   return (
-
-      <div>
-        <a class={styles.pill}>{props.categories[0].title}</a>
-      </div>
-
+    <div>
+      <a class={styles.pill}>{props.categories[0].title}</a>
       <div className={styles.text}>
         <h3 className={cn(responsiveTitle3, styles.title)}>{props.title}</h3>
-        <p><a href={props.url}>View Article</a></p>
         <div className={styles.date}>{format(props.publishedAt, "MMMM Do, YYYY")}</div>
-        
+        <div></div>
       </div>
-    
-          
-
+      <p>
+        <a href={props.url}>View Article</a>
+      </p>
+    </div>
   );
 }
 
