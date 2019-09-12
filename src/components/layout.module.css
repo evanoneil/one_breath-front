@@ -1,5 +1,5 @@
-@import '../styles/custom-media.css';
-@import '../styles/custom-properties.css';
+@import "../styles/custom-media.css";
+@import "../styles/custom-properties.css";
 
 .content {
   background: var(--color-white);
@@ -45,4 +45,117 @@
   text-align: center;
   font-size: var(--font-small-size);
   line-height: var(--font-small-line-height);
+}
+
+/* footer animation */
+
+.textline {
+  font-size: 5em;
+}
+
+.textcopy {
+  fill: none;
+  stroke: white;
+  stroke-dasharray: 7% 28%;
+  stroke-width: 3px;
+  -webkit-animation: stroke-offset 20s infinite linear;
+  animation: stroke-offset 20s infinite linear;
+}
+.textcopy:nth-child(1) {
+  stroke: dodgerblue;
+  stroke-dashoffset: 7%;
+}
+.textcopy:nth-child(2) {
+  stroke: white;
+  stroke-dashoffset: 14%;
+}
+.textcopy:nth-child(3) {
+  stroke: #e7d84b;
+  stroke-dashoffset: 21%;
+}
+.textcopy:nth-child(4) {
+  stroke: lightblue;
+  stroke-dashoffset: 28%;
+}
+.textcopy:nth-child(5) {
+  stroke: #1b8798;
+  stroke-dashoffset: 35%;
+}
+
+@-webkit-keyframes stroke-offset {
+  50% {
+    stroke-dashoffset: 35%;
+    stroke-dasharray: 0 87.5%;
+  }
+}
+
+@keyframes stroke-offset {
+  50% {
+    stroke-dashoffset: 35%;
+    stroke-dasharray: 0 87.5%;
+  }
+}
+
+/* underline effect */
+
+/* begin underline effect */
+a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  background-color: #fcd135;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+a:hover {
+  color: #fcd135;
+}
+
+a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+a {
+  position: relative;
+  color: #000;
+  text-decoration: none;
+}
+
+/* end underline effect */
+
+.pill {
+  border-radius: 2em;
+  border: none;
+  padding: 1em;
+  background-color: #29a1de;
+  font-size: 0.5rem;
+  text-transform: capitalize;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  /* margin-bottom:5rem; */
+}
+
+.button {
+  border-radius: 2em;
+  border: 1px solid;
+  padding: 1em;
+  /* margin-top:5rem; */
+}
+
+.vh-35 {
+  height: 35vh;
+}
+
+html {
+  font-family: "GT America";
 }
