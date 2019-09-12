@@ -67,8 +67,11 @@ const NewsroomPage = props => {
     <Layout>
       <SEO title="Newsroom" />
       <Container>
-        <h1 className={responsiveTitle1}>Archive</h1>
+        <h1 className={responsiveTitle1}>Newsroom</h1>
+        <h2>From One Breath Partnership</h2>
         {postNodes && postNodes.length > 0 && <BlogPostPreviewGrid nodes={postNodes} />}
+        <h2>In the Media</h2>
+
         {mediaNodes && mediaNodes.length > 0 && <NewsroomPreviewGrid nodes={mediaNodes} />}
       </Container>
     </Layout>

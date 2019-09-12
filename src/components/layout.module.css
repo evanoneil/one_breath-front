@@ -1,6 +1,8 @@
 @import "../styles/custom-media.css";
 @import "../styles/custom-properties.css";
 
+@import "../layouts/custom.css";
+
 .content {
   background: var(--color-white);
   min-height: calc(100% - 73px - 120px);
@@ -156,6 +158,14 @@ a {
   height: 35vh;
 }
 
-html {
-  font-family: "GT America";
+h1 {
+  font-family: "GT America Bold";
+}
+
+h2 {
+  font-family: "GT America Regular";
+}
+
+h3 {
+  font-family: "GT America Mono";
 }

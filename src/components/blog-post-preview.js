@@ -14,7 +14,7 @@ function BlogPostPreview(props) {
       className={props.isInList ? styles.inList : styles.inGrid}
       to={getBlogUrl(props.publishedAt, props.slug.current)}
     >
-      <div>
+      <div className="mb3">
         <a class={styles.pill}>{props.categories[0].title}</a>
       </div>
       <div className={styles.leadMediaThumb}>
