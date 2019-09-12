@@ -15,9 +15,9 @@ function NewsroomPreview(props) {
 
       <div className={styles.text}>
         <h3 className={cn(responsiveTitle3, styles.title)}>{props.title}</h3>
-
-        <div className={styles.date}>{format(props.publishedAt, "MMMM Do, YYYY")}</div>
         <p><a href={props.url}>View Article</a></p>
+        <div className={styles.date}>{format(props.publishedAt, "MMMM Do, YYYY")}</div>
+        
       </div>
     
           
