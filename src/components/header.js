@@ -2,6 +2,7 @@ import { Link } from "gatsby";
 import React from "react";
 import Icon from "./icon";
 import { cn } from "../lib/helpers";
+import logo from "../../public/assets/img/onebreath_logo.png";
 
 import styles from "./header.module.css";
 
@@ -9,10 +10,12 @@ import "../layouts/tachyons/css/tachyons.css";
 import "../layouts/custom.css";
 
 const Header = ({ onHideNav, onShowNav, showNav, siteTitle }) => (
-  <div className="bg-white flex w-100 vh-7 pv3 flex justify-between items-center top-0 z-2 bb b--light-gray">
+  <div className="mh4 bg-white flex w-100 vh-7 pv3 flex justify-between items-center top-0 z-2  fixed">
     <div className="w-100 mw8 flex justify-between justify-around-l items-center ph4 pa2-ns">
       <div className={styles.branding}>
-        <Link to="/">One Breath Partnership</Link>
+        <Link to="/">
+          <img src={logo} />
+        </Link>
       </div>
 
       <button className={styles.toggleNavButton} onClick={showNav ? onHideNav : onShowNav}>

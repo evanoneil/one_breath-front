@@ -1,10 +1,11 @@
-@import '../styles/custom-media.css';
-@import '../styles/custom-properties.css';
+@import "../styles/custom-media.css";
+@import "../styles/custom-properties.css";
 
-.root {}
+.root {
+}
 
 .title {
-  composes: responsiveTitle1 from './typography.module.css';
+  composes: responsiveTitle1 from "./typography.module.css";
 }
 
 .mainImage {
@@ -63,7 +64,7 @@
 }
 
 .publishedAt {
-  composes: small from './typography.module.css';
+  composes: small from "./typography.module.css";
   margin: 2rem 0 3rem;
   color: var(--color-gray);
 }
@@ -84,6 +85,52 @@
 }
 
 .categoriesHeadline {
-  composes: base from './typography.module.css';
+  composes: base from "./typography.module.css";
   margin: 0.5rem 0 0;
+}
+
+/*—- DIVI TIMELINE / DOTS LIST —-*/
+.dotslist {
+  width: 100%;
+}
+.dotslist ol {
+  position: relative;
+  margin-bottom: 20px;
+  list-style: none !important;
+}
+.dotslist ol li {
+  position: relative;
+  margin-top: 1em;
+  margin-bottom: 22px;
+}
+.dotslist ol li .date {
+  position: absolute;
+  left: -115px;
+  font-weight: bold;
+  font-size: 1em;
+  top: -2px;
+}
+.dotslist ol li:before {
+  content: "";
+  background: #35a6cb; /*Sửa màu*/
+  position: absolute;
+  width: 2px;
+  top: 5px;
+  bottom: -25px;
+  left: -24px;
+}
+.dotslist ol li:after {
+  content: "";
+  background: white; /*edit circle colour*/
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  border-radius: 100%;
+  border: 2.5px solid #35a6cb; /*edit circle border colour*/
+  top: 5px;
+  left: -31px;
+}
+.dotslist ol li:last-child:before {
+  content: "";
+  background: rgba(0, 0, 0, 0);
 }

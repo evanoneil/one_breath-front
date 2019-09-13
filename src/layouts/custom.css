@@ -1,19 +1,9 @@
-@font-face {
-  font-family: GT America-Bold;
-  src: url("https://wp.evanoneil.net/one_breath/type/GT-America-Standard-Bold.woff") format("woff"),
-    url("https://wp.evanoneil.net/one_breath/type/GT-America-Standard-Bold.woff2") format("woff2");
+@import url("https://rsms.me/inter/inter.css");
+html {
+  font-family: "Inter", sans-serif;
 }
-
-@font-face {
-  font-family: GT America Regular;
-  src: url("https://wp.evanoneil.net/one_breath/type/GT-America-Standard-Regular.woff")
-      format("woff"),
-    url("https://wp.evanoneil.net/one_breath/type/GT-America-Standard-Regular.woff2")
-      format("woff2");
-}
-
-@font-face {
-  font-family: GT America Mono;
-  src: url("https://wp.evanoneil.net/one_breath/type/GT-America-Mono-Regular.woff") format("woff"),
-    url("https://wp.evanoneil.net/one_breath/type/GT-America-Mono-Regular.woff2") format("woff2");
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: "Inter var", sans-serif;
+  }
 }

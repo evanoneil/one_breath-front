@@ -31,6 +31,16 @@
   }
 }
 
+.three {
+  grid-template-columns: 3fr;
+  grid-gap: 2em;
+}
+
+.one {
+  grid-template-columns: 1fr;
+  grid-gap: 2em;
+}
+
 .browseMoreNav {
   composes: small from "./typography.module.css";
   margin-top: 1rem;

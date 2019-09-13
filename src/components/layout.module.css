@@ -158,14 +158,9 @@ a {
   height: 35vh;
 }
 
-h1 {
-  font-family: "GT America Bold";
-}
-
-h2 {
-  font-family: "GT America Regular";
-}
-
-h3 {
-  font-family: "GT America Mono";
+blockquote {
+  width: 80%;
+  font-size: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 4px black solid;
 }
