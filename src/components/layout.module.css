@@ -3,6 +3,16 @@
 
 @import "../layouts/custom.css";
 
+@font-face {
+  font-family: GT-America-Bold;
+  src: url("../../public/assets/type/GT-America-Standard-Bold.eot");
+  src: url("../../public/assets/type/GT-America-Standard-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../public/assets/type/GT-America-Standard-Bold.woff2") format("woff2"),
+    url("../../public/assets/type/GT-America-Standard-Bold.woff") format("woff"),
+    url("../../public/assets/type/GT-America-Standard-Bold.ttf") format("truetype");
+}
+
 .content {
   background: var(--color-white);
   min-height: calc(100% - 73px - 120px);
@@ -163,4 +173,8 @@ blockquote {
   font-size: 2rem;
   padding-bottom: 2rem;
   border-bottom: 4px black solid;
+}
+
+h1 {
+  font-family: "GT-America-Bold";
 }
