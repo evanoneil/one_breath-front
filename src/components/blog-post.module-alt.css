@@ -15,7 +15,7 @@
   background: var(--color-very-light-gray);
   /* padding-bottom: calc(9 / 16 * 100%); */
   background-image: url("https://wp.evanoneil.net/one_breath/img/coastal_breeze.jpg");
-  height: 50vh;
+  height: 60vh;
   padding: 0;
 
   @nest & img {
@@ -41,6 +41,7 @@
 }
 
 .mainContent {
+  padding: 0;
   @nest & a {
     color: var(--color-accent);
 
@@ -66,6 +67,9 @@
 }
 
 .metaContent {
+  font-family: "GT-America-Mono";
+  font-size: 0.8rem;
+  color: lightslategrey;
 }
 
 .publishedAt {
@@ -143,24 +147,26 @@
 }
 
 .example {
-  position: absolute;
+  /* position: absolute; */
   /* bottom: 25%; */
   left: 10%;
   top: 10%;
   z-index: 1;
   padding: 5px;
+  text-align: center;
 }
 
 .displaygrid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 3em;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 ol {
   margin-block-start: 0;
-  font-size: 1.5rem;
-  margin-left: -1rem;
 }
 
 .caption {
@@ -168,21 +174,4 @@ ol {
   font-size: 0.8rem;
   color: lightslategrey;
   margin-bottom: 4rem;
-  z-index: 999;
-  width: 50%;
-  text-align: center;
-  margin-top: -1.5rem;
-}
-
-.pill {
-  border-radius: 2em;
-  border: none;
-  padding: 1em;
-  background-color: #29a1de;
-  text-transform: capitalize;
-  text-align: center;
-  color: white;
-  font-weight: 700;
-  composes: small from "./typography.module.css";
-  margin: 2rem 0 3rem;
 }

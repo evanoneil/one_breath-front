@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "./header";
+import Partners from "../components/partners";
 
 import "../styles/layout.css";
 import styles from "./layout.module.css";
@@ -10,12 +11,9 @@ const Layout = ({ children, onHideNav, onShowNav, showNav, siteTitle }) => (
     <div className={styles.content}>{children}</div>
     <footer className={styles.footer}>
       <div className={styles.footerWrapper}>
-        <div className={styles.siteInfo}>
-          <h1>One Breath Partnership is</h1>
-          <img src="https://wp.evanoneil.net/one_breath/img/partners.png" />
-        </div>
+        <Partners />
       </div>
-      <div className="pa4 db-ns bt pt15 pa5 black">
+      <div className="pa4 db-ns pt15 pa5 black coastal">
         <div className="u-center mw-container ph20 ph0-l cf pb25 pa4 w-100">
           <div className="db fl-ns w-100 center items-center">
             <svg viewBox="0 0 800 200">

@@ -13,6 +13,7 @@ import Layout from "../containers/layout";
 import Headline from "../components/headline";
 import PartnerHighlight from "../components/partner-highlight";
 import SignUp from "../components/sign-up";
+import Partners from "../components/partners";
 
 export const query = graphql`
   fragment SanityImage on SanityMainImage {
@@ -66,6 +67,7 @@ export const query = graphql`
           mainImage {
             ...SanityImage
             alt
+            caption
           }
           title
           _rawExcerpt

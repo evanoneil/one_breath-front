@@ -38,8 +38,25 @@ function BlogPost(props) {
             alt={mainImage.alt}
           />
           <div className={styles.example}>
-            <h1 className={styles.title}>{title}</h1>
             <div className={styles.displaygrid}>
+              <div className={styles.pill}>
+                {categories.map(category => (
+                  <div key={category._id}>{category.title}</div>
+                ))}
+              </div>
+              <div className={styles.publishedAt}> </div>
+            </div>
+            <h1 className={styles.title}>{title}</h1>
+          </div>
+        </div>
+      )}
+      <Container>
+        <div>
+          <p className={styles.caption}>{mainImage.caption}</p>
+          <div className={styles.grid}>
+            <div></div>
+            <div className={styles.mainContent}>
+              {authors && <AuthorList items={authors} />}
               <div>
                 {" "}
                 {publishedAt && (
@@ -50,38 +67,24 @@ function BlogPost(props) {
                   </div>
                 )}
               </div>
-              <div className={styles.publishedAt}> </div>
-              <div className={styles.publishedAt}>
-                {categories.map(category => (
-                  <div key={category._id}>{category.title}</div>
-                ))}
-              </div>
+              <br />
+              {_rawBody && <PortableText blocks={_rawBody} />}
+              <h2>Take Action</h2>
+              <ol>
+                <li>
+                  <a href={Action1URL}>{Action1Title}</a>
+                </li>
+                <li>
+                  <a href={Action2URL}>{Action2Title}</a>
+                </li>
+                <li>
+                  <a href={Action3URL}>{Action3Title}</a>
+                </li>
+              </ol>
             </div>
+            <div></div>
+            {/* <aside className={styles.metaContent}></aside> */}
           </div>
-        </div>
-      )}
-      <Container>
-        <div className={styles.grid}>
-          <div></div>
-          <div className={styles.mainContent}>
-            {authors && <AuthorList items={authors} />}
-            <br />
-            {_rawBody && <PortableText blocks={_rawBody} />}
-            <h2>Take Action</h2>
-            <ol>
-              <li>
-                <a href={Action1URL}>{Action1Title}</a>
-              </li>
-              <li>
-                <a href={Action2URL}>{Action2Title}</a>
-              </li>
-              <li>
-                <a href={Action3URL}>{Action3Title}</a>
-              </li>
-            </ol>
-          </div>
-          <div></div>
-          {/* <aside className={styles.metaContent}></aside> */}
         </div>
         <br />
         <SignUp />

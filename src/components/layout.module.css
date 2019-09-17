@@ -43,8 +43,6 @@
 }
 
 .footer {
-  border-top: 1px solid var(--color-very-light-gray);
-
   @nest & a {
     color: inherit;
     text-decoration: none;
@@ -59,7 +57,10 @@
 
 .footerWrapper {
   box-sizing: border-box;
-  max-width: 960px;
+  max-width: 100%;
+  background: #ffebcd;
+  border-radius: 200px 0 0 0;
+
   padding: 4.5em 1.5em 1.5em;
   margin: 0 auto;
 
@@ -98,7 +99,7 @@
   stroke-dashoffset: 7%;
 }
 .textcopy:nth-child(2) {
-  stroke: orange;
+  stroke: white;
   stroke-dashoffset: 14%;
 }
 .textcopy:nth-child(3) {
@@ -106,11 +107,11 @@
   stroke-dashoffset: 21%;
 }
 .textcopy:nth-child(4) {
-  stroke: lightblue;
+  stroke: white;
   stroke-dashoffset: 28%;
 }
 .textcopy:nth-child(5) {
-  stroke: #1b8798;
+  stroke: #white;
   stroke-dashoffset: 35%;
 }
 

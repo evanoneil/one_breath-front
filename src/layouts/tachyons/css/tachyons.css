@@ -8228,3 +8228,8 @@ code,
 .igfix {
   margin-top:.1rem;
 }
+
+.coastal {
+  background-image: url("https://wp.evanoneil.net/one_breath/img/coastal_breeze.jpg");
+  background-size: cover;
+}
