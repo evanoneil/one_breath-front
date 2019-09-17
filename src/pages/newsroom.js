@@ -7,6 +7,7 @@ import Container from "../components/container";
 import GraphQLErrorList from "../components/graphql-error-list";
 import SEO from "../components/seo";
 import Layout from "../containers/layout";
+import NewsroomHeadline from "../components/newsroomheadline";
 
 import { responsiveTitle1 } from "../components/typography.module.css";
 
@@ -71,9 +72,10 @@ const NewsroomPage = props => {
   return (
     <Layout>
       <SEO title="Newsroom" />
+      <NewsroomHeadline />
       <Container>
-        <h1 className={responsiveTitle1}>Newsroom</h1>
-        <h2>From One Breath Partnership</h2>
+        {/* <h1 className={responsiveTitle1}>Newsroom</h1>
+        <h2>From One Breath Partnership</h2> */}
         {postNodes && postNodes.length > 0 && <BlogPostPreviewGrid nodes={postNodes} />}
         {/* <h2>In the Media</h2>
 
