@@ -18,6 +18,11 @@ export const query = graphql`
           categories {
             title
           }
+          authors {
+            author {
+              name
+            }
+          }
           publishedAt
           mainImage {
             ...SanityImage

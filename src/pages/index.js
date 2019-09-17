@@ -11,6 +11,8 @@ import GraphQLErrorList from "../components/graphql-error-list";
 import SEO from "../components/seo";
 import Layout from "../containers/layout";
 import Headline from "../components/headline";
+import PartnerHighlight from "../components/partner-highlight";
+import SignUp from "../components/sign-up";
 
 export const query = graphql`
   fragment SanityImage on SanityMainImage {
@@ -49,6 +51,11 @@ export const query = graphql`
       edges {
         node {
           id
+          authors {
+            author {
+              name
+            }
+          }
           categories {
             title
             _type
@@ -100,9 +107,17 @@ const IndexPage = props => {
   return (
     <Layout>
       <Headline />
-      <SEO title={site.title} description={site.description} keywords={site.keywords} />
+      {/* <SEO title={site.title} description={site.description} keywords={site.keywords} /> */}
+      <SEO
+        title={"One Breath Partnership"}
+        description={"Clean Air for Houston"}
+        keywords={site.keywords}
+      />
+
       <Container>
-        {postNodes && <BlogPostPreviewGrid nodes={postNodes} browseMoreHref="/archive/" />}
+        <PartnerHighlight />
+        {postNodes && <BlogPostPreviewGrid nodes={postNodes} />}
+        <SignUp />
       </Container>
     </Layout>
   );

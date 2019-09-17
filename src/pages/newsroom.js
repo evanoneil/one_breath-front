@@ -20,6 +20,11 @@ export const query = graphql`
             title
           }
           publishedAt
+          authors {
+            author {
+              name
+            }
+          }
           mainImage {
             ...SanityImage
             alt

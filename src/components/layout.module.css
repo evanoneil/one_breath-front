@@ -13,6 +13,26 @@
     url("../../public/assets/type/GT-America-Standard-Bold.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: GT-America-Regular;
+  src: url("../../public/assets/type/GT-America-Standard-Regular.eot");
+  src: url("../../public/assets/type/GT-America-Standard-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../public/assets/type/GT-America-Standard-Regular.woff2") format("woff2"),
+    url("../../public/assets/type/GT-America-Standard-Regular.woff") format("woff"),
+    url("../../public/assets/type/GT-America-Standard-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: GT-America-Mono;
+  src: url("../../public/assets/type/GT-America-Mono-Regular.eot");
+  src: url("../../public/assets/type/GT-America-Mono-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../public/assets/type/GT-America-Mono-Regular.woff2") format("woff2"),
+    url("../../public/assets/type/GT-America-Mono-Regular.woff") format("woff"),
+    url("../../public/assets/type/GT-America-Mono-Regular.ttf") format("truetype");
+}
+
 .content {
   background: var(--color-white);
   min-height: calc(100% - 73px - 120px);
@@ -68,8 +88,8 @@
 .textcopy {
   fill: none;
   stroke: white;
-  stroke-dasharray: 7% 28%;
-  stroke-width: 3px;
+  stroke-dasharray: 7% 30%;
+  stroke-width: 2px;
   -webkit-animation: stroke-offset 20s infinite linear;
   animation: stroke-offset 20s infinite linear;
 }
@@ -78,7 +98,7 @@
   stroke-dashoffset: 7%;
 }
 .textcopy:nth-child(2) {
-  stroke: white;
+  stroke: orange;
   stroke-dashoffset: 14%;
 }
 .textcopy:nth-child(3) {
@@ -96,7 +116,7 @@
 
 @-webkit-keyframes stroke-offset {
   50% {
-    stroke-dashoffset: 35%;
+    stroke-dashoffset: 85%;
     stroke-dasharray: 0 87.5%;
   }
 }
@@ -175,6 +195,16 @@ blockquote {
   border-bottom: 4px black solid;
 }
 
-h1 {
+h1,
+h2,
+h3 {
   font-family: "GT-America-Bold";
+}
+
+p {
+  font-family: "GT-America-Regular";
+}
+
+h4 {
+  font-family: "GT-America-Mono";
 }

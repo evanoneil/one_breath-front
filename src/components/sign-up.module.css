@@ -1,0 +1,55 @@
+.lefthighlight {
+  background: url(https://wp.evanoneil.net/one_breath/img/img3.jpg) 0 0 no-repeat;
+  background-size: cover;
+  background-position: top middle;
+  overflow: hidden;
+  color: #ffffff;
+  height: 40vh;
+  display: flex;
+  width: 80%;
+  flex-wrap: wrap;
+  border-radius: 500px 0 0 500px;
+  margin-left: 10rem;
+}
+
+@media screen and (max-width: 30em) {
+  .lefthighlight {
+    width: 100%;
+    margin-left: -2rem;
+  }
+}
+
+.interiortext {
+  color: black;
+  height: 100%;
+  width: 100%;
+  z-index: 99;
+  text-align: left;
+
+  align-content: flex-end;
+  padding: 2rem;
+  /* top: -15%; */
+  @media (--media-min-medium) {
+    padding: 1rem;
+  }
+}
+
+.bradbury {
+  margin-left: 8rem;
+  z-index: 999;
+}
+
+.interiorcolor {
+  background-color: orange;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+  text-align: left;
+  mix-blend-mode: screen;
+  align-content: flex-end;
+  padding: 2rem;
+  /* top: -15%; */
+  @media (--media-min-medium) {
+    padding: 1rem;
+  }
+}

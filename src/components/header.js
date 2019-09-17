@@ -10,8 +10,8 @@ import "../layouts/tachyons/css/tachyons.css";
 import "../layouts/custom.css";
 
 const Header = ({ onHideNav, onShowNav, showNav, siteTitle }) => (
-  <div className="mh4 bg-white flex w-100 vh-7 pv3 flex justify-between items-center top-0 z-2  fixed">
-    <div className="w-100 mw8 flex justify-between justify-around-l items-center ph4 pa2-ns">
+  <div className="bg-white flex w-100 vh-7 pv3 flex justify-between items-center top-0 z-2">
+    <div className=" w-100 mw8 flex justify-between justify-around-l items-center ph4 pa2-ns">
       <div className={styles.branding}>
         <Link to="/">
           <img src={logo} />
@@ -51,7 +51,7 @@ const Header = ({ onHideNav, onShowNav, showNav, siteTitle }) => (
                 height="21"
                 viewBox="0 0 10 21"
                 xmlns="http://www.w3.org/2000/svg"
-                className="dib v-mid h-100 mr3"
+                className="dib v-mid h-100 mr3 fbfix"
               >
                 <title>Facebook Icon</title>
                 <path
@@ -73,7 +73,7 @@ const Header = ({ onHideNav, onShowNav, showNav, siteTitle }) => (
                 height="21"
                 viewBox="0 0 22 21"
                 xmlns="http://www.w3.org/2000/svg"
-                className="mr3"
+                className="mr3 igfix"
               >
                 <title>Instagram Icon</title>
                 <path d="M15.664.112H6.457C3.33.112.787 2.61.787 5.68v9.042c0 3.071 2.543 5.57 5.67 5.57h9.207c3.127 0 5.67-2.5 5.67-5.57V5.681c0-3.07-2.543-5.57-5.67-5.57zm3.847 14.611c0 2.084-1.726 3.779-3.847 3.779H6.457c-2.121 0-3.847-1.695-3.847-3.779V5.681c0-2.084 1.726-3.779 3.847-3.779h9.207c2.121 0 3.847 1.695 3.847 3.779v9.042z"></path>
@@ -105,8 +105,8 @@ const Header = ({ onHideNav, onShowNav, showNav, siteTitle }) => (
             </a>
           </li>
 
-          <li>
-            <a className="ttu mid-gray f5 no-underline dn dib-l" href="/about">
+          <li className="blue">
+            <a className="ttu mid-gray f5 no-underline dn dib-l blue" href="/about">
               JOIN US
             </a>
           </li>

@@ -8208,4 +8208,23 @@ code,
 .blob {
   background-image: url("https://wp.evanoneil.net/one_breath/img/img1.jpg");
   background-size: cover;
+  border-radius:0 50px 500px 0;
+}
+
+.rounded {
+  border: 2px #357edd solid;
+  border-radius: 30px;
+}
+
+.enterprise {
+  border-radius:30px;
+  background-color:lavender;
+}
+
+.fbfix {
+  margin-top:-.2rem;
+}
+
+.igfix {
+  margin-top:.1rem;
 }
