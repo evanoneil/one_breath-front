@@ -25,17 +25,17 @@ const Header = ({ onHideNav, onShowNav, showNav, siteTitle }) => (
       <nav className={cn(styles.nav, showNav && styles.showNav)}>
         <ul>
           <li>
-            <Link to="/archive/" className="ttu mid-gray f5 fw5 no-underline dn dib-l mh4">
+            <Link to="/newsroom/" className="ttu mid-gray f5 fw5 no-underline dn dib-l mh4">
               Newsroom
             </Link>
           </li>
           <li>
-            <Link to="/archive/" className="ttu mid-gray f5 fw5 no-underline dn dib-l mh4">
+            <Link to="/about/" className="ttu mid-gray f5 fw5 no-underline dn dib-l mh4">
               About
             </Link>
           </li>
           <li>
-            <Link to="/archive/" className="ttu mid-gray f5 fw5 no-underline dn dib-l mh4">
+            <Link to="/take-action/" className="ttu mid-gray f5 fw5 no-underline dn dib-l mh4">
               Take Action
             </Link>
           </li>
@@ -44,7 +44,7 @@ const Header = ({ onHideNav, onShowNav, showNav, siteTitle }) => (
               target="_blank"
               rel="noopener"
               className="dib pr20 link v-top fill-gray"
-              href="http://facebook.com/bluebottlecoffee"
+              href="http://facebook.com/onebreathhou"
             >
               <svg
                 width="10"
@@ -66,7 +66,7 @@ const Header = ({ onHideNav, onShowNav, showNav, siteTitle }) => (
               target="_blank"
               rel="noopener"
               className="dib pr20 link v-top fill-gray"
-              href="http://instagram.com/bluebottle"
+              href="http://instagram.com/onebreathhou"
             >
               <svg
                 width="22"
@@ -87,7 +87,7 @@ const Header = ({ onHideNav, onShowNav, showNav, siteTitle }) => (
               target="_blank"
               rel="noopener"
               class="dib pr20 link v-top fill-gray"
-              href="http://twitter.com/bluebottleroast"
+              href="http://twitter.com/onebreathhou"
             >
               <svg
                 width="20"
@@ -106,7 +106,7 @@ const Header = ({ onHideNav, onShowNav, showNav, siteTitle }) => (
           </li>
 
           <li className="blue">
-            <a className="ttu mid-gray f5 no-underline dn dib-l blue" href="/about">
+            <a className="ttu mid-gray f5 no-underline dn dib-l blue" href="/take-action">
               JOIN US
             </a>
           </li>

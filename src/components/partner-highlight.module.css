@@ -6,7 +6,7 @@
   height: 50vh;
   display: flex;
   width: 50%;
-
+  padding-right: 0rem;
   flex-wrap: wrap;
   border-radius: 0 500px 500px 0;
   margin-left: -3rem;
@@ -26,6 +26,7 @@
   z-index: 0;
   align-content: flex-end;
   padding: 2rem;
+  padding-right: 4rem;
   top: -20%;
   mix-blend-mode: screen;
   color: black;

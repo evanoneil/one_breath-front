@@ -66,7 +66,7 @@ const NewsroomPage = props => {
   }
 
   const postNodes = data && data.posts && mapEdgesToNodes(data.posts);
-  const mediaNodes = data && data.media && mapEdgesToNodes(data.media);
+  // const mediaNodes = data && data.media && mapEdgesToNodes(data.media);
 
   return (
     <Layout>
@@ -75,9 +75,9 @@ const NewsroomPage = props => {
         <h1 className={responsiveTitle1}>Newsroom</h1>
         <h2>From One Breath Partnership</h2>
         {postNodes && postNodes.length > 0 && <BlogPostPreviewGrid nodes={postNodes} />}
-        <h2>In the Media</h2>
+        {/* <h2>In the Media</h2>
 
-        {mediaNodes && mediaNodes.length > 0 && <NewsroomPreviewGrid nodes={mediaNodes} />}
+        {mediaNodes && mediaNodes.length > 0 && <NewsroomPreviewGrid nodes={mediaNodes} />} */}
       </Container>
     </Layout>
   );

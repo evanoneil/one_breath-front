@@ -5,6 +5,7 @@ import { imageUrlFor } from "../lib/image-url";
 import PortableText from "./portableText";
 import Container from "./container";
 import AuthorList from "./author-list";
+import SignUp from "../components/sign-up";
 
 import styles from "./blog-post.module.css";
 
@@ -49,7 +50,7 @@ function BlogPost(props) {
                   </div>
                 )}
               </div>
-              <div className={styles.publishedAt}>{authors[0].author.name} </div>
+              <div className={styles.publishedAt}> </div>
               <div className={styles.publishedAt}>
                 {categories.map(category => (
                   <div key={category._id}>{category.title}</div>
@@ -61,11 +62,13 @@ function BlogPost(props) {
       )}
       <Container>
         <div className={styles.grid}>
-          <div>hi</div>
+          <div></div>
           <div className={styles.mainContent}>
+            {authors && <AuthorList items={authors} />}
+            <br />
             {_rawBody && <PortableText blocks={_rawBody} />}
             <h2>Take Action</h2>
-            <ul>
+            <ol>
               <li>
                 <a href={Action1URL}>{Action1Title}</a>
               </li>
@@ -75,11 +78,13 @@ function BlogPost(props) {
               <li>
                 <a href={Action3URL}>{Action3Title}</a>
               </li>
-            </ul>
+            </ol>
           </div>
-          <div>hi</div>
+          <div></div>
           {/* <aside className={styles.metaContent}></aside> */}
         </div>
+        <br />
+        <SignUp />
       </Container>
     </article>
   );

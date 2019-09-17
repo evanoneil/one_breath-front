@@ -12,7 +12,7 @@ const headline = () => (
   <section className="v-mid pt3 ph4-ns blob pb5-ns mb4-ns ph5-m pb1-m pt5-m mb4-m vh-50 pb3 ph4 w-90-ns w-100 sc-jTzLTM ph10-ns ph5-m ph4 w-100-ns mw9 center hrGnky">
     <div class="v-mid w-100 flex flex-wrap">
       <div class="v-mid w-50-ns w-100 flex flex-wrap">
-        <h1 class="v-mid f1-ns f2 fw10 lh-title gradtext">
+        <h1 class="v-mid f1-ns f2 fw10 lh-title gradtext pt4-l pt-2-m">
           The science and stories of the work for/toward clean air in Houston
         </h1>
       </div>

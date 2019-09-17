@@ -18,7 +18,7 @@ const PartnerHighlight = () => (
     </div>
 
     <div className="pa5-ns pt4 pt3-ns pb0 flex flex-wrap w-50-ns w-100">
-      <h3 className="mt0 mb0 blue">The thing</h3>
+      <h3 className="mt0 mb0 blue">THE THING</h3>
       <hr />
       <h2 className="mb0">
         This is an article title that is really good about an article from the campaign
