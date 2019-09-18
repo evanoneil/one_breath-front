@@ -92,3 +92,14 @@
     padding-bottom: 40px;
   }
 }
+
+.zoom {
+  transition: transform 0.2s; /* Animation */
+  transition-timing-function: ease-in-out;
+}
+
+.zoom:hover {
+  transform: scale(
+    1.035
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}

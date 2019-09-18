@@ -16,31 +16,31 @@ import "../layouts/custom.css";
 
 const Partners = () => (
   <div className="tc ">
-    <h1 className="mt0 mb0 gold center">One Breath Partnership is</h1>
+    <h1 className="mt0 mb0 gold center">One Breath Partnership is:</h1>
     <br />
     <br />
     <div className={styles.displaygrid}>
-      <div>
+      <div className={styles.partnerlogo}>
         <img className="w-80" src={aah} />
       </div>
-      <div>
+      <div className={styles.partnerlogo}>
         <img src={edf} />
       </div>
-      <div>
+      <div className={styles.partnerlogo}>
         <img src={pc} />
       </div>
-      <div>
+      <div className={styles.partnerlogo}>
         <img src={et} />
       </div>
-      <div>
+      <div className={styles.partnerlogo}>
         <img src={eip} />
       </div>
-      <div>
+      <div className={styles.partnerlogo}>
         <img src={rice} />
       </div>
     </div>
     <a
-      className="center pa3 ttu mid-gray f5 fw7 blue no-underline dib-l enterprise mt5"
+      class="pa3 ttu mid-gray f5 mt5 mb-6 fw7 blue no-underline dib-l enterprise"
       href="google.net"
     >
       More about the partnership

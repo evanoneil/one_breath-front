@@ -13,7 +13,7 @@ const Header = ({ onHideNav, onShowNav, showNav, siteTitle }) => (
   <div className="bg-white flex w-100 vh-7 pv3 flex justify-between items-center top-0 z-2">
     <div className=" w-100 mw8 flex justify-between justify-around-l items-center ph4 pa2-ns">
       <div className={styles.branding}>
-        <Link to="/">
+        <Link to="/" name="home">
           <img src={logo} />
         </Link>
       </div>

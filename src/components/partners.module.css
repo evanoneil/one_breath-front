@@ -1,6 +1,23 @@
 .displaygrid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-gap: 3em;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2em;
   vertical-align: middle;
+  margin-bottom: 4rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+@media screen and (min-width: 60em) {
+  .displaygrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 4em;
+    vertical-align: middle;
+  }
+}
+
+.partnerlogo {
+  display: flex;
+  align-items: center;
 }

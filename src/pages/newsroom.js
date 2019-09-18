@@ -74,6 +74,14 @@ const NewsroomPage = props => {
       <SEO title="Newsroom" />
       <NewsroomHeadline />
       <Container>
+        <div className="flex flex-wrap">
+          <h1 className="mr3 flex-wrap mb0">Pollution 101</h1> &nbsp;{" "}
+          <h1 className="mr3 flex-wrap mb0">/</h1> &nbsp;{" "}
+          <h1 className="mr3 flex-wrap mb0">Climate Crisis</h1> <h1 className="mr3 flex-wrap">/</h1>{" "}
+          &nbsp; <h1 className="mr3 flex-wrap mb0">Who's Protecting Us?</h1>{" "}
+          <h1 className="mr3 flex-wrap mb0">/</h1> &nbsp;{" "}
+          <h1 className="mr3 flex-wrap mb0">Enviromental Justice</h1>
+        </div>
         {/* <h1 className={responsiveTitle1}>Newsroom</h1>
         <h2>From One Breath Partnership</h2> */}
         {postNodes && postNodes.length > 0 && <BlogPostPreviewGrid nodes={postNodes} />}

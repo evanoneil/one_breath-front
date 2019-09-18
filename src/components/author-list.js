@@ -13,7 +13,6 @@ function AuthorList({ items, title }) {
           const authorName = author && author.name;
           return (
             <li key={_key} className={styles.listItem}>
-              By &nbsp; &nbsp;
               <div>
                 <div className={styles.avatar}>
                   {author && author.image && author.image.asset && (
@@ -29,7 +28,10 @@ function AuthorList({ items, title }) {
                 </div>
               </div>
               <div>
-                <div>{authorName || <em>Missing name</em>}</div>
+                <div>
+                  By&nbsp;
+                  {authorName || <em>Missing name</em>}
+                </div>
               </div>
             </li>
           );

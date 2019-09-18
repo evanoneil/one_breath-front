@@ -8219,6 +8219,7 @@ code,
 .enterprise {
   border-radius:30px;
   background-color:lavender;
+  color: #29a1de !important;
 }
 
 .fbfix {
