@@ -62,6 +62,7 @@
 
 .nav {
   display: none;
+  z-index: 9999;
 
   @nest & ul {
     margin: 0;

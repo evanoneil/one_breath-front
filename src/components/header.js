@@ -3,7 +3,7 @@ import React from "react";
 import Icon from "./icon";
 import { cn } from "../lib/helpers";
 import logo from "../../public/assets/img/onebreath_logo.png";
-
+import Helmet from "react-helmet";
 import styles from "./header.module.css";
 
 import "../layouts/tachyons/css/tachyons.css";
@@ -11,7 +11,12 @@ import "../layouts/custom.css";
 
 const Header = ({ onHideNav, onShowNav, showNav, siteTitle }) => (
   <div className="bg-white flex w-100 vh-7 pv3 flex justify-between items-center top-0 z-2">
-    <div className=" w-100 mw8 flex justify-between justify-around-l items-center ph4 pa2-ns">
+    <Helmet>
+      <link rel="stylesheet" href="https://unpkg.com/aos@2.3.0/dist/aos.css" />
+      <script src="https://unpkg.com/aos@2.3.0/dist/aos.js"></script>
+      <script src="https://wp.evanoneil.net/one_breath/script.js"></script>
+    </Helmet>
+    <div className=" w-100 mw70 flex justify-between justify-around-l items-center ph4 pa2-ns">
       <div className={styles.branding}>
         <Link to="/" name="home">
           <img src={logo} />
@@ -107,7 +112,20 @@ const Header = ({ onHideNav, onShowNav, showNav, siteTitle }) => (
 
           <li className="blue">
             <a className="ttu mid-gray f5 no-underline dn dib-l blue" href="/take-action">
-              JOIN US
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+                className="dib v-mid h-100"
+              >
+                <path
+                  fill="#42a6e0"
+                  d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"
+                />
+              </svg>
+              &nbsp; SUBSCRIBE
             </a>
           </li>
         </ul>

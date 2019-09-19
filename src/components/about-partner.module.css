@@ -1,0 +1,21 @@
+.displaygrid {
+  display: grid;
+  grid-gap: 2em;
+  vertical-align: middle;
+  margin-bottom: 4rem;
+  grid-template-columns: 1fr;
+}
+
+@media screen and (min-width: 60em) {
+  .displaygrid {
+    display: grid;
+    grid-gap: 2em;
+    vertical-align: middle;
+    margin-bottom: 4rem;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+.partnerbox {
+  border-radius: 0px 70px 0 35px;
+  background: lavender;
+}

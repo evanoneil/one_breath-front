@@ -108,7 +108,10 @@ const IndexPage = props => {
 
   return (
     <Layout>
-      <Headline />
+      <Headline
+        title="Doing the dirty work
+            for clean air in Houston."
+      />
       {/* <SEO title={site.title} description={site.description} keywords={site.keywords} /> */}
       <SEO
         title={"One Breath Partnership"}

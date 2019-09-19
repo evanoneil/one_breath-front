@@ -8234,3 +8234,7 @@ code,
   background-image: url("https://wp.evanoneil.net/one_breath/img/coastal_breeze.jpg");
   background-size: cover;
 }
+
+.mw70 {
+  max-width:70rem;
+}
