@@ -77,7 +77,7 @@ function BlogPost(props) {
               {authors && <AuthorList items={authors} />}
 
               {_rawBody && <PortableText blocks={_rawBody} />}
-              <div data-aos="fade-up" className={styles.takeaction}>
+              <div className={styles.takeaction}>
                 <h2>Take Action</h2>
                 <ol>
                   <li>

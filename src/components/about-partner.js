@@ -10,7 +10,10 @@ import "../layouts/custom.css";
 
 const aboutPartner = props => (
   <div className={styles.partnerbox}>
-    <div class="v-mid w-100 pa3 flex flex-wrap">
+    <div className="v-mid w-100 pa3 flex flex-wrap">
+      <div className="center w-100 v-mid">
+        <img className="mw4" src={props.logo} />
+      </div>
       <h3>{props.name}</h3>
       <hr />
       <p>{props.description}</p>

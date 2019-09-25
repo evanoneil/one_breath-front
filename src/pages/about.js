@@ -11,6 +11,12 @@ import Helmet from "react-helmet";
 import AboutPartner from "../components/about-partner";
 import styles from "../components/about-partner.module.css";
 import Headline from "../components/headline";
+import aah from "../../public/assets/img/aah.png";
+import edf from "../../public/assets/img/edf.png";
+import pc from "../../public/assets/img/pc.png";
+import et from "../../public/assets/img/et.jpg";
+import eip from "../../public/assets/img/eip.png";
+import rice from "../../public/assets/img/rice.png";
 
 import { responsiveTitle1 } from "../components/typography.module.css";
 
@@ -82,22 +88,25 @@ const AboutPage = props => {
 
       <Container>
         <div>
-          <h2>
-            One Breath Partnership elevates the work for clean air, every day, in Houston, Harris
-            County and our region. We support and share what scientists, community organizers,
-            researchers, journalists, advocates and physicians are doing to educate everyone about
-            air quality and the impacts pollution can have on our bodies and our ability to thrive.
-            We hope to inspire action to protect the health of our shared home.
-          </h2>
-          <p>
-            The founding members of One Breath Partnership are Air Alliance Houston, Environment
-            Texas, Environmental Defense Fund, Environmental Integrity Project, Public Citizen, and
-            Rice University. Our work is made possible through the Houston Endowment.
-          </p>
+          <div className="w-80 mb5">
+            <h2>
+              One Breath Partnership elevates the work for clean air, every day, in Houston, Harris
+              County and our region. We support and share what scientists, community organizers,
+              researchers, journalists, advocates and physicians are doing to educate everyone about
+              air quality and the impacts pollution can have on our bodies and our ability to
+              thrive. We hope to inspire action to protect the health of our shared home.
+            </h2>
+            <p>
+              The founding members of One Breath Partnership are Air Alliance Houston, Environment
+              Texas, Environmental Defense Fund, Environmental Integrity Project, Public Citizen,
+              and Rice University. Our work is made possible through the Houston Endowment.
+            </p>
+          </div>
           <h1>Our Partners</h1>
           <div className={styles.displaygrid}>
             <AboutPartner
               name="Environmental Defense Fund"
+              logo={edf}
               description="Environmental Defense Fund, a leading international nonprofit organization, creates
             transformational solutions to the most serious environmental problems. EDF links
             science, economics, law and innovative private-sector partnerships. EDF has offices in
@@ -105,6 +114,7 @@ const AboutPage = props => {
             />
             <AboutPartner
               name="Rice University"
+              logo={rice}
               description="Located in an urban environment on a 300-acre tree-lined
             campus, Rice University seizes its advantageous position to pursue path-breaking
             research and create innovative collaboration opportunities that contribute to the
@@ -112,6 +122,7 @@ const AboutPage = props => {
             />
             <AboutPartner
               name="Environmental Integrity Project"
+              logo={eip}
               description="Composed of former EPA enforcement attorneys, public
             interest lawyers, analysts, investigators and community organizers, the Environmental
             Integrity Project is a nonpartisan, nonprofit watchdog organization that advocates for
@@ -119,6 +130,7 @@ const AboutPage = props => {
             />
             <AboutPartner
               name="Air Alliance Houston"
+              logo={aah}
               description="Air Alliance Houston envisions healthy
             communities with clean air, every day, for everyone. We work to reduce the public health
             impacts from air pollution and advance environmental justice in our region through
@@ -126,6 +138,7 @@ const AboutPage = props => {
             />
             <AboutPartner
               name="Environment Texas"
+              logo={et}
               description="Environment Texas is
             dedicated to protecting our air, water and open spaces. We investigate problems, craft
             solutions, educate the public and decision-makers and help the public make their voices
@@ -134,6 +147,7 @@ const AboutPage = props => {
             />
             <AboutPartner
               name="Public Citizen"
+              logo={pc}
               description="Public Citizen serves as the voice of the people in the halls of
             power. In Texas, we work toward clean energy, a clean environment, and clean government.
             With offices in Austin, Houston and San Antonio, Public Citizen engages policy makers,

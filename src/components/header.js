@@ -111,7 +111,7 @@ const Header = ({ onHideNav, onShowNav, showNav, siteTitle }) => (
           </li>
 
           <li className="blue">
-            <a className="ttu mid-gray f5 no-underline dn dib-l blue" href="/take-action">
+            <a className="ttu mid-gray f5 no-underline dn dib-l blue" href="/subscribe">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"

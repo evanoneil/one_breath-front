@@ -8,6 +8,7 @@ import GraphQLErrorList from "../components/graphql-error-list";
 import SEO from "../components/seo";
 import Layout from "../containers/layout";
 import Helmet from "react-helmet";
+import Subscribe from "../components/subscribe";
 
 import { responsiveTitle1 } from "../components/typography.module.css";
 
@@ -50,7 +51,7 @@ import { responsiveTitle1 } from "../components/typography.module.css";
 //   }
 // `;
 
-const TakeActionPage = props => {
+const SubscribePage = props => {
   const { data, errors } = props;
 
   if (errors) {
@@ -73,17 +74,17 @@ const TakeActionPage = props => {
           rel="stylesheet"
           type="text/css"
         />
-        <script src="https://actionnetwork.org/widgets/v3/petition/tceq-is-missing-in-action-and-houstonians-health-is-being-put-at-risk-we-deserve-answers-cleanuptceq?format=js&source=widget&style=full"></script>
+        <script src="https://actionnetwork.org/widgets/v3/form/sign-up-for-updates-77?format=js&source=widget"></script>{" "}
       </Helmet>
 
       <Container>
-        <div
-          className="bn"
-          id="can-petition-area-tceq-is-missing-in-action-and-houstonians-health-is-being-put-at-risk-we-deserve-answers-cleanuptceq"
-        />
+        <Subscribe />
+        <div className="mt5 mb3 w-80 center">
+          <div id="can-form-area-sign-up-for-updates-77"></div>
+        </div>{" "}
       </Container>
     </Layout>
   );
 };
 
-export default TakeActionPage;
+export default SubscribePage;
