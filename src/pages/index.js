@@ -62,6 +62,7 @@ export const query = graphql`
             _type
             _id
             id
+            color
           }
           publishedAt
           mainImage {

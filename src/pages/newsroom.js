@@ -17,21 +17,28 @@ export const query = graphql`
       edges {
         node {
           id
-          categories {
-            title
-          }
-          publishedAt
           authors {
             author {
               name
             }
           }
+          categories {
+            title
+            _type
+            _id
+            id
+            color
+          }
+          publishedAt
           mainImage {
             ...SanityImage
             alt
+            caption
           }
           title
           _rawExcerpt
+          Action1Title
+          Action1URL
           slug {
             current
           }
