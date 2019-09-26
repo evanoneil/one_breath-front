@@ -7,12 +7,26 @@ import Container from "./container";
 import AuthorList from "./author-list";
 import SignUp from "../components/sign-up";
 import Helmet from "react-helmet";
+import getYouTubeId from "get-youtube-id";
+import YouTube from "react-youtube";
+
+const serializers = {
+  types: {
+    youtube: ({ node }) => {
+      const { url } = node;
+      const id = getYouTubeId(url);
+      return <YouTube videoId={id} />;
+    }
+  }
+};
 
 import styles from "./blog-post.module.css";
 
 function BlogPost(props) {
   const {
     _rawBody,
+    blocks,
+    serializers,
     authors,
     categories,
     title,
@@ -76,7 +90,8 @@ function BlogPost(props) {
             <div className={styles.mainContent}>
               {authors && <AuthorList items={authors} />}
 
-              {_rawBody && <PortableText blocks={_rawBody} />}
+              {_rawBody && <PortableText blocks={_rawBody} serializers={serializers} />}
+
               <div className={styles.takeaction}>
                 <h2>Take Action</h2>
                 <ol>

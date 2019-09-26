@@ -18,11 +18,9 @@ function BlogPostPreview(props) {
         {props.categories && (
           <div>
             {props.categories.map(category => (
-              <div>
-                <span key={category._id} className={category.color}>
-                  {category.title}
-                </span>
-              </div>
+              <span key={category._id} className={category.color}>
+                {category.title}
+              </span>
             ))}
           </div>
         )}

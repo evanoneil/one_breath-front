@@ -85,6 +85,8 @@
 }
 
 .displaygrid {
+  grid-row-gap: 5em;
+  padding-bottom: 3rem;
   @media (--media-max-small) {
     display: grid;
     grid-template-columns: 1fr 1fr;
