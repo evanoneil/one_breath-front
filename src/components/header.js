@@ -15,6 +15,11 @@ const Header = ({ onHideNav, onShowNav, showNav, siteTitle }) => (
       <link rel="stylesheet" href="https://unpkg.com/aos@2.3.0/dist/aos.css" />
       <script src="https://unpkg.com/aos@2.3.0/dist/aos.js"></script>
       <script src="https://wp.evanoneil.net/one_breath/script.js"></script>
+      <link
+        rel="icon"
+        type="image/x-icon"
+        href="https://d3n8a8pro7vhmx.cloudfront.net/onebreath/sites/1/favicon_images/original/onebreath_favicon.png?1506446103"
+      />
     </Helmet>
     <div className=" w-100 mw70 flex justify-between justify-around-l items-center ph4 pa2-ns">
       <div className={styles.branding}>

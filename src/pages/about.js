@@ -79,7 +79,7 @@ const AboutPage = props => {
       <SEO
         title="About"
         description="Doing the dirty work for clean air in Houston."
-        image={ogImage}
+        image={rice}
       />
       <Helmet>
         <link

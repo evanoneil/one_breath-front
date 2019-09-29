@@ -85,6 +85,7 @@ const BlogPostTemplate = props => {
 
       {errors && (
         <Container>
+          {post.socialImage}
           <GraphQLErrorList errors={errors} />
         </Container>
       )}
