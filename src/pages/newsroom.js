@@ -13,15 +13,10 @@ import { responsiveTitle1 } from "../components/typography.module.css";
 
 export const query = graphql`
   query NewsroomPageQuery {
-    posts: allSanityPost(limit: 12, sort: { fields: [publishedAt], order: DESC }) {
+    posts: allSanityPost(sort: { fields: [publishedAt], order: DESC }) {
       edges {
         node {
           id
-          authors {
-            author {
-              name
-            }
-          }
           categories {
             title
             _type
@@ -30,15 +25,18 @@ export const query = graphql`
             color
           }
           publishedAt
+          authors {
+            author {
+              name
+            }
+          }
+
           mainImage {
             ...SanityImage
             alt
-            caption
           }
           title
           _rawExcerpt
-          Action1Title
-          Action1URL
           slug {
             current
           }
@@ -81,14 +79,14 @@ const NewsroomPage = props => {
       <SEO title="Newsroom" />
       <NewsroomHeadline />
       <Container>
-        <div className="flex flex-wrap">
+        {/* <div className="flex flex-wrap">
           <h1 className="mr3 flex-wrap mb0">Pollution 101</h1> &nbsp;{" "}
           <h1 className="mr3 flex-wrap mb0">/</h1> &nbsp;{" "}
           <h1 className="mr3 flex-wrap mb0">Climate Crisis</h1> <h1 className="mr3 flex-wrap">/</h1>{" "}
           &nbsp; <h1 className="mr3 flex-wrap mb0">Who's Protecting Us?</h1>{" "}
           <h1 className="mr3 flex-wrap mb0">/</h1> &nbsp;{" "}
           <h1 className="mr3 flex-wrap mb0">Enviromental Justice</h1>
-        </div>
+        </div> */}
         {/* <h1 className={responsiveTitle1}>Newsroom</h1>
         <h2>From One Breath Partnership</h2> */}
         {postNodes && postNodes.length > 0 && <BlogPostPreviewGrid nodes={postNodes} />}

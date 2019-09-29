@@ -27,6 +27,11 @@ export const query = graphql`
         alt
         caption
       }
+      socialImage {
+        ...SanityImage
+        alt
+        caption
+      }
       title
       slug {
         current
@@ -74,7 +79,7 @@ const BlogPostTemplate = props => {
         <SEO
           title={post.title || "Untitled"}
           description={toPlainText(post._rawExcerpt)}
-          image={post.mainImage}
+          image={post.socialImage}
         />
       )}
 
