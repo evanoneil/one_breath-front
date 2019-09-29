@@ -6,6 +6,8 @@ import { cn } from "../lib/helpers";
 import "../layouts/tachyons/css/tachyons.css";
 import "../layouts/custom.css";
 
+import logoFade from "../../public/assets/img/main.png";
+
 const headline = props => (
   <div>
     <section className="v-mid pt3 ph4-ns blob pb5-ns mb4-ns ph5-m pb1-m pt5-m mb4-m vh-50 pb3 ph5 w-90-ns w-100 sc-jTzLTM ph10-ns ph5-m ph4 w-100-ns mw9 center hrGnky">
@@ -15,7 +17,7 @@ const headline = props => (
         </div>
 
         <div className="v-mid w-50 flex flex-wrap">
-          <img className="dn db-ns w-100" src="http://wp.evanoneil.net/one_breath/img/main.png" />
+          <img className="dn db-ns w-100" src={logoFade} />
         </div>
       </div>
     </section>

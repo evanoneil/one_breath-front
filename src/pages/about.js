@@ -17,6 +17,7 @@ import pc from "../../public/assets/img/pc.png";
 import et from "../../public/assets/img/et.jpg";
 import eip from "../../public/assets/img/eip.png";
 import rice from "../../public/assets/img/rice.png";
+import ogImage from "../../public/assets/img/og.jpg";
 
 import { responsiveTitle1 } from "../components/typography.module.css";
 
@@ -75,7 +76,11 @@ const AboutPage = props => {
 
   return (
     <Layout>
-      <SEO title="About" />
+      <SEO
+        title="About"
+        description="Doing the dirty work for clean air in Houston."
+        image={ogImage}
+      />
       <Helmet>
         <link
           href="https://actionnetwork.org/css/style-embed-v3.css"
@@ -84,8 +89,7 @@ const AboutPage = props => {
         />
         <script src="https://actionnetwork.org/widgets/v3/petition/tceq-is-missing-in-action-and-houstonians-health-is-being-put-at-risk-we-deserve-answers-cleanuptceq?format=js&source=widget"></script>
       </Helmet>
-      <Headline title="About the Partnership" />
-
+      <Headline title="Doing the dirty work for clean air in Houston." />
       <Container>
         <div>
           <div className="w-80 mb5">
@@ -107,30 +111,22 @@ const AboutPage = props => {
             <AboutPartner
               name="Environmental Defense Fund"
               logo={edf}
+              weblink="https://www.edf.org"
+              fblink="https://www.facebook.com/EnvDefenseFund/"
+              iglink="https://www.instagram.com/environmental_defense_fund/"
+              twitterlink="https://twitter.com/envdefensefund"
               description="Environmental Defense Fund, a leading international nonprofit organization, creates
             transformational solutions to the most serious environmental problems. EDF links
             science, economics, law and innovative private-sector partnerships. EDF has offices in
             Houston and Austin."
             />
             <AboutPartner
-              name="Rice University"
-              logo={rice}
-              description="Located in an urban environment on a 300-acre tree-lined
-            campus, Rice University seizes its advantageous position to pursue path-breaking
-            research and create innovative collaboration opportunities that contribute to the
-            betterment of our world."
-            />
-            <AboutPartner
-              name="Environmental Integrity Project"
-              logo={eip}
-              description="Composed of former EPA enforcement attorneys, public
-            interest lawyers, analysts, investigators and community organizers, the Environmental
-            Integrity Project is a nonpartisan, nonprofit watchdog organization that advocates for
-            effective enforcement of environmental laws."
-            />
-            <AboutPartner
               name="Air Alliance Houston"
               logo={aah}
+              weblink="https://airalliancehouston.org/"
+              fblink="https://www.facebook.com/airalliancehouston/"
+              iglink="https://www.instagram.com/airalliancehouston/?hl=en"
+              twitterlink="https://twitter.com/airallianceHOU"
               description="Air Alliance Houston envisions healthy
             communities with clean air, every day, for everyone. We work to reduce the public health
             impacts from air pollution and advance environmental justice in our region through
@@ -139,6 +135,10 @@ const AboutPage = props => {
             <AboutPartner
               name="Environment Texas"
               logo={et}
+              weblink="https://environmenttexas.org/"
+              fblink="https://www.facebook.com/environmenttexas"
+              iglink="https://www.instagram.com/environmenttexas/"
+              twitterlink="https://www.twitter.com/environmenttex"
               description="Environment Texas is
             dedicated to protecting our air, water and open spaces. We investigate problems, craft
             solutions, educate the public and decision-makers and help the public make their voices
@@ -148,11 +148,39 @@ const AboutPage = props => {
             <AboutPartner
               name="Public Citizen"
               logo={pc}
+              weblink="https://www.citizen.org/"
+              fblink="https://www.facebook.com/publiccitizen"
+              iglink="https://www.instagram.com/public_citizen/"
+              twitterlink="https://twitter.com/Public_Citizen"
               description="Public Citizen serves as the voice of the people in the halls of
             power. In Texas, we work toward clean energy, a clean environment, and clean government.
             With offices in Austin, Houston and San Antonio, Public Citizen engages policy makers,
             advocates and communities to combat the climate crisis and to protect the health and
             prosperity of all Texans."
+            />
+            <AboutPartner
+              name="Rice University"
+              logo={rice}
+              weblink="https://www.rice.edu/"
+              fblink="https://www.facebook.com/RiceUniversity/"
+              iglink="https://www.instagram.com/RiceUniversity/"
+              twitterlink="https://twitter.com/RiceUniversity/"
+              description="Located in an urban environment on a 300-acre tree-lined
+            campus, Rice University seizes its advantageous position to pursue path-breaking
+            research and create innovative collaboration opportunities that contribute to the
+            betterment of our world."
+            />
+            <AboutPartner
+              name="Environmental Integrity Project"
+              logo={eip}
+              weblink="https://www.environmentalintegrity.org/"
+              fblink="https://www.facebook.com/EnvIntegrity/"
+              iglink="https://twitter.com/EnviroIntegrity"
+              twitterlink="https://twitter.com/EnviroIntegrity"
+              description="Composed of former EPA enforcement attorneys, public
+            interest lawyers, analysts, investigators and community organizers, the Environmental
+            Integrity Project is a nonpartisan, nonprofit watchdog organization that advocates for
+            effective enforcement of environmental laws."
             />
           </div>
           <p></p>

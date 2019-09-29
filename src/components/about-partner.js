@@ -12,19 +12,14 @@ const aboutPartner = props => (
   <div className={styles.partnerbox}>
     <div className="v-mid w-100 pa3 flex flex-wrap">
       <div className="center w-100 v-mid">
-        <img className="mw4" src={props.logo} />
+        <img className="h3" src={props.logo} />
       </div>
       <h3>{props.name}</h3>
       <hr />
       <p>{props.description}</p>
       <hr />
 
-      <a
-        target="_blank"
-        rel="noopener"
-        className="dib link v-top fill-gray"
-        href="http://facebook.com/onebreathhou"
-      >
+      <a target="_blank" rel="noopener" className="dib link v-top fill-gray" href={props.weblink}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"
@@ -41,7 +36,7 @@ const aboutPartner = props => (
         target="_blank"
         rel="noopener"
         className="dib pr20 link v-top fill-gray"
-        href="http://facebook.com/onebreathhou"
+        href={props.fblink}
       >
         <svg
           width="10"
@@ -62,7 +57,7 @@ const aboutPartner = props => (
         target="_blank"
         rel="noopener"
         className="dib pr20 link v-top fill-gray"
-        href="http://instagram.com/onebreathhou"
+        href={props.iglink}
       >
         <svg
           width="22"
@@ -81,7 +76,7 @@ const aboutPartner = props => (
         target="_blank"
         rel="noopener"
         class="dib pr20 link v-top fill-gray"
-        href="http://twitter.com/onebreathhou"
+        href={props.twitterlink}
       >
         <svg
           width="20"
