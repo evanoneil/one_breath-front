@@ -14,6 +14,7 @@ import Headline from "../components/headline";
 import PartnerHighlight from "../components/partner-highlight";
 import SignUp from "../components/sign-up";
 import Partners from "../components/partners";
+import Helmet from "react-helmet";
 
 export const query = graphql`
   fragment SanityImage on SanityMainImage {
@@ -83,6 +84,10 @@ export const query = graphql`
   }
 `;
 
+const description = "Doing the dirty work for clean air in Houston.";
+const image =
+  "https://d3n8a8pro7vhmx.cloudfront.net/themes/59d2efeced0e461e14000000/attachments/original/1515178430/onebreath-og-new-hp-mr.jpg";
+
 const IndexPage = props => {
   const { data, errors } = props;
 
@@ -109,16 +114,28 @@ const IndexPage = props => {
 
   return (
     <Layout>
+      <Helmet>
+        <meta property="og:title" content="One Breath Partnership" />
+        <meta name="description" content={description} />
+        <meta name="image" content={image} />
+        <meta name="og:image" content={image} />
+
+        <meta name="twitter:title" content="One Breath Partnership" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:creator" content="@onebreathhou" />
+        <meta name="twitter:description" content={description} />
+        <meta name="twitter:image" content={image} />
+      </Helmet>
       <Headline
         title="Doing the dirty work
             for clean air in Houston."
       />
       {/* <SEO title={site.title} description={site.description} keywords={site.keywords} /> */}
-      <SEO
+      {/* <SEO
         title={"One Breath Partnership"}
         description={"Clean Air for Houston"}
         keywords={site.keywords}
-      />
+      /> */}
 
       <Container>
         <PartnerHighlight />
