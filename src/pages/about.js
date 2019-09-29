@@ -75,7 +75,8 @@ const AboutPage = props => {
   const mediaNodes = data && data.media && mapEdgesToNodes(data.media);
 
   const description = "Doing the dirty work for clean air in Houston.";
-  const image = { ogImage };
+  const image =
+    "https://d3n8a8pro7vhmx.cloudfront.net/themes/59d2efeced0e461e14000000/attachments/original/1515178430/onebreath-og-new-hp-mr.jpg";
 
   return (
     <Layout>
@@ -97,11 +98,6 @@ const AboutPage = props => {
         <meta name="twitter:creator" content="@onebreathhou" />
         <meta name="twitter:description" content={description} />
         <meta name="twitter:image" content={image} />
-
-        <meta
-          name="twitter:image"
-          content="https://d3n8a8pro7vhmx.cloudfront.net/themes/59d2efeced0e461e14000000/attachments/original/1515178430/onebreath-og-new-hp-mr.jpg?1515178430"
-        />
 
         <link
           href="https://actionnetwork.org/css/style-embed-v3.css"
