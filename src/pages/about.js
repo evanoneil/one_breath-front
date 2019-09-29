@@ -88,11 +88,16 @@ const AboutPage = props => {
         <meta property="og:title" content="One Breath Partnership" />
         <meta name="description" content={description} />
         <meta name="image" content={image} />
+        <meta name="og:image" content={image} />
 
-        <meta name="twitter:card" content={image} />
-        <meta name="twitter:creator" content="@onebreathhou" />
         <meta name="twitter:title" content="One Breath Partnership" />
         <meta name="twitter:description" content="One Breath Partnership exists for Houston." />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:creator" content="@onebreathhou" />
+        <meta name="twitter:description" content={description} />
+        <meta name="twitter:image" content={image} />
+
         <meta
           name="twitter:image"
           content="https://d3n8a8pro7vhmx.cloudfront.net/themes/59d2efeced0e461e14000000/attachments/original/1515178430/onebreath-og-new-hp-mr.jpg?1515178430"
