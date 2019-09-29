@@ -74,14 +74,30 @@ const AboutPage = props => {
   const postNodes = data && data.posts && mapEdgesToNodes(data.posts);
   const mediaNodes = data && data.media && mapEdgesToNodes(data.media);
 
+  const description = "Doing the dirty work for clean air in Houston.";
+  const image = { ogImage };
+
   return (
     <Layout>
-      <SEO
+      {/* <SEO
         title="About"
         description="Doing the dirty work for clean air in Houston."
         image="https://d3n8a8pro7vhmx.cloudfront.net/themes/59d2efeced0e461e14000000/attachments/original/1515178430/onebreath-og-new-hp-mr.jpg"
-      />
+      /> */}
       <Helmet>
+        <meta property="og:title" content="One Breath Partnership" />
+        <meta name="description" content={description} />
+        <meta name="image" content={image} />
+
+        <meta name="twitter:card" content={image} />
+        <meta name="twitter:creator" content="@onebreathhou" />
+        <meta name="twitter:title" content="One Breath Partnership" />
+        <meta name="twitter:description" content="One Breath Partnership exists for Houston." />
+        <meta
+          name="twitter:image"
+          content="https://d3n8a8pro7vhmx.cloudfront.net/themes/59d2efeced0e461e14000000/attachments/original/1515178430/onebreath-og-new-hp-mr.jpg?1515178430"
+        />
+
         <link
           href="https://actionnetwork.org/css/style-embed-v3.css"
           rel="stylesheet"
