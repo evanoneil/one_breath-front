@@ -83,6 +83,8 @@ const NewsroomPage = props => {
     <Layout>
       {/* <SEO title="Newsroom" /> */}
       <Helmet>
+        <title>Newsroom | One Breath Partnership</title>
+
         <meta property="og:title" content="Newsroom | One Breath Partnership" />
         <meta name="description" content={description} />
         <meta name="image" content={image} />

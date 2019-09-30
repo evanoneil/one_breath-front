@@ -25,7 +25,7 @@ const PartnerHighlight = () => (
       <br />
       <a
         className="pa3 ttu mid-gray f5 fw7 blue no-underline dib-l enterprise mt5"
-        href="google.net"
+        href="/subscribe"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"

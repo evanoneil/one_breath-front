@@ -115,6 +115,8 @@ const IndexPage = props => {
   return (
     <Layout>
       <Helmet>
+        <title>One Breath Partnership</title>
+
         <meta property="og:title" content="One Breath Partnership" />
         <meta name="description" content={description} />
         <meta name="image" content={image} />

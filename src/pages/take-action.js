@@ -71,6 +71,7 @@ const TakeActionPage = props => {
     <Layout>
       {/* <SEO title="Take Action" /> */}
       <Helmet>
+        <title>Take Action | One Breath Partnership</title>
         <meta property="og:title" content="Take Action | One Breath Partnership" />
         <meta name="description" content={description} />
         <meta name="image" content={image} />
