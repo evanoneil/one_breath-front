@@ -6,6 +6,8 @@ import {
   filterOutDocsPublishedInTheFuture
 } from "../lib/helpers";
 import BlogPostPreviewGrid from "../components/blog-post-preview-grid";
+import NewsroomPreviewGrid from "../components/newsroom-preview-grid";
+
 import Container from "../components/container";
 import GraphQLErrorList from "../components/graphql-error-list";
 import SEO from "../components/seo";
@@ -46,9 +48,54 @@ export const query = graphql`
       keywords
     }
     posts: allSanityPost(
-      limit: 12
+      limit: 6
       sort: { fields: [publishedAt], order: DESC }
-      filter: { slug: { current: { ne: null } }, publishedAt: { ne: null } }
+      filter: {
+        categories: { elemMatch: { title: { ne: "In the Media" } } }
+        slug: { current: { ne: null } }
+        publishedAt: { ne: null }
+      }
+    ) {
+      edges {
+        node {
+          id
+          authors {
+            author {
+              name
+            }
+          }
+          categories {
+            title
+            _type
+            _id
+            id
+            color
+          }
+          publishedAt
+          mainImage {
+            ...SanityImage
+            alt
+            caption
+          }
+          title
+          _rawExcerpt
+          Action1Title
+          Action1URL
+          slug {
+            current
+          }
+        }
+      }
+    }
+
+    media: allSanityPost(
+      limit: 5
+      sort: { fields: [publishedAt], order: DESC }
+      filter: {
+        categories: { elemMatch: { title: { eq: "In the Media" } } }
+        slug: { current: { ne: null } }
+        publishedAt: { ne: null }
+      }
     ) {
       edges {
         node {
@@ -105,6 +152,7 @@ const IndexPage = props => {
         .filter(filterOutDocsWithoutSlugs)
         .filter(filterOutDocsPublishedInTheFuture)
     : [];
+  const mediaNodes = data && data.media && mapEdgesToNodes(data.media);
 
   if (!site) {
     throw new Error(
@@ -115,8 +163,6 @@ const IndexPage = props => {
   return (
     <Layout>
       <Helmet>
-        <title>One Breath Partnership</title>
-
         <meta property="og:title" content="One Breath Partnership" />
         <meta name="description" content={description} />
         <meta name="image" content={image} />
@@ -142,6 +188,8 @@ const IndexPage = props => {
       <Container>
         <PartnerHighlight />
         {postNodes && <BlogPostPreviewGrid nodes={postNodes} />}
+        {mediaNodes && <NewsroomPreviewGrid nodes={mediaNodes} />}
+
         <SignUp />
       </Container>
     </Layout>

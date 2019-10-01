@@ -7,6 +7,8 @@ import styles from "./newsroom-preview-grid.module.css";
 function NewsroomPreviewGrid(props) {
   return (
     <div className={styles.root}>
+      <h2>In the Media</h2>
+
       {props.title && <h2 className={styles.headline}>{props.title}</h2>}
       <ul className={styles.grid}>
         {props.nodes &&
