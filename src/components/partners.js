@@ -41,7 +41,7 @@ const Partners = () => (
     </div>
     <a
       class="pa3 ttu mid-gray f5 mt5 mb-6 fw7 blue no-underline dib-l enterprise"
-      href="google.net"
+      href="https://www.onebreathhou.org/about"
     >
       More about the partnership
     </a>

@@ -167,7 +167,7 @@ const AboutPage = props => {
               iglink="https://www.instagram.com/public_citizen/"
               twitterlink="https://twitter.com/Public_Citizen"
               description="Public Citizen serves as the voice of the people in the halls of
-            power. In Texas, we work toward clean energy, a clean environment, and clean government.
+            power. In Texas, we work toward clean energy, a clean environment and clean government.
             With offices in Austin, Houston and San Antonio, Public Citizen engages policy makers,
             advocates and communities to combat the climate crisis and to protect the health and
             prosperity of all Texans."
