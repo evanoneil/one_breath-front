@@ -5,7 +5,7 @@ import { buildImageObj, cn, getBlogUrl } from "../lib/helpers";
 import { imageUrlFor } from "../lib/image-url";
 import PortableText from "./portableText";
 
-import styles from "./blog-post-preview.module.css";
+import styles from "./newsroom-preview.module.css";
 import { responsiveTitle3 } from "./typography.module.css";
 
 function NewsroomPreview(props) {
@@ -15,15 +15,11 @@ function NewsroomPreview(props) {
       to={getBlogUrl(props.publishedAt, props.slug.current)}
     >
       <div className="mb3">
-        {props.categories && (
-          <div>
-            {props.categories.map(category => (
-              <span key={category._id} className={category.color}>
-                {category.title}
-              </span>
-            ))}
-          </div>
-        )}
+        <div>
+          <span key={props.categories[0]._id} className={styles.pill}>
+            {props.categories[0].title}
+          </span>
+        </div>
       </div>
       <div className={styles.displaygrid}>
         <div className={styles.leadMediaThumb}>
