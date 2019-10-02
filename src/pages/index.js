@@ -51,7 +51,7 @@ export const query = graphql`
       limit: 6
       sort: { fields: [publishedAt], order: DESC }
       filter: {
-        categories: { elemMatch: { title: { ne: "In the Media" } } }
+        categories: { elemMatch: { title: { eq: "From One Breath Partnership" } } }
         slug: { current: { ne: null } }
         publishedAt: { ne: null }
       }

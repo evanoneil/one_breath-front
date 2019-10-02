@@ -8272,3 +8272,7 @@ background-color:pink;
   margin-bottom: 3rem;
   margin-right: 0.5rem;
 }
+
+.cat-none {
+  display:none;
+}
