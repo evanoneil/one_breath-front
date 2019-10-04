@@ -21,22 +21,22 @@ const Partners = () => (
     <br />
     <div className={styles.displaygrid}>
       <div className={styles.partnerlogo}>
-        <img className="w-80" src={aah} />
+        <img className="w-80" src={aah} alt="Air Alliance Houston Logo" />
       </div>
       <div className={styles.partnerlogo}>
-        <img src={edf} />
+        <img src={edf} alt="Environmental Defense Fund Logo" />
       </div>
       <div className={styles.partnerlogo}>
-        <img src={pc} />
+        <img src={pc} alt="Public Citizen Logo" />
       </div>
       <div className={styles.partnerlogo}>
-        <img src={et} />
+        <img src={et} alt="Environment Texas Logo" />
       </div>
       <div className={styles.partnerlogo}>
-        <img src={eip} />
+        <img src={eip} alt="Environmental Integrity Project Logo" />
       </div>
       <div className={styles.partnerlogo}>
-        <img src={rice} />
+        <img src={rice} alt="Rice University Logo" />
       </div>
     </div>
     <a
