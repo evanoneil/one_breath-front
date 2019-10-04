@@ -177,10 +177,7 @@ const IndexPage = props => {
         <meta name="twitter:description" content={description} />
         <meta name="twitter:image" content={image} />
       </Helmet>
-      <Headline
-        title="Doing the dirty work
-            for clean air in Houston."
-      />
+      <Headline title="Living every day like it's an ozone action day" />
       {/* <SEO title={site.title} description={site.description} keywords={site.keywords} /> */}
       {/* <SEO
         title={"One Breath Partnership"}
