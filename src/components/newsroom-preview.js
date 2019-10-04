@@ -22,7 +22,7 @@ function NewsroomPreview(props) {
         </div>
       </div>
       <div className={styles.displaygrid}>
-        <div className={styles.leadMediaThumb}>
+        {/* <div className={styles.leadMediaThumb}>
           {props.mainImage && props.mainImage.asset && (
             <img
               className={styles.zoom}
@@ -34,7 +34,7 @@ function NewsroomPreview(props) {
               alt={props.mainImage.alt}
             />
           )}
-        </div>
+        </div> */}
         <div className={styles.text}>
           <h3 className={cn(responsiveTitle3, styles.title)}>
             <a>{props.title}</a>
