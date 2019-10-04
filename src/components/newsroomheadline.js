@@ -15,7 +15,7 @@ const newsroomheadline = props => (
       <div class="v-mid pr7-l w-100 pr3 flex-wrap pt3-l pt1-m pt0">
         {/* <h3 class="mt0 mb0 blue">NEWSROOM</h3> */}
         <h1 class="f1-ns f2 fw10 lh-title ">
-          Covering the Houston region and Texas like smog before the Clean Air Act
+          Covering the Houston region and Texas like smog before the Clean Air Act.
         </h1>
       </div>
 
