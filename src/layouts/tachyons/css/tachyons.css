@@ -8208,7 +8208,7 @@ code,
 .blob {
   background-image: url("https://wp.evanoneil.net/one_breath/img/img1.jpg");
   background-size: cover;
-  border-radius:0 50px 500px 0;
+  border-radius: 0 50px 500px 0;
 }
 
 .rounded {
@@ -8217,17 +8217,17 @@ code,
 }
 
 .enterprise {
-  border-radius:30px;
-  background-color:lavender;
+  border-radius: 30px;
+  background-color: lavender;
   color: #29a1de !important;
 }
 
 .fbfix {
-  margin-top:-.2rem;
+  margin-top: -0.2rem;
 }
 
 .igfix {
-  margin-top:.1rem;
+  margin-top: 0.1rem;
 }
 
 .coastal {
@@ -8236,20 +8236,19 @@ code,
 }
 
 .mw70 {
-  max-width:70rem;
+  max-width: 70rem;
 }
 
-.in-the-media  {
-
-background-color:pink;
+.in-the-media {
+  background-color: pink;
 }
 
 .cat-blue {
   border-radius: 2em;
   border: none;
-  padding: 1em;
+  padding: 0.75em;
   background-color: #29a1de;
-  font-size: 0.5rem;
+  font-size: 0.75rem;
   text-transform: capitalize;
   text-align: center;
   color: white;
@@ -8257,6 +8256,7 @@ background-color:pink;
   margin-bottom: 3rem;
   margin-right: 0.5rem;
   word-break: keep-all;
+
 }
 
 .cat-orange {
@@ -8274,5 +8274,5 @@ background-color:pink;
 }
 
 .cat-none {
-  display:none;
+  display: none;
 }
