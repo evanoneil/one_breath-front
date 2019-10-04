@@ -20,8 +20,9 @@ const PartnerHighlight = () => (
       <h3 className="mt0 mb0 gold">STAY UP TO DATE</h3>
       <hr />
       <h1 className="mb0">
-        The quality of our newsletter is better than the quality of Houston's air
+        The quality of our newsletter is considered satisfactory and poses little or no risk.
       </h1>
+
       <br />
       <a
         className="pa3 ttu mid-gray f5 fw7 blue no-underline dib-l enterprise mt5"
