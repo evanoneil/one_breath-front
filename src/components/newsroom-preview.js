@@ -10,19 +10,20 @@ import { responsiveTitle3 } from "./typography.module.css";
 
 function NewsroomPreview(props) {
   return (
-    <Link
-      className={props.isInList ? styles.inList : styles.inGrid}
-      to={getBlogUrl(props.publishedAt, props.slug.current)}
-    >
-      <div className="mb3">
+    <div>
+      <Link
+        className={props.isInList ? styles.inList : styles.inGrid}
+        to={getBlogUrl(props.publishedAt, props.slug.current)}
+      >
+        {/* <div className="mb3">
         <div>
           <span key={props.categories[0]._id} className={styles.pill}>
             {props.categories[0].title}
           </span>
         </div>
-      </div>
-      <div className={styles.displaygrid}>
-        {/* <div className={styles.leadMediaThumb}>
+      </div> */}
+        <div className={styles.displaygrid}>
+          {/* <div className={styles.leadMediaThumb}>
           {props.mainImage && props.mainImage.asset && (
             <img
               className={styles.zoom}
@@ -35,21 +36,29 @@ function NewsroomPreview(props) {
             />
           )}
         </div> */}
-        <div className={styles.text}>
-          <h3 className={cn(responsiveTitle3, styles.title)}>
-            <a>{props.title}</a>
-          </h3>
+          <div className={styles.text}>
+            <h3 className={cn(responsiveTitle3, styles.title)}>
+              <a>{props.title}</a>
+            </h3>
 
-          <div className={styles.date}>
-            <h4>
-              By {props.authors[0].author.name}
-              <br />
-              {format(props.publishedAt, "MM.D.YYYY")}
-            </h4>
+            <div className={styles.date}>
+              <h4>
+                By {props.authors[0].author.name}
+                <br />
+                {format(props.publishedAt, "MM.D.YYYY")}
+              </h4>
+            </div>
           </div>
         </div>
+      </Link>
+      <div className={styles.filed}>
+        <h4>
+          Filed under:
+          <br />
+          {props.categories[0].title}{" "}
+        </h4>
       </div>
-    </Link>
+    </div>
   );
 }
 
