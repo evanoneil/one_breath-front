@@ -1,6 +1,6 @@
 import { format, distanceInWords, differenceInDays } from "date-fns";
 import React from "react";
-import { buildImageObj } from "../lib/helpers";
+import { buildImageObj, filterOutDocsWithoutSlugs } from "../lib/helpers";
 import { imageUrlFor } from "../lib/image-url";
 import PortableText from "./portableText";
 import Container from "./container";
@@ -9,6 +9,10 @@ import SignUp from "../components/sign-up";
 import Helmet from "react-helmet";
 import getYouTubeId from "get-youtube-id";
 import YouTube from "react-youtube";
+
+import { FaTwitter } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
+import { FaEnvelope } from "react-icons/fa";
 
 const serializers = {
   types: {
@@ -27,6 +31,7 @@ function BlogPost(props) {
     _rawBody,
     blocks,
     serializers,
+    slug,
     authors,
     categories,
     title,
@@ -39,6 +44,13 @@ function BlogPost(props) {
     Action3Title,
     Action3URL
   } = props;
+  const dateSegment = format(publishedAt, "YYYY/MM");
+  const path = `/newsroom/${dateSegment}/${slug.current}`;
+  const siteUrl = `https://www.onebreathhou.org`;
+  const shareUrl = `${siteUrl}${path}`;
+  const fbShare = `https://www.facebook.com/sharer/sharer.php?u=${shareUrl}`;
+  const twitterShare = `https://twitter.com/intent/tweet?text="${title}"%20by%20%40onebreathhou%20${shareUrl}`;
+  const emailShare = `mailto:?subject=I%20just%20read%20this%20great%20article%20on%20One%20Breath%20Partnership's%20Website!&body=${shareUrl}`;
   return (
     <article className={styles.root}>
       {mainImage && mainImage.asset && (
@@ -112,7 +124,21 @@ function BlogPost(props) {
                   </li>
                 </ol>
               </div>
-              <div></div>
+              <div>
+                <hr className="mt5 bw1 b--solid" />
+
+                <h4 className="ttu">Share this article</h4>
+                <a href={twitterShare} target="blank">
+                  <FaTwitter className="f2 mr2 ml2" />
+                </a>
+                <a href={fbShare} target="blank">
+                  <FaFacebook className="f2 mr2 ml2" />
+                </a>
+                <a href={emailShare} target="blank">
+                  <FaEnvelope className="f2 mr2 ml2" />
+                </a>
+                {/* <hr className="mt4" /> */}
+              </div>
             </div>
             {/* <aside className={styles.metaContent}></aside> */}
           </div>
