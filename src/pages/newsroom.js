@@ -7,7 +7,7 @@ import Container from "../components/container";
 import GraphQLErrorList from "../components/graphql-error-list";
 import SEO from "../components/seo";
 import Layout from "../containers/layout";
-import NewsroomHeadline from "../components/newsroomheadline";
+import Headline from "../components/headline";
 import Helmet from "react-helmet";
 
 import { responsiveTitle1 } from "../components/typography.module.css";
@@ -96,7 +96,7 @@ const NewsroomPage = props => {
         <meta name="twitter:description" content={description} />
         <meta name="twitter:image" content={image} />
       </Helmet>
-      <NewsroomHeadline />
+      <Headline title="Covering the Houston region and Texas like smog before the Clean Air Act." />
       <Container>
         {/* <div className="flex flex-wrap">
           <h1 className="mr3 flex-wrap mb0">Pollution 101</h1> &nbsp;{" "}
