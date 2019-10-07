@@ -13,11 +13,50 @@ import Helmet from "react-helmet";
 import { responsiveTitle1 } from "../components/typography.module.css";
 
 export const query = graphql`
+  fragment SanityImage on SanityMainImage {
+    crop {
+      _key
+      _type
+      top
+      bottom
+      left
+      right
+    }
+    hotspot {
+      _key
+      _type
+      x
+      y
+      height
+      width
+    }
+    asset {
+      _id
+    }
+  }
+
   query NewsroomPageQuery {
-    posts: allSanityPost(sort: { fields: [publishedAt], order: DESC }) {
+    site: sanitySiteSettings(_id: { regex: "/(drafts.|)siteSettings/" }) {
+      title
+      description
+      keywords
+    }
+    posts: allSanityPost(
+      sort: { fields: [publishedAt], order: DESC }
+      filter: {
+        categories: { elemMatch: { title: { eq: "From One Breath Partnership" } } }
+        slug: { current: { ne: null } }
+        publishedAt: { ne: null }
+      }
+    ) {
       edges {
         node {
           id
+          authors {
+            author {
+              name
+            }
+          }
           categories {
             title
             _type
@@ -26,18 +65,15 @@ export const query = graphql`
             color
           }
           publishedAt
-          authors {
-            author {
-              name
-            }
-          }
-
           mainImage {
             ...SanityImage
             alt
+            caption
           }
           title
           _rawExcerpt
+          Action1Title
+          Action1URL
           slug {
             current
           }
@@ -45,16 +81,42 @@ export const query = graphql`
       }
     }
 
-    media: allSanityNewsroom {
+    media: allSanityPost(
+      sort: { fields: [publishedAt], order: DESC }
+      filter: {
+        categories: { elemMatch: { title: { eq: "In the Media" } } }
+        slug: { current: { ne: null } }
+        publishedAt: { ne: null }
+      }
+    ) {
       edges {
         node {
+          id
+          authors {
+            author {
+              name
+            }
+          }
           categories {
             title
+            _type
+            _id
+            id
+            color
           }
           publishedAt
-          url
-          outlet
+          mainImage {
+            ...SanityImage
+            alt
+            caption
+          }
           title
+          _rawExcerpt
+          Action1Title
+          Action1URL
+          slug {
+            current
+          }
         }
       }
     }
@@ -71,9 +133,9 @@ const NewsroomPage = props => {
       </Layout>
     );
   }
-
-  const postNodes = data && data.posts && mapEdgesToNodes(data.posts);
-  // const mediaNodes = data && data.media && mapEdgesToNodes(data.media);
+  const site = (data || {}).site;
+  const postNodes = (data || {}).posts ? mapEdgesToNodes(data.posts) : [];
+  const mediaNodes = data && data.media && mapEdgesToNodes(data.media);
 
   const description = "Covering the Houston region and Texas like smog before the Clean Air Act";
   const image =
@@ -108,7 +170,12 @@ const NewsroomPage = props => {
         </div> */}
         {/* <h1 className={responsiveTitle1}>Newsroom</h1>
         <h2>From One Breath Partnership</h2> */}
-        {postNodes && postNodes.length > 0 && <BlogPostPreviewGrid nodes={postNodes} />}
+
+        {/* {postNodes && postNodes.length > 0 && <BlogPostPreviewGrid nodes={postNodes} />} */}
+
+        {postNodes && <BlogPostPreviewGrid nodes={postNodes} />}
+        {mediaNodes && <NewsroomPreviewGrid nodes={mediaNodes} />}
+
         {/* <h2>In the Media</h2>
 
         {mediaNodes && mediaNodes.length > 0 && <NewsroomPreviewGrid nodes={mediaNodes} />} */}
