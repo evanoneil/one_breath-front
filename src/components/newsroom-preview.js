@@ -12,7 +12,7 @@ function NewsroomPreview(props) {
   return (
     <div>
       <Link
-        className={props.isInList ? styles.inList : styles.inGrid}
+        // className={props.isInList ? styles.inList : styles.inGrid}
         to={getBlogUrl(props.publishedAt, props.slug.current)}
       >
         {/* <div className="mb3">
