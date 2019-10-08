@@ -55,7 +55,7 @@ function NewsroomPreview(props) {
         <h4>
           Filed under:
           <br />
-          {props.categories[0].title}{" "}
+          {props.categories[0].title}
         </h4>
       </div>
     </div>
