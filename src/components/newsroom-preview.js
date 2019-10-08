@@ -51,8 +51,8 @@ function NewsroomPreview(props) {
           </div>
         </div>
       </Link>
-      <div className={styles.filed}>
-        <h4>
+      <div>
+        <h4 className={styles.filed}>
           Filed under:
           <br />
           <a className={styles.oneorange} href={props.categories.url}>
