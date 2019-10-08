@@ -12,7 +12,7 @@ function NewsroomPreview(props) {
   return (
     <div>
       <Link
-        // className={props.isInList ? styles.inList : styles.inGrid}
+        className={props.isInList ? styles.inList : styles.inGrid}
         to={getBlogUrl(props.publishedAt, props.slug.current)}
       >
         {/* <div className="mb3">
@@ -55,7 +55,9 @@ function NewsroomPreview(props) {
         <h4>
           Filed under:
           <br />
-          {props.categories[0].title}
+          <a className={styles.oneorange} href={props.categories.url}>
+            {props.categories[0].title}
+          </a>
         </h4>
       </div>
     </div>

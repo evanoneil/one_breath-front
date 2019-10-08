@@ -86,5 +86,9 @@
 .filed {
   font-size: var(--font-small-size);
   line-height: var(--font-small-line-height);
-  color: orange;
+  color: #ffa500;
+}
+
+.oneorange {
+  color: #ffa500;
 }
