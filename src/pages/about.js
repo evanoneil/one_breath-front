@@ -147,13 +147,13 @@ const AboutPage = props => {
             applied research, education and advocacy."
             />
             <AboutPartner
-              name="Environment Texas"
+              name="Environment Texas Research and Policy Center"
               logo={et}
-              weblink="https://environmenttexas.org/"
+              weblink="https://environmenttexascenter.org/"
               fblink="https://www.facebook.com/environmenttexas"
               iglink="https://www.instagram.com/environmenttexas/"
               twitterlink="https://www.twitter.com/environmenttex"
-              description="Environment Texas is
+              description="Environment Texas Research and Policy Center is
             dedicated to protecting our air, water and open spaces. We investigate problems, craft
             solutions, educate the public and decision-makers and help the public make their voices
             heard in local, state and national debates over the quality of our environment and our
