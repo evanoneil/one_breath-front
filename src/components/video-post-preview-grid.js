@@ -2,12 +2,12 @@ import { Link } from "gatsby";
 import React from "react";
 import BlogPostPreview from "./blog-post-preview";
 
-import styles from "./blog-post-preview-grid.module.css";
+import styles from "./video-post-preview-grid.module.css";
 
 function BlogPostPreviewGrid(props) {
   return (
     <div className={styles.root}>
-      <h2 className="blue">Stories from One Breath Partnership</h2>
+      <h2 className="yellow">Videos from One Breath Partnership</h2>
 
       {props.title && <h2 className={styles.headline}>{props.title}</h2>}
       <ul className={styles.grid}>

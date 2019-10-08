@@ -7,6 +7,7 @@ import {
 } from "../lib/helpers";
 import BlogPostPreviewGrid from "../components/blog-post-preview-grid";
 import NewsroomPreviewGrid from "../components/newsroom-preview-grid";
+import VideoPostPreviewGrid from "../components/video-post-preview-grid";
 
 import Container from "../components/container";
 import GraphQLErrorList from "../components/graphql-error-list";
@@ -52,6 +53,47 @@ export const query = graphql`
       sort: { fields: [publishedAt], order: DESC }
       filter: {
         categories: { elemMatch: { title: { eq: "From One Breath Partnership" } } }
+        slug: { current: { ne: null } }
+        publishedAt: { ne: null }
+      }
+    ) {
+      edges {
+        node {
+          id
+          authors {
+            author {
+              name
+            }
+          }
+          categories {
+            title
+            _type
+            _id
+            id
+            color
+          }
+          publishedAt
+          mainImage {
+            ...SanityImage
+            alt
+            caption
+          }
+          title
+          _rawExcerpt
+          Action1Title
+          Action1URL
+          slug {
+            current
+          }
+        }
+      }
+    }
+
+    videos: allSanityPost(
+      limit: 2
+      sort: { fields: [publishedAt], order: DESC }
+      filter: {
+        categories: { elemMatch: { title: { eq: "Videos" } } }
         slug: { current: { ne: null } }
         publishedAt: { ne: null }
       }
@@ -153,6 +195,7 @@ const IndexPage = props => {
         .filter(filterOutDocsPublishedInTheFuture)
     : [];
   const mediaNodes = data && data.media && mapEdgesToNodes(data.media);
+  const videoNodes = data && data.media && mapEdgesToNodes(data.videos);
 
   if (!site) {
     throw new Error(
@@ -189,6 +232,7 @@ const IndexPage = props => {
         <PartnerHighlight />
         {postNodes && <BlogPostPreviewGrid nodes={postNodes} />}
         {mediaNodes && <NewsroomPreviewGrid nodes={mediaNodes} />}
+        {videoNodes && <VideoPostPreviewGrid nodes={videoNodes} />}
 
         <SignUp />
       </Container>
