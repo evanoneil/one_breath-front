@@ -103,7 +103,7 @@ const AboutPage = props => {
         />
         <script src="https://actionnetwork.org/widgets/v3/petition/tceq-is-missing-in-action-and-houstonians-health-is-being-put-at-risk-we-deserve-answers-cleanuptceq?format=js&source=widget"></script>
       </Helmet>
-      <Headline title="Doing the dirty work for clean air in Houston." />
+      <Headline title="Living every day like an ozone action day." />
       <Container>
         <div>
           <div className="w-80 mb5">
