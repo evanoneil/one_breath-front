@@ -9,7 +9,7 @@ import "../layouts/tachyons/css/tachyons.css";
 import "../layouts/custom.css";
 
 const PartnerHighlight = () => (
-  <div className="flex flex-wrap mb6-ns">
+  <div className="flex flex-wrap">
     <div className={styles.lefthighlight}>
       <div className={styles.interiortext}></div>
     </div>

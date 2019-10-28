@@ -181,7 +181,7 @@ const NewsroomPage = props => {
   const mediaNodes = data && data.media && mapEdgesToNodes(data.media);
   const videoNodes = data && data.media && mapEdgesToNodes(data.videos);
 
-  const description = "Covering the Houston region and Texas like smog before the Clean Air Act";
+  const description = "Covering Texas like smog before the Clean Air Act";
   const image = `https://onebreathhou.org${ogImage}`;
 
   return (
@@ -201,7 +201,7 @@ const NewsroomPage = props => {
         <meta name="twitter:description" content={description} />
         <meta name="twitter:image" content={image} />
       </Helmet>
-      <Headline title="Covering the Houston region and Texas like smog before the Clean Air Act." />
+      <Headline title="Covering Texas like smog before the Clean Air Act." />
       <Container>
         {/* <div className="flex flex-wrap">
           <h1 className="mr3 flex-wrap mb0">Pollution 101</h1> &nbsp;{" "}
