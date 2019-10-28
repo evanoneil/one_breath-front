@@ -9,6 +9,7 @@ import SEO from "../components/seo";
 import Layout from "../containers/layout";
 import Helmet from "react-helmet";
 import Subscribe from "../components/subscribe";
+import ogImage from "../../public/assets/img/og.jpg";
 
 import { responsiveTitle1 } from "../components/typography.module.css";
 
@@ -66,8 +67,7 @@ const SubscribePage = props => {
   const mediaNodes = data && data.media && mapEdgesToNodes(data.media);
 
   const description = "Living every day like it's an ozone action day.";
-  const image =
-    "https://d3n8a8pro7vhmx.cloudfront.net/themes/59d2efeced0e461e14000000/attachments/original/1515178430/onebreath-og-new-hp-mr.jpg";
+  const image = `https://onebreathhou.org${ogImage}`;
 
   return (
     <Layout>

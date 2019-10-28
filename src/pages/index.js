@@ -18,6 +18,7 @@ import PartnerHighlight from "../components/partner-highlight";
 import SignUp from "../components/sign-up";
 import Partners from "../components/partners";
 import Helmet from "react-helmet";
+import ogImage from "../../public/assets/img/og.jpg";
 
 export const query = graphql`
   fragment SanityImage on SanityMainImage {
@@ -174,8 +175,7 @@ export const query = graphql`
 `;
 
 const description = "Living every day like it's an ozone action day.";
-const image =
-  "https://d3n8a8pro7vhmx.cloudfront.net/themes/59d2efeced0e461e14000000/attachments/original/1515178430/onebreath-og-new-hp-mr.jpg";
+const image = `https://onebreathhou.org${ogImage}`;
 
 const IndexPage = props => {
   const { data, errors } = props;

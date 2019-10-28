@@ -75,7 +75,7 @@ const AboutPage = props => {
   const mediaNodes = data && data.media && mapEdgesToNodes(data.media);
 
   const description = "Living every day like it's an ozone action day.";
-  const image = { ogImage };
+  const image = `https://onebreathhou.org${ogImage}`;
 
   return (
     <Layout>

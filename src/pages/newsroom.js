@@ -11,6 +11,7 @@ import SEO from "../components/seo";
 import Layout from "../containers/layout";
 import Headline from "../components/headline";
 import Helmet from "react-helmet";
+import ogImage from "../../public/assets/img/og.jpg";
 
 import { responsiveTitle1 } from "../components/typography.module.css";
 
@@ -181,8 +182,7 @@ const NewsroomPage = props => {
   const videoNodes = data && data.media && mapEdgesToNodes(data.videos);
 
   const description = "Covering the Houston region and Texas like smog before the Clean Air Act";
-  const image =
-    "https://d3n8a8pro7vhmx.cloudfront.net/themes/59d2efeced0e461e14000000/attachments/original/1515178430/onebreath-og-new-hp-mr.jpg";
+  const image = `https://onebreathhou.org${ogImage}`;
 
   return (
     <Layout>
