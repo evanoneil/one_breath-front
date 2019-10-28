@@ -174,7 +174,7 @@ export const query = graphql`
   }
 `;
 
-const description = "Living every day like it's an ozone action day.";
+const description = "Living every day like an ozone action day.";
 const image = `https://onebreathhou.org${ogImage}`;
 
 const IndexPage = props => {
@@ -220,7 +220,7 @@ const IndexPage = props => {
         <meta name="twitter:description" content={description} />
         <meta name="twitter:image" content={image} />
       </Helmet>
-      <Headline title="Living every day like it's an ozone action day." />
+      <Headline title="Living every day like an ozone action day." />
       {/* <SEO title={site.title} description={site.description} keywords={site.keywords} /> */}
       {/* <SEO
         title={"One Breath Partnership"}
