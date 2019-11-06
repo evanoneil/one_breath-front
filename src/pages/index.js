@@ -15,6 +15,7 @@ import SEO from "../components/seo";
 import Layout from "../containers/layout";
 import Headline from "../components/headline";
 import PartnerHighlight from "../components/partner-highlight";
+import YouTubeHighlight from "../components/youtube-highlight";
 import SignUp from "../components/sign-up";
 import Partners from "../components/partners";
 import Helmet from "react-helmet";
@@ -235,6 +236,7 @@ const IndexPage = props => {
         {/* {videoNodes && <VideoPostPreviewGrid nodes={videoNodes} />} */}
 
         <SignUp />
+        <YouTubeHighlight />
       </Container>
     </Layout>
   );
