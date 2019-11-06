@@ -22,7 +22,6 @@ const PartnerHighlight = () => (
         health.
       </h2>
 
-      <hr />
       <p className="mb5-ns slate-gray">
         Almost two-thirds of existing plastics plants, the Environmental Integrity Project reports,
         have violated air pollution limits established by the federal Clean Air Act.
