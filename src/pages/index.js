@@ -236,7 +236,7 @@ const IndexPage = props => {
         {/* {videoNodes && <VideoPostPreviewGrid nodes={videoNodes} />} */}
 
         <SignUp />
-        <YouTubeHighlight />
+        {/* <YouTubeHighlight /> */}
       </Container>
     </Layout>
   );
