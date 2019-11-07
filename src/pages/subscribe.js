@@ -76,8 +76,8 @@ const SubscribePage = props => {
         <title>Subscribe | One Breath Partnership</title>
         <meta property="og:title" content="Subscribe | One Breath Partnership" />
         <meta name="description" content={description} />
-        <meta name="image" content={image} />
-        <meta name="og:image" content={image} />
+        <meta property="image" content={image} />
+        <meta property="og:image" content={image} />
         <meta name="twitter:title" content="Subscribe | One Breath Partnership" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:creator" content="@onebreathhou" />
