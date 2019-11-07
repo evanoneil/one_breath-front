@@ -66,7 +66,7 @@ const SubscribePage = props => {
   const postNodes = data && data.posts && mapEdgesToNodes(data.posts);
   const mediaNodes = data && data.media && mapEdgesToNodes(data.media);
 
-  const description = "Living every day like it's an ozone action day.";
+  const description = "Living every day like an ozone action day.";
   const image = `https://onebreathhou.org${ogImage}`;
 
   return (
