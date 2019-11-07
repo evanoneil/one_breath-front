@@ -75,6 +75,7 @@ const SubscribePage = props => {
       <Helmet>
         <title>Subscribe | One Breath Partnership</title>
         <meta property="og:title" content="Subscribe | One Breath Partnership" />
+        <meta property="og:description" content={description} />
         <meta property="description" content={description} />
         <meta property="image" content={image} />
         <meta property="og:image" content={image} />
