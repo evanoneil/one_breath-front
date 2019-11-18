@@ -31,9 +31,10 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 html {
-  font-family: "Inter Var", sans-serif;
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
+  -webkit-font-smoothing: antialiased; /* Chrome, Safari */
+  -moz-osx-font-smoothing: grayscale; /* Firefox */
 }
 /* Sections
    ========================================================================== */

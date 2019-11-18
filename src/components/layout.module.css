@@ -200,6 +200,7 @@ h1,
 h2,
 h3 {
   font-family: "GT-America-Bold";
+  letter-spacing: -0.25px;
 }
 
 p {
@@ -208,4 +209,5 @@ p {
 
 h4 {
   font-family: "GT-America-Mono";
+  letter-spacing: -0.5px;
 }
