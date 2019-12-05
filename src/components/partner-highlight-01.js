@@ -2,7 +2,8 @@ import { Link } from "gatsby";
 import React from "react";
 import Icon from "./icon";
 import { cn } from "../lib/helpers";
-import EipHighlight from "../../public/assets/img/eip_highlight.jpg";
+import Highlight01 from "../../public/assets/img/highlight_01.jpg";
+
 
 import styles from "./partner-highlight.module.css";
 
@@ -16,18 +17,20 @@ const PartnerHighlight = () => (
     </div>
 
     <div className="pa5-ns pt4 pt3-ns pb0 flex flex-wrap w-50-ns w-100">
-      <h3 className="mt0 mb0 green ttu">THE THIN GREEN LINE</h3>
+      <h3 className="mt0 mb0 blue ttu">Plastics Pollution on the Rise</h3>
       <hr />
       <h2 className="mb0">
-      As Texas' petrochemical industry grows, the environmental agency meant to protect our health and safety is shrinking.
+        The plastics industry is growing in Texas. That could be bad news for our safety and our
+        health.
       </h2>
 
       <p className="mb5-ns slate-gray">
-      In the last 10 years, the Environmental Integrity Project reports, the Texas Commission on Environmental Quality's budget has been cut by 35% — more than every other state, except one.
+        Almost two-thirds of existing plastics plants, the Environmental Integrity Project reports,
+        have violated air pollution limits established by the federal Clean Air Act.
       </p>
       <a
         className="pa3 ttu mid-gray f5 fw7 blue no-underline dib-l enterprise"
-        href="https://www.environmentalintegrity.org/news/state-funding-for-environmental-programs-slashed"
+        href="https://www.environmentalintegrity.org/reports/plastics-pollution-on-the-rise/"
         target="blank"
       >
         Read the report

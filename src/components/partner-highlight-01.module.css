@@ -1,0 +1,47 @@
+.lefthighlight {
+  background: url(../../public/assets/img/highlight_01.jpg)
+    0 0 no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  color: #ffffff;
+  height: 50vh;
+  display: flex;
+  width: 50%;
+  padding-right: 0rem;
+  flex-wrap: wrap;
+  border-radius: 0 500px 500px 0;
+  margin-left: -3rem;
+}
+
+@media screen and (max-width: 30em) {
+  .lefthighlight {
+    width: 100%;
+    margin-left: -2rem;
+  }
+}
+
+.interiortext {
+  background: url(https://wp.evanoneil.net/one_breath/img/coastal_breeze.jpg) 0 0 no-repeat;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+  align-content: flex-end;
+  padding: 2rem;
+  padding-right: 4rem;
+  top: -20%;
+  mix-blend-mode: screen;
+  color: black;
+  @media (--media-min-medium) {
+    padding: 1rem;
+  }
+}
+
+.bradbury {
+  margin-top: 25%;
+}
+
+.enterprise {
+  border-radius: 30px;
+  background-color: lightlavender;
+}

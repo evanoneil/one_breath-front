@@ -4,6 +4,7 @@ import { mapEdgesToNodes } from "../lib/helpers";
 import BlogPostPreviewGrid from "../components/blog-post-preview-grid";
 import NewsroomPreviewGrid from "../components/newsroom-preview-grid";
 import VideoPostPreviewGrid from "../components/video-post-preview-grid";
+import PartnerHighlight01 from "../components/partner-highlight-01";
 
 import Container from "../components/container";
 import GraphQLErrorList from "../components/graphql-error-list";
@@ -217,6 +218,7 @@ const NewsroomPage = props => {
         {/* {postNodes && postNodes.length > 0 && <BlogPostPreviewGrid nodes={postNodes} />} */}
 
         {postNodes && <BlogPostPreviewGrid nodes={postNodes} />}
+        <PartnerHighlight01 />
         {mediaNodes && <NewsroomPreviewGrid nodes={mediaNodes} />}
         {videoNodes && <VideoPostPreviewGrid nodes={videoNodes} />}
 
