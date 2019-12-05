@@ -15,20 +15,18 @@ const PartnerHighlight = () => (
     </div>
 
     <div className="pa5-ns pt4 pt3-ns pb0 flex flex-wrap w-50-ns w-100">
-      <h3 className="mt0 mb0 blue ttu">Plastics Pollution on the Rise</h3>
+      <h3 className="mt0 mb0 green ttu">THE THIN GREEN LINE</h3>
       <hr />
       <h2 className="mb0">
-        The plastics industry is growing in Texas. That could be bad news for our safety and our
-        health.
+      As Texas' petrochemical industry grows, the environmental agency meant to protect our health and safety is shrinking.
       </h2>
 
       <p className="mb5-ns slate-gray">
-        Almost two-thirds of existing plastics plants, the Environmental Integrity Project reports,
-        have violated air pollution limits established by the federal Clean Air Act.
+      In the last 10 years, the Environmental Integrity Project reports, the Texas Commission on Environmental Quality's budget has been cut by 35% — more than every other state, except one.
       </p>
       <a
         className="pa3 ttu mid-gray f5 fw7 blue no-underline dib-l enterprise"
-        href="https://www.environmentalintegrity.org/reports/plastics-pollution-on-the-rise/"
+        href="https://www.environmentalintegrity.org/news/state-funding-for-environmental-programs-slashed"
         target="blank"
       >
         Read the report
