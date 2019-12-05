@@ -5,7 +5,7 @@ import { cn } from "../lib/helpers";
 import Highlight01 from "../../public/assets/img/highlight_01.jpg";
 
 
-import styles from "./partner-highlight.module.css";
+import styles from "./partner-highlight-01.module.css";
 
 import "../layouts/tachyons/css/tachyons.css";
 import "../layouts/custom.css";
