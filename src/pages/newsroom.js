@@ -219,6 +219,7 @@ const NewsroomPage = props => {
 
         {postNodes && <BlogPostPreviewGrid nodes={postNodes} />}
         <PartnerHighlight01 />
+        <br />
         {mediaNodes && <NewsroomPreviewGrid nodes={mediaNodes} />}
         {videoNodes && <VideoPostPreviewGrid nodes={videoNodes} />}
 
