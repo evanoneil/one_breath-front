@@ -95,8 +95,9 @@ const TakeActionPage = props => {
       <Container>
       <div
           id="can-petition-area-the-texas-commission-on-environmental-quality-needs-to-get-serious"
-          style="width: 600px"
-        ></div>
+          >
+
+        </div>
       </Container>
     </Layout>
   );
