@@ -83,16 +83,20 @@ const TakeActionPage = props => {
         <meta name="twitter:description" content={description} />
         <meta name="twitter:image" content={image} />
 
-        <link href='https://actionnetwork.org/css/style-embed-v3.css' rel='stylesheet' type='text/css' />
-        <script src='https://actionnetwork.org/widgets/v3/petition/the-texas-commission-on-environmental-quality-needs-to-get-serious?format=js&source=widget'></script><div id='can-petition-area-the-texas-commission-on-environmental-quality-needs-to-get-serious' style='width: 600px'>
-          </div>
-          </Helmet>
+        <link
+          href="https://actionnetwork.org/css/style-embed-v3.css"
+          rel="stylesheet"
+          type="text/css"
+        />
+        <script src="https://actionnetwork.org/widgets/v3/petition/the-texas-commission-on-environmental-quality-needs-to-get-serious?format=js&source=widget"></script>
+
+      </Helmet>
 
       <Container>
-        <div
-          className="bn"
-          id="can-petition-area-tceq-is-missing-in-action-and-houstonians-health-is-being-put-at-risk-we-deserve-answers-cleanuptceq"
-        />
+      <div
+          id="can-petition-area-the-texas-commission-on-environmental-quality-needs-to-get-serious"
+          style="width: 600px"
+        ></div>
       </Container>
     </Layout>
   );

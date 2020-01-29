@@ -4,7 +4,7 @@
   background-size: cover;
   overflow: hidden;
   color: #ffffff;
-  height: 50vh;
+  /* height: 50vh; */
   display: flex;
   width: 50%;
   padding-right: 0rem;
@@ -21,7 +21,7 @@
 }
 
 .interiortext {
-  background: url(https://wp.evanoneil.net/one_breath/img/coastal_breeze.jpg) 0 0 no-repeat;
+  background: url(../../public/assets/img/coastal_breeze.jpg) 0 0 no-repeat;
   overflow: hidden;
   height: 100%;
   width: 100%;
