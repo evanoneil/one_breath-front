@@ -21,13 +21,12 @@ const PartnerHighlight = () => (
       <h3 className="mt0 mb0 green ttu">ENOUGH IS ENOUGH</h3>
       <hr />
       <br />
-      <br />
+ 
       <h2 className="mb0">
       TCEQ must take its mission to protect our health and safety seriously.      </h2>
 
-      {/* <p className="mb5-ns slate-gray">
-      In the last 10 years, the Environmental Integrity Project reports, the Texas Commission on Environmental Quality's budget has been cut by 35% — more than every other state, except one.
-      </p> */}
+      <p className="mb5-ns slate-gray">
+      After the sixth chemical disaster in our region in less than a year, TCEQ must take its mission to protect our health and safety seriously.      </p>
       <a
         className="pa3 ttu mid-gray f5 fw7 blue no-underline dib-l enterprise"
         href="/take-action"
