@@ -21,6 +21,7 @@ const PartnerHighlight = () => (
       <h3 className="mt0 mb0 green ttu">ENOUGH IS ENOUGH</h3>
       <hr />
       <br />
+      <br />
       <h2 className="mb0">
       TCEQ must take its mission to protect our health and safety seriously.      </h2>
 
