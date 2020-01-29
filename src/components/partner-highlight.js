@@ -20,6 +20,7 @@ const PartnerHighlight = () => (
     <div className="pa5-ns pt4 pt3-ns pb0 flex flex-wrap w-50-ns w-100">
       <h3 className="mt0 mb0 green ttu">ENOUGH IS ENOUGH</h3>
       <hr />
+      <br />
       <h2 className="mb0">
       TCEQ must take its mission to protect our health and safety seriously.      </h2>
 

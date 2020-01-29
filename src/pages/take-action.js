@@ -83,13 +83,7 @@ const TakeActionPage = props => {
         <meta name="twitter:description" content={description} />
         <meta name="twitter:image" content={image} />
 
-        <link
-          href="https://actionnetwork.org/css/style-embed-v3.css"
-          rel="stylesheet"
-          type="text/css"
-        />
-        <script src="https://actionnetwork.org/widgets/v3/petition/the-texas-commission-on-environmental-quality-needs-to-get-serious?format=js&source=widget"></script>
-
+        <link href='https://actionnetwork.org/css/style-embed-v3.css' rel='stylesheet' type='text/css' /><script src='https://actionnetwork.org/widgets/v3/petition/the-texas-commission-on-environmental-quality-needs-to-get-serious?format=js&source=widget&style=full'></script>
       </Helmet>
 
       <Container>
