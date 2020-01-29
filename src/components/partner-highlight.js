@@ -4,7 +4,7 @@ import Icon from "./icon";
 import { cn } from "../lib/helpers";
 import EipHighlight from "../../public/assets/img/eip_highlight.jpg";
 import PetitionHighlight from "../../public/assets/img/petition_highlight.jpg";
-import CoastalBreeze from "../../public/assets/img/coastal_breeze.jpg';
+import CoastalBreeze from "../../public/assets/img/coastal_breeze.jpg";
 
 import styles from "./partner-highlight.module.css";
 
