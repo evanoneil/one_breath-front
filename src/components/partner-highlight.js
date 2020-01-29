@@ -26,7 +26,8 @@ const PartnerHighlight = () => (
       TCEQ must take its mission to protect our health and safety seriously.      </h2>
 
       <p className="mb5-ns slate-gray">
-      After the sixth chemical disaster in our region in less than a year, TCEQ must take its mission to protect our health and safety seriously.      </p>
+      After the sixth chemical disaster in our region in less than a year, Mayor Turner said, "We just have to have a serious conversation." That starts with TCEQ.
+</p>
       <a
         className="pa3 ttu mid-gray f5 fw7 blue no-underline dib-l enterprise"
         href="/take-action"
