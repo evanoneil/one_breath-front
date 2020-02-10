@@ -8,7 +8,7 @@ import GraphQLErrorList from "../components/graphql-error-list";
 import SEO from "../components/seo";
 import Layout from "../containers/layout";
 import Helmet from "react-helmet";
-import ogImage from "../../public/assets/img/og.jpg";
+import ogImage from "../../public/assets/img/one_breath-petition-OG.jpg";
 
 import { responsiveTitle1 } from "../components/typography.module.css";
 
