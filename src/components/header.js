@@ -21,7 +21,7 @@ const Header = ({ onHideNav, onShowNav, showNav, siteTitle }) => (
         href="https://d3n8a8pro7vhmx.cloudfront.net/onebreath/sites/1/favicon_images/original/onebreath_favicon.png?1506446103"
       />
     </Helmet>
-    <div className=" w-100 mw70 flex justify-between justify-around-l items-center ph4 pa2-ns">
+    <div className=" w-100-l w-50 mw70 flex justify-between justify-around-l items-center ph4 pa2-ns">
       <div className={styles.branding}>
         <Link to="/" name="home">
           <img src={logo} />
