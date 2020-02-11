@@ -9,7 +9,7 @@ import SEO from "../components/seo";
 import Layout from "../containers/layout";
 import Helmet from "react-helmet";
 import Subscribe from "../components/subscribe";
-import ogImage from "../../public/assets/img/og.jpg";
+import ogImage from "../../public/assets/img/one_breath-signup-OG.jpg";
 
 import { responsiveTitle1 } from "../components/typography.module.css";
 
