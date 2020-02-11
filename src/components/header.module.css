@@ -100,7 +100,7 @@
     }
   }
 
-  @media (--media-min-small) {
+  @media (--media-min-large) {
     display: block;
 
     @nest & ul {
