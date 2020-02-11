@@ -55,7 +55,7 @@
     fill: inherit;
   }
 
-  @media (--media-min-medium) {
+  @media (--media-min-large) {
     display: none;
   }
 }
