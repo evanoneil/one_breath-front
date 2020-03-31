@@ -1,10 +1,9 @@
 .lefthighlight {
-  background: url(../../public/assets/img/petition_highlight.jpg)
-    0 0 no-repeat;
+  background: url(../../public/assets/img/petition_highlight.jpg) 0 0 no-repeat;
   background-size: cover;
   overflow: hidden;
   color: #ffffff;
-  height: 50vh;
+  height: auto;
   display: flex;
   width: 50%;
   padding-right: 0rem;
