@@ -46,7 +46,7 @@ function BlogPostPreview(props) {
             </h3>
 
             <div className={styles.date}>
-              <h4>
+              <h4 className="fw1">
                 By {props.authors[0].author.name}
                 <br />
                 {format(props.publishedAt, "MM.D.YYYY")}

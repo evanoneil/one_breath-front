@@ -191,9 +191,10 @@ a {
 
 blockquote {
   width: 80%;
-  font-size: 2rem;
-  padding-bottom: 2rem;
-  border-bottom: 4px black solid;
+  font-size: 1.5rem;
+  padding-bottom: 0.85rem;
+  border-bottom: 4px #29a1de solid;
+  background: linear-gradient(180deg, white 98%, #29a1de);
 }
 
 h1,
