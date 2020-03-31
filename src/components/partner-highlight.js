@@ -49,7 +49,7 @@ const PartnerHighlight = () => (
           in 2018 than 2017.
         </p>
         <a href="https://environmenttexas.org/reports/txe/major-malfunction">
-          <p className="mb5-ns fw1 slate-gray">View the Report →</p>
+          <p className="mb5-ns fw7 slate-gray">View the Report →</p>
         </a>
       </div>
       <div className="w-33 pa5-ns pa3 ">
@@ -59,7 +59,7 @@ const PartnerHighlight = () => (
           our health.
         </p>
         <a href="https://environmentalintegrity.org/news/rapid-growth-of-houston-plastics-industry-increases-air-pollution-and-safety-risks/">
-          <p className="mb5-ns fw2 slate-gray">View the Report →</p>
+          <p className="mb5-ns fw7 slate-gray">View the Report →</p>
         </a>
       </div>
       <div className="w-33 pa5-ns pa3 ">
@@ -69,7 +69,7 @@ const PartnerHighlight = () => (
           pollution.
         </p>
         <a href="https://airalliancehouston.org/campaigns/i45-expansion/">
-          <p className="mb5-ns fw2 slate-gray">View the Report →</p>
+          <p className="mb5-ns fw7 slate-gray">View the Report →</p>
         </a>
       </div>
     </div>
