@@ -1,20 +1,21 @@
-import React from "react";
-import { graphql } from "gatsby";
-import { mapEdgesToNodes } from "../lib/helpers";
-import BlogPostPreviewGrid from "../components/blog-post-preview-grid";
-import NewsroomPreviewGrid from "../components/newsroom-preview-grid";
-import VideoPostPreviewGrid from "../components/video-post-preview-grid";
-import PartnerHighlight01 from "../components/partner-highlight-01";
+import React from 'react'
+import {graphql} from 'gatsby'
+import {mapEdgesToNodes} from '../lib/helpers'
+import BlogPostPreviewGrid from '../components/blog-post-preview-grid'
+import NewsroomPreviewGrid from '../components/newsroom-preview-grid'
+import VideoPostPreviewGrid from '../components/video-post-preview-grid'
+import PartnerHighlight01 from '../components/partner-highlight-01'
 
-import Container from "../components/container";
-import GraphQLErrorList from "../components/graphql-error-list";
-import SEO from "../components/seo";
-import Layout from "../containers/layout";
-import Headline from "../components/headline";
-import Helmet from "react-helmet";
-import ogImage from "../../public/assets/img/og.jpg";
+import Container from '../components/container'
+import GraphQLErrorList from '../components/graphql-error-list'
+import SEO from '../components/seo'
+import Layout from '../containers/layout'
+import Headline from '../components/headline'
+import Helmet from 'react-helmet'
+import ogImage from '../../public/assets/img/og.jpg'
+import YouTubeHighlight from '../components/youtube-highlight'
 
-import { responsiveTitle1 } from "../components/typography.module.css";
+import {responsiveTitle1} from '../components/typography.module.css'
 
 export const query = graphql`
   fragment SanityImage on SanityMainImage {
@@ -40,17 +41,17 @@ export const query = graphql`
   }
 
   query NewsroomPageQuery {
-    site: sanitySiteSettings(_id: { regex: "/(drafts.|)siteSettings/" }) {
+    site: sanitySiteSettings(_id: {regex: "/(drafts.|)siteSettings/"}) {
       title
       description
       keywords
     }
     posts: allSanityPost(
-      sort: { fields: [publishedAt], order: DESC }
+      sort: {fields: [publishedAt], order: DESC}
       filter: {
-        categories: { elemMatch: { title: { eq: "From One Breath Partnership" } } }
-        slug: { current: { ne: null } }
-        publishedAt: { ne: null }
+        categories: {elemMatch: {title: {eq: "From One Breath Partnership"}}}
+        slug: {current: {ne: null}}
+        publishedAt: {ne: null}
       }
     ) {
       edges {
@@ -86,11 +87,11 @@ export const query = graphql`
     }
 
     videos: allSanityPost(
-      sort: { fields: [publishedAt], order: DESC }
+      sort: {fields: [publishedAt], order: DESC}
       filter: {
-        categories: { elemMatch: { title: { eq: "Videos" } } }
-        slug: { current: { ne: null } }
-        publishedAt: { ne: null }
+        categories: {elemMatch: {title: {eq: "Videos"}}}
+        slug: {current: {ne: null}}
+        publishedAt: {ne: null}
       }
     ) {
       edges {
@@ -126,11 +127,11 @@ export const query = graphql`
     }
 
     media: allSanityPost(
-      sort: { fields: [publishedAt], order: DESC }
+      sort: {fields: [publishedAt], order: DESC}
       filter: {
-        categories: { elemMatch: { title: { eq: "In the Media" } } }
-        slug: { current: { ne: null } }
-        publishedAt: { ne: null }
+        categories: {elemMatch: {title: {eq: "In the Media"}}}
+        slug: {current: {ne: null}}
+        publishedAt: {ne: null}
       }
     ) {
       edges {
@@ -165,25 +166,25 @@ export const query = graphql`
       }
     }
   }
-`;
+`
 
 const NewsroomPage = props => {
-  const { data, errors } = props;
+  const {data, errors} = props
 
   if (errors) {
     return (
       <Layout>
         <GraphQLErrorList errors={errors} />
       </Layout>
-    );
+    )
   }
-  const site = (data || {}).site;
-  const postNodes = (data || {}).posts ? mapEdgesToNodes(data.posts) : [];
-  const mediaNodes = data && data.media && mapEdgesToNodes(data.media);
-  const videoNodes = data && data.media && mapEdgesToNodes(data.videos);
+  const site = (data || {}).site
+  const postNodes = (data || {}).posts ? mapEdgesToNodes(data.posts) : []
+  const mediaNodes = data && data.media && mapEdgesToNodes(data.media)
+  const videoNodes = data && data.media && mapEdgesToNodes(data.videos)
 
-  const description = "Covering Texas like smog before the Clean Air Act";
-  const image = `https://onebreathhou.org${ogImage}`;
+  const description = 'Covering Texas like smog before the Clean Air Act'
+  const image = `https://onebreathhou.org${ogImage}`
 
   return (
     <Layout>
@@ -191,18 +192,18 @@ const NewsroomPage = props => {
       <Helmet>
         <title>Newsroom | One Breath Partnership</title>
 
-        <meta property="og:title" content="Newsroom | One Breath Partnership" />
-        <meta name="description" content={description} />
-        <meta name="image" content={image} />
-        <meta name="og:image" content={image} />
+        <meta property='og:title' content='Newsroom | One Breath Partnership' />
+        <meta name='description' content={description} />
+        <meta name='image' content={image} />
+        <meta name='og:image' content={image} />
 
-        <meta name="twitter:title" content="Newsroom | One Breath Partnership" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:creator" content="@onebreathhou" />
-        <meta name="twitter:description" content={description} />
-        <meta name="twitter:image" content={image} />
+        <meta name='twitter:title' content='Newsroom | One Breath Partnership' />
+        <meta name='twitter:card' content='summary_large_image' />
+        <meta name='twitter:creator' content='@onebreathhou' />
+        <meta name='twitter:description' content={description} />
+        <meta name='twitter:image' content={image} />
       </Helmet>
-      <Headline title="Covering Texas like smog before the Clean Air Act." />
+      <Headline title='Covering Texas like smog before the Clean Air Act.' />
       <Container>
         {/* <div className="flex flex-wrap">
           <h1 className="mr3 flex-wrap mb0">Pollution 101</h1> &nbsp;{" "}
@@ -221,6 +222,7 @@ const NewsroomPage = props => {
         <PartnerHighlight01 />
         <br />
         {mediaNodes && <NewsroomPreviewGrid nodes={mediaNodes} />}
+        <YouTubeHighlight />
         {videoNodes && <VideoPostPreviewGrid nodes={videoNodes} />}
 
         {/* <h2>In the Media</h2>
@@ -228,7 +230,7 @@ const NewsroomPage = props => {
         {mediaNodes && mediaNodes.length > 0 && <NewsroomPreviewGrid nodes={mediaNodes} />} */}
       </Container>
     </Layout>
-  );
-};
+  )
+}
 
-export default NewsroomPage;
+export default NewsroomPage
