@@ -1,11 +1,11 @@
-import React from "react";
-import Header from "./header";
-import Partners from "../components/partners";
+import React from 'react'
+import Header from './header'
+import Partners from '../components/partners'
 
-import "../styles/layout.css";
-import styles from "./layout.module.css";
+import '../styles/layout.css'
+import styles from './layout.module.css'
 
-const Layout = ({ children, onHideNav, onShowNav, showNav, siteTitle }) => (
+const Layout = ({children, onHideNav, onShowNav, showNav, siteTitle}) => (
   <>
     <Header siteTitle={siteTitle} onHideNav={onHideNav} onShowNav={onShowNav} showNav={showNav} />
     <div className={styles.content}>{children}</div>
@@ -13,22 +13,23 @@ const Layout = ({ children, onHideNav, onShowNav, showNav, siteTitle }) => (
       <div className={styles.footerWrapper}>
         <Partners />
       </div>
-      <div className="pa4 db-ns pt15 pa5 black coastal">
-        <div className="u-center mw-container ph20 ph0-l cf pb25 pa4 w-100">
-          <div className="db fl-ns w-100 center items-center">
-            <svg viewBox="0 0 800 200">
-              <symbol id="s-text">
-                <text textAnchor="middle" x="50%" y="35%" className={styles.textline}>
+
+      <div className='db-ns pt15 pa5-l black coastal'>
+        <div className='u-center mw-container ph20 ph0-l cf pb25 pa4-l  w-100'>
+          <div className='db fl-ns w-100 pt5 center items-center'>
+            <svg viewBox='0 0 800 200'>
+              <symbol id='s-text'>
+                <text textAnchor='middle' x='50%' y='35%' className={styles.textline}>
                   CLEAN AIR
                 </text>
               </symbol>
 
-              <g class="g-ants">
-                <use xlinkHref="#s-text" className={styles.textcopy}></use>
-                <use xlinkHref="#s-text" className={styles.textcopy}></use>
-                <use xlinkHref="#s-text" className={styles.textcopy}></use>
-                <use xlinkHref="#s-text" className={styles.textcopy}></use>
-                <use xlinkHref="#s-text" className={styles.textcopy}></use>
+              <g className='g-ants'>
+                <use xlinkHref='#s-text' className={styles.textcopy} />
+                <use xlinkHref='#s-text' className={styles.textcopy} />
+                <use xlinkHref='#s-text' className={styles.textcopy} />
+                <use xlinkHref='#s-text' className={styles.textcopy} />
+                <use xlinkHref='#s-text' className={styles.textcopy} />
               </g>
             </svg>
           </div>
@@ -39,6 +40,6 @@ const Layout = ({ children, onHideNav, onShowNav, showNav, siteTitle }) => (
       </div>
     </footer>
   </>
-);
+)
 
-export default Layout;
+export default Layout
