@@ -1,18 +1,21 @@
 // Load variables from `.env` as soon as possible
-require("dotenv").config({
-  path: `.env.${process.env.NODE_ENV || "development"}`
-});
+require('dotenv').config({
+  path: `.env.${process.env.NODE_ENV || 'development'}`
+})
 
-const clientConfig = require("./client-config");
+const clientConfig = require('./client-config')
 
-const isProd = process.env.NODE_ENV === "production";
+const isProd = process.env.NODE_ENV === 'production'
 
 module.exports = {
   plugins: [
-    "gatsby-plugin-postcss",
-    "gatsby-plugin-react-helmet",
+    new MiniCssExtractPlugin({
+      ignoreOrder: true
+    }),
+    'gatsby-plugin-postcss',
+    'gatsby-plugin-react-helmet',
     {
-      resolve: "gatsby-source-sanity",
+      resolve: 'gatsby-source-sanity',
       options: {
         ...clientConfig.sanity,
         token: process.env.SANITY_READ_TOKEN,
@@ -24,8 +27,8 @@ module.exports = {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         // replace "UA-XXXXXXXXX-X" with your own Tracking ID
-        trackingId: "UA-110955524-1"
+        trackingId: 'UA-110955524-1'
       }
     }
   ]
-};
+}
