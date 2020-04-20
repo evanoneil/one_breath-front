@@ -49,7 +49,6 @@ function BlogPost (props) {
   const fbShare = `https://www.facebook.com/sharer/sharer.php?u=${shareUrl}`
   const twitterShare = `https://twitter.com/intent/tweet?text="${title}"%20by%20%40onebreathhou%20${shareUrl}`
   const emailShare = `mailto:?subject=I%20just%20read%20this%20great%20article%20on%20One%20Breath%20Partnership's%20Website!&body=${shareUrl}`
-  console.log(authors)
   return (
     <article className={styles.root}>
       {mainImage && mainImage.asset && (
