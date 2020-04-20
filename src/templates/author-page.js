@@ -98,32 +98,30 @@ const AuthorPageTemplate = props => {
           <GraphQLErrorList errors={errors} />
         </Container>
       )}
-      <Container>
-        <div className='ph4'>
-          <div className='dt mw6'>
-            <div className='dtc v-btm'>
-              <img
-                className='br-100 db'
-                src={imageUrlFor(buildImageObj(post.image))
-                  .width(150)
-                  .height(150)
-                  // .height(Math.floor((9 / 16) * 1200))
-                  .fit('crop')
-                  .auto('format')
-                  .url()}
-                // alt={mainImage.alt}
-              />{' '}
-            </div>
-            <div className='dtc v-btm pl3'>
-              <h1 className='db '>{post.name}</h1>
-            </div>
+      <div className='ph5 mb6 mt4'>
+        <div className='dt mw6'>
+          <div className='dtc v-btm'>
+            <img
+              className='br-100 db'
+              src={imageUrlFor(buildImageObj(post.image))
+                .width(150)
+                .height(150)
+                // .height(Math.floor((9 / 16) * 1200))
+                .fit('crop')
+                .auto('format')
+                .url()}
+              // alt={mainImage.alt}
+            />{' '}
           </div>
-
-          <h2>
-            <PortableText blocks={post._rawBio} />
-          </h2>
+          <div className='dtc v-btm pl3'>
+            <h1 className='db '>{post.name}</h1>
+          </div>
         </div>
-      </Container>
+
+        <h2>
+          <PortableText blocks={post._rawBio} />
+        </h2>
+      </div>
 
       {/* {post && <BlogPost {...post} />} */}
 
