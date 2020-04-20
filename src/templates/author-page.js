@@ -81,7 +81,7 @@ const AuthorPageTemplate = props => {
       .filter(filterOutDocsWithoutSlugs)
       .filter(filterOutDocsPublishedInTheFuture)
     : []
-  console.log(postNodes)
+  // console.log(postNodes)
   return (
     <Layout>
       {errors && <SEO title='GraphQL Error' />}
