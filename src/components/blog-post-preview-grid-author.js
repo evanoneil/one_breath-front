@@ -4,7 +4,7 @@ import BlogPostPreview from './blog-post-preview'
 
 import styles from './blog-post-preview-grid.module.css'
 
-function BlogPostPreviewGridAuthor (props) {
+function BlogPostPreviewGrid (props) {
   // console.log(props)
   // const authorName = props.authors.author.name
   return (
@@ -28,10 +28,10 @@ function BlogPostPreviewGridAuthor (props) {
   )
 }
 
-BlogPostPreviewGridAuthor.defaultProps = {
+BlogPostPreviewGrid.defaultProps = {
   title: '',
   nodes: [],
   browseMoreHref: ''
 }
 
-export default BlogPostPreviewGridAuthor
+export default BlogPostPreviewGrid

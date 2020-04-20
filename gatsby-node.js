@@ -64,22 +64,19 @@ async function createAuthorPages (graphql, actions, reporter) {
       }
     }
   `)
-
   if (result.errors) throw result.errors
-
   const authorEdges = (result.data.allSanityAuthor || {}).edges || []
   const _id = authorEdges._id
+  const name = authorEdges.name
   authorEdges.forEach((edge, index) => {
     const {name, slug = {}} = edge.node
     const path = `/authors/${slug.current}/`
-
     reporter.info(`Creating author page: ${path}`)
-
     createPage({
       path,
       name,
       component: require.resolve('./src/templates/author-page.js'),
-      context: name
+      context: {name}
     })
   })
 }

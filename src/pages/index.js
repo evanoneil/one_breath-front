@@ -1,25 +1,25 @@
-import React from "react";
-import { graphql } from "gatsby";
+import React from 'react'
+import {graphql} from 'gatsby'
 import {
   mapEdgesToNodes,
   filterOutDocsWithoutSlugs,
   filterOutDocsPublishedInTheFuture
-} from "../lib/helpers";
-import BlogPostPreviewGrid from "../components/blog-post-preview-grid";
-import NewsroomPreviewGrid from "../components/newsroom-preview-grid";
-import VideoPostPreviewGrid from "../components/video-post-preview-grid";
+} from '../lib/helpers'
+import BlogPostPreviewGrid from '../components/blog-post-preview-grid'
+import NewsroomPreviewGrid from '../components/newsroom-preview-grid'
+import VideoPostPreviewGrid from '../components/video-post-preview-grid'
 
-import Container from "../components/container";
-import GraphQLErrorList from "../components/graphql-error-list";
-import SEO from "../components/seo";
-import Layout from "../containers/layout";
-import Headline from "../components/headline";
-import PartnerHighlight from "../components/partner-highlight";
-import YouTubeHighlight from "../components/youtube-highlight";
-import SignUp from "../components/sign-up";
-import Partners from "../components/partners";
-import Helmet from "react-helmet";
-import ogImage from "../../public/assets/img/og.jpg";
+import Container from '../components/container'
+import GraphQLErrorList from '../components/graphql-error-list'
+import SEO from '../components/seo'
+import Layout from '../containers/layout'
+import Headline from '../components/headline'
+import PartnerHighlight from '../components/partner-highlight'
+import YouTubeHighlight from '../components/youtube-highlight'
+import SignUp from '../components/sign-up'
+import Partners from '../components/partners'
+import Helmet from 'react-helmet'
+import ogImage from '../../public/assets/img/og.jpg'
 
 export const query = graphql`
   fragment SanityImage on SanityMainImage {
@@ -45,18 +45,18 @@ export const query = graphql`
   }
 
   query IndexPageQuery {
-    site: sanitySiteSettings(_id: { regex: "/(drafts.|)siteSettings/" }) {
+    site: sanitySiteSettings(_id: {regex: "/(drafts.|)siteSettings/"}) {
       title
       description
       keywords
     }
     posts: allSanityPost(
       limit: 6
-      sort: { fields: [publishedAt], order: DESC }
+      sort: {fields: [publishedAt], order: DESC}
       filter: {
-        categories: { elemMatch: { title: { eq: "From One Breath Partnership" } } }
-        slug: { current: { ne: null } }
-        publishedAt: { ne: null }
+        categories: {elemMatch: {title: {eq: "From One Breath Partnership"}}}
+        slug: {current: {ne: null}}
+        publishedAt: {ne: null}
       }
     ) {
       edges {
@@ -93,11 +93,11 @@ export const query = graphql`
 
     videos: allSanityPost(
       limit: 2
-      sort: { fields: [publishedAt], order: DESC }
+      sort: {fields: [publishedAt], order: DESC}
       filter: {
-        categories: { elemMatch: { title: { eq: "Videos" } } }
-        slug: { current: { ne: null } }
-        publishedAt: { ne: null }
+        categories: {elemMatch: {title: {eq: "Videos"}}}
+        slug: {current: {ne: null}}
+        publishedAt: {ne: null}
       }
     ) {
       edges {
@@ -134,11 +134,11 @@ export const query = graphql`
 
     media: allSanityPost(
       limit: 5
-      sort: { fields: [publishedAt], order: DESC }
+      sort: {fields: [publishedAt], order: DESC}
       filter: {
-        categories: { elemMatch: { title: { eq: "In the Media" } } }
-        slug: { current: { ne: null } }
-        publishedAt: { ne: null }
+        categories: {elemMatch: {title: {eq: "In the Media"}}}
+        slug: {current: {ne: null}}
+        publishedAt: {ne: null}
       }
     ) {
       edges {
@@ -173,55 +173,55 @@ export const query = graphql`
       }
     }
   }
-`;
+`
 
-const description = "Living every day like an ozone action day.";
-const image = `https://onebreathhou.org${ogImage}`;
+const description = 'Living every day like an ozone action day.'
+const image = `https://onebreathhou.org${ogImage}`
 
 const IndexPage = props => {
-  const { data, errors } = props;
+  const {data, errors} = props
 
   if (errors) {
     return (
       <Layout>
         <GraphQLErrorList errors={errors} />
       </Layout>
-    );
+    )
   }
 
-  const site = (data || {}).site;
+  const site = (data || {}).site
   const postNodes = (data || {}).posts
     ? mapEdgesToNodes(data.posts)
-        .filter(filterOutDocsWithoutSlugs)
-        .filter(filterOutDocsPublishedInTheFuture)
-    : [];
-  const mediaNodes = data && data.media && mapEdgesToNodes(data.media);
-  const videoNodes = data && data.media && mapEdgesToNodes(data.videos);
+      .filter(filterOutDocsWithoutSlugs)
+      .filter(filterOutDocsPublishedInTheFuture)
+    : []
+  const mediaNodes = data && data.media && mapEdgesToNodes(data.media)
+  const videoNodes = data && data.media && mapEdgesToNodes(data.videos)
 
   if (!site) {
     throw new Error(
       'Missing "Site settings". Open the studio at http://localhost:3333 and add some content to "Site settings" and restart the development server.'
-    );
+    )
   }
 
   return (
     <Layout>
       <Helmet>
         <title>One Breath Partnership</title>
-        <meta property="title" content="One Breath Partnership" />
+        <meta property='title' content='One Breath Partnership' />
 
-        <meta property="og:title" content="One Breath Partnership" />
-        <meta name="description" content={description} />
-        <meta name="image" content={image} />
-        <meta name="og:image" content={image} />
+        <meta property='og:title' content='One Breath Partnership' />
+        <meta name='description' content={description} />
+        <meta name='image' content={image} />
+        <meta name='og:image' content={image} />
 
-        <meta name="twitter:title" content="One Breath Partnership" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:creator" content="@onebreathhou" />
-        <meta name="twitter:description" content={description} />
-        <meta name="twitter:image" content={image} />
+        <meta name='twitter:title' content='One Breath Partnership' />
+        <meta name='twitter:card' content='summary_large_image' />
+        <meta name='twitter:creator' content='@onebreathhou' />
+        <meta name='twitter:description' content={description} />
+        <meta name='twitter:image' content={image} />
       </Helmet>
-      <Headline title="Living every day like an ozone action day." />
+      <Headline title='Living every day like an ozone action day.' />
       {/* <SEO title={site.title} description={site.description} keywords={site.keywords} /> */}
       {/* <SEO
         title={"One Breath Partnership"}
@@ -239,7 +239,7 @@ const IndexPage = props => {
         {/* <YouTubeHighlight /> */}
       </Container>
     </Layout>
-  );
-};
+  )
+}
 
-export default IndexPage;
+export default IndexPage
