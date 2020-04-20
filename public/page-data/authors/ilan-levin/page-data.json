@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-author-page-js","path":"/authors/ilan-levin/","result":{"errors":[{"message":"Variable \"$name\" of required type \"String!\" was not provided.","locations":[{"line":23,"column":31}]}],"pageContext":{"0":"I","1":"l","2":"a","3":"n","4":" ","5":"L","6":"e","7":"v","8":"i","9":"n"}}}

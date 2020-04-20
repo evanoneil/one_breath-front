@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-author-page-js","path":"/authors/robert-bullard/","result":{"errors":[{"message":"Variable \"$name\" of required type \"String!\" was not provided.","locations":[{"line":23,"column":31}]}],"pageContext":{"0":"R","1":"o","2":"b","3":"e","4":"r","5":"t","6":" ","7":"B","8":"u","9":"l","10":"l","11":"a","12":"r","13":"d"}}}

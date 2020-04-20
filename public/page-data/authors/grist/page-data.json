@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-author-page-js","path":"/authors/grist/","result":{"errors":[{"message":"Variable \"$name\" of required type \"String!\" was not provided.","locations":[{"line":23,"column":31}]}],"pageContext":{"0":"G","1":"r","2":"i","3":"s","4":"t"}}}

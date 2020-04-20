@@ -1,8 +1,5 @@
 import React from 'react'
 import {graphql} from 'gatsby'
-import Container from '../components/container'
-import GraphQLErrorList from '../components/graphql-error-list'
-import BlogPost from '../components/blog-post'
 import BlogPostPreviewGridAuthor from '../components/blog-post-preview-grid-author'
 import SEO from '../components/seo'
 import Layout from '../containers/layout'
@@ -92,12 +89,6 @@ const AuthorPageTemplate = props => {
         />
       )}
 
-      {errors && (
-        <Container>
-          {post.socialImage}
-          <GraphQLErrorList errors={errors} />
-        </Container>
-      )}
       <div className='ph5 mb6 mt4'>
         <div className='dt mw6'>
           <div className='dtc v-btm'>

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-author-page-js","path":"/authors/allyn-west/","result":{"errors":[{"message":"Variable \"$name\" of required type \"String!\" was not provided.","locations":[{"line":23,"column":31}]}],"pageContext":{"0":"A","1":"l","2":"l","3":"y","4":"n","5":" ","6":"W","7":"e","8":"s","9":"t"}}}

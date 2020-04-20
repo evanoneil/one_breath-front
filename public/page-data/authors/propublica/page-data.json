@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-author-page-js","path":"/authors/propublica/","result":{"errors":[{"message":"Variable \"$name\" of required type \"String!\" was not provided.","locations":[{"line":23,"column":31}]}],"pageContext":{"0":"P","1":"r","2":"o","3":"P","4":"u","5":"b","6":"l","7":"i","8":"c","9":"a"}}}

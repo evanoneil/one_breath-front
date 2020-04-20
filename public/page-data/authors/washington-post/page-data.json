@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-author-page-js","path":"/authors/washington-post/","result":{"errors":[{"message":"Variable \"$name\" of required type \"String!\" was not provided.","locations":[{"line":23,"column":31}]}],"pageContext":{"0":"W","1":"a","2":"s","3":"h","4":"i","5":"n","6":"g","7":"t","8":"o","9":"n","10":" ","11":"P","12":"o","13":"s","14":"t"}}}

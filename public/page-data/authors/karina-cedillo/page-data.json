@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-author-page-js","path":"/authors/karina-cedillo/","result":{"errors":[{"message":"Variable \"$name\" of required type \"String!\" was not provided.","locations":[{"line":23,"column":31}]}],"pageContext":{"0":"K","1":"a","2":"r","3":"i","4":"n","5":"a","6":" ","7":"C","8":"e","9":"d","10":"i","11":"l","12":"l","13":"o"}}}

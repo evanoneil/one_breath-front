@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-author-page-js","path":"/authors/victor-b-flatt/","result":{"errors":[{"message":"Variable \"$name\" of required type \"String!\" was not provided.","locations":[{"line":23,"column":31}]}],"pageContext":{"0":"V","1":"i","2":"c","3":"t","4":"o","5":"r","6":" ","7":"B","8":".","9":" ","10":"F","11":"l","12":"a","13":"t","14":"t"}}}
