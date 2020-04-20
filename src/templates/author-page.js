@@ -3,6 +3,7 @@ import {graphql} from 'gatsby'
 import Container from '../components/container'
 import GraphQLErrorList from '../components/graphql-error-list'
 import BlogPost from '../components/blog-post'
+import BlogPostPreviewGridAuthor from '../components/blog-post-preview-grid-author'
 import SEO from '../components/seo'
 import Layout from '../containers/layout'
 import {
@@ -13,7 +14,6 @@ import {
   filterOutDocsPublishedInTheFuture
 } from '../lib/helpers'
 import PortableText from '../components/portableText.js'
-import BlogPostPreviewGridAuthor from '../components/blog-post-preview-grid-author'
 
 import {imageUrlFor} from '../lib/image-url'
 

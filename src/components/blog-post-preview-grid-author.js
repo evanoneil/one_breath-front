@@ -6,7 +6,6 @@ import styles from './blog-post-preview-grid.module.css'
 
 function BlogPostPreviewGrid (props) {
   // console.log(props)
-  console.log(props.authors)
   // const authorName = props.authors.author.name
   return (
     <div className={styles.root}>
