@@ -1,32 +1,30 @@
-import { format, distanceInWords, differenceInDays } from "date-fns";
-import React from "react";
-import { buildImageObj, filterOutDocsWithoutSlugs } from "../lib/helpers";
-import { imageUrlFor } from "../lib/image-url";
-import PortableText from "./portableText";
-import Container from "./container";
-import AuthorList from "./author-list";
-import SignUp from "../components/sign-up";
-import Helmet from "react-helmet";
-import getYouTubeId from "get-youtube-id";
-import YouTube from "react-youtube";
+import {format, distanceInWords, differenceInDays} from 'date-fns'
+import React from 'react'
+import {buildImageObj, filterOutDocsWithoutSlugs} from '../lib/helpers'
+import {imageUrlFor} from '../lib/image-url'
+import PortableText from './portableText'
+import Container from './container'
+import AuthorList from './author-list'
+import SignUp from '../components/sign-up'
+import Helmet from 'react-helmet'
+import getYouTubeId from 'get-youtube-id'
+import YouTube from 'react-youtube'
 
-import { FaTwitter } from "react-icons/fa";
-import { FaFacebook } from "react-icons/fa";
-import { FaEnvelope } from "react-icons/fa";
+import {FaTwitter, FaFacebook, FaEnvelope} from 'react-icons/fa'
+
+import styles from './blog-post.module.css'
 
 const serializers = {
   types: {
-    youtube: ({ node }) => {
-      const { url } = node;
-      const id = getYouTubeId(url);
-      return <YouTube videoId={id} />;
+    youtube: ({node}) => {
+      const {url} = node
+      const id = getYouTubeId(url)
+      return <YouTube videoId={id} />
     }
   }
-};
+}
 
-import styles from "./blog-post.module.css";
-
-function BlogPost(props) {
+function BlogPost (props) {
   const {
     _rawBody,
     blocks,
@@ -43,14 +41,15 @@ function BlogPost(props) {
     Action2URL,
     Action3Title,
     Action3URL
-  } = props;
-  const dateSegment = format(publishedAt, "YYYY/MM");
-  const path = `/newsroom/${dateSegment}/${slug.current}`;
-  const siteUrl = `https://www.onebreathhou.org`;
-  const shareUrl = `${siteUrl}${path}`;
-  const fbShare = `https://www.facebook.com/sharer/sharer.php?u=${shareUrl}`;
-  const twitterShare = `https://twitter.com/intent/tweet?text="${title}"%20by%20%40onebreathhou%20${shareUrl}`;
-  const emailShare = `mailto:?subject=I%20just%20read%20this%20great%20article%20on%20One%20Breath%20Partnership's%20Website!&body=${shareUrl}`;
+  } = props
+  const dateSegment = format(publishedAt, 'YYYY/MM')
+  const path = `/newsroom/${dateSegment}/${slug.current}`
+  const siteUrl = `https://www.onebreathhou.org`
+  const shareUrl = `${siteUrl}${path}`
+  const fbShare = `https://www.facebook.com/sharer/sharer.php?u=${shareUrl}`
+  const twitterShare = `https://twitter.com/intent/tweet?text="${title}"%20by%20%40onebreathhou%20${shareUrl}`
+  const emailShare = `mailto:?subject=I%20just%20read%20this%20great%20article%20on%20One%20Breath%20Partnership's%20Website!&body=${shareUrl}`
+  console.log(authors)
   return (
     <article className={styles.root}>
       {mainImage && mainImage.asset && (
@@ -59,8 +58,8 @@ function BlogPost(props) {
             src={imageUrlFor(buildImageObj(mainImage))
               .width(1920)
               .height(Math.floor((9 / 16) * 1200))
-              .fit("crop")
-              .auto("format")
+              .fit('crop')
+              .auto('format')
               .url()}
             alt={mainImage.alt}
           />
@@ -77,12 +76,12 @@ function BlogPost(props) {
             </div>
             <h1 className={styles.title}>{title}</h1>
             <div>
-              {" "}
+              {' '}
               {publishedAt && (
                 <div className={styles.publishedAt}>
                   {differenceInDays(new Date(publishedAt), new Date()) > 3
                     ? distanceInWords(new Date(publishedAt), new Date())
-                    : format(new Date(publishedAt), "MMMM Do, YYYY")}
+                    : format(new Date(publishedAt), 'MMMM Do, YYYY')}
                 </div>
               )}
             </div>
@@ -92,13 +91,13 @@ function BlogPost(props) {
       <Container>
         <div>
           <Helmet>
-            <link rel="stylesheet" href="https://unpkg.com/aos@2.3.0/dist/aos.css" />
-            <script src="https://unpkg.com/aos@2.3.0/dist/aos.js"></script>
-            <script src="https://wp.evanoneil.net/one_breath/script.js"></script>
+            <link rel='stylesheet' href='https://unpkg.com/aos@2.3.0/dist/aos.css' />
+            <script src='https://unpkg.com/aos@2.3.0/dist/aos.js' />
+            <script src='https://wp.evanoneil.net/one_breath/script.js' />
           </Helmet>
           <p className={styles.caption}>{mainImage.caption}</p>
           <div className={styles.grid}>
-            <div></div>
+            <div />
             <div className={styles.mainContent}>
               {authors && <AuthorList items={authors} />}
 
@@ -107,34 +106,34 @@ function BlogPost(props) {
                 <h2>Take Action</h2>
                 <ol>
                   <li>
-                    <a target="_blank" href={Action1URL}>
+                    <a target='_blank' href={Action1URL}>
                       {Action1Title}
                     </a>
                   </li>
                   <li>
-                    <a target="_blank" href={Action2URL}>
+                    <a target='_blank' href={Action2URL}>
                       {Action2Title}
                     </a>
                   </li>
                   <li>
-                    <a target="_blank" href={Action3URL}>
+                    <a target='_blank' href={Action3URL}>
                       {Action3Title}
                     </a>
                   </li>
                 </ol>
               </div>
               <div>
-                <hr className="mt5 bw1 b--solid" />
+                <hr className='mt5 bw1 b--solid' />
 
-                <h4 className="ttu">Share this article</h4>
-                <a href={twitterShare} target="blank">
-                  <FaTwitter className="f2 mr2 ml2" />
+                <h4 className='ttu'>Share this article</h4>
+                <a href={twitterShare} target='blank'>
+                  <FaTwitter className='f2 mr2 ml2' />
                 </a>
-                <a href={fbShare} target="blank">
-                  <FaFacebook className="f2 mr2 ml2" />
+                <a href={fbShare} target='blank'>
+                  <FaFacebook className='f2 mr2 ml2' />
                 </a>
-                <a href={emailShare} target="blank">
-                  <FaEnvelope className="f2 mr2 ml2" />
+                <a href={emailShare} target='blank'>
+                  <FaEnvelope className='f2 mr2 ml2' />
                 </a>
                 {/* <hr className="mt4" /> */}
               </div>
@@ -146,7 +145,7 @@ function BlogPost(props) {
         <SignUp />
       </Container>
     </article>
-  );
+  )
 }
 
-export default BlogPost;
+export default BlogPost

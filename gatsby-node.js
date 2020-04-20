@@ -1,17 +1,17 @@
-const { isFuture } = require("date-fns");
+const {isFuture} = require('date-fns')
 /**
  * Implement Gatsby's Node APIs in this file.
  *
  * See: https://www.gatsbyjs.org/docs/node-apis/
  */
 
-const { format } = require("date-fns");
+const {format} = require('date-fns')
 
-async function createBlogPostPages(graphql, actions, reporter) {
-  const { createPage } = actions;
+async function createBlogPostPages (graphql, actions, reporter) {
+  const {createPage} = actions
   const result = await graphql(`
     {
-      allSanityPost(filter: { slug: { current: { ne: null } }, publishedAt: { ne: null } }) {
+      allSanityPost(filter: {slug: {current: {ne: null}}, publishedAt: {ne: null}}) {
         edges {
           node {
             id
@@ -23,29 +23,68 @@ async function createBlogPostPages(graphql, actions, reporter) {
         }
       }
     }
-  `);
+  `)
 
-  if (result.errors) throw result.errors;
+  if (result.errors) throw result.errors
 
-  const postEdges = (result.data.allSanityPost || {}).edges || [];
+  const postEdges = (result.data.allSanityPost || {}).edges || []
 
   postEdges
     .filter(edge => !isFuture(edge.node.publishedAt))
     .forEach((edge, index) => {
-      const { id, slug = {}, publishedAt } = edge.node;
-      const dateSegment = format(publishedAt, "YYYY/MM");
-      const path = `/newsroom/${dateSegment}/${slug.current}/`;
+      const {id, slug = {}, publishedAt} = edge.node
+      const dateSegment = format(publishedAt, 'YYYY/MM')
+      const path = `/newsroom/${dateSegment}/${slug.current}/`
 
-      reporter.info(`Creating blog post page: ${path}`);
+      reporter.info(`Creating blog post page: ${path}`)
 
       createPage({
         path,
-        component: require.resolve("./src/templates/blog-post.js"),
-        context: { id }
-      });
-    });
+        component: require.resolve('./src/templates/blog-post.js'),
+        context: {id}
+      })
+    })
 }
 
-exports.createPages = async ({ graphql, actions, reporter }) => {
-  await createBlogPostPages(graphql, actions, reporter);
-};
+async function createAuthorPages (graphql, actions, reporter) {
+  const {createPage} = actions
+  const result = await graphql(`
+    {
+      allSanityAuthor {
+        edges {
+          node {
+            name
+            _id
+            slug {
+              current
+            }
+            _rawBio
+          }
+        }
+      }
+    }
+  `)
+
+  if (result.errors) throw result.errors
+
+  const authorEdges = (result.data.allSanityAuthor || {}).edges || []
+  const _id = authorEdges._id
+  authorEdges.forEach((edge, index) => {
+    const {name, slug = {}} = edge.node
+    const path = `/authors/${slug.current}/`
+
+    reporter.info(`Creating author page: ${path}`)
+
+    createPage({
+      path,
+      name,
+      component: require.resolve('./src/templates/author-page.js'),
+      context: name
+    })
+  })
+}
+
+exports.createPages = async ({graphql, actions, reporter}) => {
+  await createBlogPostPages(graphql, actions, reporter)
+  await createAuthorPages(graphql, actions, reporter)
+}
