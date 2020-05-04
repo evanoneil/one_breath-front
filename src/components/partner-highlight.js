@@ -13,7 +13,7 @@ import '../layouts/custom.css'
 
 const PartnerHighlight = () => (
   <div>
-    <div className='flex flex-wrap'>
+    {/* <div className='flex flex-wrap'>
       <div className={styles.lefthighlight}>
         <div className={styles.interiortext} />
       </div>
@@ -39,7 +39,7 @@ const PartnerHighlight = () => (
           Sign the petition →
         </a>
       </div>
-    </div>
+    </div> */}
     <div className='w-100 flex flex-wrap'>
       <div className='w-33-l w-100 pa5-ns pa3 '>
         <h3 className='blue'>MAJOR MALFUNCTION</h3>

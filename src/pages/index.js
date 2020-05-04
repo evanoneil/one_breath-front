@@ -229,7 +229,7 @@ const IndexPage = props => {
       /> */}
 
       <Container>
-        {/* <PartnerHighlight /> */}
+        <PartnerHighlight />
         {postNodes && <BlogPostPreviewGrid nodes={postNodes} />}
         {mediaNodes && <NewsroomPreviewGrid nodes={mediaNodes} />}
         {/* {videoNodes && <VideoPostPreviewGrid nodes={videoNodes} />} */}
