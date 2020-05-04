@@ -8,7 +8,6 @@ import {
 import BlogPostPreviewGrid from '../components/blog-post-preview-grid'
 import NewsroomPreviewGrid from '../components/newsroom-preview-grid'
 import VideoPostPreviewGrid from '../components/video-post-preview-grid'
-
 import Container from '../components/container'
 import GraphQLErrorList from '../components/graphql-error-list'
 import SEO from '../components/seo'
@@ -230,7 +229,7 @@ const IndexPage = props => {
       /> */}
 
       <Container>
-        <PartnerHighlight />
+        {/* <PartnerHighlight /> */}
         {postNodes && <BlogPostPreviewGrid nodes={postNodes} />}
         {mediaNodes && <NewsroomPreviewGrid nodes={mediaNodes} />}
         {/* {videoNodes && <VideoPostPreviewGrid nodes={videoNodes} />} */}
