@@ -90,12 +90,7 @@ const TakeActionPage = props => {
       </Helmet>
 
       <Container>
-        <div
-          id='can-petition-area-houston-needs-more-local-air-monitoring-to-protect-our-health'
-          style='width: 600px'
-        >
-          {/* !-- this div is the target for our HTML insertion --> */}
-        </div>
+        <div id='can-petition-area-houston-needs-more-local-air-monitoring-to-protect-our-health' />
       </Container>
     </Layout>
   )
