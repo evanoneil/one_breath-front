@@ -86,7 +86,12 @@ const TakeActionPage = props => {
           rel='stylesheet'
           type='text/css'
         />
-        <script src='https://actionnetwork.org/widgets/v3/petition/houston-needs-more-local-air-monitoring-to-protect-our-health?format=js&source=widget' />{' '}
+        <link
+          href='https://actionnetwork.org/css/style-embed-v3.css'
+          rel='stylesheet'
+          type='text/css'
+        />
+        <script src='https://actionnetwork.org/widgets/v3/petition/houston-needs-more-local-air-monitoring-to-protect-our-health?format=js&source=widget&style=full' />
       </Helmet>
 
       <Container>
