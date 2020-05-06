@@ -134,6 +134,7 @@ Please finalize the implementation of this PM 2.5 monitor and immediately take s
                 >
                   fine particulate matter
                 </a>
+                &nbsp;
               </b>
               above the level that health scientists say should be the new, stronger federal
               standard. The Texas Commission on Environmental Quality, or TCEQ, has proposed placing
