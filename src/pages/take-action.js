@@ -95,7 +95,59 @@ const TakeActionPage = props => {
       </Helmet>
 
       <Container>
-        <div id='can-petition-area-houston-needs-more-local-air-monitoring-to-protect-our-health' />
+        <div>
+          <img
+            className='w-100'
+            src='https://can2-prod.s3.amazonaws.com/petitions/photos/000/172/441/original/pm-banner-image-2.jpg'
+          />
+          <p className='caption'>
+            Almost all of Houston is exposed to fine particulate matter above the level that health
+            scientists say should be the new EPA standard.
+          </p>
+          <h1 className='w-80 orange'>
+            Tell TCEQ: Houston needs more local air monitoring to protect our health
+          </h1>
+          <a
+            className='pa3 ttu b--yellow b--solid bw2 f5 fw7 black br5 no-underline dib-l  mt1'
+            href='mailto:monops@tceq.texas.gov?bcc=stories@onebreathhou.org&subject=2020 Annual Monitoring Network Plan&body=I am writing today strongly in favor of installing a new PM 2.5 monitor in west Houston. While this is a crucial first step toward addressing pollution and protecting the health of the people of Houston, much more action is needed.
+
+All Houstonians face toxic air pollution, and it is costing us dearly — in more ways than one. According to new analysis from the Harvard School of Public Health and Environmental Defense Fund, widespread exposure to PM 2.5 air pollution in 2015 across Houston and surrounding neighborhoods was responsible for more than 5,000 premature deaths, and nearly $50 billion in economic damages.
+
+Please finalize the implementation of this PM 2.5 monitor and immediately take steps to install additional community monitors. Our city desperately needs this data and the state to act on it to reduce air pollution and its harmful health impacts.'
+          >
+            Take Action →
+          </a>
+          <div className='w-75'>
+            <p>
+              We have a right to breathe clean air, and we have a right to know what we are
+              breathing.
+            </p>
+            <p>
+              Right now, almost all of Houston is exposed to fine particulate matter above the level
+              that health scientists say should be the new, stronger federal standard. The Texas
+              Commission on Environmental Quality, or TCEQ, has proposed placing a new tool that can
+              monitor this kind of pollution in west Houston. That is just a first step toward
+              addressing air pollution and protecting our health, but it's one we need to tell them
+              to take.
+            </p>
+            <p>
+              Fine particulate matter, sometimes called PM 2.5 or soot, knows no boundaries. As the
+              Environmental Protection Agency is moving to maintain a weaker federal standard, we
+              need strong local data. These invisible airborne particles, which escape from power
+              plants, cars and trucks and industrial facilities, can lodge in our lungs, enter our
+              bloodstream and cause heart attacks, strokes and lung cancer. Exposure to these
+              particles is the largest environmental risk for early death in the U.S. In Houston,
+              particle pollution contributed to more than 5,000 early deaths and nearly $50 billion
+              in economic damages in 2015 alone, a new analysis from the Harvard School of Public
+              Health and Environmental Defense Fund finds. We need to make sure that TCEQ follows
+              through on their commitment to place a new monitor in a part of the city that lacks
+              one — and encourage them to take further action to keep us safe. As the coronavirus
+              pandemic has demonstrated, we need to have access to the best information, so we can
+              make the best decisions. A new monitor for this kind of air pollution is the best
+              decision for our shared home.
+            </p>
+          </div>
+        </div>
       </Container>
     </Layout>
   )

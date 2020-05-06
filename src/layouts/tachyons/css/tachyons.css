@@ -8257,7 +8257,6 @@ code,
   margin-bottom: 3rem;
   margin-right: 0.5rem;
   word-break: keep-all;
-
 }
 
 .cat-orange {
@@ -8276,4 +8275,17 @@ code,
 
 .cat-none {
   display: none;
+}
+
+.caption {
+  font-family: GT-America-Mono;
+  font-size: 0.8rem;
+  color: #789;
+  z-index: 999;
+  text-align: center;
+  /* margin: -1.5rem auto 4rem; */
+}
+
+.br5 {
+  border-radius: 35px;
 }
