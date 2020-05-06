@@ -96,6 +96,9 @@ const TakeActionPage = props => {
 
       <Container>
         <div>
+          <h1 className='w-80 orange'>
+            Tell TCEQ: Houston needs more local air monitoring to protect our health
+          </h1>
           <img
             className='w-100'
             src='https://can2-prod.s3.amazonaws.com/petitions/photos/000/172/441/original/pm-banner-image-2.jpg'
@@ -104,9 +107,7 @@ const TakeActionPage = props => {
             Almost all of Houston is exposed to fine particulate matter above the level that health
             scientists say should be the new EPA standard.
           </p>
-          <h1 className='w-80 orange'>
-            Tell TCEQ: Houston needs more local air monitoring to protect our health
-          </h1>
+
           <a
             className='pa3 ttu b--yellow b--solid bw2 f5 fw7 black br5 no-underline dib-l  mt1'
             href='mailto:monops@tceq.texas.gov?bcc=stories@onebreathhou.org&subject=2020 Annual Monitoring Network Plan&body=I am writing today strongly in favor of installing a new PM 2.5 monitor in west Houston. While this is a crucial first step toward addressing pollution and protecting the health of the people of Houston, much more action is needed.
@@ -127,6 +128,7 @@ Please finalize the implementation of this PM 2.5 monitor and immediately take s
               Right now, almost all of Houston is exposed to
               <b>
                 <a
+                  className='orange'
                   href='https://onebreathhou.org/newsroom/2020/04/particle-pollution-soot-standards-epa-houston/'
                   target='_blank'
                 >
@@ -137,9 +139,10 @@ Please finalize the implementation of this PM 2.5 monitor and immediately take s
               standard. The Texas Commission on Environmental Quality, or TCEQ, has proposed placing
               a <b>new tool</b> that can monitor this kind of pollution in west Houston. That is
               just a first step toward addressing air pollution and protecting our health, but it's
-              one{' '}
+              one
               <b>
                 <a
+                  className='orange'
                   href='https://www.tceq.texas.gov/airquality/monops/network_review.html'
                   target='_blank'
                 >
@@ -150,25 +153,26 @@ Please finalize the implementation of this PM 2.5 monitor and immediately take s
             </p>
             <p>
               Fine particulate matter, sometimes called PM 2.5 or soot, knows no boundaries. As the
-              Environmental Protection Agency is moving to maintain a{' '}
+              Environmental Protection Agency is moving to maintain a
               <a
+                className='orange'
                 href='https://onebreathhou.org/newsroom/2020/04/particulate-matter-standards-epa-science-public-health/'
                 target='_blank'
               >
                 weaker federal standard
               </a>
-              , we need strong local data. These invisible airborne particles, which escape from
-              power plants, cars and trucks and industrial facilities, can lodge in our lungs, enter
-              our bloodstream and cause heart attacks, strokes and lung cancer. Exposure to these
-              particles is the largest environmental risk for early death in the U.S. In Houston,
-              particle pollution contributed to more than 5,000 early deaths and nearly $50 billion
-              in economic damages in 2015 alone, a new analysis from the Harvard School of Public
-              Health and Environmental Defense Fund finds. We need to make sure that TCEQ follows
-              through on their commitment to place a new monitor in a part of the city that lacks
-              one — and encourage them to take further action to keep us safe. As the coronavirus
-              pandemic has demonstrated, we need to have access to the best information, so we can
-              make the best decisions. A new monitor for this kind of air pollution is the best
-              decision for our shared home.
+              , we need <b>strong local data</b>. These invisible airborne particles, which escape
+              from power plants, cars and trucks and industrial facilities, can lodge in our lungs,
+              enter our bloodstream and cause heart attacks, strokes and lung cancer. Exposure to
+              these particles is <b>the largest environmental risk</b> for early death in the U.S.
+              In Houston, particle pollution contributed to <b>more than 5,000 early deaths</b> and
+              nearly <b>$50 billion in economic damages</b> in 2015 alone, a new analysis from the
+              Harvard School of Public Health and Environmental Defense Fund finds. We need to make
+              sure that TCEQ follows through on their commitment to place a new monitor in a part of
+              the city that lacks one — and encourage them to take further action to keep us safe.
+              As the coronavirus pandemic has demonstrated, we need to have access to the best
+              information, so we can make the best decisions. A new monitor for this kind of air
+              pollution is the best decision for our shared home.
             </p>
           </div>
         </div>
