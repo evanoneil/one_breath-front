@@ -124,24 +124,29 @@ Please finalize the implementation of this PM 2.5 monitor and immediately take s
               breathing.
             </p>
             <p>
-              Right now, almost all of Houston is exposed to{' '}
-              <a
-                href='https://onebreathhou.org/newsroom/2020/04/particle-pollution-soot-standards-epa-houston/'
-                target='_blank'
-              >
-                fine particulate matter
-              </a>{' '}
+              Right now, almost all of Houston is exposed to
+              <b>
+                <a
+                  href='https://onebreathhou.org/newsroom/2020/04/particle-pollution-soot-standards-epa-houston/'
+                  target='_blank'
+                >
+                  fine particulate matter
+                </a>
+              </b>
               above the level that health scientists say should be the new, stronger federal
               standard. The Texas Commission on Environmental Quality, or TCEQ, has proposed placing
-              a new tool that can monitor this kind of pollution in west Houston. That is just a
-              first step toward addressing air pollution and protecting our health, but it's one{' '}
-              <a
-                href='https://www.tceq.texas.gov/airquality/monops/network_review.html'
-                target='_blank'
-              >
-                we need to tell them to take
-              </a>
-              .
+              a <b>new tool</b> that can monitor this kind of pollution in west Houston. That is
+              just a first step toward addressing air pollution and protecting our health, but it's
+              one{' '}
+              <b>
+                <a
+                  href='https://www.tceq.texas.gov/airquality/monops/network_review.html'
+                  target='_blank'
+                >
+                  we need to tell them to take
+                </a>
+                .
+              </b>
             </p>
             <p>
               Fine particulate matter, sometimes called PM 2.5 or soot, knows no boundaries. As the
