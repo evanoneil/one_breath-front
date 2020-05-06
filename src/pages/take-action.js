@@ -125,7 +125,7 @@ Please finalize the implementation of this PM 2.5 monitor and immediately take s
               breathing.
             </p>
             <p>
-              Right now, almost all of Houston is exposed to
+              Right now, almost all of Houston is exposed to&nbsp;
               <b>
                 <a
                   className='orange'
@@ -139,7 +139,7 @@ Please finalize the implementation of this PM 2.5 monitor and immediately take s
               standard. The Texas Commission on Environmental Quality, or TCEQ, has proposed placing
               a <b>new tool</b> that can monitor this kind of pollution in west Houston. That is
               just a first step toward addressing air pollution and protecting our health, but it's
-              one
+              one&nbsp;
               <b>
                 <a
                   className='orange'
@@ -153,14 +153,16 @@ Please finalize the implementation of this PM 2.5 monitor and immediately take s
             </p>
             <p>
               Fine particulate matter, sometimes called PM 2.5 or soot, knows no boundaries. As the
-              Environmental Protection Agency is moving to maintain a
-              <a
-                className='orange'
-                href='https://onebreathhou.org/newsroom/2020/04/particulate-matter-standards-epa-science-public-health/'
-                target='_blank'
-              >
-                weaker federal standard
-              </a>
+              Environmental Protection Agency is moving to maintain a&nbsp;
+              <b>
+                <a
+                  className='orange'
+                  href='https://onebreathhou.org/newsroom/2020/04/particulate-matter-standards-epa-science-public-health/'
+                  target='_blank'
+                >
+                  weaker federal standard
+                </a>
+              </b>
               , we need <b>strong local data</b>. These invisible airborne particles, which escape
               from power plants, cars and trucks and industrial facilities, can lodge in our lungs,
               enter our bloodstream and cause heart attacks, strokes and lung cancer. Exposure to
