@@ -117,25 +117,44 @@ Please finalize the implementation of this PM 2.5 monitor and immediately take s
           >
             Take Action →
           </a>
+          <br />
           <div className='w-75'>
             <p>
               We have a right to breathe clean air, and we have a right to know what we are
               breathing.
             </p>
             <p>
-              Right now, almost all of Houston is exposed to fine particulate matter above the level
-              that health scientists say should be the new, stronger federal standard. The Texas
-              Commission on Environmental Quality, or TCEQ, has proposed placing a new tool that can
-              monitor this kind of pollution in west Houston. That is just a first step toward
-              addressing air pollution and protecting our health, but it's one we need to tell them
-              to take.
+              Right now, almost all of Houston is exposed to{' '}
+              <a
+                href='https://onebreathhou.org/newsroom/2020/04/particle-pollution-soot-standards-epa-houston/'
+                target='_blank'
+              >
+                fine particulate matter
+              </a>{' '}
+              above the level that health scientists say should be the new, stronger federal
+              standard. The Texas Commission on Environmental Quality, or TCEQ, has proposed placing
+              a new tool that can monitor this kind of pollution in west Houston. That is just a
+              first step toward addressing air pollution and protecting our health, but it's one{' '}
+              <a
+                href='https://www.tceq.texas.gov/airquality/monops/network_review.html'
+                target='_blank'
+              >
+                we need to tell them to take
+              </a>
+              .
             </p>
             <p>
               Fine particulate matter, sometimes called PM 2.5 or soot, knows no boundaries. As the
-              Environmental Protection Agency is moving to maintain a weaker federal standard, we
-              need strong local data. These invisible airborne particles, which escape from power
-              plants, cars and trucks and industrial facilities, can lodge in our lungs, enter our
-              bloodstream and cause heart attacks, strokes and lung cancer. Exposure to these
+              Environmental Protection Agency is moving to maintain a{' '}
+              <a
+                href='https://onebreathhou.org/newsroom/2020/04/particulate-matter-standards-epa-science-public-health/'
+                target='_blank'
+              >
+                weaker federal standard
+              </a>
+              , we need strong local data. These invisible airborne particles, which escape from
+              power plants, cars and trucks and industrial facilities, can lodge in our lungs, enter
+              our bloodstream and cause heart attacks, strokes and lung cancer. Exposure to these
               particles is the largest environmental risk for early death in the U.S. In Houston,
               particle pollution contributed to more than 5,000 early deaths and nearly $50 billion
               in economic damages in 2015 alone, a new analysis from the Harvard School of Public
