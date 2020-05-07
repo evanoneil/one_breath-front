@@ -99,6 +99,24 @@ const TakeActionPage = props => {
           <h1 className='w-80 orange'>
             Tell TCEQ: Houston needs more local air monitoring to protect our health
           </h1>
+          <div className='w-100 bg-orange mb3 flex flex-wrap'>
+            <div className='w-50-ns w-100 f3 pa4 black fw7  flex-wrap'>
+              <p className='fw6 f6 ttu mb0'>action item:</p>
+              <h3 className='mt0'>E-mail TCEQ by May 14th</h3>
+            </div>
+            <div className='w-50-ns w-100 pa4 mt2 flex-wrap'>
+              <a
+                className='pa3 ttu b--yellow b--solid bw2 f4 fw8 black br5 no-underline dib-l  mt1'
+                href='mailto:monops@tceq.texas.gov?bcc=stories@onebreathhou.org&subject=2020 Annual Monitoring Network Plan&body=I am writing today strongly in favor of installing a new PM 2.5 monitor in west Houston. While this is a crucial first step toward addressing pollution and protecting the health of the people of Houston, much more action is needed.
+
+All Houstonians face toxic air pollution, and it is costing us dearly — in more ways than one. According to new analysis from the Harvard School of Public Health and Environmental Defense Fund, widespread exposure to PM 2.5 air pollution in 2015 across Houston and surrounding neighborhoods was responsible for more than 5,000 premature deaths, and nearly $50 billion in economic damages.
+
+Please finalize the implementation of this PM 2.5 monitor and immediately take steps to install additional community monitors. Our city desperately needs this data and the state to act on it to reduce air pollution and its harmful health impacts.'
+              >
+                Take Action →
+              </a>
+            </div>
+          </div>
           <img
             className='w-100'
             src='https://can2-prod.s3.amazonaws.com/petitions/photos/000/172/441/original/pm-map.jpg'
@@ -116,7 +134,7 @@ All Houstonians face toxic air pollution, and it is costing us dearly — in mor
 
 Please finalize the implementation of this PM 2.5 monitor and immediately take steps to install additional community monitors. Our city desperately needs this data and the state to act on it to reduce air pollution and its harmful health impacts.'
           >
-            Take Action →
+            E-mail TCEQ →
           </a>
           <br />
           <div className='w-75'>
@@ -177,6 +195,24 @@ Please finalize the implementation of this PM 2.5 monitor and immediately take s
               information, so we can make the best decisions. A new monitor for this kind of air
               pollution is the best decision for our shared home.
             </p>
+          </div>
+        </div>
+        <div className='w-100 bg-orange mb3 flex flex-wrap'>
+          <div className='w-50-ns w-100 f3 pa4 black fw7  flex-wrap'>
+            <p className='fw6 f6 ttu mb0'>action item:</p>
+            <h3 className='mt0'>E-mail TCEQ by May 14th</h3>
+          </div>
+          <div className='w-50-ns w-100 pa4 mt2 flex-wrap'>
+            <a
+              className='pa3 ttu b--yellow b--solid bw2 f4 fw8 black br5 no-underline dib-l  mt1'
+              href='mailto:monops@tceq.texas.gov?bcc=stories@onebreathhou.org&subject=2020 Annual Monitoring Network Plan&body=I am writing today strongly in favor of installing a new PM 2.5 monitor in west Houston. While this is a crucial first step toward addressing pollution and protecting the health of the people of Houston, much more action is needed.
+
+All Houstonians face toxic air pollution, and it is costing us dearly — in more ways than one. According to new analysis from the Harvard School of Public Health and Environmental Defense Fund, widespread exposure to PM 2.5 air pollution in 2015 across Houston and surrounding neighborhoods was responsible for more than 5,000 premature deaths, and nearly $50 billion in economic damages.
+
+Please finalize the implementation of this PM 2.5 monitor and immediately take steps to install additional community monitors. Our city desperately needs this data and the state to act on it to reduce air pollution and its harmful health impacts.'
+            >
+              Take Action →
+            </a>
           </div>
         </div>
       </Container>
