@@ -197,6 +197,15 @@ Please finalize the implementation of this PM 2.5 monitor and immediately take s
               information, so we can make the best decisions. A new monitor for this kind of air
               pollution is the best decision for our shared home.
             </p>
+            <p>
+              As the coronavirus pandemic has demonstrated, we need to have access to the best
+              information, so we can make the best decisions. A new monitor for this kind of air
+              pollution is the best decision for our shared home.&nbsp;
+              <b>
+                Click the button below to send an email with an automated message or use the
+                information here to explain in your own words why we need this monitor now.
+              </b>
+            </p>
           </div>
         </div>
         <div className='w-100 bg-orange mb3 flex flex-wrap v-mid'>
