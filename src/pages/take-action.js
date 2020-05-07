@@ -101,7 +101,7 @@ const TakeActionPage = props => {
           </h1>
           <img
             className='w-100'
-            src='https://can2-prod.s3.amazonaws.com/petitions/photos/000/172/441/original/pm-banner-image-2.jpg'
+            src='https://can2-prod.s3.amazonaws.com/petitions/photos/000/172/441/original/pm-map.jpg'
           />
           <p className='caption'>
             Almost all of Houston is exposed to fine particulate matter above the level that health
