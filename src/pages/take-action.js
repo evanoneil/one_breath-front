@@ -96,7 +96,7 @@ const TakeActionPage = props => {
 
       <Container>
         <div>
-          <h1 className='w-80 orange'>
+          <h1 className='w-60 orange'>
             Tell the EPA to protect our shared home from particle pollution{' '}
           </h1>
           <div className='w-100 bg-orange  flex flex-wrap'>
@@ -111,7 +111,7 @@ const TakeActionPage = props => {
                 Take Action →
               </a>
             </div>
-            <div className='w-50-ns w-100   flex-wrap'>
+            <div className='w-50-ns w-100  mbneg6 flex-wrap'>
               <img
                 className='w-100'
                 src='https://can2-prod.s3.amazonaws.com/petitions/photos/000/174/978/original/girl-with-inhaler-blur.jpg'
