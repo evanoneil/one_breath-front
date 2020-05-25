@@ -48,6 +48,7 @@ export const query = graphql`
       title
       description
       keywords
+      home_header
     }
     posts: allSanityPost(
       limit: 6
@@ -174,7 +175,6 @@ export const query = graphql`
   }
 `
 
-const description = 'Living every day like an ozone action day.'
 const image = `https://onebreathhou.org${ogImage}`
 
 const IndexPage = props => {
@@ -196,6 +196,7 @@ const IndexPage = props => {
     : []
   const mediaNodes = data && data.media && mapEdgesToNodes(data.media)
   const videoNodes = data && data.media && mapEdgesToNodes(data.videos)
+  const description = site.home_header
 
   if (!site) {
     throw new Error(
@@ -220,7 +221,7 @@ const IndexPage = props => {
         <meta name='twitter:description' content={description} />
         <meta name='twitter:image' content={image} />
       </Helmet>
-      <Headline title='Living every day like an ozone action day.' />
+      <Headline title={description} />
       {/* <SEO title={site.title} description={site.description} keywords={site.keywords} /> */}
       {/* <SEO
         title={"One Breath Partnership"}
@@ -229,7 +230,7 @@ const IndexPage = props => {
       /> */}
 
       <Container>
-        <PartnerHighlight />
+        {/* <PartnerHighlight /> */}
         {postNodes && <BlogPostPreviewGrid nodes={postNodes} />}
         {mediaNodes && <NewsroomPreviewGrid nodes={mediaNodes} />}
         {/* {videoNodes && <VideoPostPreviewGrid nodes={videoNodes} />} */}
