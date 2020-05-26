@@ -1,19 +1,17 @@
-import { Link } from "gatsby";
-import React from "react";
-import NewsroomPreview from "./newsroom-preview";
+import {Link} from 'gatsby'
+import React from 'react'
+import NewsroomPreview from './newsroom-preview'
 
-import styles from "./newsroom-preview-grid.module.css";
+import styles from './newsroom-preview-grid.module.css'
 
-function NewsroomPreviewGrid(props) {
+function NewsroomPreviewGrid (props) {
   return (
     <div className={styles.root}>
-      <h2 className="orange">In the Media</h2>
-
       {props.title && <h2 className={styles.headline}>{props.title}</h2>}
-      <ul className={styles.grid}>
+      <ul className='thumbnails list flex flex-wrap'>
         {props.nodes &&
           props.nodes.map(node => (
-            <li key={node.id}>
+            <li className='w-25-ns w-100 p3'>
               <NewsroomPreview {...node} />
             </li>
           ))}
@@ -24,13 +22,13 @@ function NewsroomPreviewGrid(props) {
         </div>
       )}
     </div>
-  );
+  )
 }
 
 NewsroomPreviewGrid.defaultProps = {
-  title: "",
+  title: '',
   nodes: [],
-  browseMoreHref: ""
-};
+  browseMoreHref: ''
+}
 
-export default NewsroomPreviewGrid;
+export default NewsroomPreviewGrid

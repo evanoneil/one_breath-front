@@ -133,7 +133,7 @@ export const query = graphql`
     }
 
     media: allSanityPost(
-      limit: 5
+      limit: 4
       sort: {fields: [publishedAt], order: DESC}
       filter: {
         categories: {elemMatch: {title: {eq: "In the Media"}}}

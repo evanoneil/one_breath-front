@@ -1,9 +1,30 @@
-/* @import url("https://rsms.me/inter/inter.css");
-html {
-  font-family: "Inter", sans-serif;
+.caption h4 {
+  font-size: 1rem;
+  color: #444;
 }
-@supports (font-variation-settings: normal) {
-  html {
-    font-family: "Inter var", sans-serif;
-  }
-} */
+.caption p {
+  font-size: 0.75rem;
+  color: #999;
+}
+.btn.btn-mini {
+  font-size: 0.63rem;
+}
+
+.control-box {
+  text-align: right;
+  width: 100%;
+}
+.carousel-control {
+  background: #666;
+  border: 0px;
+  border-radius: 0px;
+  display: inline-block;
+  font-size: 34px;
+  font-weight: 200;
+  line-height: 18px;
+  opacity: 0.5;
+  padding: 4px 10px 0px;
+  position: static;
+  height: 30px;
+  width: 15px;
+}

@@ -14,7 +14,7 @@ import Headline from '../components/headline'
 import Helmet from 'react-helmet'
 import ogImage from '../../public/assets/img/og.jpg'
 import YouTubeHighlight from '../components/youtube-highlight'
-
+import Carousel from '../components/carousel'
 import {responsiveTitle1} from '../components/typography.module.css'
 
 export const query = graphql`
@@ -128,6 +128,175 @@ export const query = graphql`
     }
 
     media: allSanityPost(
+      limit: 8
+
+      sort: {fields: [publishedAt], order: DESC}
+      filter: {
+        categories: {elemMatch: {title: {eq: "In the Media"}}}
+        slug: {current: {ne: null}}
+        publishedAt: {ne: null}
+      }
+    ) {
+      edges {
+        node {
+          id
+          authors {
+            author {
+              name
+            }
+          }
+          categories {
+            title
+            _type
+            _id
+            id
+            color
+          }
+          publishedAt
+          mainImage {
+            ...SanityImage
+            alt
+            caption
+          }
+          title
+          _rawExcerpt
+          Action1Title
+          Action1URL
+          slug {
+            current
+          }
+        }
+      }
+    }
+    media2: allSanityPost(
+      limit: 8
+      skip: 8
+      sort: {fields: [publishedAt], order: DESC}
+      filter: {
+        categories: {elemMatch: {title: {eq: "In the Media"}}}
+        slug: {current: {ne: null}}
+        publishedAt: {ne: null}
+      }
+    ) {
+      edges {
+        node {
+          id
+          authors {
+            author {
+              name
+            }
+          }
+          categories {
+            title
+            _type
+            _id
+            id
+            color
+          }
+          publishedAt
+          mainImage {
+            ...SanityImage
+            alt
+            caption
+          }
+          title
+          _rawExcerpt
+          Action1Title
+          Action1URL
+          slug {
+            current
+          }
+        }
+      }
+    }
+
+    media3: allSanityPost(
+      limit: 8
+      skip: 16
+      sort: {fields: [publishedAt], order: DESC}
+      filter: {
+        categories: {elemMatch: {title: {eq: "In the Media"}}}
+        slug: {current: {ne: null}}
+        publishedAt: {ne: null}
+      }
+    ) {
+      edges {
+        node {
+          id
+          authors {
+            author {
+              name
+            }
+          }
+          categories {
+            title
+            _type
+            _id
+            id
+            color
+          }
+          publishedAt
+          mainImage {
+            ...SanityImage
+            alt
+            caption
+          }
+          title
+          _rawExcerpt
+          Action1Title
+          Action1URL
+          slug {
+            current
+          }
+        }
+      }
+    }
+
+    media4: allSanityPost(
+      limit: 8
+      skip: 24
+      sort: {fields: [publishedAt], order: DESC}
+      filter: {
+        categories: {elemMatch: {title: {eq: "In the Media"}}}
+        slug: {current: {ne: null}}
+        publishedAt: {ne: null}
+      }
+    ) {
+      edges {
+        node {
+          id
+          authors {
+            author {
+              name
+            }
+          }
+          categories {
+            title
+            _type
+            _id
+            id
+            color
+          }
+          publishedAt
+          mainImage {
+            ...SanityImage
+            alt
+            caption
+          }
+          title
+          _rawExcerpt
+          Action1Title
+          Action1URL
+          slug {
+            current
+          }
+        }
+      }
+    }
+
+    media5: allSanityPost(
+      limit: 8
+      skip: 32
       sort: {fields: [publishedAt], order: DESC}
       filter: {
         categories: {elemMatch: {title: {eq: "In the Media"}}}
@@ -182,7 +351,10 @@ const NewsroomPage = props => {
   const site = (data || {}).site
   const postNodes = (data || {}).posts ? mapEdgesToNodes(data.posts) : []
   const mediaNodes = data && data.media && mapEdgesToNodes(data.media)
-  const videoNodes = data && data.media && mapEdgesToNodes(data.videos)
+  const mediaNodes2 = data && data.media2 && mapEdgesToNodes(data.media2)
+  const mediaNodes3 = data && data.media3 && mapEdgesToNodes(data.media3)
+  const mediaNodes4 = data && data.media4 && mapEdgesToNodes(data.media4)
+  const mediaNodes5 = data && data.media5 && mapEdgesToNodes(data.media5)
 
   const description = site.newsroom_header
   const image = `https://onebreathhou.org${ogImage}`
@@ -222,9 +394,17 @@ const NewsroomPage = props => {
         {postNodes && <BlogPostPreviewGrid nodes={postNodes} />}
         <PartnerHighlight01 />
         <br />
-        {mediaNodes && <NewsroomPreviewGrid nodes={mediaNodes} />}
+        <Carousel
+          mediaNodes={mediaNodes}
+          mediaNodes2={mediaNodes2}
+          mediaNodes3={mediaNodes3}
+          mediaNodes4={mediaNodes4}
+          mediaNodes5={mediaNodes5}
+        />
+
+        <br />
         <YouTubeHighlight />
-        {videoNodes && <VideoPostPreviewGrid nodes={videoNodes} />}
+        {/* {videoNodes && <VideoPostPreviewGrid nodes={videoNodes} />} */}
 
         {/* <h2>In the Media</h2>
 

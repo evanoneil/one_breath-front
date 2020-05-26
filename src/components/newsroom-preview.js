@@ -1,14 +1,14 @@
-import { format } from "date-fns";
-import { Link } from "gatsby";
-import React from "react";
-import { buildImageObj, cn, getBlogUrl } from "../lib/helpers";
-import { imageUrlFor } from "../lib/image-url";
-import PortableText from "./portableText";
+import {format} from 'date-fns'
+import {Link} from 'gatsby'
+import React from 'react'
+import {buildImageObj, cn, getBlogUrl} from '../lib/helpers'
+import {imageUrlFor} from '../lib/image-url'
+import PortableText from './portableText'
 
-import styles from "./newsroom-preview.module.css";
-import { responsiveTitle3 } from "./typography.module.css";
+import styles from './newsroom-preview.module.css'
+import {responsiveTitle3} from './typography.module.css'
 
-function NewsroomPreview(props) {
+function NewsroomPreview (props) {
   return (
     <div>
       <Link
@@ -45,7 +45,7 @@ function NewsroomPreview(props) {
               <h4>
                 By {props.authors[0].author.name}
                 <br />
-                {format(props.publishedAt, "MM.D.YYYY")}
+                {format(props.publishedAt, 'MM.D.YYYY')}
               </h4>
             </div>
           </div>
@@ -61,7 +61,7 @@ function NewsroomPreview(props) {
         </h4>
       </div>
     </div>
-  );
+  )
 }
 
-export default NewsroomPreview;
+export default NewsroomPreview
