@@ -86,7 +86,7 @@ const TakeActionPage = props => {
 
       <Container>
         <div>
-         <div id='can-form-area-stand-up-against-environmental-racism' style='width: 600px'></div>
+         <div id='can-form-area-stand-up-against-environmental-racism'></div>
     </div>
       </Container>
     </Layout>
