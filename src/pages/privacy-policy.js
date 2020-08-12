@@ -22,7 +22,7 @@ import ogImage from "../../public/assets/img/og.jpg";
 import { responsiveTitle1 } from "../components/typography.module.css";
 
 export const query = graphql`
-  query AboutPageQuery {
+  query PrivacyPageQuery {
     site: sanitySiteSettings(_id: { regex: "/(drafts.|)siteSettings/" }) {
       title
       description
@@ -32,7 +32,7 @@ export const query = graphql`
   }
 `;
 
-const PrivacyPage = props => {
+const PrivacyPage = (props) => {
   const { data, errors } = props;
 
   if (errors) {
@@ -615,4 +615,4 @@ const PrivacyPage = props => {
   );
 };
 
-export default AboutPage;
+export default PrivacyPage;
