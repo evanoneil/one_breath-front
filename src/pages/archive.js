@@ -17,6 +17,9 @@ export const query = graphql`
           id
           categories {
             title
+            slug {
+              current
+            }
           }
           authors {
             author {
