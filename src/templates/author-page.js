@@ -1,5 +1,5 @@
 import React from 'react'
-import {graphql} from 'gatsby'
+import { graphql } from 'gatsby'
 import Container from '../components/container'
 import GraphQLErrorList from '../components/graphql-error-list'
 import BlogPost from '../components/blog-post'
@@ -15,7 +15,7 @@ import {
 import PortableText from '../components/portableText.js'
 import BlogPostPreviewGridAuthor from '../components/blog-post-preview-grid-author'
 
-import {imageUrlFor} from '../lib/image-url'
+import { imageUrlFor } from '../lib/image-url'
 
 export const query = graphql`
   query AuthorPageTemplateQuery($name: String!) {
@@ -48,6 +48,9 @@ export const query = graphql`
             _id
             id
             color
+            slug {
+              current
+            }
           }
           publishedAt
           mainImage {
@@ -69,7 +72,7 @@ export const query = graphql`
 `
 
 const AuthorPageTemplate = props => {
-  const {data, errors} = props
+  const { data, errors } = props
 
   const post = data && data.post
 
@@ -112,7 +115,7 @@ const AuthorPageTemplate = props => {
                   .fit('crop')
                   .auto('format')
                   .url()}
-                // alt={mainImage.alt}
+              // alt={mainImage.alt}
               />{' '}
             </div>
             <div className='dtc v-btm pl3'>

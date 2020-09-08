@@ -1,1 +1,0 @@
-{"componentChunkName":"component---src-templates-author-page-js","path":"/author/sojourners/","result":{"errors":[{"message":"Variable \"$name\" of required type \"String!\" was not provided.","locations":[{"line":23,"column":31}]}],"pageContext":{"0":"S","1":"o","2":"j","3":"o","4":"u","5":"r","6":"n","7":"e","8":"r","9":"s"}}}

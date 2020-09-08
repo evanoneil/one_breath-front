@@ -1,5 +1,5 @@
 import React from 'react'
-import {graphql} from 'gatsby'
+import { graphql } from 'gatsby'
 import {
   mapEdgesToNodes,
   filterOutDocsWithoutSlugs,
@@ -73,6 +73,9 @@ export const query = graphql`
             _id
             id
             color
+            slug{
+              current
+            }
           }
           publishedAt
           mainImage {
@@ -178,7 +181,7 @@ export const query = graphql`
 const image = `https://onebreathhou.org${ogImage}`
 
 const IndexPage = props => {
-  const {data, errors} = props
+  const { data, errors } = props
 
   if (errors) {
     return (

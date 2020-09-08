@@ -1,6 +1,6 @@
 import React from 'react'
-import {graphql} from 'gatsby'
-import {mapEdgesToNodes} from '../lib/helpers'
+import { graphql } from 'gatsby'
+import { mapEdgesToNodes } from '../lib/helpers'
 import BlogPostPreviewGrid from '../components/blog-post-preview-grid'
 import NewsroomPreviewGrid from '../components/newsroom-preview-grid'
 import VideoPostPreviewGrid from '../components/video-post-preview-grid'
@@ -15,7 +15,7 @@ import Helmet from 'react-helmet'
 import ogImage from '../../public/assets/img/og.jpg'
 import YouTubeHighlight from '../components/youtube-highlight'
 import Carousel from '../components/carousel'
-import {responsiveTitle1} from '../components/typography.module.css'
+import { responsiveTitle1 } from '../components/typography.module.css'
 
 export const query = graphql`
   fragment SanityImage on SanityMainImage {
@@ -69,6 +69,9 @@ export const query = graphql`
             _id
             id
             color
+            slug {
+              current
+            }
           }
           publishedAt
           mainImage {
@@ -339,7 +342,7 @@ export const query = graphql`
 `
 
 const NewsroomPage = props => {
-  const {data, errors} = props
+  const { data, errors } = props
 
   if (errors) {
     return (

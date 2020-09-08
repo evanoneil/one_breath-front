@@ -4,28 +4,43 @@ import React from "react";
 import { buildImageObj, cn, getBlogUrl } from "../lib/helpers";
 import { imageUrlFor } from "../lib/image-url";
 import PortableText from "./portableText";
-
+import CategoryList from "./category-list"
 import styles from "./blog-post-preview.module.css";
 import { responsiveTitle3 } from "./typography.module.css";
 
+
 function BlogPostPreview(props) {
   return (
+
     <div>
+      <div className="mb3">
+
+
+        {props.categories && (
+
+          <div>
+            {props.categories.map(category => {
+              const CatURL = `/categories/${category.slug.current}`
+              return (
+                <a href={CatURL}>
+                  <span key={category._id} className={category.color}>
+                    {category.title}
+                  </span>
+                </a>
+              )
+            })}
+          </div>
+        )}
+
+
+
+      </div>
+
       <Link
         className={props.isInList ? styles.inList : styles.inGrid}
         to={getBlogUrl(props.publishedAt, props.slug.current)}
       >
-        <div className="mb3">
-          {props.categories && (
-            <div>
-              {props.categories.map(category => (
-                <span key={category._id} className={category.color}>
-                  {category.title}
-                </span>
-              ))}
-            </div>
-          )}
-        </div>
+
         <div className={styles.displaygrid}>
           <div className={styles.leadMediaThumb}>
             {props.mainImage && props.mainImage.asset && (

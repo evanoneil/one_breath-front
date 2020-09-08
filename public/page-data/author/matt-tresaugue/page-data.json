@@ -1,1 +1,0 @@
-{"componentChunkName":"component---src-templates-author-page-js","path":"/author/matt-tresaugue/","result":{"errors":[{"message":"Variable \"$name\" of required type \"String!\" was not provided.","locations":[{"line":23,"column":31}]}],"pageContext":{"0":"M","1":"a","2":"t","3":"t","4":" ","5":"T","6":"r","7":"e","8":"s","9":"a","10":"u","11":"g","12":"u","13":"e"}}}

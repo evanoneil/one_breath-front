@@ -1,1 +1,0 @@
-{"componentChunkName":"component---src-templates-author-page-js","path":"/author/sara-cress/","result":{"errors":[{"message":"Variable \"$name\" of required type \"String!\" was not provided.","locations":[{"line":23,"column":31}]}],"pageContext":{"0":"S","1":"a","2":"r","3":"a","4":" ","5":"C","6":"r","7":"e","8":"s","9":"s"}}}

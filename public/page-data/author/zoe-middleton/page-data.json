@@ -1,1 +1,0 @@
-{"componentChunkName":"component---src-templates-author-page-js","path":"/author/zoe-middleton/","result":{"errors":[{"message":"Variable \"$name\" of required type \"String!\" was not provided.","locations":[{"line":23,"column":31}]}],"pageContext":{"0":"Z","1":"o","2":"e","3":" ","4":"M","5":"i","6":"d","7":"d","8":"l","9":"e","10":"t","11":"o","12":"n"}}}
