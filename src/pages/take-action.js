@@ -1,6 +1,6 @@
 import React from 'react'
-import {graphql} from 'gatsby'
-import {mapEdgesToNodes} from '../lib/helpers'
+import { graphql } from 'gatsby'
+import { mapEdgesToNodes } from '../lib/helpers'
 import BlogPostPreviewGrid from '../components/blog-post-preview-grid'
 import NewsroomPreviewGrid from '../components/newsroom-preview-grid'
 import Container from '../components/container'
@@ -8,9 +8,9 @@ import GraphQLErrorList from '../components/graphql-error-list'
 import SEO from '../components/seo'
 import Layout from '../containers/layout'
 import Helmet from 'react-helmet'
-import ogImage from '../../public/assets/img/one_breath-petition-OG-pledge.jpg'
+import ogImage from '../assets/img/one_breath-petition-OG-pledge.jpg'
 
-import {responsiveTitle1} from '../components/typography.module.css'
+import { responsiveTitle1 } from '../components/typography.module.css'
 
 // export const query = graphql`
 //   query NewsroomPageQuery {
@@ -52,7 +52,7 @@ import {responsiveTitle1} from '../components/typography.module.css'
 // `;
 
 const TakeActionPage = props => {
-  const {data, errors} = props
+  const { data, errors } = props
 
   if (errors) {
     return (
@@ -82,12 +82,12 @@ const TakeActionPage = props => {
         <meta name='twitter:description' content={description} />
         <meta name='twitter:image' content={image} />
 
-<link href='https://actionnetwork.org/css/style-embed-v3.css' rel='stylesheet' type='text/css' /><script src='https://actionnetwork.org/widgets/v3/form/stand-up-against-environmental-racism?format=js&source=widget&style=full'></script>      </Helmet>
+        <link href='https://actionnetwork.org/css/style-embed-v3.css' rel='stylesheet' type='text/css' /><script src='https://actionnetwork.org/widgets/v3/form/stand-up-against-environmental-racism?format=js&source=widget&style=full'></script>      </Helmet>
 
       <Container>
         <div>
-         <div id='can-form-area-stand-up-against-environmental-racism'></div>
-    </div>
+          <div id='can-form-area-stand-up-against-environmental-racism'></div>
+        </div>
       </Container>
     </Layout>
   )

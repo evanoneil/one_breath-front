@@ -11,13 +11,8 @@ import Helmet from "react-helmet";
 import AboutPartner from "../components/about-partner";
 import styles from "../components/about-partner.module.css";
 import Headline from "../components/headline";
-import aah from "../../public/assets/img/aah.png";
-import edf from "../../public/assets/img/edf.png";
-import pc from "../../public/assets/img/pc.png";
-import et from "../../public/assets/img/et.jpg";
-import eip from "../../public/assets/img/eip.png";
-import rice from "../../public/assets/img/rice.png";
-import ogImage from "../../public/assets/img/og.jpg";
+
+import ogImage from "../assets/img/og.jpg";
 
 import { responsiveTitle1 } from "../components/typography.module.css";
 

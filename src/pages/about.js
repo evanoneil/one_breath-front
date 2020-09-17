@@ -1,6 +1,6 @@
 import React from 'react'
-import {graphql} from 'gatsby'
-import {mapEdgesToNodes} from '../lib/helpers'
+import { graphql } from 'gatsby'
+import { mapEdgesToNodes } from '../lib/helpers'
 import BlogPostPreviewGrid from '../components/blog-post-preview-grid'
 import NewsroomPreviewGrid from '../components/newsroom-preview-grid'
 import Container from '../components/container'
@@ -11,15 +11,15 @@ import Helmet from 'react-helmet'
 import AboutPartner from '../components/about-partner'
 import styles from '../components/about-partner.module.css'
 import Headline from '../components/headline'
-import aah from '../../public/assets/img/aah.png'
-import edf from '../../public/assets/img/edf.png'
-import pc from '../../public/assets/img/pc.png'
-import et from '../../public/assets/img/et.jpg'
-import eip from '../../public/assets/img/eip.png'
-import rice from '../../public/assets/img/rice.png'
-import ogImage from '../../public/assets/img/og.jpg'
+import aah from '../assets/img/aah.png'
+import edf from '../assets/img/edf.png'
+import pc from '../assets/img/pc.png'
+import et from '../assets/img/et.jpg'
+import eip from '../assets/img/eip.png'
+import rice from '../assets/img/rice.png'
+import ogImage from '../assets/img/og.jpg'
 
-import {responsiveTitle1} from '../components/typography.module.css'
+import { responsiveTitle1 } from '../components/typography.module.css'
 
 export const query = graphql`
   query AboutPageQuery {
@@ -33,7 +33,7 @@ export const query = graphql`
 `
 
 const AboutPage = props => {
-  const {data, errors} = props
+  const { data, errors } = props
 
   if (errors) {
     return (

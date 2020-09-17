@@ -1,12 +1,12 @@
-import {Link} from 'gatsby'
+import { Link } from 'gatsby'
 import React from 'react'
 import Icon from './icon'
-import {cn} from '../lib/helpers'
+import { cn } from '../lib/helpers'
 
 import '../layouts/tachyons/css/tachyons.css'
 import '../layouts/custom.css'
 
-import logoFade from '../../public/assets/img/main.png'
+import logoFade from '../assets/img/main.png'
 
 const headline = props => (
   <div className='flex flex-wrap'>

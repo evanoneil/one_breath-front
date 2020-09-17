@@ -2,12 +2,12 @@ import { Link } from "gatsby";
 import React from "react";
 import Icon from "./icon";
 import { cn } from "../lib/helpers";
-import aah from "../../public/assets/img/aah.png";
-import edf from "../../public/assets/img/edf.png";
-import pc from "../../public/assets/img/pc.png";
-import et from "../../public/assets/img/et.jpg";
-import eip from "../../public/assets/img/eip.png";
-import rice from "../../public/assets/img/rice.png";
+import aah from "../assets/img/aah.png";
+import edf from "../assets/img/edf.png";
+import pc from "../assets/img/pc.png";
+import et from "../assets/img/et.jpg";
+import eip from "../assets/img/eip.png";
+import rice from "../assets/img/rice.png";
 
 import styles from "./partners.module.css";
 

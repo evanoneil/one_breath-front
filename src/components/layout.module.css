@@ -5,32 +5,32 @@
 
 @font-face {
   font-family: GT-America-Bold;
-  src: url("../../public/assets/type/GT-America-Standard-Bold.eot");
-  src: url("../../public/assets/type/GT-America-Standard-Bold.eot?#iefix")
+  src: url("../assets/type/GT-America-Standard-Bold.eot");
+  src: url("../assets/type/GT-America-Standard-Bold.eot?#iefix")
       format("embedded-opentype"),
-    url("../../public/assets/type/GT-America-Standard-Bold.woff2") format("woff2"),
-    url("../../public/assets/type/GT-America-Standard-Bold.woff") format("woff"),
-    url("../../public/assets/type/GT-America-Standard-Bold.ttf") format("truetype");
+    url("../assets/type/GT-America-Standard-Bold.woff2") format("woff2"),
+    url("../assets/type/GT-America-Standard-Bold.woff") format("woff"),
+    url("../assets/type/GT-America-Standard-Bold.ttf") format("truetype");
 }
 
 @font-face {
   font-family: GT-America-Regular;
-  src: url("../../public/assets/type/GT-America-Standard-Regular.eot");
-  src: url("../../public/assets/type/GT-America-Standard-Regular.eot?#iefix")
+  src: url("../assets/type/GT-America-Standard-Regular.eot");
+  src: url("../assets/type/GT-America-Standard-Regular.eot?#iefix")
       format("embedded-opentype"),
-    url("../../public/assets/type/GT-America-Standard-Regular.woff2") format("woff2"),
-    url("../../public/assets/type/GT-America-Standard-Regular.woff") format("woff"),
-    url("../../public/assets/type/GT-America-Standard-Regular.ttf") format("truetype");
+    url("../assets/type/GT-America-Standard-Regular.woff2") format("woff2"),
+    url("../assets/type/GT-America-Standard-Regular.woff") format("woff"),
+    url("../assets/type/GT-America-Standard-Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: GT-America-Mono;
-  src: url("../../public/assets/type/GT-America-Mono-Regular.eot");
-  src: url("../../public/assets/type/GT-America-Mono-Regular.eot?#iefix")
+  src: url("../assets/type/GT-America-Mono-Regular.eot");
+  src: url("../assets/type/GT-America-Mono-Regular.eot?#iefix")
       format("embedded-opentype"),
-    url("../../public/assets/type/GT-America-Mono-Regular.woff2") format("woff2"),
-    url("../../public/assets/type/GT-America-Mono-Regular.woff") format("woff"),
-    url("../../public/assets/type/GT-America-Mono-Regular.ttf") format("truetype");
+    url("../assets/type/GT-America-Mono-Regular.woff2") format("woff2"),
+    url("../assets/type/GT-America-Mono-Regular.woff") format("woff"),
+    url("../assets/type/GT-America-Mono-Regular.ttf") format("truetype");
 }
 
 .content {

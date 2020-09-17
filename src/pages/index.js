@@ -18,7 +18,7 @@ import YouTubeHighlight from '../components/youtube-highlight'
 import SignUp from '../components/sign-up'
 import Partners from '../components/partners'
 import Helmet from 'react-helmet'
-import ogImage from '../../public/assets/img/og.jpg'
+import ogImage from '../assets/img/og.jpg'
 
 export const query = graphql`
   fragment SanityImage on SanityMainImage {

@@ -2,7 +2,7 @@ import { Link } from "gatsby";
 import React from "react";
 import Icon from "./icon";
 import { cn } from "../lib/helpers";
-import logo from "../../public/assets/img/onebreath_logo.png";
+import logo from "../assets/img/onebreath_logo.png";
 import Helmet from "react-helmet";
 import styles from "./header.module.css";
 

@@ -2,7 +2,7 @@ import { Link } from "gatsby";
 import React from "react";
 import Icon from "./icon";
 import { cn } from "../lib/helpers";
-import Highlight01 from "../../public/assets/img/highlight_01.jpg";
+import Highlight01 from "../assets/img/highlight_01.jpg";
 
 
 import styles from "./partner-highlight-01.module.css";

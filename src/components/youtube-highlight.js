@@ -1,8 +1,8 @@
-import {Link} from 'gatsby'
+import { Link } from 'gatsby'
 import React from 'react'
 import Icon from './icon'
-import {cn} from '../lib/helpers'
-import Caldwell from '../../public/assets/img/caldwell.jpg'
+import { cn } from '../lib/helpers'
+import Caldwell from '../assets/img/caldwell.jpg'
 
 import styles from './youtube-highlight.module.css'
 

@@ -1,5 +1,5 @@
 .lefthighlight {
-  background: url(../../public/assets/img/petition_highlight.jpg) 0 0 no-repeat;
+  background: url(../assets/img/petition_highlight.jpg) 0 0 no-repeat;
   background-size: cover;
   overflow: hidden;
   color: #ffffff;
@@ -20,7 +20,7 @@
 }
 
 .interiortext {
-  background: url(../../public/assets/img/coastal_breeze.jpg) 0 0 no-repeat;
+  background: url(../assets/img/coastal_breeze.jpg) 0 0 no-repeat;
   overflow: hidden;
   height: 100%;
   width: 100%;
