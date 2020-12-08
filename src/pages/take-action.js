@@ -88,8 +88,7 @@ const TakeActionPage = props => {
 
       <Container>
         <div>
-    <div id='can-petition-area-the-ship-channel-dredging-project-should-not-burden-houston-with-even-more-toxic-pollution'
-    style='width: 600px'></div>
+    <div id='can-petition-area-the-ship-channel-dredging-project-should-not-burden-houston-with-even-more-toxic-pollution'></div>
         </div>
       </Container>
     </Layout>
