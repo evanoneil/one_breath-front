@@ -85,7 +85,7 @@ const TakeActionPage = props => {
 <link href='https://actionnetwork.org/css/style-embed-v3.css' rel='stylesheet' type='text/css' />
 <script
     src='https://actionnetwork.org/widgets/v3/petition/the-ship-channel-dredging-project-should-not-burden-houston-with-even-more-toxic-pollution?format=js&source=widget&style=full'></script>
-
+</Helmet>
       <Container>
         <div>
     <div id='can-petition-area-the-ship-channel-dredging-project-should-not-burden-houston-with-even-more-toxic-pollution'></div>
