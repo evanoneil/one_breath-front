@@ -131,9 +131,9 @@ const ERPage = props => {
     <Layout>
       <Helmet>
         <title>One Breath Partnership</title>
-        <meta property='title' content='One Breath Partnership' />
+        <meta property='title' content='Environmental Racism - One Breath Partnership' />
 
-        <meta property='og:title' content='One Breath Partnership' />
+        <meta property='og:title' content='Environmental Racism - One Breath Partnership' />
         <meta name='description' content={description} />
         <meta name='image' content={image} />
         <meta name='og:image' content={image} />
@@ -141,7 +141,7 @@ const ERPage = props => {
         <meta name='twitter:title' content='One Breath Partnership' />
         <meta name='twitter:card' content='summary_large_image' />
         <meta name='twitter:creator' content='@onebreathhou' />
-        <meta name='twitter:description' content={description} />
+        <meta name='twitter:description' content="Join us for an online screening of Again, Together: The Cumulative Impacts of Environmental Racism in Houston by Ronald L. Jones." />
         <meta name='twitter:image' content={image} />
       </Helmet>
       {/* <Headline title={description} /> */}
