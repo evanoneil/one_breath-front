@@ -98,7 +98,7 @@ export const query = graphql`
   }
 `
 
-const image = `https://onebreathhou.org${ogImage}`
+const image = `https://onebreathhou.org${Invite}`
 
 const ERPage = props => {
   const { data, errors } = props
@@ -136,13 +136,13 @@ const ERPage = props => {
         <meta property='og:title' content='One Breath Partnership' />
         <meta name='description' content={description} />
         <meta name='image' content={image} />
-        <meta name='og:image' content={Invite} />
+        <meta name='og:image' content={image} />
 
         <meta name='twitter:title' content='One Breath Partnership' />
         <meta name='twitter:card' content='summary_large_image' />
         <meta name='twitter:creator' content='@onebreathhou' />
         <meta name='twitter:description' content={description} />
-        <meta name='twitter:image' content={Invite} />
+        <meta name='twitter:image' content={image} />
       </Helmet>
       {/* <Headline title={description} /> */}
       {/* <SEO title={site.title} description={site.description} keywords={site.keywords} /> */}
