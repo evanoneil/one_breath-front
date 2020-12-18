@@ -163,9 +163,9 @@ const ERPage = props => {
 </div>        
 <div className="mb2">
 
-        <p>Again, Together is a film created in Partnership with Ronald L. Jones, bringing stories from communities across Houston that have been impacted by environmental racism - namely redlining, segregation, underinvestment, exposure to pollution, gentrification, inequitable disas- ter recovery resources, and freeway development.</p>
+        <p>Again, Together is a film created in Partnership with <a href="https://ronaldljones.com/" class="b blue" target="_blank">Ronald L. Jones</a>, bringing stories from communities across Houston that have been impacted by environmental racism - namely redlining, segregation, underinvestment, exposure to pollution, gentrification, inequitable disaster recovery resources, and freeway development.</p>
 <p>
-  Join us on December 16th for an online screening and panel discussion.</p>
+  Join us on January 21st for an online screening and panel discussion.</p>
   </div>
   <div className="tc  mb4">
 
