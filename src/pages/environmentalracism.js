@@ -163,9 +163,9 @@ const ERPage = props => {
 </div>        
 <div className="mb2">
 
-        <p>Again, Together is a film created in Partnership with <a href="https://ronaldljones.com/" class="b blue" target="_blank">Ronald L. Jones</a>, bringing stories from communities across Houston that have been impacted by environmental racism - namely redlining, segregation, underinvestment, exposure to pollution, gentrification, inequitable disaster recovery resources, and freeway development.</p>
+        <p>"Again, Together" is a film created in partnership with <a href="https://ronaldljones.com/" class="b blue" target="_blank">Ronald L. Jones</a>, bringing stories from communities across Houston that have been impacted by environmental racism — namely redlining, segregation, underinvestment, exposure to pollution, gentrification, inequitable disaster recovery resources and freeway development.</p>
 <p>
-  Join us on January 21st for an online screening and panel discussion.</p>
+Join us January 21 for an online screening and panel discussion.</p>
   </div>
   <div className="tc  mb4">
 
@@ -180,6 +180,9 @@ const ERPage = props => {
         <div className="tc mb-4">
 
         <img class="w-80 " src={Redlining} />
+        </div>        
+<div className="mb2">
+        <p>Redlining helped create the conditions for white flight to suburbs and a lack of investment in neighborhoods where people of color lived. In addition to starving neighborhoods of important services and access to credit, systematic segregation depressed land values, making it easy for poorly regulated polluting industries to set up shop or continue to expand in neighborhoods such as Fifth Ward and Kashmere Gardens.</p>
         </div>
         </div>
         {postNodes && <ERPostPreviewGrid nodes={postNodes} />}
