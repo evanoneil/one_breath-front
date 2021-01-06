@@ -85,7 +85,9 @@ const TakeActionPage = props => {
 <link href='https://actionnetwork.org/css/style-embed-v3.css' rel='stylesheet' type='text/css' /><script src='https://actionnetwork.org/widgets/v3/petition/tceq-must-change-the-plan-to-reduce-haze-pollution-in-texas?format=js&source=widget&style=full'></script></Helmet>
       <Container>
         <div>
-<div id='can-petition-area-tceq-must-change-the-plan-to-reduce-haze-pollution-in-texas' style='width: 100%'><!-- this div is the target for our HTML insertion --></div>        </div>
+<div id='can-petition-area-tceq-must-change-the-plan-to-reduce-haze-pollution-in-texas' style='width: 100%'>
+    </div>        
+    </div>
       </Container>
     </Layout>
   )
