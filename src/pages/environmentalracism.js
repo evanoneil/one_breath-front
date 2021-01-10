@@ -20,7 +20,7 @@ import Partners from '../components/partners'
 import Helmet from 'react-helmet'
 import ogImage from '../assets/img/og.jpg'
 import Redlining from '../assets/img/redlining.jpg'
-import Invite from '../assets/img/invite-3.jpg'
+import Invite from '../assets/img/invite_f.jpg'
 
 export const query = graphql`
   fragment SanityImage on SanityMainImage {
