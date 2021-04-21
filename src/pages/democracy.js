@@ -159,11 +159,11 @@ const DemocracyPage = props => {
         <h1 className="green headline">Turnout for Texas</h1>
         <h2 className="darkgrey headline">Environmental Organizations Support Texans’ Right to Take Part in Democracy</h2>
 
-          <p class="f4">Texas just had one of the highest turnouts of voters in decades. House Bill 6 and Senate Bill 7 would keep that from happening again.
+          <p class="f4">Texas just had one of <a href="https://www.texastribune.org/2020/11/04/texas-voter-turnout-democrats/" target="_blank">the highest turnouts</a> of voters in decades. House Bill 6 and <a href="https://capitol.texas.gov/BillLookup/history.aspx?LegSess=87R&Bill=SB7" target="_blank">Senate Bill 7</a> would keep that from happening again.
 </p>
           <p class="f4">We, the undersigned organizations, believe our democracy works best when everyone is empowered to take part. These bills should not become law.
           </p>
-          <p class="f4">In 2020, despite the pandemic, in counties large and small, urban, rural and suburban, turnout rose. Starr County increased nearly 15 percent, and Hays County nearly 12 from the previous election. For the first time in 30 years, more than 70 percent of Travis County residents turned out. In Harris County, more people showed up to cast their ballots than in any previous election before early voting had even ended. Everywhere, more voters were able to make their voices heard, with extended early voting, expanded access to mail-in ballots, dropboxes, drive-through sites and more polling places, some with 24-hour access.
+          <p class="f4">In 2020, despite the pandemic, in counties large and small, urban, rural and suburban, turnout rose. Starr County increased nearly 15 percent, and Hays County nearly 12 from the previous election. For the first time in 30 years, more than 70 percent of Travis County residents turned out. In Harris County, <a href="https://www.houstonpublicmedia.org/articles/news/politics/election-2020/2020/10/29/385142/harris-county-surpasses-2016-voting-numbers-setting-new-turnout-record/" target="_blank">more people showed up to cast their ballots than in any previous election before early voting had even ended</a>. Everywhere, more voters were able to make their voices heard, with extended early voting, expanded access to mail-in ballots, dropboxes, drive-through sites and more polling places, some with 24-hour access.
           </p>
           <p class="f4">But some lawmakers propose restricting these very popular measures, while implementing others that could lead to voter intimidation, reinforcing a shameful history of disenfranchisement and systemic racism in Texas.
           </p>
