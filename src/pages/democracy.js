@@ -20,7 +20,7 @@ import Partners from '../components/partners'
 import Helmet from 'react-helmet'
 import ogImage from '../assets/img/og.jpg'
 import Redlining from '../assets/img/redlining.jpg'
-import Invite from '../assets/img/invite_f.jpg'
+import Invite from '../assets/img/turnout-og.jpg'
 
 export const query = graphql`
   fragment SanityImage on SanityMainImage {
@@ -156,8 +156,8 @@ const DemocracyPage = props => {
       <Container>
         {/* <PartnerHighlight /> */}
         <div class="w-75 center">
-        <h1 className="blue headline">Turnout for Texas</h1>
-        <h2 className="orange headline">Environmental Organizations Support Texans’ Right to Take Part in Democracy</h2>
+        <h1 className="green headline">Turnout for Texas</h1>
+        <h2 className="darkgrey headline">Environmental Organizations Support Texans’ Right to Take Part in Democracy</h2>
 
           <p class="f4">Texas just had one of the highest turnouts of voters in decades. House Bill 6 and Senate Bill 7 would keep that from happening again.
 </p>
