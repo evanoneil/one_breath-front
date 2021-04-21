@@ -45,7 +45,7 @@ export const query = graphql`
     }
   }
 
-  query ERPageQuery {
+  query DemocracyPageQuery {
     site: sanitySiteSettings(_id: {regex: "/(drafts.|)siteSettings/"}) {
       title
       description
