@@ -130,16 +130,15 @@ const DemocracyPage = props => {
   return (
     <Layout>
       <Helmet>
-        <title>Turnout for Texas - Environmental Organizations Support Texans’ Right to Take Part in Democracy</title>
-        <meta property='title' content='Turnout for Texas - Environmental Organizations Support Texans’ Right to Take Part in Democracy
-' />
+        <title>Turn Out for Texas - Environmental Organizations Support Texans’ Right to Take Part in Democracy</title>
+        <meta property='title' content='Turn Out for Texas - One Breath Partnership' />
 
-        <meta property='og:title' content='Turnout for Texas - Environmental Organizations Support Texans’ Right to Take Part in Democracy' />
+        <meta property='og:title' content="Turn Out for Texas - Environmental organizations support Texans' right to take part in democracy" />
         <meta name='description' content={description} />
         <meta name='image' content={image} />
         <meta name='og:image' content={image} />
 
-        <meta name='twitter:title' content='Turnout for Texas - Environmental Organizations Support Texans’ Right to Take Part in Democracy' />
+        <meta name='twitter:title' content="Turn Out for Texas - Environmental organizations support Texans' right to take part in democracy" />
         <meta name='twitter:card' content='summary_large_image' />
         <meta name='twitter:creator' content='@onebreathhou' />
         <meta name='twitter:description' content="Turnout for Texas - Environmental Organizations Support Texans’ Right to Take Part in Democracy" />
