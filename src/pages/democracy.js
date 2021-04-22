@@ -135,10 +135,9 @@ const DemocracyPage = props => {
 
         <meta property="og:title" content="Turn Out for Texas - Environmental organizations support Texans' right to take part in democracy" />
         <meta property="og:description" content="Texas should expand voting rights and make it easier, not harder, to make our voices heard." />
-        <meta name="og:description" content="Texas should expand voting rights and make it easier, not harder, to make our voices heard." />
-        <meta name="description" content="Texas should expand voting rights and make it easier, not harder, to make our voices heard." />
-        <meta name="image" content={image} />
-        <meta name="og:image" content={image} />
+        <meta property="description" content="Texas should expand voting rights and make it easier, not harder, to make our voices heard." />
+        <meta property="image" content={image} />
+        <meta property="og:image" content={image} />
 
         <meta name="twitter:title" content="Turn Out for Texas - Environmental organizations support Texans' right to take part in democracy" />
         <meta name="twitter:card" content='summary_large_image' />
