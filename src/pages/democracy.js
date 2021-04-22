@@ -138,7 +138,7 @@ const DemocracyPage = props => {
         <meta property="image" content={image} />
         <meta property="og:image" content={image} />
 
-        <meta name="twitter:title" content="Turn Out for Texas - Environmental organizations support Texans' right to take part in democracy" />
+        <meta name="twitter:title" content="Turn Out for Texas" />
         <meta name="twitter:card" content='summary_large_image' />
         <meta name="twitter:creator" content='@onebreathhou' />
         <meta name="twitter:description" content="Texas should expand voting rights and make it easier, not harder, to make our voices heard." />
