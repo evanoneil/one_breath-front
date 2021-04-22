@@ -133,17 +133,17 @@ const DemocracyPage = props => {
         <title>Turn Out for Texas - Environmental Organizations Support Texans’ Right to Take Part in Democracy</title>
         <meta property='title' content='Turn Out for Texas - One Breath Partnership' />
 
-        <meta property='og:title' content="Turn Out for Texas - Environmental organizations support Texans' right to take part in democracy" />
-        <meta name='og:description' content="Texas should expand voting rights and make it easier, not harder, to make our voices heard." />
-        <meta name='description' content="Texas should expand voting rights and make it easier, not harder, to make our voices heard." />
-        <meta name='image' content={image} />
-        <meta name='og:image' content={image} />
+        <meta property="og:title" content="Turn Out for Texas - Environmental organizations support Texans' right to take part in democracy" />
+        <meta name="og:description" content="Texas should expand voting rights and make it easier, not harder, to make our voices heard." />
+        <meta name="description" content="Texas should expand voting rights and make it easier, not harder, to make our voices heard." />
+        <meta name="image" content={image} />
+        <meta name="og:image" content={image} />
 
-        <meta name='twitter:title' content="Turn Out for Texas - Environmental organizations support Texans' right to take part in democracy" />
-        <meta name='twitter:card' content='summary_large_image' />
-        <meta name='twitter:creator' content='@onebreathhou' />
-        <meta name='twitter:description' content="Texas should expand voting rights and make it easier, not harder, to make our voices heard." />
-        <meta name='twitter:image' content={image} />
+        <meta name="twitter:title" content="Turn Out for Texas - Environmental organizations support Texans' right to take part in democracy" />
+        <meta name="twitter:card" content='summary_large_image' />
+        <meta name="twitter:creator" content='@onebreathhou' />
+        <meta name="twitter:description" content="Texas should expand voting rights and make it easier, not harder, to make our voices heard." />
+        <meta name="twitter:image" content={image} />
       </Helmet>
       {/* <Headline title={description} /> */}
       {/* <SEO title={site.title} description={site.description} keywords={site.keywords} /> */}
