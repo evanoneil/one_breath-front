@@ -161,19 +161,19 @@ const DemocracyPage = props => {
 
           <p class="f4">Texas just had one of <a class="blue" href="https://www.texastribune.org/2020/11/04/texas-voter-turnout-democrats/" target="_blank">the highest turnouts</a> of voters in decades. House Bill 6 and <a class="blue" href="https://capitol.texas.gov/BillLookup/history.aspx?LegSess=87R&Bill=SB7" target="_blank">Senate Bill 7</a> would keep that from happening again.
 </p>
-          <p class="f4">We, the undersigned organizations, believe our democracy works best when everyone is empowered to take part. <span class="bold">These bills should not become law.</span>
+          <p class="f4">We, the undersigned organizations, believe our democracy works best when everyone is empowered to take part. <span class="b">These bills should not become law.</span>
           </p>
           <p class="f4">In 2020, despite the pandemic, in counties large and small, urban, rural and suburban, turnout rose. Starr County increased nearly 15 percent, and Hays County nearly 12 from the previous election. For the first time in 30 years, more than 70 percent of Travis County residents turned out. In Harris County, <a class="blue" href="https://www.houstonpublicmedia.org/articles/news/politics/election-2020/2020/10/29/385142/harris-county-surpasses-2016-voting-numbers-setting-new-turnout-record/" target="_blank">more people showed up to cast their ballots than in any previous election before early voting had even ended</a>. Everywhere, more voters were able to make their voices heard, with extended early voting, expanded access to mail-in ballots, dropboxes, drive-through sites and more polling places, some with 24-hour access.
           </p>
-          <p class="f4">But some lawmakers propose restricting these very popular measures, while implementing others that could lead to voter intimidation, reinforcing <span class="bold">a shameful history of disenfranchisement and systemic racism in Texas.</span>
+          <p class="f4">But some lawmakers propose restricting these very popular measures, while implementing others that could lead to voter intimidation, reinforcing <span class="b">a shameful history of disenfranchisement and systemic racism in Texas.</span>
           </p>
           <p class="f4">There should be a direct line from every Texan’s home to the ballot box — that’s because there’s a direct line from there to the laws that shape the air we breathe, the water we drink and the places where we live, work, play and pray.
           </p>
-          <p class="f4"><span class="bold">Any attempt to restrict access to the ballot box is a violation of our constitutional right to shape those laws.</span> Some of the same communities — largely Black and Latino ones — who will be impacted most by these restrictions are the ones who have been targeted historically by polluting industries and denied the full protection of the law, while living with disproportionate impacts to their health and wealth.
+          <p class="f4"><span class="b">Any attempt to restrict access to the ballot box is a violation of our constitutional right to shape those laws.</span> Some of the same communities — largely Black and Latino ones — who will be impacted most by these restrictions are the ones who have been targeted historically by polluting industries and denied the full protection of the law, while living with disproportionate impacts to their health and wealth.
           </p>
-          <p class="f4">The 2020 election, as dozens of audits and court rulings determined, had integrity. <span class="bold">We believe our state and our country are stronger when our democracy includes everyone.</span> We stand together with all who are working to ensure that even more of us can make our voices heard and shape the future of our great state.
+          <p class="f4">The 2020 election, as dozens of audits and court rulings determined, had integrity. <span class="b">We believe our state and our country are stronger when our democracy includes everyone.</span> We stand together with all who are working to ensure that even more of us can make our voices heard and shape the future of our great state.
           </p>
-          <p class="f4 bold">Air Alliance Houston<br />
+          <p class="f4 b">Air Alliance Houston<br />
 Bayou City Waterkeeper<br />
 Coalition for Equity, Environment and Resilience<br />
 Clean Water Action<br />
