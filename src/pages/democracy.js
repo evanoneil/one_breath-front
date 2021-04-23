@@ -176,7 +176,6 @@ const DemocracyPage = props => {
 Bayou City Waterkeeper<br />
 Coalition for Equity, Environment and Resilience<br />
 Clean Water Action<br />
-Energy Foundation<br />
 Environmental Defense Fund<br />
 Environmental Integrity Project<br />
 Environment Texas<br />
