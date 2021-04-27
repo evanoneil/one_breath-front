@@ -174,19 +174,16 @@ const DemocracyPage = props => {
           </p>
           <p class="f4 b">Air Alliance Houston<br />
 Bayou City Waterkeeper<br />
-Coalition for Equity, Environment and Resilience<br />
 Clean Water Action<br />
 Environmental Defense Fund<br />
 Environmental Integrity Project<br />
-Environment Texas<br />
-League of Conservation Voters<br />
-    Moms Clean Air Force <br />
+Environment Texas<br />    
+Moms Clean Air Force <br />
 National Wildlife Federation<br />
 One Breath Partnership<br />
 Public Citizen Texas<br />
 Save Our Springs Alliance<br />
 Sierra Club, Lone Star<br />
-Texas Campaign for the Environment<br />
 Texas Center for Policy Studies<br />
 Turtle Island Restoration Network
 </p>
