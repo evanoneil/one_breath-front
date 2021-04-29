@@ -110,10 +110,10 @@ const AboutPage = props => {
               name='Air Alliance Houston'
               logo={aah}
               weblink='https://airalliancehouston.org/'
-              fblink='https://www.facebook.com/airalliancehouston/'
-              iglink='https://www.instagram.com/airalliancehouston/?hl=en'
-              twitterlink='https://twitter.com/airallianceHOU'
-              description='Air Alliance Houston envisions healthy
+              fblink='https://www.facebook.com/airallianceHOU/'
+              iglink='https://www.instagram.com/airallianceHOU/'
+              twitterlink='https://twitter.com/airallianceHOU/'
+              description='Air Alliance Houston envisions healthy 
             communities with clean air, every day, for everyone. We work to reduce the public health
             impacts from air pollution and advance environmental justice in our region through
             applied research, education and advocacy.'
