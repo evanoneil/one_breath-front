@@ -172,21 +172,26 @@ const DemocracyPage = props => {
           </p>
           <p class="f4">The 2020 election, as dozens of audits and court rulings determined, had integrity. <span class="b">We believe our state and our country are stronger when our democracy includes everyone.</span> We stand together with all who are working to ensure that even more of us can make our voices heard and shape the future of our great state.
           </p>
-          <p class="f4 b">Air Alliance Houston<br />
+          <p class="f4 b">Achieving Community Tasks Successfully<br />
+    Air Alliance Houston<br />
 Bayou City Waterkeeper<br />
 CEER<br />
 Chispa TX<br />
 Clean Water Action<br />
+Coalition of Community Organizations<br />
+    East Harris County Empowerment Council<br />
 Environmental Community Advocates of Galena Park<br />
 Environmental Defense Fund<br />
 Environmental Integrity Project<br />
 Environment Texas<br /> 
+Healthy Port Communities Coalition<br />
 Houston Climate Movement<br />
 Moms Clean Air Force <br />
 National Wildlife Federation<br />
 One Breath Partnership<br />
 Public Citizen Texas<br />
 Save Our Springs Alliance<br />
+    Sierra Club, Houston Group<br />
 Sierra Club, Lone Star<br />
 Sunnyside Community Redevelopment Organization<br />
 Texas Campaign for the Environment<br />
