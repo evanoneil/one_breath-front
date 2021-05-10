@@ -65,7 +65,7 @@ const TakeActionPage = props => {
 
   const postNodes = data && data.posts && mapEdgesToNodes(data.posts)
   const mediaNodes = data && data.media && mapEdgesToNodes(data.media)
-  const description = 'Living every day like an ozone action day.'
+  const description = 'Houston needs more state monitors for the most widespread air pollutant.'
   const image = `https://onebreathhou.org${ogImage}`
 
   return (
