@@ -65,7 +65,7 @@ const TakeActionAltPage = props => {
 
   const postNodes = data && data.posts && mapEdgesToNodes(data.posts)
   const mediaNodes = data && data.media && mapEdgesToNodes(data.media)
-  const description = 'Living every day like an ozone action day.'
+  const description = 'Houston’s Fifth Ward and Pleasantville need state air monitors.'
   const image = `https://onebreathhou.org${ogImage}`
 
   return (
