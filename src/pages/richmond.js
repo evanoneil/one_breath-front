@@ -11,7 +11,7 @@ import Helmet from 'react-helmet'
 import ogImage from '../assets/img/one_breath-petition-OG-feb2021.jpg'
 import { gsap } from '../assets/js/gsap-latest-beta.min.js';
 import { ScrollTrigger } from '../assets/js/ScrollTrigger.min.js';
-import { ArrowAnimation } from '../assets/js/script.js';
+
 
 
 
