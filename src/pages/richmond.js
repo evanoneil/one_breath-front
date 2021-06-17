@@ -9,8 +9,9 @@ import SEO from '../components/seo'
 import Layout from '../containers/layout'
 import Helmet from 'react-helmet'
 import ogImage from '../assets/img/one_breath-petition-OG-feb2021.jpg'
-import { gsap } from 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js?r=5426';
-import { ScrollTrigger } from 'https://assets.codepen.io/16327/ScrollTrigger.min.js';
+import { gsap } from '../assets/js/gsap-latest-beta.min.js';
+import { ScrollTrigger } from '../assets/js/ScrollTrigger.min.js';
+
 
 // Register ScrollTrigger
 gsap.registerPlugin(ScrollTrigger);
