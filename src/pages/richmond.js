@@ -11,7 +11,7 @@ import Helmet from 'react-helmet'
 import ogImage from '../assets/img/one_breath-petition-OG-feb2021.jpg'
 // import { gsap } from '../assets/js/gsap-latest-beta.min.js';
 // import { ScrollTrigger } from '../assets/js/ScrollTrigger.min.js';
-
+import AnimScript from '../assets/js/script.js'
 
 
 
@@ -91,9 +91,8 @@ const Richmond = props => {
         <meta name='twitter:description' content={description} />
         <meta name='twitter:image' content={image} />
 
-        <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js?r=5426'></script>
-<script src='https://assets.codepen.io/16327/ScrollTrigger.min.js'></script>
-<script  src="https://houston-arrow.netlify.app/script.js"></script>
+        <link rel='stylesheet' type='text/css' media='screen' href='https://houston-arrow.netlify.app/style.css' />
+
         </Helmet>
           
         <Container>
@@ -154,6 +153,7 @@ const Richmond = props => {
      
 </div>
 </article>
+<iframe src="https://houston-arrow.netlify.app/test.html"></iframe>
 
 <div class="content-container">
     <div class="left-content" >
