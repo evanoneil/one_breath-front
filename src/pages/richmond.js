@@ -155,7 +155,7 @@ const Richmond = props => {
 </article>
 <iframe class="fullframe" src="https://houston-arrow.netlify.app/test.html"></iframe>
 
-<div class="content-container">
+{/* <div class="content-container">
     <div class="left-content" >
     <img id="img1" class="imageToShow" src="https://houston-arrow.netlify.app/img/01-poverty.jpg" alt="Poverty" />
     <img id="img2" class="imageToShow" src="https://houston-arrow.netlify.app/img/03-college_ed.jpg" alt="College Ed" />
@@ -189,7 +189,7 @@ const Richmond = props => {
   <p class="contentMarker" data-marker-content="img7"><span class="title bg-red"> the Arrow.</span></p>
 
 </div>
-</div>
+</div> */}
 
 <div class="outer">
 <div class="inner"><br /><br /></div>
@@ -261,7 +261,6 @@ const Richmond = props => {
 
 </article>
     </Container>
-    <script src="../assets/js/script.js"></script>
 
     </Layout>
   )
