@@ -90,8 +90,7 @@ const Richmond = props => {
         <Container>
 
 <article>
-  <div class="vh-100 dt w-100 tc bg-dark-gray white cover"
-    style="background:red no-repeat center;">
+  <div class="vh-100 dt w-100 tc bg-dark-gray white cover">
     <div class="dtc v-mid">
      
       <h1 class="f1 f-headline-l b fw7 center white mh-auto ttu">Up and down on Richmond Avenue </h1>
@@ -149,7 +148,7 @@ const Richmond = props => {
 
 
 <div class="content-container">
-    <div class="left-content" style="max-width:100% !important; width:100% !important;">
+    <div class="left-content" >
     <img id="img1" class="imageToShow" src="https://houston-arrow.netlify.app/img/01-poverty.jpg" alt="Poverty" />
     <img id="img2" class="imageToShow" src="https://houston-arrow.netlify.app/img/03-college_ed.jpg" alt="College Ed" />
     <img id="img3" class="imageToShow" src="https://houston-arrow.netlify.app/img/04-TRI.jpg" alt="TRI" />
