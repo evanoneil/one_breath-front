@@ -264,6 +264,9 @@ const Richmond = props => {
 </article>
       </Container>
       <script src="../assets/js/script.js"></script>
+      <script src="../assets/js/ScrollTrigger.min.js"></script>
+<script src="../assets/js/gsap-latest-beta.min.js"></script>
+
     </Layout>
   )
 }
