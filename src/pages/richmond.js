@@ -9,14 +9,13 @@ import SEO from '../components/seo'
 import Layout from '../containers/layout'
 import Helmet from 'react-helmet'
 import ogImage from '../assets/img/one_breath-petition-OG-feb2021.jpg'
-import { gsap } from '../assets/js/gsap-latest-beta.min.js';
-import { ScrollTrigger } from '../assets/js/ScrollTrigger.min.js';
+// import { gsap } from '../assets/js/gsap-latest-beta.min.js';
+// import { ScrollTrigger } from '../assets/js/ScrollTrigger.min.js';
 
 
 
 
-// Register ScrollTrigger
-gsap.registerPlugin(ScrollTrigger);
+
 
 
 
@@ -262,11 +261,10 @@ const Richmond = props => {
     </div>
 
 </article>
-      </Container>
-      <script src="../assets/js/script.js"></script>
-      <script src="../assets/js/ScrollTrigger.min.js"></script>
-<script src="../assets/js/gsap-latest-beta.min.js"></script>
-
+    </Container>
+    <script src="../assets/js/script.js"></script>
+    <script src="../assets/js/ScrollTrigger.min.js"></script>
+    <script src="../assets/js/gsap-latest-beta.min.js"></script>
     </Layout>
   )
 }
