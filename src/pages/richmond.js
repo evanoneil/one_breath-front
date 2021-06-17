@@ -154,7 +154,6 @@ const Richmond = props => {
      
 </div>
 </article>
-<iframe src="https://houston-arrow.netlify.app/test.html"></iframe>
 
 <div class="content-container">
     <div class="left-content" >
