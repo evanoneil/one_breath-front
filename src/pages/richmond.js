@@ -8,10 +8,7 @@ import SEO from '../components/seo'
 import Layout from '../containers/layout'
 import Helmet from 'react-helmet'
 import ogImage from '../assets/img/one_breath-petition-OG-feb2021.jpg'
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { useRef, useEffect } from "react";
-import animation from '../assets/js/script.js'
+
 
 
 const Richmond = props => {
