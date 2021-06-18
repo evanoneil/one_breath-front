@@ -1,0 +1,103 @@
+.placeholder {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background: #fff;
+}
+
+.container {
+  position: relative;
+  z-index: 0;
+  height: 100vh;
+}
+
+.container__content {
+  padding-top: 30px;
+  text-align: center;
+	animation: fadeOutDown 1s both;
+
+  .container.is-active & {
+    animation: fadeInUp 1s both;
+  }
+}
+
+.panels {
+  //
+}
+
+.panels__item {
+  display: grid;
+  place-items: left;
+}
+
+.panels__item-bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+
+  .panels__item:nth-child(1) & {
+    background-image: url('https://houston-arrow.netlify.app/img/01-poverty.jpg');
+    background-position: center;
+  }
+
+  .panels__item:nth-child(2) & {
+    background-image: url('https://houston-arrow.netlify.app/img/03-college_ed.jpg');
+    background-position: center;
+
+  }
+
+  .panels__item:nth-child(3) & {
+    background-image: linear-gradient(#ccf, #fff);
+  }
+
+  .panels__item:nth-child(4) & {
+    background-image: linear-gradient(#ffc, #fff);
+  }
+
+  .panels__item:nth-child(n + 2) & {
+    opacity: 0;
+		transition: opacity 1s;
+  }
+
+  .panels__item:nth-child(n + 2).is-active & {
+    opacity: 1;
+  }
+}
+
+.panels__item-content {
+  padding-top: 50px;
+  padding-left:50px;
+	animation: fadeOutDown 1s both;
+
+  .panels__item.is-active & {
+    animation: fadeInUp 1s both;
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    visibility: hidden;
+    filter: blur(6px);
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  100% {
+    visibility: inherit;
+    filter: none;
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fadeOutDown {
+	100% {
+		visibility: hidden;
+		filter: blur(6px);
+		opacity: 0;
+		transform: translateY(10px);
+	}
+}
