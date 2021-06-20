@@ -55,27 +55,37 @@ const Landing = props => {
       </Helmet>
       <body>
         <article>
-          <div class="vh-100 dt w-100 tc bg-dark-gray white cover"
+          <div class="vh-100-ns vh-50 dt w-100 tc bg-dark-gray white cover"
             style={{
               backgroundImage: `url("https://houston-arrow.netlify.app/photo/header.jpg")`
             }}>
-            <div class="dtc v-btm">
+            <div class="dtc v-mid w-100 ">
+              {/* <h1 class="f1 f-subheadline-l b fw7 tl white mh-auto ttu animated fadeIn a1 d2 mb0">Up and down</h1>
+              <h1 class="f4 f-subheadline-l b fw7 tc white mh-auto ttu animated fadeIn a2 d3 mt0 mb0">on</h1>
+              <h1 class="f1 b fw7 tr white mh-auto ttu animated fadeIn a5 d4 mt0">Richmond Avenue</h1> */}
 
-              <h1 class="f1 f-headline-l b fw7 white mb0">The shape of Houston’s inequity</h1>
-              <blockquote class="ph0 mh0 measure f4 lh-copy center mb5">
-                <p class="fw1 white">
-                  What the ‘Houston Arrow’ reveals about this godforsaken land</p>
-                <cite class="f6 ttu tracked fs-normal">A 4 PART SERIES BY LEAH BINKOVITZ</cite>
-              </blockquote>
+              <p class="f1 center f-headline-l b fw1 white mb0 ttu tl fade mb0 mt0">The shape of</p>
+              <p class="f1 center f-headline-l b fw1 white mb0 ttu tr fade mb0 mt0">→ Houston’s </p>
+              <p class="f1 center f-headline-l b fw1 white mb0 ttu tl fade mb5 mt0">inequity</p>
             </div>
+
+          </div>
+          <div class="w-100">
+            <blockquote class="ph0 mh0 mv0 w-100 pv3 ph2 f4-ns f5 lh-copy center bg-dark-gray fade b--none">
+              <p class="fw1 white tc center mt0">
+                What the ‘Houston Arrow’ reveals about this godforsaken land</p>
+              <center>
+                <cite class="f6 ttu tracked fs-normal center white">A 4 PART SERIES BY LEAH BINKOVITZ</cite>
+              </center>
+            </blockquote>
           </div>
 
           <section class="mw7 center mt5">
             <article class="bt bb b--black-10">
-              <a class="db pv4 ph3 ph0-l no-underline black dim" href="1.html">
+              <a class="db pv4 ph3 ph0-l no-underline black dim" href="./houston-arrow-1-up_and_down_on_richmond">
                 <div class="flex flex-column flex-row-ns">
                   <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-                    <img src="photo/richmond.jpg" class="db" alt="Driving down Richmond Ave" />
+                    <img src="https://houston-arrow.netlify.app/photo/richmond.jpg" class="db" alt="Driving down Richmond Ave" />
                   </div>
                   <div class="w-100 w-60-ns pl3-ns">
                     <p class="f6 lh-copy mv0">PART 1</p>
@@ -94,10 +104,10 @@ const Landing = props => {
             </article>
 
             <article class="bb b--black-10">
-              <a class="db pv4 ph3 ph0-l no-underline black dim" href="#0">
+              <a class="db pv4 ph3 ph0-l no-underline black dim" href="./houston-arrow-2-a_home_for_the_ruling_class">
                 <div class="flex flex-column flex-row-ns">
                   <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-                    <img src="photo/white-men.png" class="db" alt="White Men" />
+                    <img src="https://houston-arrow.netlify.app/photo/white-men.png" class="db" alt="White Men" />
                   </div>
                   <div class="w-100 w-60-ns pl3-ns">
                     <p class="f6 lh-copy mv0">PART 2</p>
@@ -106,7 +116,7 @@ const Landing = props => {
                     <p class="f6 f5-l lh-copy">
                       In the early 1920s, when River Oaks was still largely a paper promise, advertisements in the Houston Chronicle enticed buyers to consider the up-and-coming development anchored around a private country club. Sellers promised River Oaks would be “highly restricted and in the very heart of the most rapid and extensive improvements imaginable.”
                     </p>
-                    <p class="f6 lh-copy mv0">By Leah Binkovitz</p>
+                    <p class="f6 lh-copy mv0">Read Article →</p>
                   </div>
                 </div>
               </a>
@@ -116,7 +126,7 @@ const Landing = props => {
               <a class="db pv4 ph3 ph0-l no-underline black dim" href="#0">
                 <div class="flex flex-column flex-row-ns">
                   <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-                    <img src="photo/porch.jpg" class="db" alt="Driving down Richmond Ave" />
+                    <img src="https://houston-arrow.netlify.app/photo/porch.jpg" class="db" alt="Driving down Richmond Ave" />
                   </div>
                   <div class="w-100 w-60-ns pl3-ns">
                     <p class="f6 lh-copy mv0">PART 3</p>
@@ -127,7 +137,7 @@ const Landing = props => {
                       Traveling north from the high-speed commercial vein of Richmond, past the shining metal Montrose District signs, you can see what remains of Freedmen’s Town. Streets like Andrews are narrow and intimate, with worn red bricks and hasty patches of asphalt. Like the bricks, modest, working-class bungalows and cottages from the century before are scattered amid brand-new housing two or three stories taller with street-facing garages like mouths waiting to gobble what’s left.
 
                     </p>
-                    <p class="f6 lh-copy mv0">By Leah Binkovitz</p>
+                    <p class="f6 lh-copy mv0">Read Article →</p>
                   </div>
                 </div>
               </a>
@@ -137,7 +147,7 @@ const Landing = props => {
               <a class="db pv4 ph3 ph0-l no-underline black dim" href="#0">
                 <div class="flex flex-column flex-row-ns">
                   <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-                    <img src="photo/freedmens-town.jpg" class="db" alt="Driving down Richmond Ave" />
+                    <img src="https://houston-arrow.netlify.app/photo/freedmens-town.jpg" class="db" alt="Driving down Richmond Ave" />
                   </div>
                   <div class="w-100 w-60-ns pl3-ns">
                     <p class="f6 lh-copy mv0">NOT THE FINAL PART</p>
@@ -147,7 +157,7 @@ const Landing = props => {
                       Capitalism does not just create disadvantage but takes advantage of, as University of California, Santa Barbara professor George Lipsitz writes on the history of Houston’s “white racial cartel.” The goal is not to create a uniform landscape modeled on white spaces reliant on extraction and accumulation, but for newly imagined spatial orders where value is not derived from a market that never intends to value human life equally.
 
                     </p>
-                    <p class="f6 lh-copy mv0">By Leah Binkovitz</p>
+                    <p class="f6 lh-copy mv0">Read Article →</p>
                   </div>
                 </div>
               </a>
