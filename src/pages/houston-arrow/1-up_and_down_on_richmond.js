@@ -1,14 +1,13 @@
 import React, { useEffect } from 'react';
 import { Scrollama, Step } from 'react-scrollama';
-import { mapEdgesToNodes } from '../lib/helpers'
+import { mapEdgesToNodes } from '../../lib/helpers'
 
-import Container from '../components/container'
-import GraphQLErrorList from '../components/graphql-error-list'
-import SEO from '../components/seo'
-import Layout from '../containers/layout'
+import GraphQLErrorList from '../../components/graphql-error-list'
+import SEO from '../../components/seo'
+import Layout from '../../containers/layout'
 import Helmet from 'react-helmet'
-import ogImage from '../assets/img/one_breath-petition-OG-feb2021.jpg'
-import Demo from "./demo"
+import ogImage from '../../assets/img/one_breath-petition-OG-feb2021.jpg'
+import Demo from "../demo"
 
 
 const Richmond = props => {
