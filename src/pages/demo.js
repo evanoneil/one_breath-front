@@ -514,7 +514,7 @@ class Demo extends PureComponent {
                             </Step>
                             <Step data={classes.sticky10} key="10">
                                 <div className="step" >
-                                    <h3 class="tc bold pa2 bg-purple">you will see almost the same map of Houston —
+                                    <h3 class="tc bold pa2 bg-white purple">you will see almost the same map of Houston —
                                         <br />and on that map you will see...
                                     </h3>
                                 </div>
