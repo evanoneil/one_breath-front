@@ -11,7 +11,7 @@ import ogImage from '../assets/img/one_breath-petition-OG-feb2021.jpg'
 import Demo from "./demo"
 
 
-const Richmond = props => {
+const Landing = props => {
   const { data, errors } = props
 
   if (errors) {
