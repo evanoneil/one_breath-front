@@ -157,13 +157,13 @@ const Ruling = props => {
       <body><article>
 
         <div class="flex ph7 w-100 pv4 bg-green">
-          <div class="w-50-ns w-100 white">
+          <div class="w-50-l w-100 white">
             <p>
               Since at least 1913, the city had considered creating a continuous park along Buffalo Bayou, as outlined in a plan prepared by landscape architect Arthur Comey. That plan eventually inspired today’s Bayou Greenways project, building 150 miles of trails along six major waterways. In the original plan, “parking” the city with trees and vegetation was touted to help with flooding, but also drive up property values. “A broad taking should be made,” Comey’s plan reads. “Where the bayou banks were privately owned, they were poorly-maintained and depressed property values, whereas public ownership would have the opposite effect.”
             </p>
 
           </div>
-          <div class="w-50-ns w-100">
+          <div class="w-50-l w-100">
             <img class="pa3" src="https://houston-arrow.netlify.app/PDF/comey-plan.png" />
           </div>
         </div>
