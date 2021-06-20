@@ -229,12 +229,13 @@ const Richmond = props => {
               map to include clusters like the Arrow shows the limitations of this narrow framing. The so-called margins
               become load-bearing walls for the assumed center.
             </p>
+            <img src="https://houston-arrow.netlify.app/img/arrow-walls.png" class="w-100 fade"></img>
+
             <p>
 
               Challenging the structures that have built up and served the Arrow demands a full consideration of the city’s
               geographies of power.
             </p>
-            <img src="https://houston-arrow.netlify.app/img/arrow-walls.png" class="w-100 fade"></img>
             <p>
 
               And it reflects how these processes are embedded in and reliant on space.
