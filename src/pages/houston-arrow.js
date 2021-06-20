@@ -75,7 +75,7 @@ const Landing = props => {
               <p class="fw1 white tc center mt0">
                 What "The Houston Arrow’ reveals about the connections between government, development and the concentration of opportunity</p>
               <center>
-                <cite class="f6 ttu tracked fs-normal center white">A 4 PART SERIES BY LEAH BINKOVITZ</cite>
+                <cite class="f6 ttu tracked fs-normal center white">A 4 PART SERIES BY LEAH BINKOVITZ</cite><br />
                 <cite class="f6 ttu tracked fs-normal center white">MAPS AND DESIGN BY EVAN O'NEIL</cite>
 
               </center>
@@ -95,7 +95,7 @@ const Landing = props => {
                     <h1 class="f3 fw1  mt0 lh-title">Up and down on Richmond Avenue                </h1>
                     <p class="f6 f5-l lh-copy">
                       As it moves from west to east toward Third Ward, Richmond Avenue forms the rough southern boundary of a stubborn shape most map-minded Houstonians have come to know by heart. It is a corridor of change, allowing you to experience the Arrow.</p>
-                    <p class="f6 lh-copy mv0">Read Article →</p>
+                    <p class="f6 lh-copy mv0 fw7 dark-green">Read Article →</p>
                   </div>
                 </div>
               </a>
@@ -113,7 +113,7 @@ const Landing = props => {
                     <h1 class="f3 fw1  mt0 lh-title">A home for the ruling class</h1>
                     <p class="f6 f5-l lh-copy">
                       It wasn’t enough that River Oaks was deliberately exclusive of people who were not white. It also needed to reward those who could afford to buy in, which the city and private developers worked on hand in hand to all but guarantee. The rich got richer.                    </p>
-                    <p class="f5 lh-copy mv0 green fw7">Read Article →</p>
+                    <p class="f5 lh-copy mv0 dark-green fw7">Read Article →</p>
                   </div>
                 </div>
               </a>
@@ -133,7 +133,7 @@ const Landing = props => {
                     <p class="f6 f5-l lh-copy">
                       Being slowly pillaged by the same forces that guaranteed prosperity in other neighborhoods, Freedmen’s Town lies at the tip of the Arrow, where residents have worked tirelessly to build a community that knows its history and controls its future.
                     </p>
-                    <p class="f5 lh-copy mv0 green fw7">Read Article →</p>
+                    <p class="f5 lh-copy mv0 dark-green fw7">Read Article →</p>
                   </div>
                 </div>
               </a>
@@ -152,7 +152,7 @@ const Landing = props => {
                     <p class="f6 f5-l lh-copy">
                       Though the Arrow serves as a visual shorthand, there is more to Houston than can be mapped by traditional means and understood by conventional thinking. The Arrow tells a story of priorities that urgently requires new vision and action for equity.
                     </p>
-                    <p class="f5 lh-copy mv0 green fw7">Read Article →</p>
+                    <p class="f5 lh-copy mv0 dark-green fw7">Read Article →</p>
                   </div>
                 </div>
               </a>
