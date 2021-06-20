@@ -300,6 +300,20 @@ const styles = {
         // backgroundColor: '#f3f3f3',
         padding: '1rem',
     },
+    stepfirst: {
+        // height: '200vh',
+        // margin: '50vh 0',
+        // paddingTop: '50vh',
+        // paddingBottom: '50vh',
+        marginBottom: '75vh',
+        color: '#fff',
+        backgroundColor: 'black',
+        zIndex: '99',
+        marginLeft: 'auto',
+        marginRight: 'auto',
+        maxWidth: '20rem',
+        position: 'relative',
+    },
     step: {
         // height: '200vh',
         // margin: '50vh 0',
@@ -422,13 +436,13 @@ class Demo extends PureComponent {
 
 
                 <p className="bounce">↓</p>
+                {/* <br />
                 <br />
                 <br />
                 <br />
                 <br />
                 <br />
-                <br />
-                <br />
+                <br /> */}
                 <div className="graphicContainer">
 
                     {/* <div className={classes.scroller}> */}
