@@ -66,17 +66,18 @@ const Richmond = props => {
                 <h1 class="f4 f-subheadline-l b fw7 tc white mh-auto ttu animated fadeIn a2 d3 mt0 mb0">on</h1>
                 <h1 class="f1 b fw7 tr white mh-auto ttu animated fadeIn a5 d4 mt0">Richmond Avenue</h1>
               </div>
-
-              <blockquote class="ph0 mh0 measure f4 lh-copy center bg-dark-gray pv3 fade">
-                <p class="fw1 white mt0">
-                  Inequity's bottom edge </p>
-                <cite class="f6 ttu tracked fs-normal">By Leah Binkovitz</cite><br />
-                <cite class="f6 ttu tracked fs-normal">Maps by Evan O'Neil</cite>
-
-              </blockquote>
             </div>
           </div>
-
+          <div class="w-100">
+            <blockquote class="ph0 mh0 mv0 w-100 pv3 ph2 f4-ns f5 lh-copy center bg-dark-gray fade b--none">
+              <p class="fw1 white tc center mt0">
+                Inequity's bottom edge</p>
+              <center>
+                <cite class="f6 ttu tracked fs-normal center white">By Leah Binkovitz</cite><br />
+                <cite class="f6 ttu tracked fs-normal center white">Maps by Evan O'Neil</cite>
+              </center>
+            </blockquote>
+          </div>
           <div class="wrapper">
 
             {/* <div class="sidebar">
