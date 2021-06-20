@@ -1,0 +1,67 @@
+.stickything1 {
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    background-color: #8a8a8a;
+    z-index: 0;
+    top: 12.5vh;
+    height: 75vh;
+    /* Center everything inside */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: red;
+    /* background-image: url('images/mountains.jpg');
+    background-size: cover;
+    background-position: center center; */
+  }
+
+  .stickything2 {
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    z-index: 0;
+    top: 12.5vh;
+    height: 75vh;
+    /* Center everything inside */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: blue;
+    /* background-image: url('images/mountains.jpg');
+    background-size: cover;
+    background-position: center center; */
+  }
+
+  .sticky-thing p {
+    font-size: 8rem;
+    font-weight: 900;
+    color: #fff;
+  }
+
+  .step {
+    margin: 0 auto 2rem auto;
+    margin-bottom: 15rem;
+    color: #fff;
+    background-color: #1ec846a1;
+  }
+
+  .step:last-child {
+    margin-bottom: 0;
+  }
+
+  .step.is-active p {
+    background-color: rgb(124 225 148 / 80%);
+    color: #3b3b3b;
+  }
+
+  .step p {
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: #1ec846a1;
+  }
