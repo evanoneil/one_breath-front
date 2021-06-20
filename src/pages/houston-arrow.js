@@ -82,7 +82,7 @@ const Landing = props => {
 
           <section class="mw7 center mt5">
             <article class="bt bb b--black-10">
-              <a class="db pv4 ph3 ph0-l no-underline black dim" href="./houston-arrow/1-up_and_down_on_richmond">
+              <a class="db pv4 ph3 ph0-l no-underline black dim" href="./1-up_and_down_on_richmond">
                 <div class="flex flex-column flex-row-ns">
                   <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
                     <img src="https://houston-arrow.netlify.app/photo/richmond.jpg" class="db" alt="Driving down Richmond Ave" />
@@ -104,7 +104,7 @@ const Landing = props => {
             </article>
 
             <article class="bb b--black-10">
-              <a class="db pv4 ph3 ph0-l no-underline black dim" href="./houston-arrow/2-a_home_for_the_ruling_class">
+              <a class="db pv4 ph3 ph0-l no-underline black dim" href="./2-a_home_for_the_ruling_class">
                 <div class="flex flex-column flex-row-ns">
                   <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
                     <img src="https://houston-arrow.netlify.app/photo/white-men.png" class="db" alt="White Men" />
