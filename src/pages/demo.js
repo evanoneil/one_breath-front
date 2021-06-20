@@ -415,7 +415,7 @@ class Demo extends PureComponent {
 
                     <link rel='stylesheet' type='text/css' media='screen' href='https://houston-arrow.netlify.app/scrollama.css' />
                 </Helmet>
-                <p className={classes.description}>
+                <p className="description">
                     It’s a shape so distinct it has a name. “I think of Richmond as a way of experiencing the Arrow,” Middleton
                     says.
                 </p>
@@ -429,7 +429,7 @@ class Demo extends PureComponent {
                 <br />
                 <br />
                 <br />
-                <div className={classes.graphicContainer}>
+                <div className="graphicContainer">
 
                     {/* <div className={classes.scroller}> */}
 
@@ -448,65 +448,65 @@ class Demo extends PureComponent {
 
                         >
                             <Step data={classes.sticky1} key="1">
-                                <div className={classes.step} >
+                                <div className="step" >
                                     <h3 class="tc bold pa2 bg-purple">Whether you're looking at:</h3>
                                 </div>
                             </Step>
                             <Step data={classes.sticky2} key="2">
-                                <div className={classes.step} >
+                                <div className="step" >
                                     <h3 class="tc bold pa2 bg-black">Poverty Rate</h3>
 
                                 </div>
                             </Step>
                             <Step data={classes.sticky3} key="3">
-                                <div className={classes.step} >
+                                <div className="step" >
                                     <h3 class="tc bold pa2 bg-black">College Degree or Higher</h3>
 
                                 </div>
                             </Step>
                             <Step data={classes.sticky4} key="4">
-                                <div className={classes.step} >
+                                <div className="step" >
                                     <h3 class="tc bold pa2 bg-black">Toxic Release Facilities</h3>
 
                                 </div>
                             </Step>
                             <Step data={classes.sticky5} key="5">
-                                <div className={classes.step} >
+                                <div className="step" >
                                     <h3 class="tc bold pa2 bg-black">Median Home Value</h3>
                                 </div>
                             </Step>
                             <Step data={classes.sticky6} key="6">
-                                <div className={classes.step} >
+                                <div className="step" >
                                     <h3 class="tc bold pa2 bg-black">Solid Waste Facilities</h3>
 
                                 </div>
                             </Step>
                             <Step data={classes.sticky7} key="7">
-                                <div className={classes.step} >
+                                <div className="step" >
                                     <h3 class="tc bold pa2 bg-black">Childhood Asthma</h3>
 
                                 </div>
                             </Step>
                             <Step data={classes.sticky8} key="8">
-                                <div className={classes.step} >
+                                <div className="step" >
                                     <h3 class="tc bold pa2 bg-black">COVID Vaccinations</h3>
                                 </div>
                             </Step>
                             <Step data={classes.sticky9} key="9">
-                                <div className={classes.step} >
+                                <div className="step" >
                                     <h3 class="tc bold pa2 bg-black">White Population %</h3>
 
                                 </div>
                             </Step>
                             <Step data={classes.sticky10} key="10">
-                                <div className={classes.step} >
+                                <div className="step" >
                                     <h3 class="tc bold pa2 bg-purple">you will see almost the same map of Houston —
                                         <br />and on that map you will see...
                                     </h3>
                                 </div>
                             </Step>
                             <Step data={classes.sticky11} key="11">
-                                <div className={classes.stepfinal} >
+                                <div className="stepfinal" >
                                     <h3 class="tc bold pa2 bg-red">The Arrow.</h3>
                                 </div>
                             </Step>
