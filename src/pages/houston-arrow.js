@@ -75,7 +75,7 @@ const Landing = props => {
               <p class="fw1 white tc center mt0">
                 What "The Houston Arrow’ reveals about the connections between government, development and the concentration of opportunity</p>
               <center>
-                <cite class="f6 ttu tracked fs-normal center white">A 4 PART SERIES BY LEAH BINKOVITZ</cite><br />
+                <cite class="f6 ttu tracked fs-normal center white">A FOUR-PART SERIES BY LEAH BINKOVITZ</cite><br />
                 <cite class="f6 ttu tracked fs-normal center white">MAPS AND DESIGN BY EVAN O'NEIL</cite>
 
               </center>
@@ -90,7 +90,7 @@ const Landing = props => {
                     <img src="https://houston-arrow.netlify.app/photo/richmond-thumb.jpg" class="db" alt="Driving down Richmond Ave" />
                   </div>
                   <div class="w-100 w-60-ns pl3-ns">
-                    <p class="f6 lh-copy mv0">PART 1</p>
+                    <p class="f5 lh-copy mv0">PART 1</p>
 
                     <h1 class="f3 fw1  mt0 lh-title">Up and down on Richmond Avenue                </h1>
                     <p class="f6 f5-l lh-copy">
