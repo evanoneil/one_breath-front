@@ -468,54 +468,54 @@ class Demo extends PureComponent {
                             </Step>
                             <Step data={classes.sticky2} key="2">
                                 <div className="step" >
-                                    <h3 class="tc bold pa2 bg-black">Poverty Rate</h3>
+                                    <h3 class="tc bold pa2 bg-black">Poverty rate</h3>
 
                                 </div>
                             </Step>
                             <Step data={classes.sticky3} key="3">
                                 <div className="step" >
-                                    <h3 class="tc bold pa2 bg-black">College Degree or Higher</h3>
+                                    <h3 class="tc bold pa2 bg-black">College degree or higher</h3>
 
                                 </div>
                             </Step>
                             <Step data={classes.sticky4} key="4">
                                 <div className="step" >
-                                    <h3 class="tc bold pa2 bg-black">Toxic Release Facilities</h3>
+                                    <h3 class="tc bold pa2 bg-black">Facilities that handle harmful chemicals</h3>
 
                                 </div>
                             </Step>
                             <Step data={classes.sticky5} key="5">
                                 <div className="step" >
-                                    <h3 class="tc bold pa2 bg-black">Median Home Value</h3>
+                                    <h3 class="tc bold pa2 bg-black">Median home value</h3>
                                 </div>
                             </Step>
                             <Step data={classes.sticky6} key="6">
                                 <div className="step" >
-                                    <h3 class="tc bold pa2 bg-black">Solid Waste Facilities</h3>
+                                    <h3 class="tc bold pa2 bg-black">Solid waste facilities</h3>
 
                                 </div>
                             </Step>
                             <Step data={classes.sticky7} key="7">
                                 <div className="step" >
-                                    <h3 class="tc bold pa2 bg-black">Childhood Asthma</h3>
+                                    <h3 class="tc bold pa2 bg-black">Rates of childhood asthma</h3>
 
                                 </div>
                             </Step>
                             <Step data={classes.sticky8} key="8">
                                 <div className="step" >
-                                    <h3 class="tc bold pa2 bg-black">COVID Vaccinations</h3>
+                                    <h3 class="tc bold pa2 bg-black">Rates of COVID vaccinations</h3>
                                 </div>
                             </Step>
                             <Step data={classes.sticky9} key="9">
                                 <div className="step" >
-                                    <h3 class="tc bold pa2 bg-black">White Population %</h3>
+                                    <h3 class="tc bold pa2 bg-black">Percentage of white population</h3>
 
                                 </div>
                             </Step>
                             <Step data={classes.sticky10} key="10">
                                 <div className="step" >
                                     <h3 class="tc bold pa2 bg-white purple">you will see almost the same map of Houston —
-                                        <br />and on that map you will see...
+                                        <br />and on that map you will see ...
                                     </h3>
                                 </div>
                             </Step>

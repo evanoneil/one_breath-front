@@ -7,7 +7,7 @@ import GraphQLErrorList from '../components/graphql-error-list'
 import SEO from '../components/seo'
 import Layout from '../containers/layout'
 import Helmet from 'react-helmet'
-import ogImage from '../assets/img/one_breath-petition-OG-feb2021.jpg'
+import ogImage from '../assets/img/arrow-og.jpg'
 import Demo from "./demo"
 
 
@@ -24,7 +24,7 @@ const Landing = props => {
 
   const postNodes = data && data.posts && mapEdgesToNodes(data.posts)
   const mediaNodes = data && data.media && mapEdgesToNodes(data.media)
-  const description = 'Tell your representatives: It is time to protect Texans and make corporate polluters pay this #TxLege.'
+  const description = 'What "The Houston Arrow’ reveals about the connections between government, development and the concentration of opportunity'
   const image = `https://onebreathhou.org${ogImage}`
 
 
@@ -36,11 +36,11 @@ const Landing = props => {
       {/* <SEO title="HB 1820" /> */}
       <Helmet>
         <title>The Houston Arrow | One Breath Partnership</title>
-        <meta property='og:title' content='HB 1820 | One Breath Partnership' />
+        <meta property='og:title' content='The Houston Arrow - The shape of Houston`s Inequity | One Breath Partnership' />
         <meta name='description' content={description} />
         <meta name='image' content={image} />
         <meta name='og:image' content={image} />
-        <meta name='twitter:title' content='HB 1820 | One Breath Partnership' />
+        <meta name='twitter:title' content='The Houston Arrow - The shape of Houston`s Inequity | One Breath Partnership' />
         <meta name='twitter:card' content='summary_large_image' />
         <meta name='twitter:creator' content='@onebreathhou' />
         <meta name='twitter:description' content={description} />
@@ -82,7 +82,14 @@ const Landing = props => {
             </blockquote>
           </div>
 
-          <section class="mw7 center mt5">
+          <blockquote class="ph0 mh0 mv5 w-100 pv3 ph2 f4-ns f5 lh-copy center  fade b--none">
+            <p class="fw1 black tl center mt0">
+              Mapping almost anything in Houston, you end up with the same map, with a shape so persistent, so apparent, it's been given a name: The Arrow. How did the city take this shape? How has it held it? And how can we make Houston whole? This four-part series sets out to answer these questions.
+            </p>
+          </blockquote>
+
+
+          <section class="mw7 center mt2">
             <article class="bt bb b--black-10">
               <a class="db pv4 ph3 ph0-l no-underline black dim" href="./1-up_and_down_on_richmond">
                 <div class="flex flex-column flex-row-ns">
@@ -90,30 +97,30 @@ const Landing = props => {
                     <img src="https://houston-arrow.netlify.app/photo/richmond-thumb.jpg" class="db" alt="Driving down Richmond Ave" />
                   </div>
                   <div class="w-100 w-60-ns pl3-ns">
-                    <p class="f5 lh-copy mv0">PART 1</p>
+                    <h4 class="f7 lh-copy mv0">PART 1</h4>
 
                     <h1 class="f3 fw1  mt0 lh-title">Up and down on Richmond Avenue                </h1>
                     <p class="f6 f5-l lh-copy">
                       As it moves from west to east toward Third Ward, Richmond Avenue forms the rough southern boundary of a stubborn shape most map-minded Houstonians have come to know by heart. It is a corridor of change, allowing you to experience the Arrow.</p>
-                    <p class="f6 lh-copy mv0 fw7 dark-green">Read Article →</p>
+                    <p class="f5 lh-copy mv0 fw7 dark-green">Read Article →</p>
                   </div>
                 </div>
               </a>
             </article>
 
             <article class="bb b--black-10">
-              <a class="db pv4 ph3 ph0-l no-underline black dim" href="./2-a_home_for_the_ruling_class">
+              <a class="db pv4 ph3 ph0-l no-underline black dim" href="#">
                 <div class="flex flex-column flex-row-ns">
                   <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
                     <img src="https://houston-arrow.netlify.app/photo/white-men.png" class="db" alt="White Men" />
                   </div>
                   <div class="w-100 w-60-ns pl3-ns">
-                    <p class="f6 lh-copy mv0">PART 2</p>
+                    <h4 class="f7 lh-copy mv0">PART 2</h4>
 
                     <h1 class="f3 fw1  mt0 lh-title">A home for the ruling class</h1>
                     <p class="f6 f5-l lh-copy">
                       It wasn’t enough that River Oaks was deliberately exclusive of people who were not white. It also needed to reward those who could afford to buy in, which the city and private developers worked on hand in hand to all but guarantee. The rich got richer.                    </p>
-                    <p class="f5 lh-copy mv0 dark-green fw7">Read Article →</p>
+                    <p class="f5 lh-copy mv0 dark-green fw7">Read Article on 6/22→</p>
                   </div>
                 </div>
               </a>
@@ -126,14 +133,14 @@ const Landing = props => {
                     <img src="https://houston-arrow.netlify.app/photo/hardy-anderson-porch.jpg" class="db" alt="Driving down Richmond Ave" />
                   </div>
                   <div class="w-100 w-60-ns pl3-ns">
-                    <p class="f6 lh-copy mv0">PART 3</p>
+                    <h4 class="f7 lh-copy mv0">PART 3</h4>
 
                     <h1 class="f3 fw1  mt0 lh-title">From porches to townhomes
                     </h1>
                     <p class="f6 f5-l lh-copy">
                       Being slowly pillaged by the same forces that guaranteed prosperity in other neighborhoods, Freedmen’s Town lies at the tip of the Arrow, where residents have worked tirelessly to build a community that knows its history and controls its future.
                     </p>
-                    <p class="f5 lh-copy mv0 dark-green fw7">Read Article →</p>
+                    <p class="f5 lh-copy mv0 dark-green fw7">Read Article on 6/23→</p>
                   </div>
                 </div>
               </a>
@@ -146,13 +153,13 @@ const Landing = props => {
                     <img src="https://houston-arrow.netlify.app/photo/skyline.jpg" class="db" alt="Driving down Richmond Ave" />
                   </div>
                   <div class="w-100 w-60-ns pl3-ns">
-                    <p class="f6 lh-copy mv0">NOT THE FINAL PART</p>
+                    <h4 class="f7 lh-copy mv0">NOT THE FINAL PART</h4>
 
                     <h1 class="f3 fw1  mt0 lh-title">Moving beyond maps</h1>
                     <p class="f6 f5-l lh-copy">
                       Though the Arrow serves as a visual shorthand, there is more to Houston than can be mapped by traditional means and understood by conventional thinking. The Arrow tells a story of priorities that urgently requires new vision and action for equity.
                     </p>
-                    <p class="f5 lh-copy mv0 dark-green fw7">Read Article →</p>
+                    <p class="f5 lh-copy mv0 dark-green fw7">Read Article on 6/24→</p>
                   </div>
                 </div>
               </a>

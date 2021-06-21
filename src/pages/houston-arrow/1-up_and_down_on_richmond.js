@@ -6,7 +6,7 @@ import GraphQLErrorList from '../../components/graphql-error-list'
 import SEO from '../../components/seo'
 import Layout from '../../containers/layout'
 import Helmet from 'react-helmet'
-import ogImage from '../../assets/img/one_breath-petition-OG-feb2021.jpg'
+import ogImage from '../../assets/img/richmond-og.jpg'
 import Demo from "../demo"
 
 
@@ -23,7 +23,7 @@ const Richmond = props => {
 
   const postNodes = data && data.posts && mapEdgesToNodes(data.posts)
   const mediaNodes = data && data.media && mapEdgesToNodes(data.media)
-  const description = 'Tell your representatives: It is time to protect Texans and make corporate polluters pay this #TxLege.'
+  const description = 'A straight line that reveals where Houston’s priorities begin and end'
   const image = `https://onebreathhou.org${ogImage}`
 
 
@@ -34,8 +34,8 @@ const Richmond = props => {
     <Layout>
       {/* <SEO title="HB 1820" /> */}
       <Helmet>
-        <title>Richmond | One Breath Partnership</title>
-        <meta property='og:title' content='HB 1820 | One Breath Partnership' />
+        <title>Up and down on Richmond Avenue - Houston Arrow | One Breath Partnership</title>
+        <meta property='og:title' content='Up and down on Richmond Avenue - Houston Arrow | One Breath Partnership' />
         <meta name='description' content={description} />
         <meta name='image' content={image} />
         <meta name='og:image' content={image} />
@@ -61,16 +61,16 @@ const Richmond = props => {
             <div class="dtc v-mid ">
               <div class="w-75 center">
 
-                <h1 class="center f1 f-subheadline-l b fw7 tl white mh-auto ttu animated fadeIn a1 d2 mb0">Up and down</h1>
-                <h1 class="center f4 f-subheadline-l b fw7 tc white mh-auto ttu animated fadeIn a2 d3 mt0 mb0">on</h1>
-                <h1 class="center f1 b fw7 tr white mh-auto ttu animated fadeIn a5 d4 mt0">Richmond Avenue</h1>
+                <h1 class="center f1 f-subheadline-l fw3 tl white mh-auto ttu animated fadeIn a1 d2 mb0">Up and down</h1>
+                <h1 class="center f4 f-subheadline-l fw3 tc white mh-auto ttu animated fadeIn a2 d3 mt0 mb0">on</h1>
+                <h1 class="center f1 b fw3 tr white mh-auto ttu animated fadeIn a5 d4 mt0">Richmond Avenue</h1>
               </div>
             </div>
           </div>
           <div class="w-100">
             <blockquote class="ph0 mh0 mv0 w-100 pv3 ph2 f4-ns f5 lh-copy center bg-dark-gray fade b--none">
               <p class="fw1 white tc center mt0">
-                Inequity's bottom edge</p>
+                A straight line that reveals where Houston’s priorities begin and end</p>
               <center>
                 <cite class="f6 ttu tracked fs-normal center white">By Leah Binkovitz</cite><br />
                 <cite class="f6 ttu tracked fs-normal center white">Maps by Evan O'Neil</cite>
@@ -229,17 +229,18 @@ const Richmond = props => {
               map to include clusters like the Arrow shows the limitations of this narrow framing. The so-called margins
               become load-bearing walls for the assumed center.
             </p>
-            <img src="https://houston-arrow.netlify.app/img/arrow-walls.png" class="w-100 fade"></img>
 
             <p>
 
               Challenging the structures that have built up and served the Arrow demands a full consideration of the city’s
               geographies of power.
             </p>
-            <p>
-
-              And it reflects how these processes are embedded in and reliant on space.
-            </p>
+            <div class="ph0 mh0 mt4 w-100 pt3 ph2 f5-ns f6 lh-copy center bw3 fade bt b--black">
+              <p class="fw1 black tl center mt0 i">
+                Mapping almost anything in Houston, you end up with the same map, with a shape so persistent, so apparent, it's been given a name: The Arrow. How did the city take this shape? How has it held it? And how can we make Houston whole? This four-part series sets out to answer these questions.
+              </p>
+              <img class="mw3" src="https://houston-arrow.netlify.app/img/icon.png" />
+            </div>
           </div>
         </article>
         {/* 
@@ -258,7 +259,9 @@ const Richmond = props => {
 
 
       </body>
-
+      <center>
+        <img src="https://houston-arrow.netlify.app/img/arrow-walls.png" class="w-70 center"></img>
+      </center>
     </Layout >
   )
 
