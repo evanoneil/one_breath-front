@@ -36,7 +36,7 @@ const Landing = props => {
       {/* <SEO title="HB 1820" /> */}
       <Helmet>
         <title>The Houston Arrow → The shape of Houston`s Inequity | One Breath Partnership</title>
-        <meta property='og:title' content='The Houston Arrow → The shape of Houston`s Inequity | One Breath Partnership' />
+        <meta property='og:title' content='The Houston Arrow' />
         <meta name='description' content={description} />
         <meta name='image' content={image} />
         <meta name='og:image' content={image} />
@@ -108,7 +108,7 @@ const Landing = props => {
               </a>
             </article>
 
-            <article class="bb b--black-10">
+            <article class="bb b--black-10 0-70">
               <a class="db pv4 ph3 ph0-l no-underline black dim" href="#">
                 <div class="flex flex-column flex-row-ns">
                   <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
@@ -126,7 +126,7 @@ const Landing = props => {
               </a>
             </article>
 
-            <article class="bb b--black-10">
+            <article class="bb b--black-10 0-70">
               <a class="db pv4 ph3 ph0-l no-underline black dim" href="#0">
                 <div class="flex flex-column flex-row-ns">
                   <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
@@ -146,7 +146,7 @@ const Landing = props => {
               </a>
             </article>
 
-            <article class="bt bb b--black-10">
+            <article class="bt bb b--black-10 0-70">
               <a class="db pv4 ph3 ph0-l no-underline black dim" href="#0">
                 <div class="flex flex-column flex-row-ns">
                   <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
