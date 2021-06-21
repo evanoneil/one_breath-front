@@ -119,8 +119,6 @@ const Richmond = props => {
                   downtown along Richmond Avenue.
                 </p></blockquote>
               <p>
-                In her early years in Houston, Zoe Middleton’s commute would take her east toward downtown along Richmond Avenue.
-              </p><p>
                 That drive presented some of the many sides of the city, says Middleton, the Houston and Southeast Texas co-director for Texas Housers. “You see the whole state of buildings where people live,” she says, “these weird glass high-rises to single-family homes to multifamily that’s in need of a lot of attention and repair, and you see the difference in amenities.”
               </p><p>
                 You see Houston, in short.
