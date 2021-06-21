@@ -34,12 +34,12 @@ const Richmond = props => {
     <Layout>
       {/* <SEO title="HB 1820" /> */}
       <Helmet>
-        <title>Up and down on Richmond Avenue - Houston Arrow | One Breath Partnership</title>
-        <meta property='og:title' content='Up and down on Richmond Avenue - Houston Arrow | One Breath Partnership' />
+        <title>Up and down on Richmond Avenue → Houston Arrow | One Breath Partnership</title>
+        <meta property='og:title' content='Up and down on Richmond Avenue → The Houston Arrow | One Breath Partnership' />
         <meta name='description' content={description} />
         <meta name='image' content={image} />
         <meta name='og:image' content={image} />
-        <meta name='twitter:title' content='HB 1820 | One Breath Partnership' />
+        <meta name='twitter:title' content='Up and down on Richmond Avenue → The Houston Arrow | One Breath Partnership' />
         <meta name='twitter:card' content='summary_large_image' />
         <meta name='twitter:creator' content='@onebreathhou' />
         <meta name='twitter:description' content={description} />

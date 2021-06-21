@@ -35,12 +35,12 @@ const Landing = props => {
     <Layout>
       {/* <SEO title="HB 1820" /> */}
       <Helmet>
-        <title>The Houston Arrow | One Breath Partnership</title>
-        <meta property='og:title' content='The Houston Arrow - The shape of Houston`s Inequity | One Breath Partnership' />
+        <title>The Houston Arrow → The shape of Houston`s Inequity | One Breath Partnership</title>
+        <meta property='og:title' content='The Houston Arrow → The shape of Houston`s Inequity | One Breath Partnership' />
         <meta name='description' content={description} />
         <meta name='image' content={image} />
         <meta name='og:image' content={image} />
-        <meta name='twitter:title' content='The Houston Arrow - The shape of Houston`s Inequity | One Breath Partnership' />
+        <meta name='twitter:title' content='The Houston Arrow → The shape of Houston`s Inequity | One Breath Partnership' />
         <meta name='twitter:card' content='summary_large_image' />
         <meta name='twitter:creator' content='@onebreathhou' />
         <meta name='twitter:description' content={description} />
