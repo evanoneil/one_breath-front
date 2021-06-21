@@ -108,7 +108,7 @@ const Landing = props => {
               </a>
             </article>
 
-            <article class="bb b--black-10 0-70">
+            <article class="bb b--black-10 o-50">
               <a class="db pv4 ph3 ph0-l no-underline black dim" href="#">
                 <div class="flex flex-column flex-row-ns">
                   <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
@@ -126,7 +126,7 @@ const Landing = props => {
               </a>
             </article>
 
-            <article class="bb b--black-10 0-70">
+            <article class="bb b--black-10 o-50">
               <a class="db pv4 ph3 ph0-l no-underline black dim" href="#0">
                 <div class="flex flex-column flex-row-ns">
                   <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
@@ -146,7 +146,7 @@ const Landing = props => {
               </a>
             </article>
 
-            <article class="bt bb b--black-10 0-70">
+            <article class="bt bb b--black-10 o-50">
               <a class="db pv4 ph3 ph0-l no-underline black dim" href="#0">
                 <div class="flex flex-column flex-row-ns">
                   <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
