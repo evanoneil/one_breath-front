@@ -62,8 +62,8 @@ const Richmond = props => {
               <div class="w-75 center">
 
                 <h1 class="center f1 f-subheadline-l fw3 tl white mh-auto ttu animated fadeIn a1 d2 mb0">Up and down</h1>
-                <h1 class="center f4 f-subheadline-l fw3 tc white mh-auto ttu animated fadeIn a2 d3 mt0 mb0">on</h1>
-                <h1 class="center f1 b fw3 tr white mh-auto ttu animated fadeIn a5 d4 mt0">Richmond Avenue</h1>
+                <h1 class="center f4 f-subheadline-l fw3 tc white mh-auto ttu animated fadeIn a2 d3 mt0 mb0">→ on</h1>
+                <h1 class="center f1 b fw3 tr white mh-auto ttu animated fadeIn a5 d4 mt0">Richmond Avenue →</h1>
               </div>
             </div>
           </div>
