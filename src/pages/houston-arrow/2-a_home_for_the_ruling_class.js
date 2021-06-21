@@ -61,9 +61,9 @@ const Ruling = props => {
             <div class="dtc v-mid ">
               <div class="w-75 center">
 
-                <h1 class="center f1 f-subheadline-l b fw7 tl white mh-auto ttu animated fadeIn a1 d2 mb0">A Home</h1>
-                <h1 class="center f4 f-subheadline-l b fw7 tc white mh-auto ttu animated fadeIn a2 d3 mt0 mb0">for the</h1>
-                <h1 class="center f1 b fw7 tr white mh-auto ttu animated fadeIn a5 d4 mt0">Ruling Class</h1>
+                <h1 style={{ fontFamily: 'GT-America-Regular' }} class="center f1 f-subheadline-l b fw7 tl white mh-auto ttu animated fadeIn a1 d2 mb0">A Home →</h1>
+                <h1 style={{ fontFamily: 'GT-America-Regular' }} class="center f4 f-subheadline-l b fw7 tc white mh-auto ttu animated fadeIn a2 d3 mt0 mb0">for the →</h1>
+                <h1 style={{ fontFamily: 'GT-America-Regular' }} class="center f1 b fw7 tr white mh-auto ttu animated fadeIn a5 d4 mt0">→ Ruling Class</h1>
               </div>
 
 
