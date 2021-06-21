@@ -7,7 +7,7 @@ import GraphQLErrorList from '../components/graphql-error-list'
 import SEO from '../components/seo'
 import Layout from '../containers/layout'
 import Helmet from 'react-helmet'
-import ogImage from '../assets/img/arrow-og.jpg'
+import ogImage from '../assets/img/arrow-og-bw.jpg'
 import Demo from "./demo"
 
 
@@ -36,11 +36,11 @@ const Landing = props => {
       {/* <SEO title="HB 1820" /> */}
       <Helmet>
         <title>The Houston Arrow → The shape of Houston`s Inequity | One Breath Partnership</title>
-        <meta property='og:title' content='The Houston Arrow' />
+        <meta property='og:title' content='The Houston Arrow | The shape of the city`s inequity' />
         <meta name='description' content={description} />
         <meta name='image' content={image} />
         <meta name='og:image' content={image} />
-        <meta name='twitter:title' content='The Houston Arrow → The shape of Houston`s Inequity | One Breath Partnership' />
+        <meta name='twitter:title' content='The Houston Arrow | The shape of the city`s inequity' />
         <meta name='twitter:card' content='summary_large_image' />
         <meta name='twitter:creator' content='@onebreathhou' />
         <meta name='twitter:description' content={description} />

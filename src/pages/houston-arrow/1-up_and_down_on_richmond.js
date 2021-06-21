@@ -236,6 +236,8 @@ const Richmond = props => {
               geographies of power.
             </p>
             <div class="ph0 mh0 mt4 w-100 pt3 ph2 f5-ns f6 lh-copy center bw3 fade bt b--black">
+              <p class="fw1 black tl center mt0">
+                Data sets for chemical facilities, childhood asthma rates, solid waste sites, and median home values provided by Corey Williams of <a href="https://www.airalliancehouston.org/" target="_blank">Air Alliance Houston</a>.</p>
               <p class="fw1 black tl center mt0 i">
                 Mapping almost anything in Houston, you end up with the same map, with a shape so persistent, so apparent, it's been given a name: The Arrow. How did the city take this shape? How has it held it? And how can we make Houston whole? This four-part series sets out to answer these questions.
               </p>
@@ -260,7 +262,7 @@ const Richmond = props => {
 
       </body>
       <center>
-        <img src="https://houston-arrow.netlify.app/img/arrow-walls.png" class="w-70 center"></img>
+        <img src="https://houston-arrow.netlify.app/img/arrow-walls.png" class="w-60 center mb3"></img>
       </center>
     </Layout >
   )
