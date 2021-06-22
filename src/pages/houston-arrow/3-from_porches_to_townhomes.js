@@ -122,7 +122,6 @@ const Porches = props => {
                 </p></blockquote>
             </div></div></article></body>
 
-      <iframe src="https://houston-arrow.netlify.app/scrollmap.html" class="vh-100 w-100" />
       <center>
         <img src="https://houston-arrow.netlify.app/pdf/every-natural-advantage.png" class="w-70 center mt2 mb2" />
       </center>
@@ -134,93 +133,54 @@ const Porches = props => {
 
 
             <p>
-              In the early 1920s, when River Oaks was still a paper promise, advertisements in the Houston Chronicle enticed buyers to consider the up-and-coming development anchored around a private country club. Sellers promised River Oaks would be “highly restricted and in the very heart of the most rapid and extensive improvements imaginable.”
+              If the development of places like River Oaks shows how city and private investments have worked together to guarantee wealth in white communities, the ongoing fight for Freedmen’s Town reveals the work of community-building amid the pillaging of Black communities and history.
+            </p><p>
+              Traveling north from the high-speed commercial vein of Richmond, past the shining metal Montrose District signs paid for by a TIRZ, you can see what remains of Freedmen’s Town. Streets like Andrews are narrow and intimate, with worn bricks and hasty patches of asphalt. Like the bricks, modest, working-class bungalows and cottages and a few grander homes in need of repair from the century before are scattered amid brand-new housing two or three stories taller with street-facing garages like mouths waiting to gobble what’s left.
             </p><p>
 
 
-              This exclusivity was repeatedly touted in newspapers like the Chronicle and Houston Post, as developers courted a very particular group of Houstonians. And it was reinforced with a prohibitive minimum sale price — $7,000 — and so-called “gentlemen’s agreements” forbidding sales to specific groups of others who didn’t belong in the founding visions of William C. Hogg, Mike Hogg and Hugh Potter.
-            </p>
-            {/* <p>
-                The regulations were meticulous. Writing in the East Texas Historical Journal, Charles O. Cook and Barry J. Kaplan note that the restrictions covered everything from “renovation of existing structures to the placement of garbage cans and clotheslines.” Likewise, they continue, “the restrictions also excluded non-white residents, and, by means of the infamous ‘gentlemen's agreement’ Jews as well.”
-              </p> */}
-            {/* <p>
-                Advertisements confirmed: “You will have good neighbors. You may be sure."
-              </p><p>
-                The promise of exclusivity alone was not enough. The same ads and articles also promised sky-rocketing returns on investments in the development, along with support of the city to protect, then bolster, those investments. The connection between the neighborhood and the city’s very future was right there to read.
-              </p> */}
-          </div></div></article></body>
-      <Rulingimg />
-      <body><article>
-
-        <div class="wrapper">
-
-          <div class="center measure-wide f5 pv5 lh-copy ph2">
-            {/* <p>The connection between the neighborhood and the city’s very future was right there to read.</p> */}
-            <p>
-              After introducing Potter as the president of the new Country Club Estate Company, a 1924 ad in the Chronicle, for example, assured readers, “All the other men interested in this enterprise are prominent in the business life and growth of Houston.” An article that same year made sure to mention that part of the development’s attraction — along with its “uniformly high” restrictions and “freedom from the admitted nuisances of crowded city life” — was the value of surrounding properties, including Memorial Park and Buffalo Bayou, both with plans to be beautified. Elsewhere, developers promised critical infrastructure, like a soon-to-be-paved Westheimer. “Your investment here should double in twelve months,” ads predicted.
+              Freedmen’s Town is essentially the point of the Arrow. This neighborhood has long represented the Mother Ward of diverse Black communities across the city.
             </p><p>
-              Developers took advantage of their privileges to make the predictions come true. The Hogg siblings were the grandchildren of enslaver and Confederate general Joseph Lewis Hogg and the children of Texas Governor James Stephen Hogg. The family’s Brazos County plantation would eventually <a class="blue" href="https://www.tshaonline.org/publications/ima-hogg" target="blank">yield</a> oil and their wealth. With deep pockets and political ties, the eldest sibling, William Hogg, wielded considerable power over the city’s development; both he and Potter served on the city’s planning commission. Well-connected developers like them could do what city planning was supposed to.
+              After Emancipation, not upheld in Texas until 1865, the neighborhood grew into a cultural and economic hub for Black Houstonians, just one of many freedom colonies and Black settlements across the country and state. “All the people seemed to work together to improve Fourth Ward,” recalls Martha Countee Whiting in an interview with the African-American Library at the Gregory School in Freedmen’s Town, “and working together they got many things that we would not have achieved if they had not.” Whiting’s grandfather, Reverend John Henry “Jack” Yates, was an instrumental figure in the neighborhood’s and Houston’s history who, among other achievements, founded Bethel Missionary Baptist Church on Andrews Street and was part of the effort to purchase the land that is now Emancipation Park in Third Ward for the site of their Juneteenth celebration.
             </p><p>
-              Photographs of developers and city officials together were commonplace in the real estate pages. A ruling class of “white, male bankers, real estate developers, lumber and cotton magnates, and oil-men,” guided Houston’s development, Kyle Shelton writes in “Power Moves: Transportation, Politics, and Development in Houston.”
+              Still, more than a decade after Westheimer had been paved for the benefit of River Oaks, few of the streets in Freedmen’s Town had been, Hardy Anderson says.
+            </p><p>
+
+
+              Regardless, Freedmen’s Town was the early heart of Black Houston, a bustling neighborhood that residents remember as close-knit with community hubs like the Gregory School, opened to serve people who had been enslaved who flocked to the city to build new lives of their own making, alongside the pre-existing small community of free Black Houstonians. “We were all cluttered in one area,” Anderson remembers in a 2010 interview.
+            </p><p>
+              Anderson moved to Freedmen’s Town as a young child in the late 1930s. With the restrictions facing Black renters and homeowners in River Oaks and at least 15 of the other oldest neighborhoods in the city, including Old Braeswood and Woodland Heights, places like Freedmen’s Town offered community.
+            </p><p>
+              In interviews collected at the Gregory School, many people remember places like the Rainbow Theatre, where Anderson met the Olympic athlete Jesse Owens out front during an intermission. Others recall the Roaring 20s, a neighborhood gathering spot that sold barbecue and where people came on the weekends to dance to the jukebox.
+            </p><p>
+              Bennie Jackson Ruth remembers working at the cafe owned by her aunt that she would eventually take over. “Everybody knows everybody, so we just had good business,” she says in a 2009 interview.
+            </p><p>
+              There were scores of other businesses, Ruth recalls, including the Harlem Grill night club, shops for ice cream, dry goods and pharmaceuticals, barbershops, law offices and more, stretching into downtown along the streetcar line. She also remembers with awe the Colored Carnegie Library, one of several funded across the South and designed by Booker T. Washington’s son-in-law. “I was impressed by it because you had to walk up steps to it,” she says.
             </p>
-            <p>River Oaks would anchor a prosperous west side of town, to the benefit of those developers, as the east side would remain the site of industry, commerce and everyone else.
-
-            </p>
-
-          </div></div></article></body>
-      <body><article>
-
-        <div class="flex-ns  w-100 pv4 bg-green">
-          <div class="w-50-l w-100 white pl5-ns pr2-ns ph4">
-            <p>
-              Since at least 1913, the city had considered creating a continuous park along Buffalo Bayou, as outlined in a plan prepared by landscape architect Arthur Comey. That plan eventually inspired today’s Bayou Greenways project, building 150 miles of trails along six major waterways. In the original plan, “parking” the city with trees and vegetation was touted to help with flooding, but also drive up property values. “A broad taking should be made,” Comey’s plan reads. “Where the bayou banks were privately owned, they were poorly-maintained and depressed property values, whereas public ownership would have the opposite effect.”
-            </p>
-
-          </div>
-          <div class="w-50-l w-100 pr5-ns pl2-ns ph4">
-            <img class="" src="https://houston-arrow.netlify.app/PDF/comey-plan.png" />
-          </div>
-        </div>
-
-        <div class="wrapper">
-          <div class="center measure-wide f5 pv5 lh-copy ph2">
+            <iframe src="https://houston-arrow.netlify.app/scrollmap.html" class="vh-100 w-100" />
 
 
             <p>
-              The Hoggs were poised to take advantage. During World War I, Camp Logan <a href="https://kinder.rice.edu/2017/08/24/one-hundred-years-later-camp-logan-and-the-houston-riot-bring-fresh-questions" class="blue" target="blank" >was seen</a> as a potential boon for the city as one of only a handful of newly built training sites. But the camp brought Black soldiers to Jim Crow Houston, which greeted them with violent and daily racism. The soldiers were not even allowed to sleep inside the camp, but outside, on the edges. Then, the abuse of laundry worker Sara Travers by the Houston police led to an uprising that resulted in the execution of 19 of those Black soldiers. Shortly after the camp was shut down, the Hogg family bought the land.
+
+
+              Many of these places are only names and memories now — the result of specific policy decisions that demolished, dismantled and displaced the people who owned them and frequented them. By 1961, when Rice University was still segregated and the University of Houston had admitted exactly one Black graduate student, access to the underfunded Carnegie Library was limited by “nearby freeway construction,” the TSHA says, and the city closed it without telling “the press or the NAACP.”
             </p><p>
-              Then, along with Mike and Ima, the family’s real estate company sold it back to the city in 1924 with the deed requirement that it remain greenspace in perpetuity, including land that would eventually become Memorial Park upstream and Buffalo Bayou Park downstream. Ensuring these parks, the Hoggs helped protect the value of their own investments. The green barriers also helped protect River Oaks’ exclusivity.
+              It was auctioned off and demolished less than a year later. The same happened to other community centers, including Mt. Carmel Missionary Baptist Church, which the city condemned and demolished in 2008.
             </p><p>
-              It wasn’t just new houses and parks. Neighborhoods inside the Arrow also benefited from personal relationships that were able to shape the outcomes of unwelcome infrastructure like highways, too. In the middle of the 20th century, as plans for the highways that now encircle and separate the city moved forward, wealthy, white suburban residents in Memorial Bend were able to secure important concessions from transportation officials, including an agreement not to demolish properties they’d purchased, but rent them back to residents.
+              While some of the neighborhood’s assets were destroyed, others were never even developed. In the 1913 parks proposal, Comey notes the lack of playgrounds for the city’s large Black population — as well as any plans to address it. He calls for the creation of three new playgrounds, two in the Emancipation and Military Parks in Third Ward and northeast Houston and another in the “old disused cemetery on San Felipe Street,” now West Dallas, along with a recreation park to serve Freedmen’s Town.
             </p><p>
-              That was much more than communities elsewhere in Houston would receive. The construction of I-10 and 59 <a href="https://houstonhistorymagazine.org/wp-content/uploads/2011/07/Fifth-Ward.pdf" class="blue" target="blank">“crucified”</a> historically Black Fifth Ward, for example. Property owners like Roy Hofheinz and R.E. Smith were able to reach agreements with city and county officials that, while not total reroutes of planned highways, did constitute “significant changes,” Shelton writes in “Power Moves.” This was, in part, because of their personal connections. Hofheinz himself had already served as both mayor and county commissioner.
+              The neighborhood’s transformation is often presented as a matter of market-fueled gentrification, private interests seeking to capitalize on a community of porches being turned into townhomes with garages. But, as with the wealthy and white neighborhoods to the west, government had a heavy hand. In the 1930s, less than a decade after a private developer bought property for a hotel on the newly paved and improved Texas Avenue downtown, demolishing a saloon and boarding house making up part of “Happy Hollow,” the city’s red light district and pushing the revelry further into Freedmen’s Town, the neighborhood would be redlined and described in racist maps prepared by the Home Owners’ Loan Corporation as “hazardous” for investment by banks, cutting off the path to stability and property investment that white families relied on to pass on wealth.
+            </p><p>
+              The history of Allen Parkway Village also shows how government stepped in to shape place — but unlike in River Oaks, here it would undermine the Black residents who’d always lived there. First created as San Felipe Courts in the 1940s, the all-white housing project required the demolition of entire blocks of some of the oldest parts of Freedmen’s Town. Later, it would serve Black families and residents, as well as Asian and other families. Over time, though, the Houston Housing Authority let nearly half the 1,000 apartments degrade and sit empty, according to research by Texas Southern University professor Dr. Robert Bullard, in effect closing the complex “gradually rather than all at once.”
+            </p><p>
+              In the 1990s, the federal HOPE VI program began replacing massive housing projects like Allen Parkway Village with smaller, mixed-income ones, purportedly to undo the damage that housing officials blamed on the concentration of poor families. But Austin-based archaeologist and anthropologist Fred McGhee has argued that it amounted to a culmination of decades of efforts to displace Freedmen’s Town residents, sell key pieces of land and finish the job for the benefit of developers.
+            </p><p>
+              Meanwhile, in the homes surrounding Allen Parkway Village, only 5 percent of the community’s housing was owner-occupied in 1980, Bullard found, setting the stage for even more dramatic transformations. Even in the neighborhood’s early years, landlords had controlled many of the properties. “It has been a community under siege for some time,” he writes.
+            </p><p>
+              Official designations and recognition have been part of the fight to preserve Freedmen’s Town for decades, but have often failed to deliver the protection and investment they seem to promise. When Freedmen’s Town was recognized as a historic district by the National Register of Historic Places in 1984, there were some 530 historic buildings in the 40-block area, the application states. By the time local officials came out in 2010 to celebrate the historical marker that genealogist and avid preservationist Debra Blacklock-Sloan researched and applied for at the site of the old Mt. Carmel Missionary Baptist Church, few were left.
+            </p><p>
+              “There may be 100,” Blacklock-Sloan says. “We’re slowly seeing this community being erased.”
             </p>
-          </div>
-        </div>
-        <div class="wrapper">
-
-          <div class="center w-90 center f5 pv5 lh-copy ph2">
-
-            <blockquote class="ph0 f4 f1-ns measure-narrow center bb b--green bw3">
-              <p class="fw7 lh-copy lh-title-ns green ">“Those are the neighborhoods that got investment and those are the neighborhoods that had political weight.”
-              </p>
-            </blockquote>
-          </div>
-        </div>
-        <div class="wrapper">
-
-          <div class="center measure-wide f5 pv5 lh-copy ph2"><p><p>
-            This is, in part, how the Arrow took shape. It’s how, in part, the Arrow is holding its shape. The Hoggs’ Memorial Park continues to get richer. A 2015 City Council-approved master plan led to an ongoing $205 million redevelopment, including a massive land bridge spanning Memorial Drive that Save Buffalo Bayou’s Susan Chadwick describes as a <a href="https://www.texasmonthly.com/travel/inside-the-ambitious-plan-to-redesign-houstons-biggest-park/" class="blue" target="blank">“seventy-million-dollar vanity project.”</a>
-          </p><p>
-              Other seemingly neutral tools continue to funnel more wealth to wealth. Tax increment reinvestment zones exist across the city and are intended to support redevelopment in “areas that would otherwise not attract sufficient market development in a timely manner,” according to the city. These TIRZs are not intended to become permanent, but <a href="https://www.houstontx.gov/ecodev/tirz.html" class="blue" target="blank">meant</a> to aid areas that “constitute an economic or social liability” as a “menace to the public health, safety, morals, or welfare in its present condition.”
-            </p><p>
-              Some, though, have existed for a generation. The Uptown TIRZ even annexed a part of Memorial Park so it could help fund the improvements that will increase the value of the properties whose taxes are then skimmed into the TIRZ for more improvements.
-            </p><p>
-              Shelton, whose book details the way that economic and political power has wielded outsize influence in the shape of Houston, says, “There are TIRZs in all sorts of neighborhoods in Houston. The reason why downtown, Uptown and Midtown do more is because they have more real estate and more investment,” contributing to a cycle of accumulation. “Those are the neighborhoods that got investment and those are the neighborhoods that had political weight,” he explains.
-            </p>
-
-            And those are the neighborhoods that give the Arrow its shape. There is, however, more than one story contained in the Arrow. And more than one community has roots here. In the very point of the Arrow, the grid shifts and the streets narrow. Worn tracks from a long-ago streetcar are exposed between red bricks that have become a symbol of one community’s fight not only for recognition, but restitution.
-          </p>
             <img class="mw3" src="https://houston-arrow.netlify.app/img/icon.png" />
 
             <div class="ph0 mh0 mt4 w-100 pt3 ph2 f5-ns f6 lh-copy center bw3 fade bt b--black">

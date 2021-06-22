@@ -118,7 +118,7 @@ const Ruling = props => {
             <div class="center measure-wide f5 pv5 lh-copy ph2">
               <div class="ph0 mh0 mt4 w-100 pt3 ph2 f5-ns f6 lh-copy center bw3 fade bt bb b--black">
                 <p class="fw1 black tl center mt0">
-                  Mapping almost anything in Houston, you end up with the same map, with a shape so persistent, so apparent, it's been given a name: The Arrow. How did the city take this shape? How has it held it? And how can we make Houston whole? This <Link to="../" class="blue">four-part series</Link> sets out to answer these questions. This is part two. Read <Link to="./1-up_and_down_on_richmond" class="blue">part one.</Link>                </p>
+                  Mapping almost anything in Houston, you end up with the same map, with a shape so persistent, so apparent, it's been given a name: The Arrow. How did the city take this shape? How has it held it? And how can we make Houston whole? This <Link to="../" class="blue">four-part series</Link> sets out to answer these questions. This is part two. Read <Link to="../1-up_and_down_on_richmond" class="blue">part one.</Link>                </p>
               </div>
               <blockquote class="ph0 f5 f1-ns w-100 center b--none mb0">
                 <p class="fw7 lh-title green f2 mb0">Today, Kirby Drive is one of the major roads that brings you from Richmond north into River Oaks and then on to Memorial Drive, which connects Memorial Park, Buffalo Bayou Park and downtown.
