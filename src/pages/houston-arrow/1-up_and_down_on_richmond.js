@@ -61,9 +61,9 @@ const Richmond = props => {
             <div class="dtc v-mid ">
               <div class="w-75 center">
 
-                <h1 class="center f1 f-subheadline-l fw3 tl white mh-auto ttu animated fadeIn a1 d2 mb0">Up and down</h1>
-                <h1 class="center f4 f-subheadline-l fw3 tc white mh-auto ttu animated fadeIn a2 d3 mt0 mb0">→ on</h1>
-                <h1 class="center f1 b fw3 tr white mh-auto ttu animated fadeIn a5 d4 mt0">Richmond Avenue →</h1>
+                <h1 style={{ fontFamily: 'GT-America-Regular' }} class="center f1 f-subheadline-l fw3 tl white mh-auto ttu animated fadeIn a1 d2 mb0">Up and down</h1>
+                <h1 style={{ fontFamily: 'GT-America-Regular' }} class="center f4 f-subheadline-l fw3 tc white mh-auto ttu animated fadeIn a2 d3 mt0 mb0">→ on</h1>
+                <h1 style={{ fontFamily: 'GT-America-Regular' }} class="center f1 b fw3 tr white mh-auto ttu animated fadeIn a5 d4 mt0">Richmond Avenue →</h1>
               </div>
             </div>
           </div>
@@ -233,13 +233,14 @@ const Richmond = props => {
               Challenging the structures that have built up and served the Arrow demands a full consideration of the city’s
               geographies of power.
             </p>
+            <img class="mw3" src="https://houston-arrow.netlify.app/img/icon.png" />
+
             <div class="ph0 mh0 mt4 w-100 pt3 ph2 f5-ns f6 lh-copy center bw3 fade bt b--black">
               <p class="fw1 black tl center mt0 i">
                 Data sets for chemical facilities, childhood asthma rates, solid waste sites, and median home values provided by Corey Williams of <a href="https://www.airalliancehouston.org/" target="_blank">Air Alliance Houston</a>.</p>
-              <p class="fw1 black tl center mt0 i">
+              <p class="fw1 black tl center mt0 ">
                 Mapping almost anything in Houston, you end up with the same map, with a shape so persistent, so apparent, it's been given a name: The Arrow. How did the city take this shape? How has it held it? And how can we make Houston whole? This four-part series sets out to answer these questions.
               </p>
-              <img class="mw3" src="https://houston-arrow.netlify.app/img/icon.png" />
             </div>
           </div>
         </article>

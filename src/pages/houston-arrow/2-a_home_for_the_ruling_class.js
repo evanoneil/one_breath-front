@@ -62,7 +62,7 @@ const Ruling = props => {
               <div class="w-75 center">
 
                 <h1 style={{ fontFamily: 'GT-America-Regular' }} class="center f1 f-subheadline-l b fw7 tl white mh-auto ttu animated fadeIn a1 d2 mb0">A Home →</h1>
-                <h1 style={{ fontFamily: 'GT-America-Regular' }} class="center f4 f-subheadline-l b fw7 tc white mh-auto ttu animated fadeIn a2 d3 mt0 mb0">for the →</h1>
+                <h1 style={{ fontFamily: 'GT-America-Regular' }} class="center f4 f-subheadline-l b fw7 tc white mh-auto ttu animated fadeIn a2 d3 mt0 mb0">for the</h1>
                 <h1 style={{ fontFamily: 'GT-America-Regular' }} class="center f1 b fw7 tr white mh-auto ttu animated fadeIn a5 d4 mt0">→ Ruling Class</h1>
               </div>
 
@@ -71,8 +71,9 @@ const Ruling = props => {
           </div>
           <div class="w-100">
             <blockquote class="ph0 mh0 mv0 w-100 pv3 ph2 f4-ns f5 lh-copy center bg-dark-gray fade b--none">
-              {/* <p class="fw1 white tc center mt0">
-                What the ‘Houston Arrow’ reveals about this godforsaken land</p> */}
+              <p class="fw1 white tc center mt0">
+                How private developers took advantage of their privileges and power to make their own predictions come true</p>
+
               <center>
                 <cite class="f6 ttu tracked fs-normal center white">BY LEAH BINKOVITZ</cite>
               </center>
@@ -115,6 +116,10 @@ const Ruling = props => {
 
 
             <div class="center measure-wide f5 pv5 lh-copy ph2">
+              <div class="ph0 mh0 mt4 w-100 pt3 ph2 f5-ns f6 lh-copy center bw3 fade bt bb b--black">
+                <p class="fw1 black tl center mt0">
+                  Mapping almost anything in Houston, you end up with the same map, with a shape so persistent, so apparent, it's been given a name: The Arrow. How did the city take this shape? How has it held it? And how can we make Houston whole? This <a href="../houston-arrow" class="blue">four-part series</a> sets out to answer these questions. This is part two. Read <a href="./1-up_and_down_on_richmond" class="blue">part one.</a>                </p>
+              </div>
               <blockquote class="ph0 f5 f1-ns w-100 center b--none mb0">
                 <p class="fw7 lh-title green f2 mb0">Today, Kirby Drive is one of the major roads that brings you from Richmond north into River Oaks and then on to Memorial Drive, which connects Memorial Park, Buffalo Bayou Park and downtown.
                 </p></blockquote>
@@ -127,6 +132,8 @@ const Ruling = props => {
         <div class="wrapper">
 
           <div class="center measure-wide f5 pv5 lh-copy ph2">
+
+
             <p>
               In the early 1920s, when River Oaks was still a paper promise, advertisements in the Houston Chronicle enticed buyers to consider the up-and-coming development anchored around a private country club. Sellers promised River Oaks would be “highly restricted and in the very heart of the most rapid and extensive improvements imaginable.”
             </p><p>
@@ -153,7 +160,7 @@ const Ruling = props => {
             <p>
               After introducing Potter as the president of the new Country Club Estate Company, a 1924 ad in the Chronicle, for example, assured readers, “All the other men interested in this enterprise are prominent in the business life and growth of Houston.” An article that same year made sure to mention that part of the development’s attraction — along with its “uniformly high” restrictions and “freedom from the admitted nuisances of crowded city life” — was the value of surrounding properties, including Memorial Park and Buffalo Bayou, both with plans to be beautified. Elsewhere, developers promised critical infrastructure, like a soon-to-be-paved Westheimer. “Your investment here should double in twelve months,” ads predicted.
             </p><p>
-              Developers took advantage of their privileges to make the predictions come true. The Hogg siblings were the grandchildren of enslaver and Confederate general Joseph Lewis Hogg and the children of Texas Governor James Stephen Hogg. The family’s Brazos County plantation would eventually <a class="i blue" href="https://www.tshaonline.org/publications/ima-hogg" target="blank">yield</a> oil and their wealth. With deep pockets and political ties, the eldest sibling, William Hogg, wielded considerable power over the city’s development; both he and Potter served on the city’s planning commission. Well-connected developers like them could do what city planning was supposed to.
+              Developers took advantage of their privileges to make the predictions come true. The Hogg siblings were the grandchildren of enslaver and Confederate general Joseph Lewis Hogg and the children of Texas Governor James Stephen Hogg. The family’s Brazos County plantation would eventually <a class="blue" href="https://www.tshaonline.org/publications/ima-hogg" target="blank">yield</a> oil and their wealth. With deep pockets and political ties, the eldest sibling, William Hogg, wielded considerable power over the city’s development; both he and Potter served on the city’s planning commission. Well-connected developers like them could do what city planning was supposed to.
             </p><p>
               Photographs of developers and city officials together were commonplace in the real estate pages. A ruling class of “white, male bankers, real estate developers, lumber and cotton magnates, and oil-men,” guided Houston’s development, Kyle Shelton writes in “Power Moves: Transportation, Politics, and Development in Houston.”
             </p>
@@ -181,13 +188,13 @@ const Ruling = props => {
 
 
             <p>
-              The Hoggs were poised to take advantage. During World War I, Camp Logan <a href="https://kinder.rice.edu/2017/08/24/one-hundred-years-later-camp-logan-and-the-houston-riot-bring-fresh-questions" class="i blue" target="blank" >was seen</a> as a potential boon for the city as one of only a handful of newly built training sites. But the camp brought Black soldiers to Jim Crow Houston, which greeted them with violent and daily racism. The soldiers were not even allowed to sleep inside the camp, but outside, on the edges. Then, the abuse of laundry worker Sara Travers by the Houston police led to an uprising that resulted in the execution of 19 of those Black soldiers. Shortly after the camp was shut down, the Hogg family bought the land.
+              The Hoggs were poised to take advantage. During World War I, Camp Logan <a href="https://kinder.rice.edu/2017/08/24/one-hundred-years-later-camp-logan-and-the-houston-riot-bring-fresh-questions" class="blue" target="blank" >was seen</a> as a potential boon for the city as one of only a handful of newly built training sites. But the camp brought Black soldiers to Jim Crow Houston, which greeted them with violent and daily racism. The soldiers were not even allowed to sleep inside the camp, but outside, on the edges. Then, the abuse of laundry worker Sara Travers by the Houston police led to an uprising that resulted in the execution of 19 of those Black soldiers. Shortly after the camp was shut down, the Hogg family bought the land.
             </p><p>
               Then, along with Mike and Ima, the family’s real estate company sold it back to the city in 1924 with the deed requirement that it remain greenspace in perpetuity, including land that would eventually become Memorial Park upstream and Buffalo Bayou Park downstream. Ensuring these parks, the Hoggs helped protect the value of their own investments. The green barriers also helped protect River Oaks’ exclusivity.
             </p><p>
               It wasn’t just new houses and parks. Neighborhoods inside the Arrow also benefited from personal relationships that were able to shape the outcomes of unwelcome infrastructure like highways, too. In the middle of the 20th century, as plans for the highways that now encircle and separate the city moved forward, wealthy, white suburban residents in Memorial Bend were able to secure important concessions from transportation officials, including an agreement not to demolish properties they’d purchased, but rent them back to residents.
             </p><p>
-              That was much more than communities elsewhere in Houston would receive. The construction of I-10 and 59 <a href="https://houstonhistorymagazine.org/wp-content/uploads/2011/07/Fifth-Ward.pdf" class="i blue" target="blank">“crucified”</a> historically Black Fifth Ward, for example. Property owners like Roy Hofheinz and R.E. Smith were able to reach agreements with city and county officials that, while not total reroutes of planned highways, did constitute “significant changes,” Shelton writes in “Power Moves.” This was, in part, because of their personal connections. Hofheinz himself had already served as both mayor and county commissioner.
+              That was much more than communities elsewhere in Houston would receive. The construction of I-10 and 59 <a href="https://houstonhistorymagazine.org/wp-content/uploads/2011/07/Fifth-Ward.pdf" class="blue" target="blank">“crucified”</a> historically Black Fifth Ward, for example. Property owners like Roy Hofheinz and R.E. Smith were able to reach agreements with city and county officials that, while not total reroutes of planned highways, did constitute “significant changes,” Shelton writes in “Power Moves.” This was, in part, because of their personal connections. Hofheinz himself had already served as both mayor and county commissioner.
             </p>
           </div>
         </div>
@@ -204,9 +211,9 @@ const Ruling = props => {
         <div class="wrapper">
 
           <div class="center measure-wide f5 pv5 lh-copy ph2"><p><p>
-            This is, in part, how the Arrow took shape. It’s how, in part, the Arrow is holding its shape. The Hoggs’ Memorial Park continues to get richer. A 2015 City Council-approved master plan led to an ongoing $205 million redevelopment, including a massive land bridge spanning Memorial Drive that Save Buffalo Bayou’s Susan Chadwick describes as a <a href="https://www.texasmonthly.com/travel/inside-the-ambitious-plan-to-redesign-houstons-biggest-park/" class="i blue" target="blank">“seventy-million-dollar vanity project.”</a>
+            This is, in part, how the Arrow took shape. It’s how, in part, the Arrow is holding its shape. The Hoggs’ Memorial Park continues to get richer. A 2015 City Council-approved master plan led to an ongoing $205 million redevelopment, including a massive land bridge spanning Memorial Drive that Save Buffalo Bayou’s Susan Chadwick describes as a <a href="https://www.texasmonthly.com/travel/inside-the-ambitious-plan-to-redesign-houstons-biggest-park/" class="blue" target="blank">“seventy-million-dollar vanity project.”</a>
           </p><p>
-              Other seemingly neutral tools continue to funnel more wealth to wealth. Tax increment reinvestment zones exist across the city and are intended to support redevelopment in “areas that would otherwise not attract sufficient market development in a timely manner,” according to the city. These TIRZs are not intended to become permanent, but <a href="https://www.houstontx.gov/ecodev/tirz.html" class="i blue" target="blank">meant</a> to aid areas that “constitute an economic or social liability” as a “menace to the public health, safety, morals, or welfare in its present condition.”
+              Other seemingly neutral tools continue to funnel more wealth to wealth. Tax increment reinvestment zones exist across the city and are intended to support redevelopment in “areas that would otherwise not attract sufficient market development in a timely manner,” according to the city. These TIRZs are not intended to become permanent, but <a href="https://www.houstontx.gov/ecodev/tirz.html" class="blue" target="blank">meant</a> to aid areas that “constitute an economic or social liability” as a “menace to the public health, safety, morals, or welfare in its present condition.”
             </p><p>
               Some, though, have existed for a generation. The Uptown TIRZ even annexed a part of Memorial Park so it could help fund the improvements that will increase the value of the properties whose taxes are then skimmed into the TIRZ for more improvements.
             </p><p>
@@ -215,13 +222,11 @@ const Ruling = props => {
 
             And those are the neighborhoods that give the Arrow its shape. There is, however, more than one story contained in the Arrow. And more than one community has roots here. In the very point of the Arrow, the grid shifts and the streets narrow. Worn tracks from a long-ago streetcar are exposed between red bricks that have become a symbol of one community’s fight not only for recognition, but restitution.
           </p>
+            <img class="mw3" src="https://houston-arrow.netlify.app/img/icon.png" />
+
             <div class="ph0 mh0 mt4 w-100 pt3 ph2 f5-ns f6 lh-copy center bw3 fade bt b--black">
               <p class="fw1 black tl center mt0 i">
                 Screenshots from "River Oaks Scrapbook," available at the Houston Metropolitan Research Center and from "Houston: Tentative Plan for its Development" by Arthur Coleman Comey</p>
-              <p class="fw1 black tl center mt0 i">
-                Mapping almost anything in Houston, you end up with the same map, with a shape so persistent, so apparent, it's been given a name: The Arrow. How did the city take this shape? How has it held it? And how can we make Houston whole? This four-part series sets out to answer these questions.
-              </p>
-              <img class="mw3" src="https://houston-arrow.netlify.app/img/icon.png" />
             </div>
           </div>
         </div>

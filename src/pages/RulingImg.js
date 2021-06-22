@@ -436,7 +436,7 @@ class Rulingimg extends PureComponent {
                     <link rel='stylesheet' type='text/css' media='screen' href='https://houston-arrow.netlify.app/scrollama.css' />
                 </Helmet>
                 <p className="description">
-                    The regulations were meticulous. Writing in the East Texas Historical Journal, Charles O. Cook and Barry J. Kaplan note that <a class="blue i" href="https://scholarworks.sfasu.edu/cgi/viewcontent.cgi?referer=https://www.google.com/&httpsredir=1&article=2670&context=ethj" target="_blank">the restrictions</a> covered everything from “renovation of existing structures to the placement of garbage cans and clotheslines.” Likewise, they continue, “the restrictions also excluded non-white residents, and, by means of the infamous ‘gentlemen's agreement’ Jews as well.”
+                    The regulations were meticulous. Writing in the East Texas Historical Journal, Charles O. Cook and Barry J. Kaplan note that <a class="blue" href="https://scholarworks.sfasu.edu/cgi/viewcontent.cgi?referer=https://www.google.com/&httpsredir=1&article=2670&context=ethj" target="_blank">the restrictions</a> covered everything from “renovation of existing structures to the placement of garbage cans and clotheslines.” Likewise, they continue, “the restrictions also excluded non-white residents, and, by means of the infamous ‘gentlemen's agreement’ Jews as well.”
                 </p>
 
                 <p className="bounce">↓</p>
