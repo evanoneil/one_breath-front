@@ -108,8 +108,8 @@ const Landing = props => {
               </a>
             </article>
 
-            <article class="bb b--black-10 o-50">
-              <a class="db pv4 ph3 ph0-l no-underline black dim" href="#">
+            <article class="bb b--black-10">
+              <a class="db pv4 ph3 ph0-l no-underline black dim" href="./2-a_home_for_the_ruling_class">
                 <div class="flex flex-column flex-row-ns">
                   <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
                     <img src="https://houston-arrow.netlify.app/photo/white-men.png" class="db" alt="White Men" />
@@ -120,7 +120,7 @@ const Landing = props => {
                     <h1 class="f3 fw1  mt0 lh-title">A home for the ruling class</h1>
                     <p class="f6 f5-l lh-copy">
                       It wasn’t enough that River Oaks was deliberately exclusive of people who were not white. It also needed to reward those who could afford to buy in, which the city and private developers worked on hand in hand to all but guarantee. The rich got richer.                    </p>
-                    <p class="f5 lh-copy mv0 dark-green fw7">Read Article on 6/22→</p>
+                    <p class="f5 lh-copy mv0 dark-green fw7">Read Article →</p>
                   </div>
                 </div>
               </a>

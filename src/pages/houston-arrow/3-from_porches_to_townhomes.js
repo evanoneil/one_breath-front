@@ -157,8 +157,13 @@ const Porches = props => {
             </p><p>
               There were scores of other businesses, Ruth recalls, including the Harlem Grill night club, shops for ice cream, dry goods and pharmaceuticals, barbershops, law offices and more, stretching into downtown along the streetcar line. She also remembers with awe the Colored Carnegie Library, one of several funded across the South and designed by Booker T. Washington’s son-in-law. “I was impressed by it because you had to walk up steps to it,” she says.
             </p>
-            <iframe src="https://houston-arrow.netlify.app/scrollmap.html" class="vh-100 w-100" />
+          </div></div></article></body>
+      <iframe src="https://houston-arrow.netlify.app/scrollmap.html" class="vh-100 w-100 b--none" />
+      <body><article>
 
+        <div class="wrapper">
+
+          <div class="center measure-wide f5 pv5 lh-copy ph2">
 
             <p>
 
