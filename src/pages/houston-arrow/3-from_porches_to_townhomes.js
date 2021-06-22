@@ -34,12 +34,12 @@ const Porches = props => {
     <Layout>
       {/* <SEO title="HB 1820" /> */}
       <Helmet>
-        <title>A home for the ruling class → Houston Arrow | One Breath Partnership</title>
-        <meta property='og:title' content='A home for the ruling class → Houston Arrow | One Breath Partnership' />
+        <title>From porches to townhomes → Houston Arrow | One Breath Partnership</title>
+        <meta property='og:title' content='From porches to townhomes → Houston Arrow | One Breath Partnership' />
         <meta name='description' content={description} />
         <meta name='image' content={image} />
         <meta name='og:image' content={image} />
-        <meta name='twitter:title' content='A home for the ruling class → Houston Arrow | One Breath Partnership' />
+        <meta name='twitter:title' content='From porches to townhomes → Houston Arrow | One Breath Partnership' />
         <meta name='twitter:card' content='summary_large_image' />
         <meta name='twitter:creator' content='@onebreathhou' />
         <meta name='twitter:description' content={description} />
@@ -53,13 +53,14 @@ const Porches = props => {
         <article>
           <div class="vh-100 dt w-100 tc bg-dark-gray white cover"
             style={{
-              backgroundImage: `url("https://houston-arrow.netlify.app/photo/hardy-anderson-porch.jpg")`
+              backgroundImage: `url("https://houston-arrow.netlify.app/photo/hardy-anderson-porch.jpg")`,
+              backgroundPosition: 'center center',
             }}>
             <div class="dtc v-mid ">
               <div class="w-75 center">
 
-                <h1 style={{ fontFamily: 'GT-America-Regular' }} class="center f2 f-subheadline-l b fw7 tr white mh-auto ttu animated fadeIn a1 d2 mb0">From porches →</h1>
-                <h1 style={{ fontFamily: 'GT-America-Regular' }} class="center f2 b fw7 tl white mh-auto ttu animated fadeIn a5 d4 mt0">→ to townhomes</h1>
+                <h1 class="center f2 f-subheadline-l b fw7 tr  mh-auto ttu animated fadeIn a1 d2 mb0" style={{ color: 'orangered' }}>From porches →</h1>
+                <h1 class="center f2 b fw7 tl white mh-auto ttu animated fadeIn a5 d4 mt0">→ to townhomes</h1>
               </div>
 
 
@@ -91,7 +92,7 @@ const Porches = props => {
             <div class="center w-70 f5 pt5 lh-copy ph2">
 
               <blockquote class="ph0 f5 f1-ns w-100 center b--none mb0">
-                <p class="fw7 lh-title orange f2 mb0">If the development of places like River Oaks shows how city and private investments have worked together to guarantee wealth in white communities, the ongoing fight for Freedmen’s Town reveals the work of community-building amid the pillaging of Black communities and history.
+                <p class="fw7 lh-title orange f3 mb0">If the development of places like River Oaks shows how city and private investments have worked together to guarantee wealth in white communities, the ongoing fight for Freedmen’s Town reveals the work of community-building amid the pillaging of Black communities and history.
 
                 </p></blockquote>
             </div></div></article></body>
@@ -151,11 +152,74 @@ const Porches = props => {
               The neighborhood’s transformation is often presented as a matter of market-fueled gentrification, private interests seeking to capitalize on a community of porches being turned into townhomes with garages. But, as with the wealthy and white neighborhoods to the west, government had a heavy hand. In the 1930s, less than a decade after a private developer bought property for a hotel on the newly paved and improved Texas Avenue downtown, demolishing a saloon and boarding house making up part of “Happy Hollow,” the city’s red light district and pushing the revelry further into Freedmen’s Town, the neighborhood would be redlined and described in racist maps prepared by the Home Owners’ Loan Corporation as “hazardous” for investment by banks, cutting off the path to stability and property investment that white families relied on to pass on wealth.
             </p><p>
               The history of Allen Parkway Village also shows how government stepped in to shape place — but unlike in River Oaks, here it would undermine the Black residents who’d always lived there. First created as San Felipe Courts in the 1940s, the all-white housing project required the demolition of entire blocks of some of the oldest parts of Freedmen’s Town. Later, it would serve Black families and residents, as well as Asian and other families. Over time, though, the Houston Housing Authority let nearly half the 1,000 apartments degrade and sit empty, according to research by Texas Southern University professor Dr. Robert Bullard, in effect closing the complex “gradually rather than all at once.”
-            </p><p>
+            </p>
+          </div></div></article></body>
+      <div class="cf">
+        <div class="fl w-100 w-50-l pr2-l pb3">
+          <img class="db w-100" src="http://houston-arrow.netlify.app/ft-images/bungalow-with-bright-porch-light.jpg" alt="Bungalow with a bright porch light" />
+          <center><span class="caption">caption</span>
+          </center>
+        </div>
+        {/* <div class="fl w-50 w-50-l pr1 pr0-l pl2-l pb3">
+          <img class="db w-100" src="http://houston-arrow.netlify.app/ft-images/" alt="Photo of the sea and sky on the horizon with the foundations of a demolished house." />
+          <center><span class="caption">caption</span>
+          </center>
+        </div>
+        <div class="fl w-50 w-50-l pl2 pl0-l pr2-l pb3">
+          <img class="db w-100" src="http://mrmrs.github.io/photos/012.jpg" alt="Photo of the sea with mist covering the rocky formations near the shore." />
+          <center><span class="caption">caption</span>
+          </center>
+        </div> */}
+        <div class="fl w-100 w-50-l pl2-l">
+          <img class="db" src="http://houston-arrow.netlify.app/ft-images/antioch-at-night.jpg" alt="Antioch at night." />
+          <center><span class="caption">caption</span>
+          </center>
+        </div>
+      </div>
+
+      <body><article>
+
+        <div class="wrapper">
+          <div class="center measure-wide f5 pv5 lh-copy ph2">
+
+
+            <p>
               In the 1990s, the federal HOPE VI program began replacing massive housing projects like Allen Parkway Village with smaller, mixed-income ones, purportedly to undo the damage that housing officials blamed on the concentration of poor families. But Austin-based archaeologist and anthropologist Fred McGhee has argued that it amounted to a culmination of decades of efforts to displace Freedmen’s Town residents, sell key pieces of land and finish the job for the benefit of developers.
             </p><p>
               Meanwhile, in the homes surrounding Allen Parkway Village, only 5 percent of the community’s housing was owner-occupied in 1980, Bullard found, setting the stage for even more dramatic transformations. Even in the neighborhood’s early years, landlords had controlled many of the properties. “It has been a community under siege for some time,” he writes.
-            </p><p>
+            </p>
+
+          </div></div></article></body>
+      <div class="cf">
+        <div class="fl w-100 w-50-l pr2-l pb3">
+          <img class="db w-100" src="http://houston-arrow.netlify.app/ft-images/IMG_2071.jpeg" alt="Bungalow with a bright porch light" />
+          <center><span class="caption">caption</span>
+          </center>
+        </div>
+        {/* <div class="fl w-50 w-50-l pr1 pr0-l pl2-l pb3">
+          <img class="db w-100" src="http://houston-arrow.netlify.app/ft-images/" alt="Photo of the sea and sky on the horizon with the foundations of a demolished house." />
+          <center><span class="caption">caption</span>
+          </center>
+        </div>
+        <div class="fl w-50 w-50-l pl2 pl0-l pr2-l pb3">
+          <img class="db w-100" src="http://mrmrs.github.io/photos/012.jpg" alt="Photo of the sea with mist covering the rocky formations near the shore." />
+          <center><span class="caption">caption</span>
+          </center>
+        </div> */}
+        <div class="fl w-100 w-50-l pl2-l">
+          <img class="db w-100" src="http://houston-arrow.netlify.app/ft-images/IMG_2073.jpeg" alt="Antioch at night." />
+          <center><span class="caption">caption</span>
+          </center>
+        </div>
+      </div>
+
+      <body><article>
+
+        <div class="wrapper">
+          <div class="center measure-wide f5 pv5 lh-copy ph2">
+
+
+            <p>
               Official designations and recognition have been part of the fight to preserve Freedmen’s Town for decades, but have often failed to deliver the protection and investment they seem to promise. When Freedmen’s Town was recognized as a historic district by the National Register of Historic Places in 1984, there were some 530 historic buildings in the 40-block area, the application states. By the time local officials came out in 2010 to celebrate the historical marker that genealogist and avid preservationist Debra Blacklock-Sloan researched and applied for at the site of the old Mt. Carmel Missionary Baptist Church, few were left.
             </p><p>
               “There may be 100,” Blacklock-Sloan says. “We’re slowly seeing this community being erased.”
@@ -172,7 +236,7 @@ const Porches = props => {
       </body>
 
 
-    </Layout >
+    </Layout>
   )
 
 }
