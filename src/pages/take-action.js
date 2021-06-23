@@ -9,7 +9,7 @@ import GraphQLErrorList from '../components/graphql-error-list'
 import SEO from '../components/seo'
 import Layout from '../containers/layout'
 import Helmet from 'react-helmet'
-import ogImage from '../assets/img/one_breath-petition-may.jpg'
+import ogImage from '../assets/img/one_breath-petition-june.jpg'
 
 import { responsiveTitle1 } from '../components/typography.module.css'
 
@@ -65,7 +65,7 @@ const TakeActionPage = props => {
 
   const postNodes = data && data.posts && mapEdgesToNodes(data.posts)
   const mediaNodes = data && data.media && mapEdgesToNodes(data.media)
-  const description = 'Houston needs more state monitors for the most widespread air pollutant.'
+  const description = 'Concrete batch plants don\'t belong in neighborhoods.'
   const image = `https://onebreathhou.org${ogImage}`
 
   return (
@@ -85,8 +85,13 @@ const TakeActionPage = props => {
 
       
     <link href='https://actionnetwork.org/css/style-embed-v3.css' rel='stylesheet' type='text/css' />
-    <script src='https://actionnetwork.org/widgets/v3/petition/houstonians-need-to-know-how-much-dirty-soot-we-are-breathing?format=js&source=widget&style=full'></script>
+    <script src='https://actionnetwork.org/widgets/v4/petition/concrete-batch-plants-dont-belong-in-neighborhoods?format=js&source=widget'></script>
     
+
+    
+    <div id='can-petition-area-concrete-batch-plants-dont-belong-in-neighborhoods'></div>
+
+
     </Helmet>
           
         <Container>

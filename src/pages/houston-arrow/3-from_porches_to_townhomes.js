@@ -6,7 +6,7 @@ import GraphQLErrorList from '../../components/graphql-error-list'
 import SEO from '../../components/seo'
 import Layout from '../../containers/layout'
 import Helmet from 'react-helmet'
-import ogImage from '../../assets/img/ruling-og-f.jpg'
+import ogImage from '../../assets/img/porches-og.jpg'
 import Rulingimg from "../RulingImg"
 
 
@@ -23,7 +23,7 @@ const Porches = props => {
 
   const postNodes = data && data.posts && mapEdgesToNodes(data.posts)
   const mediaNodes = data && data.media && mapEdgesToNodes(data.media)
-  const description = 'How private developers took advantage of their privileges and power to make their own predictions come true'
+  const description = 'The pillaging of historically Black Freedmen\'s Town by the same forces that guaranteed prosperity elsewhere'
   const image = `https://onebreathhou.org${ogImage}`
 
 
