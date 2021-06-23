@@ -146,7 +146,7 @@ Still, more than a decade after Westheimer had been paved for the benefit of Riv
           </div></div></article></body>
       <div class="cf">
         <div class="fl w-100 w-50-l pr2-l pb3">
-          <img class="db w-100" src="http://houston-arrow.netlify.app/ft-images/bungalow-with-bright-porch-light.jpg" alt="Bungalow with a bright porch light in Freedmen's Town" />
+          <img class="db w-100" src="https://houston-arrow.netlify.app/ft-images/bungalow-with-bright-porch-light.jpg" alt="Bungalow with a bright porch light in Freedmen's Town" />
           <center><span class="caption">A well-lit porch in Freedmen's Town. Photo: Hardy Anderson collection, Houston Public Library, African American Library at the Gregory School.</span>
           </center>
         </div>
@@ -161,7 +161,7 @@ Still, more than a decade after Westheimer had been paved for the benefit of Riv
           </center>
         </div> */}
         <div class="fl w-100 w-50-l pl2-l">
-          <img class="db" src="http://houston-arrow.netlify.app/ft-images/antioch-at-night.jpg" alt="ntioch Missionary Baptist Church, cut off from the rest of Freedmen's Town by I-45" />
+          <img class="db" src="https://houston-arrow.netlify.app/ft-images/antioch-at-night.jpg" alt="ntioch Missionary Baptist Church, cut off from the rest of Freedmen's Town by I-45" />
           <center><span class="caption">Antioch Missionary Baptist Church, cut off from the rest of Freedmen's Town by I-45. Photo: Hardy Anderson collection, Houston Public Library, African American Library at the Gregory School.</span>
           </center>
         </div>
@@ -183,12 +183,12 @@ Still, more than a decade after Westheimer had been paved for the benefit of Riv
           </div></div></article></body>
       <div class="cf">
         <div class="fl w-100 w-50-l pr2-l ">
-          <img class="db w-100" src="http://houston-arrow.netlify.app/ft-images/IMG_2071.jpeg" alt="Bungalow with a bright porch light" />
+          <img class="db w-100" src="https://houston-arrow.netlify.app/ft-images/IMG_2071.jpeg" alt="Bungalow with a bright porch light" />
 
         </div>
 
         <div class="fl w-100 w-50-l pl2-l">
-          <img class="db w-100" src="http://houston-arrow.netlify.app/ft-images/IMG_2073.jpeg" alt="Antioch at night." />
+          <img class="db w-100" src="https://houston-arrow.netlify.app/ft-images/IMG_2073.jpeg" alt="Antioch at night." />
         </div>
       </div>
       <div class="pb3 w-100">
