@@ -89,14 +89,13 @@ const TakeActionPage = props => {
     
 
     
-    <div id='can-petition-area-concrete-batch-plants-dont-belong-in-neighborhoods'></div>
 
 
     </Helmet>
           
         <Container>
         <div>
-<div id='can-petition-area-houstonians-need-to-know-how-much-dirty-soot-we-are-breathing'></div>       
+    <div id='can-petition-area-concrete-batch-plants-dont-belong-in-neighborhoods'></div>
     </div>
       </Container>
     </Layout>
