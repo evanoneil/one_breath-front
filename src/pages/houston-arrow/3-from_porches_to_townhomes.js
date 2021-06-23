@@ -210,11 +210,7 @@ Still, more than a decade after Westheimer had been paved for the benefit of Riv
             </p>
             <img class="mw3" src="https://houston-arrow.netlify.app/img/icon.png" />
 
-            <div class="ph0 mh0 mt4 w-100 pt3 ph2 f5-ns f6 lh-copy center bw3 fade bt b--black">
-              <p class="fw1 black tl center mt0 i">
-                Screenshots from "River Oaks Scrapbook," available at the Houston Metropolitan Research Center and from "Houston: Tentative Plan for its Development" by Arthur Coleman Comey
-                </p>
-            </div>
+            
           </div>
         </div>
       </article>
