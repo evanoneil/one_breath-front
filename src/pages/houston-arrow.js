@@ -140,7 +140,7 @@ const Landing = props => {
                     <p class="f6 f5-l lh-copy">
                       Being slowly pillaged by the same forces that guaranteed prosperity in other neighborhoods, Freedmen’s Town lies at the tip of the Arrow, where residents have worked tirelessly to build a community that knows its history and controls its future.
                     </p>
-                    <p class="f5 lh-copy mv0 dark-green fw7">Read Article on 6/23→</p>
+                    <p class="f5 lh-copy mv0 dark-green fw7">Read Article →</p>
                   </div>
                 </div>
               </a>
