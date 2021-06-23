@@ -85,7 +85,7 @@ The pillaging of historically Black Freedmen's Town by the same forces that guar
             <div class="center measure-wide f5 pt5 lh-copy ph2">
               <div class="ph0 mh0 mt4 w-100 pt3 ph2 f5-ns f6 lh-copy center bw3 fade bt bb b--black">
                 <p class="fw1 black tl center mt0">
-                  Mapping almost anything in Houston, you end up with the same map, with a shape so persistent, so apparent, it's been given a name: The Arrow. How did the city take this shape? How has it held it? And how can we make Houston whole? This <Link to="../houston-arrow">four-part series</Link> sets out to answer these questions. This is part three. Read <Link to="/1-up_and_down_on_richmond" class="blue">part one</Link> and <Link to="/2-a_home_for_the_ruling_class" class="blue">part two.</Link>
+                  Mapping almost anything in Houston, you end up with the same map, with a shape so persistent, so apparent, it's been given a name: The Arrow. How did the city take this shape? How has it held it? And how can we make Houston whole? This <Link to="../houston-arrow">four-part series</Link> sets out to answer these questions. This is part three. Read <Link to="./1-up_and_down_on_richmond" class="blue">part one</Link> and <Link to="./2-a_home_for_the_ruling_class" class="blue">part two.</Link>
                   </p>
               </div>
             </div>
