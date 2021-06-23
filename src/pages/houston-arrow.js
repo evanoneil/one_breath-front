@@ -126,11 +126,11 @@ const Landing = props => {
               </a>
             </article>
 
-            <article class="bb b--black-10 o-50">
-              <a class="db pv4 ph3 ph0-l no-underline black dim" href="#0">
+            <article class="bb b--black-10">
+              <a class="db pv4 ph3 ph0-l no-underline black dim" href="./3-from_porches_to_townhomes">
                 <div class="flex flex-column flex-row-ns">
                   <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-                    <img src="https://houston-arrow.netlify.app/photo/hardy-anderson-porch.jpg" class="db" alt="Driving down Richmond Ave" />
+                    <img src="https://houston-arrow.netlify.app/photo/hardy-anderson-porch.jpg" class="db" alt="Hardy Anderson on a porch in Freedmen's Town" />
                   </div>
                   <div class="w-100 w-60-ns pl3-ns">
                     <h4 class="f7 lh-copy mv0">PART 3</h4>
