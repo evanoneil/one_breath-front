@@ -6,7 +6,7 @@ import GraphQLErrorList from '../../components/graphql-error-list'
 import SEO from '../../components/seo'
 import Layout from '../../containers/layout'
 import Helmet from 'react-helmet'
-import ogImage from '../../assets/img/porches-og.jpg'
+import ogImage from '../../assets/img/3-porches-og.jpg'
 import Rulingimg from "../RulingImg"
 
 
