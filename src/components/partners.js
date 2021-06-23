@@ -39,18 +39,22 @@ const Partners = () => (
         <img src={rice} alt="Rice University Logo" />
       </div>
     </div>
+    <div >
     <a
-      class="pa3 ttu mid-gray f5 mt5 mb-6 fw7 blue no-underline dib-l enterprise"
-      href="https://www.onebreathhou.org/about"
-    >
+      class="pa3 ttu mid-gray f5 mt5  fw7 blue no-underline dib-l enterprise"
+      href="https://www.onebreathhou.org/about">
       More about the partnership
     </a>
+    </div>
+    <div class="mt4 mt0-ns">
     <a
-      class="pa3 ttu mid-gray f5 mt5 mb-6 fw7 blue no-underline dib-l "
+      class="pa3 ttu mid-gray f5  mb-6 fw7 blue no-underline dib-l "
       href="https://www.onebreathhou.org/privacy-policy"
     >
+  
       Privacy Policy
     </a>
+  </div>
   </div>
 );
 
