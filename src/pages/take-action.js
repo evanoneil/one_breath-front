@@ -85,7 +85,9 @@ const TakeActionPage = props => {
 
       
     <link href='https://actionnetwork.org/css/style-embed-v3.css' rel='stylesheet' type='text/css' />
-    <script src='https://actionnetwork.org/widgets/v4/petition/concrete-batch-plants-dont-belong-in-neighborhoods?format=js&source=widget'></script>
+    <script src='https://actionnetwork.org/widgets/v4/petition/concrete-batch-plants-dont-belong-in-neighborhoods?format=js&source=widget&style=full'></script>
+
+    
     
 
     
