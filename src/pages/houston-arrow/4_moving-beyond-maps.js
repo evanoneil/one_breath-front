@@ -253,7 +253,7 @@ The list might read different today, but many of the aspirations remain, present
  </div></div></article></body>
           <center>
 <img src="https://houston-arrow.netlify.app/4-images/hha-map.png" class="tr center w-100 w-90-ns"/>  <br />
-                    <span class="caption">The Arrow includes many so-called 'high-opportunity neighborhoods,' but few housing projects for people with lower incomes. Source: Houston Housing Authority</span>
+                    <span class="caption">The Arrow includes many so-called 'high-opportunity neighborhoods,' but few housing projects for people with lower incomes. Source: <a href="http://www.housingforhouston.com/public-housing/housing-developments.aspx" target="_blank">Houston Housing Authority</a></span>
           </center>
       <body><article>
         <div class="wrapper">
