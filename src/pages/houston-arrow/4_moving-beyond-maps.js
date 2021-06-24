@@ -53,14 +53,14 @@ const Porches = props => {
         <article>
           <div class="vh-100 dt w-100 tc bg-dark-gray white cover"
             style={{
-              backgroundImage: `url("https://houston-arrow.netlify.app/4-images/IMG_7331.JPG")`,
+              backgroundImage: `url("https://houston-arrow.netlify.app/4-images/IMG_7335.JPG")`,
               backgroundPosition: 'center center',
             }}>
             <div class="dtc v-mid ">
               <div class="w-75 center">
 
-                <h1 class="center f1 f-subheadline-l b fw7 tl  mh-auto ttu animated fadeIn a1 d2 mb0" style={{ color: 'orangered' }}>MOVING →</h1>
-                <h1 class="center f1 f-subheadline-l b fw7 tl  mh-auto ttu animated fadeIn a5 d4 mt0" style={{ color: 'black' }}>→ BEYOND</h1>
+                <h1 class="center f1 f-subheadline-l b fw7 tl  mh-auto ttu animated fadeIn a1 d2 mb0" style={{ color: 'white' }}>MOVING →</h1>
+                <h1 class="center f1 f-subheadline-l b fw7 tl  mh-auto ttu animated fadeIn a5 d4 mt0" style={{ color: 'white' }}>→ BEYOND</h1>
                 <h1 class="center f1 f-subheadline-l b fw7 tr white mh-auto ttu animated fadeIn a5 d4 mt0">MAPS →</h1>
               </div>
 
@@ -70,10 +70,10 @@ const Porches = props => {
           <div class="w-100">
             <blockquote class="ph0 mh0 mv0 w-100 pv3 ph2 f4-ns f5 lh-copy center bg-dark-gray fade b--none">
               <p class="fw1 white tc center mt0">
-New subtitle</p>
+The Arrow shows leaders where their priorities should be. Will they act?
+</p>
               <center>
                 <cite class="f6 ttu tracked fs-normal center white">BY LEAH BINKOVITZ</cite><br />
-                                {/* <cite class="f6 ttu tracked fs-normal center white">Maps by Evan O'Neil</cite> */}
 
               </center>
             </blockquote>
@@ -85,7 +85,7 @@ New subtitle</p>
             <div class="center measure-wide f5 pt5 lh-copy ph2">
               <div class="ph0 mh0 mt4 w-100 pt3 ph2 f5-ns f6 lh-copy center bw3 fade bt bb b--black">
                 <p class="fw1 black tl center mt0">
-                  Mapping almost anything in Houston, you end up with the same map, with a shape so persistent, so apparent, it's been given a name: The Arrow. How did the city take this shape? How has it held it? And how can we make Houston whole? This <Link to="../houston-arrow">four-part series</Link> sets out to answer these questions. This is part three. Read <Link to="./1-up_and_down_on_richmond" class="blue">part one</Link> and <Link to="./2-a_home_for_the_ruling_class" class="blue">part two.</Link>
+                  Mapping almost anything in Houston, you end up with the same map, with a shape so persistent, so apparent, it's been given a name: The Arrow. How did the city take this shape? How has it held it? And how can we make Houston whole? This <Link to="../houston-arrow">four-part series</Link> sets out to answer these questions. This is part four. Read <Link to="../1-up_and_down_on_richmond" class="blue">part one</Link>, <Link to="../2-a_home_for_the_ruling_class" class="blue">part two</Link>, and <Link to="../3_from-porches-to-townhomes" class="blue">part three.</Link>
                   </p>
               </div>
             </div>
@@ -108,10 +108,6 @@ New subtitle</p>
 
           <div class="center measure-wide f5 pb5 pt2 lh-copy ph2">
 
-
-            <p>
-            Preservation has proved a sometimes perilous path, raising the question of what is being preserved — places or a community — and for whom — residents, many who have been displaced, or tourists. 
-</p>
 <p>
 While not necessarily a matter of either-or, efforts to protect and preserve cannot escape these tensions. This is true for Freedmen’s Town, as well.
 </p>
@@ -144,7 +140,7 @@ Any sort of preservation work in Freedmen’s Town has to deal with decades of c
           </div></div></article></body>
           <div class="tr">
 <img src="https://houston-arrow.netlify.app/4-images/freedmens-town-streetcar.JPG" class="tr center w-100 w-90-ns"/>
-          <center><span class="caption">Remains of streetcar tracks in Freedmen's Town bungalow leading into downtown Houston. Photo: Allyn West.</span>
+          <center><span class="caption">Remains of streetcar tracks in Freedmen's Town. Photo: Allyn West.</span>
           </center>
 </div>
       <body><article>
@@ -176,8 +172,8 @@ So, while the Arrow presents a useful bit of visual shorthand, there is more to 
 </p>
           </div></div></article></body>
 <div class="tc">
-<img src="https://houston-arrow.netlify.app/ft-images/antioch-at-night.jpg" class="tr center w-100 w-90-ns"/>  
-          <center><span class="caption">Antioch at night</span>
+<img src="https://houston-arrow.netlify.app/ft-images/antioch-at-night.jpg" class="tr center w-100 w-80-ns"/>  
+          <center><span class="caption">Antioch Missionary Baptist Church. Photo: The Gregory School.</span>
           </center>
 </div>
     <body><article>
@@ -196,7 +192,7 @@ Blacklock-Sloan takes photographs around the Freedmen’s Town neighborhood when
           </div></div></article></body>
           <center>
           <img src="https://houston-arrow.netlify.app/4-images/IMG_7328.JPG" class=" center w-50"/>  
-                    <center><span class="caption">Lot of historical markers around here, not much actual stuff anymore. Photo: Allyn West</span>
+                    <center><span class="caption">Maps and historical markers can never tell the whole story. Photo: Allyn West</span>
           </center>
 </center>
       <body><article>
@@ -210,13 +206,35 @@ Even the present can disappear in maps. When Hall first started canvassing Freed
 And then there are the alternative presents that could have been. When Middleton thinks about those spaces, for example, she sees what she calls “the ghosts of failed projects.”
 </p>
 <p>
-"There are these spirits of past developments or almost developments,” she says, recalling one shouted-down mixed-income housing development that would have been in the Arrow on Fountain View Drive. Residents said they feared lowered property values, among other unsubstantiated concerns. That’s who Mayor Sylvester Turner listened to when he effectively halted the project in a decision that would prompt the Department of Housing and Urban Development to investigate the city for a violation of the Civil Rights Act.
+"There are these spirits of past developments or almost developments,” she says, recalling one shouted-down mixed-income housing development that would have been in the Arrow on Fountain View Drive. Residents said they feared lowered property values, among other unsubstantiated concerns. That’s who Mayor Sylvester Turner listened to when he effectively halted the project in a decision that would prompt the Department of Housing and Urban Development to investigate the city for a violation of the <a href="https://www.bloomberg.com/news/articles/2018-03-22/houston-fair-housing-advocates-file-complaint-with-hud" class="blue" target="_blank">Civil Rights Act</a>.
 </p>
           </div></div></article></body>
-          <center>
-<img src="https://houston-arrow.netlify.app/4-images/hha-map.png" class="tr center w-100 w-90-ns"/>  <br />
-                    <span class="caption">Here's a map ... in an article titled Moving beyond maps. Thanks for making me look like a jerk</span>
-          </center>
+          
+          <div class="cf">
+        <div class="fl w-100 w-50-l pr2-l pb3">
+          <img class="db w-100" src="https://houston-arrow.netlify.app/4-images/freedmens-town-shotgun-houses-dolce-vita.JPG" alt="Bungalows in front of a tasteless apartment complex" />
+          {/* <center><span class="caption">A well-lit porch in Freedmen's Town. Photo: Hardy Anderson collection, Houston Public Library, African American Library at the Gregory School.</span>
+          </center> */}
+        </div>
+        <div class="fl w-50 w-50-l pr1 pr0-l pl2-l pb3">
+          <img class="db w-100" src="http://houston-arrow.netlify.app/4-images/IMG_7357.jpg" alt="Photo of the sea and sky on the horizon with the foundations of a demolished house." />
+          {/* <center><span class="caption">caption</span>
+          </center> */}
+        </div>
+        <div class="fl w-50 w-50-l pl2 pl0-l pr2-l pb3">
+          <img class="db w-100" src="http://houston-arrow.netlify.app/4-images/IMG_7344.jpg" alt="Freedmen's Town - a tree in front of a solitary doorstep" />
+          {/* <center><span class="caption">caption</span>
+          </center> */}
+        </div>
+        <div class="fl w-100 w-50-l pl2-l">
+          <img class="db" src="http://houston-arrow.netlify.app/4-images/IMG_7320.jpg" alt="Freedmen's Town" />
+
+        </div>
+
+      </div>
+                          <center><span class="caption">Photos taken in Freedmen's Town. Photo: Allyn West</span>
+          </center>  
+
       <body><article>
         <div class="wrapper">
                   <div class="center measure-wide f5 pv5 lh-copy ph2">
@@ -231,11 +249,21 @@ The Arrow might be specific to Houston, but the story is commonplace in U.S. cit
 <p>
 The list might read different today, but many of the aspirations remain, presenting opportunities for immediate redress: lead remediation, home weatherization, well-stocked grocery stores a walk away, robust shade and places for children to play. 
 </p>
+
+ </div></div></article></body>
+          <center>
+<img src="https://houston-arrow.netlify.app/4-images/hha-map.png" class="tr center w-100 w-90-ns"/>  <br />
+                    <span class="caption">The Arrow includes many so-called 'high-opportunity neighborhoods,' but few housing projects for people with lower incomes. Source: Houston Housing Authority</span>
+          </center>
+      <body><article>
+        <div class="wrapper">
+                  <div class="center measure-wide f5 pv5 lh-copy ph2">
+                  
 <p>
 It would be a start. And the Arrow shows today’s leaders exactly where they should start. It shows them exactly where their priorities should be.
 </p>
 <p>
-But stopping there would fail to address the systems that continue to create and then take advantage of inequity. Federal policies, like the mortgage interest deduction, which white households receive almost 80 percent of the value of, are complemented locally by practices like the city’s racist appraisal system. It isn’t enough to speak out against the ills concentrated outside the Arrow. The city needs also to acknowledge the ill-gotten gains inside it. 
+But stopping there would fail to address the systems that continue to create and then take advantage of inequity. Federal policies, like the mortgage interest deduction, which white households <a href="https://nlihc.org/news/new-report-shows-mortgage-interest-deduction-one-drivers-us-racial-wealth-gap" class="blue" target="_blank">receive</a> almost 80 percent of the value of, are complemented locally by practices like the city’s <a href="https://kinder.rice.edu/2018/03/16/study-how-houstons-appraisal-industry-reinforces-racial-inequality" class="blue" target="_blank">racist appraisal system</a>. It isn’t enough to speak out against the ills concentrated outside the Arrow. The city needs also to acknowledge the ill-gotten gains inside it. 
 </p>
           </div></div></article></body>
           <blockquote class="ph0 f5 f1-ns w-100 center b--none mb0">
@@ -246,7 +274,7 @@ The Arrow makes it clear: The market is incapable of valuing lives equally.</p><
                   <div class="center measure-wide f5 pv5 lh-copy ph2">
 
 <p>
- Equity cannot be achieved with a government beholden to it. There is a debt owed in Freedmen’s Town, and there is a debt owed outside the Arrow, too. Each mayoral administration has had the opportunity to do more, but too often politics appeal to the very philanthropic whims driving some of the city’s inequities. A donation here and there. A public-private partnership. A newly formed TIRZ or a special designation to help with fundraising. Corporate benevolence where there should be meaningful reparations. 
+ Equity cannot be achieved with a government beholden to it. There is a debt owed in Freedmen’s Town, and there is a debt owed outside the Arrow, too. Each mayoral administration has had the opportunity to do more, but too often politics appeal to the very philanthropic whims driving some of the city’s inequities. A donation here and there. A public-private partnership. A newly formed TIRZ or a <a href="https://www.khou.com/article/news/local/freedmens-town-first-heritage-district/285-cd5c53a0-8254-4f17-b77d-80c01292d738" class="blue" target="_blank">special designation</a> to help with fundraising. Corporate benevolence where there should be meaningful reparations. 
 </p>
 <p>
 Houston, we are reassured after deadly climate disasters, is “open for business.” But the vision shouldn’t be a uniform landscape of spaces modeled on the same old processes of extraction, dependent on favors and intent on accumulation. 
@@ -254,6 +282,7 @@ Houston, we are reassured after deadly climate disasters, is “open for busines
 <p>
 “You look at the Arrow,” Middleton says, “and the Arrow tells a story of our priorities.”
 </p>
+<img src="https://houston-arrow.netlify.app/4-images/IMG_7323.jpg" class="w-100 mv3" />
             <img class="mw3" src="https://houston-arrow.netlify.app/img/icon.png" />
 
 
