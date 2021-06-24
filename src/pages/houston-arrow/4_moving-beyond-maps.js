@@ -274,7 +274,7 @@ The Arrow makes it clear: The market is incapable of valuing lives equally.</p><
                   <div class="center measure-wide f5 pv5 lh-copy ph2">
 
 <p>
- Equity cannot be achieved with a government beholden to it. There is a debt owed in Freedmen’s Town, and there is a debt owed outside the Arrow, too. Each mayoral administration has had the opportunity to do more, but too often politics appeal to the very philanthropic whims driving some of the city’s inequities. A donation here and there. A public-private partnership. A newly formed TIRZ or a <a href="https://www.khou.com/article/news/local/freedmens-town-first-heritage-district/285-cd5c53a0-8254-4f17-b77d-80c01292d738" class="blue" target="_blank">special designation</a> to help with fundraising. Corporate benevolence where there should be meaningful reparations. 
+ Equity cannot be achieved with a government beholden to that market. There is a debt owed in Freedmen’s Town, and there is a debt owed outside the Arrow, too. Each mayoral administration has had the opportunity to do more, but too often politics appeal to the very philanthropic whims driving some of the city’s inequities. A donation here and there. A public-private partnership. A newly formed TIRZ or a <a href="https://www.khou.com/article/news/local/freedmens-town-first-heritage-district/285-cd5c53a0-8254-4f17-b77d-80c01292d738" class="blue" target="_blank">special designation</a> to help with fundraising. Corporate benevolence where there should be meaningful reparations. 
 </p>
 <p>
 Houston, we are reassured after deadly climate disasters, is “open for business.” But the vision shouldn’t be a uniform landscape of spaces modeled on the same old processes of extraction, dependent on favors and intent on accumulation. 
