@@ -146,11 +146,11 @@ const Landing = props => {
               </a>
             </article>
 
-            <article class="bt bb b--black-10 o-50">
-              <a class="db pv4 ph3 ph0-l no-underline black dim" href="#0">
+            <article class="bt bb b--black-10">
+              <a class="db pv4 ph3 ph0-l no-underline black dim" href="./4-moving-beyond-maps">
                 <div class="flex flex-column flex-row-ns">
                   <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-                    <img src="https://houston-arrow.netlify.app/photo/skyline.jpg" class="db" alt="Driving down Richmond Ave" />
+                    <img src="https://houston-arrow.netlify.app/photo/skyline.jpg" class="db" alt="Bungalow in Freedmen's Town leading into Downtown Houston" />
                   </div>
                   <div class="w-100 w-60-ns pl3-ns">
                     <h4 class="f7 lh-copy mv0">NOT THE FINAL PART</h4>
@@ -159,7 +159,7 @@ const Landing = props => {
                     <p class="f6 f5-l lh-copy">
                       Though the Arrow serves as a visual shorthand, there is more to Houston than can be mapped by traditional means and understood by conventional thinking. The Arrow tells a story of priorities that urgently requires new vision and action for equity.
                     </p>
-                    <p class="f5 lh-copy mv0 dark-green fw7">Read Article on 6/24→</p>
+                    <p class="f5 lh-copy mv0 dark-green fw7">Read Article →</p>
                   </div>
                 </div>
               </a>
