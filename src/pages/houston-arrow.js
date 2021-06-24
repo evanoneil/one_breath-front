@@ -147,7 +147,7 @@ const Landing = props => {
             </article>
 
             <article class="bt bb b--black-10">
-              <a class="db pv4 ph3 ph0-l no-underline black dim" href="./4-moving-beyond-maps">
+              <a class="db pv4 ph3 ph0-l no-underline black dim" href="./4_moving-beyond-maps">
                 <div class="flex flex-column flex-row-ns">
                   <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
                     <img src="https://houston-arrow.netlify.app/photo/skyline.jpg" class="db" alt="Bungalow in Freedmen's Town leading into Downtown Houston" />
