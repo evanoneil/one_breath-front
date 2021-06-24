@@ -23,7 +23,7 @@ const Porches = props => {
 
   const postNodes = data && data.posts && mapEdgesToNodes(data.posts)
   const mediaNodes = data && data.media && mapEdgesToNodes(data.media)
-  const description = 'The pillaging of historically Black Freedmen\'s Town by the same forces that guaranteed prosperity elsewhere'
+  const description = 'The Arrow shows leaders where their priorities should be. Will they act?'
   const image = `https://onebreathhou.org${ogImage}`
 
 
@@ -217,17 +217,17 @@ And then there are the alternative presents that could have been. When Middleton
           </center> */}
         </div>
         <div class="fl w-50 w-50-l pr1 pr0-l pl2-l pb3">
-          <img class="db w-100" src="http://houston-arrow.netlify.app/4-images/IMG_7357.jpg" alt="Photo of the sea and sky on the horizon with the foundations of a demolished house." />
+          <img class="db w-100" src="https://houston-arrow.netlify.app/4-images/IMG_7357.jpg" alt="Photo of the sea and sky on the horizon with the foundations of a demolished house." />
           {/* <center><span class="caption">caption</span>
           </center> */}
         </div>
         <div class="fl w-50 w-50-l pl2 pl0-l pr2-l pb3">
-          <img class="db w-100" src="http://houston-arrow.netlify.app/4-images/IMG_7344.jpg" alt="Freedmen's Town - a tree in front of a solitary doorstep" />
+          <img class="db w-100" src="https://houston-arrow.netlify.app/4-images/IMG_7344.jpg" alt="Freedmen's Town - a tree in front of a solitary doorstep" />
           {/* <center><span class="caption">caption</span>
           </center> */}
         </div>
         <div class="fl w-100 w-50-l pl2-l">
-          <img class="db" src="http://houston-arrow.netlify.app/4-images/IMG_7320.jpg" alt="Freedmen's Town" />
+          <img class="db" src="https://houston-arrow.netlify.app/4-images/IMG_7320.jpg" alt="Freedmen's Town" />
 
         </div>
 
