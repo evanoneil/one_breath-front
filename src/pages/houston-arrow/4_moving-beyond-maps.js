@@ -98,11 +98,11 @@ The Arrow shows leaders where their priorities should be. Will they act?
                 <p class="fw7 lh-title orange f3 mb0">Preservation has proved a sometimes perilous path, raising the question of what is being preserved — places or a community — and for whom — residents, many who have been displaced, or tourists. 
 
                 </p></blockquote>
-            </div></div></article></body>
+            </div></div></article>
 
       <center>
       </center>
-      <body><article>
+      <article>
 
         <div class="wrapper">
 
@@ -114,11 +114,11 @@ While not necessarily a matter of either-or, efforts to protect and preserve can
 <p>
 Episodes like the relocation of Jack Yates’ home to the downtown Sam Houston Park speak to the often heartbreaking compromises that have been made as the neighborhood has fought for control of its future and the resources to preserve its past. Today, there are ongoing efforts from groups like the Rutherford B. H. Yates Museum and the Freedmen’s Town Association and others, some aimed at providing for the neighborhood’s kids, some at buying and restoring historic housing, others at creating cultural tourism.
 </p>
-          </div></div></article></body>
+          </div></div></article>
 <img src="https://houston-arrow.netlify.app/4-images/skyline.JPG" class="w-100 w-90-ns"/>
           <center><span class="caption">Freedmen's Town bungalow leading into downtown Houston. Photo: The Gregory School.</span>
           </center>
-      <body><article>
+      <article>
         <div class="wrapper">
           <div class="center measure-wide f5 pv5 lh-copy ph2">
 <p>
@@ -137,13 +137,13 @@ The struggle is ongoing, including for House-El, whose latest effort to honor co
 Any sort of preservation work in Freedmen’s Town has to deal with decades of contention around who actually benefits, he says. 
 </p>
 
-          </div></div></article></body>
+          </div></div></article>
           <div class="tr">
 <img src="https://houston-arrow.netlify.app/4-images/freedmens-town-streetcar.JPG" class="tr center w-100 w-90-ns"/>
           <center><span class="caption">Remains of streetcar tracks in Freedmen's Town. Photo: Allyn West.</span>
           </center>
 </div>
-      <body><article>
+      <article>
         <div class="wrapper">
           <div class="center measure-wide f5 pv5 lh-copy ph2">
 
@@ -154,12 +154,12 @@ Any sort of preservation work in Freedmen’s Town has to deal with decades of c
 The community Hall thought wasn’t there anymore when he first went looking at official numbers emerged in his interactions in the streets.
 </p>
 
-          </div></div></article></body>
+          </div></div></article>
           <div class="center">
    <blockquote class="ph0 f5 f1-ns w-100 center b--none mb0">
                 <p class=" center fw7 lh-title orange f3 mb0">The story of Freedmen’s Town, both its past and present, then, shows what can sometimes be lost in maps. Though the Arrow appears time and time again, the truth is less shapely, marked by much less of the feeling of inevitability that comes from static representations of people in space. Rebecca Solnit writes about the trust we have in maps to tell us the truth as “the way we take them for reliable or even objective statements and meet their sins of omission with our own.”
 </p>      </blockquote></div>
-<body><article>
+<article>
         <div class="wrapper">
           <div class="center measure-wide f5 pv5 lh-copy ph2">
 
@@ -170,13 +170,13 @@ As with history, whoever produces maps — and how — holds tremendous power. Q
 <p>
 So, while the Arrow presents a useful bit of visual shorthand, there is more to it than can be mapped by traditional means. On a map, Antioch Missionary Baptist Church sits like an island surrounded by downtown parking garages and skyscrapers, just east of I-45. But the map does not indicate that in the 1950s, the highway destroyed an entire swath of Freedmen’s Town, separating the church from its home.
 </p>
-          </div></div></article></body>
+          </div></div></article>
 <div class="tc">
 <img src="https://houston-arrow.netlify.app/ft-images/antioch-at-night.jpg" class="tr center w-100 w-80-ns"/>  
           <center><span class="caption">Antioch Missionary Baptist Church. Photo: The Gregory School.</span>
           </center>
 </div>
-    <body><article>
+    <article>
         <div class="wrapper">
                   <div class="center measure-wide f5 pv5 lh-copy ph2">
 
@@ -189,13 +189,13 @@ And then there are notable absences.
 <p>
 Blacklock-Sloan takes photographs around the Freedmen’s Town neighborhood whenever she can, never sure which structure will be gone next and replaced by towering houses and large apartment buildings and garages. “It’s just so disrespectful,” she says. She has researched and applied for historical markers across the neighborhood and city, reckoning always with the weight of the work, of what she can’t save. “At least the markers will tell the story of what was here.”
 </p>
-          </div></div></article></body>
+          </div></div></article>
           <center>
           <img src="https://houston-arrow.netlify.app/4-images/IMG_7328.JPG" class=" center w-50"/>  
                     <center><span class="caption">Maps and historical markers can never tell the whole story. Photo: Allyn West</span>
           </center>
 </center>
-      <body><article>
+      <article>
         <div class="wrapper">
                   <div class="center measure-wide f5 pv5 lh-copy ph2">
 
@@ -208,7 +208,7 @@ And then there are the alternative presents that could have been. When Middleton
 <p>
 "There are these spirits of past developments or almost developments,” she says, recalling one shouted-down mixed-income housing development that would have been in the Arrow on Fountain View Drive. Residents said they feared lowered property values, among other unsubstantiated concerns. That’s who Mayor Sylvester Turner listened to when he effectively halted the project in a decision that would prompt the Department of Housing and Urban Development to investigate the city for a violation of the <a href="https://www.bloomberg.com/news/articles/2018-03-22/houston-fair-housing-advocates-file-complaint-with-hud" class="blue" target="_blank">Civil Rights Act</a>.
 </p>
-          </div></div></article></body>
+          </div></div></article>
           
           <div class="cf">
         <div class="fl w-100 w-50-l pr2-l pb3">
@@ -235,7 +235,7 @@ And then there are the alternative presents that could have been. When Middleton
                           <center><span class="caption">Photos taken in Freedmen's Town. Photo: Allyn West</span>
           </center>  
 
-      <body><article>
+      <article>
         <div class="wrapper">
                   <div class="center measure-wide f5 pv5 lh-copy ph2">
 
@@ -250,12 +250,12 @@ The Arrow might be specific to Houston, but the story is commonplace in U.S. cit
 The list might read different today, but many of the aspirations remain, presenting opportunities for immediate redress: lead remediation, home weatherization, well-stocked grocery stores a walk away, robust shade and places for children to play. 
 </p>
 
- </div></div></article></body>
+ </div></div></article>
           <center>
 <img src="https://houston-arrow.netlify.app/4-images/hha-map.png" class="tr center w-100 w-90-ns"/>  <br />
                     <span class="caption">The Arrow includes many so-called 'high-opportunity neighborhoods,' but few housing projects for people with lower incomes. Source: <a href="http://www.housingforhouston.com/public-housing/housing-developments.aspx" target="_blank">Houston Housing Authority</a></span>
           </center>
-      <body><article>
+      <article>
         <div class="wrapper">
                   <div class="center measure-wide f5 pv5 lh-copy ph2">
                   
@@ -265,11 +265,11 @@ It would be a start. And the Arrow shows today’s leaders exactly where they sh
 <p>
 But stopping there would fail to address the systems that continue to create and then take advantage of inequity. Federal policies, like the mortgage interest deduction, which white households <a href="https://nlihc.org/news/new-report-shows-mortgage-interest-deduction-one-drivers-us-racial-wealth-gap" class="blue" target="_blank">receive</a> almost 80 percent of the value of, are complemented locally by practices like the city’s <a href="https://kinder.rice.edu/2018/03/16/study-how-houstons-appraisal-industry-reinforces-racial-inequality" class="blue" target="_blank">racist appraisal system</a>. It isn’t enough to speak out against the ills concentrated outside the Arrow. The city needs also to acknowledge the ill-gotten gains inside it. 
 </p>
-          </div></div></article></body>
+          </div></div></article>
           <blockquote class="ph0 f5 f1-ns w-100 center b--none mb0">
                 <p class="center b fw7 lh-title orange f2 mb0">
 The Arrow makes it clear: The market is incapable of valuing lives equally.</p></blockquote>
-      <body><article>
+      <article>
         <div class="wrapper">
                   <div class="center measure-wide f5 pv5 lh-copy ph2">
 
