@@ -15,7 +15,7 @@ const headline = props => (
     }}>
       <div className={styles.scrollright}>
         <p>
-          <a href="https://onebreathhou.org/houston-arrow" class=" ">→→→ Read our new feature: <span class="brown">The Houston Arrow</span> → →→
+          <img class="mw1" src="https://houston-arrow.netlify.app/img/icon.png"></img><a href="https://onebreathhou.org/houston-arrow" class=" ">→→→ Read our new feature: <span class="brown">The Houston Arrow</span> → →→<img class="mw1" src="https://houston-arrow.netlify.app/img/icon.png"></img>
           </a>
         </p>
 
