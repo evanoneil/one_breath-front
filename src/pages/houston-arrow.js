@@ -33,8 +33,10 @@ const Landing = props => {
 
   return (
     <Layout>
-      {/* <SEO title="HB 1820" /> */}
-      <Helmet>
+      <SEO
+        title="The Houston Arrow → The shape of Houston`s Inequity | One Breath Partnership"
+        description='What "The Houston Arrow’ reveals about the connections between government, development and the concentration of opportunity'
+      />      <Helmet>
         <title>The Houston Arrow → The shape of Houston`s Inequity | One Breath Partnership</title>
         <meta property='og:title' content='The Houston Arrow | The shape of the city`s inequity' />
         <meta name='description' content={description} />

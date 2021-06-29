@@ -12,9 +12,7 @@ import "../layouts/custom.css";
 const Header = ({ onHideNav, onShowNav, showNav, siteTitle }) => (
   <div className="bg-white flex w-100 vh-7 pv3 flex justify-between items-center top-0 z-2">
     <Helmet>
-      <link rel="stylesheet" href="https://unpkg.com/aos@2.3.0/dist/aos.css" />
-      <script src="https://unpkg.com/aos@2.3.0/dist/aos.js"></script>
-      <script src="https://wp.evanoneil.net/one_breath/script.js"></script>
+
       <link
         rel="icon"
         type="image/x-icon"
