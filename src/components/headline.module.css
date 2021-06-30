@@ -6,7 +6,7 @@
 
 .scrollright {
  height: 40px;	
- overflow: visible;
+ overflow: hidden;
  position: relative;
 
 }
