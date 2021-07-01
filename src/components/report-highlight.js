@@ -2,9 +2,9 @@ import { Link } from 'gatsby'
 import React from 'react'
 import Icon from './icon'
 import { cn } from '../lib/helpers'
-import Caldwell from '../assets/img/formaldehyde.JPG'
+import Caldwell from '../assets/img/formaldehyde.png'
 
-import styles from './youtube-highlight.module.css'
+import styles from './report-highlight.module.css'
 
 import '../layouts/tachyons/css/tachyons.css'
 import '../layouts/custom.css'
