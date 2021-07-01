@@ -97,7 +97,7 @@ const TakeActionPage = props => {
 
       <Container>
         <div>
-          <div id='can-petition-area-houstonians-need-protected-from-formaldehyde' style={{ width: '100%' }}></div>
+          <div id='can-petition-area-houstonians-need-protected-from-formaldehyde'></div>
         </div>
       </Container>
     </Layout>
