@@ -13,12 +13,13 @@ import GraphQLErrorList from '../components/graphql-error-list'
 import SEO from '../components/seo'
 import Layout from '../containers/layout'
 import Headline from '../components/headline'
-import PartnerHighlight from '../components/partner-highlight'
+import ReportHighlight from '../components/report-highlight'
 import YouTubeHighlight from '../components/youtube-highlight'
 import SignUp from '../components/sign-up'
 import Partners from '../components/partners'
 import Helmet from 'react-helmet'
 import ogImage from '../assets/img/og.jpg'
+
 
 export const query = graphql`
   fragment SanityImage on SanityMainImage {
@@ -233,7 +234,8 @@ const IndexPage = props => {
       /> */}
 
       <Container>
-        {/* <PartnerHighlight /> */}
+        <ReportHighlight />
+
         {postNodes && <BlogPostPreviewGrid nodes={postNodes} />}
         {mediaNodes && <NewsroomPreviewGrid nodes={mediaNodes} />}
         {/* {videoNodes && <VideoPostPreviewGrid nodes={videoNodes} />} */}

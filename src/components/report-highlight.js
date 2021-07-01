@@ -2,14 +2,14 @@ import { Link } from 'gatsby'
 import React from 'react'
 import Icon from './icon'
 import { cn } from '../lib/helpers'
-import Caldwell from '../assets/img/caldwell.jpg'
+import Caldwell from '../assets/img/formaldehyde.JPG'
 
 import styles from './youtube-highlight.module.css'
 
 import '../layouts/tachyons/css/tachyons.css'
 import '../layouts/custom.css'
 
-const PartnerHighlight = () => (
+const ReportHighlight = () => (
   <div className='flex flex-wrap'>
     <div className={styles.lefthighlight}>
       <div className={styles.interiortext} />
@@ -27,7 +27,7 @@ const PartnerHighlight = () => (
         State and federal governments have the power to act to reduce the release of the chemicals that react in the air to form this cancer-causing pollutant.      </p>
       <a
         className='pa3 ttu mid-gray f5 fw7 blue no-underline dib-l enterprise'
-        href='https://www.youtube.com/channel/UCr9nw8OlLNnU3BaagtbgQYA'
+        href='https://environmentalintegrity.org/wp-content/uploads/2021/06/Houston-Formaldehyde-Report-Embargoed-for-7.1.21.pdf'
         target='blank'
       >
         Read the report →
@@ -36,4 +36,4 @@ const PartnerHighlight = () => (
   </div>
 )
 
-export default PartnerHighlight
+export default ReportHighlight
