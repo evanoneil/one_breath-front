@@ -27,7 +27,7 @@ const ReportHighlight = () => (
         State and federal governments have the power to act to reduce the release of the chemicals that react in the air to form this cancer-causing pollutant.      </p>
       <a
         className='pa3 ttu mid-gray f5 fw7 blue no-underline dib-l enterprise'
-        href='https://environmentalintegrity.org/wp-content/uploads/2021/06/Houston-Formaldehyde-Report-Embargoed-for-7.1.21.pdf'
+        href='https://environmentalintegrity.org/news/monitoring-shows-plumes-of-carcinogenic-formaldehyde-in-neighborhoods-along-houstons-ship-channel/'
         target='blank'
       >
         Read the report →
