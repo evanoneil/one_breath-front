@@ -32,6 +32,14 @@ const ReportHighlight = () => (
       >
         Read the report →
       </a>
+<br />
+                <a
+        className='pa3 ttu mid-gray f5 fw7 blue no-underline dib-l enterprise'
+        href='https://environmentalintegrity.org/wp-content/uploads/2021/07/Spanish-translation-of-formaldehyde-executive-summary.pdf'
+        target='blank'
+      >
+        En Español →
+      </a>
     </div>
   </div>
 )
