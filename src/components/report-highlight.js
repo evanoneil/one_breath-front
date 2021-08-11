@@ -26,7 +26,7 @@ const ReportHighlight = () => (
       <p className='mb5-ns slate-gray'>
         State and federal governments have the power to act to reduce the release of the chemicals that react in the air to form this cancer-causing pollutant.      </p>
       <a
-        className='pa3 ttu mid-gray f5 fw7 blue no-underline dib-l enterprise'
+        className='ma3 pa3 ttu mid-gray f5 fw7 blue no-underline dib-l enterprise'
         href='https://environmentalintegrity.org/news/monitoring-shows-plumes-of-carcinogenic-formaldehyde-in-neighborhoods-along-houstons-ship-channel/'
         target='blank'
       >
@@ -34,7 +34,7 @@ const ReportHighlight = () => (
       </a>
 <br />
                 <a
-        className='pa3 ttu mid-gray f5 fw7 blue no-underline dib-l enterprise'
+        className='ma3 pa3 ttu mid-gray f5 fw7 blue no-underline dib-l enterprise'
         href='https://environmentalintegrity.org/wp-content/uploads/2021/07/Spanish-translation-of-formaldehyde-executive-summary.pdf'
         target='blank'
       >
