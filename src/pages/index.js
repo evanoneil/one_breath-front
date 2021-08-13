@@ -19,6 +19,7 @@ import SignUp from '../components/sign-up'
 import Partners from '../components/partners'
 import Helmet from 'react-helmet'
 import ogImage from '../assets/img/og.jpg'
+import ArrowHighlight from '../components/arrow'
 
 
 export const query = graphql`
@@ -225,7 +226,7 @@ const IndexPage = props => {
         <meta name='twitter:description' content={description} />
         <meta name='twitter:image' content={image} />
       </Helmet>
-      <Headline title={description} />
+              {/*  <Headline title={description} />*/}
       {/* <SEO title={site.title} description={site.description} keywords={site.keywords} /> */}
       {/* <SEO
         title={"One Breath Partnership"}
@@ -234,6 +235,7 @@ const IndexPage = props => {
       /> */}
 
       <Container>
+        <ArrowHighlight />
         <ReportHighlight />
 
         {postNodes && <BlogPostPreviewGrid nodes={postNodes} />}
