@@ -1,0 +1,57 @@
+.lefthighlight {
+  background: url("https://houston-arrow.netlify.app/photo/header.jpg") 0 0 no-repeat;
+  background-size: cover;
+  background-position: top middle;
+  overflow: hidden;
+  color: #ffffff;
+  /* height: 40vh; */
+  display: flex;
+  width: 45%;
+  flex-wrap: wrap;
+  border-radius: 500px 500px 0 500px;
+  margin-right: 1rem;
+}
+
+@media screen and (max-width: 30em) {
+  .lefthighlight {
+    width: 100%;
+    margin-left: -2rem;
+    display: none;
+  }
+}
+
+.interiortext {
+  opacity: 0.2;
+  color: black;
+  height: 100%;
+  width: 50%;
+  z-index: 99;
+  text-align: left;
+
+  align-content: flex-end;
+  padding: 1rem;
+  /* top: -15%; */
+  @media (--media-min-medium) {
+    padding: 1rem;
+  }
+}
+
+.bradbury {
+  margin-left: 8rem;
+  z-index: 999;
+}
+
+.interiorcolor {
+  background-color: orange;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+  text-align: left;
+  mix-blend-mode: screen;
+  align-content: flex-end;
+  padding: 2rem;
+  /* top: -15%; */
+  @media (--media-min-medium) {
+    padding: 1rem;
+  }
+}
