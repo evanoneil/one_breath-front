@@ -47,10 +47,7 @@ const Header = ({ onHideNav, onShowNav, showNav, siteTitle }) => (
               Take Action
             </Link>
           </li>
-                      <li>
-            <div id="search">
-            </div>
-          </li>
+                    
           <li>
             <a
               target="_blank"
