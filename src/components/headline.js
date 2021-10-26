@@ -10,17 +10,7 @@ import logoFade from '../assets/img/main.png'
 
 const headline = props => (
   <div className='flex flex-wrap'>
-    <div class="w-100 mh3 tc pv4 b white v-mid center pa3 bw2 br5 ba b--yellow mb4" style={{
-
-    }}>
-      <div className={styles.scrollright}>
-        <p>
-          <img class="mw1" src="https://houston-arrow.netlify.app/img/icon.png"></img><a href="https://onebreathhou.org/houston-arrow" class=" ">→→→ Read our new feature: <span class="brown">The Houston Arrow</span> → →→<img class="mw1" src="https://houston-arrow.netlify.app/img/icon.png"></img>
-          </a>
-        </p>
-
-      </div>
-    </div>
+   
     <section className='v-mid pv3  blob    vh-30   w-100   ph3  '>
       <div className='v-mid w-100 flex flex-wrap'>
         <div className='v-mid w-90-ns w-100 flex flex-wrap'>
