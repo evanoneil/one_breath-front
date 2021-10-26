@@ -12,7 +12,9 @@ import "../layouts/custom.css";
 const Header = ({ onHideNav, onShowNav, showNav, siteTitle }) => (
   <div className="bg-white flex w-100 vh-7 pv3 flex justify-between items-center top-0 z-2">
     <Helmet>
-
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
+<script type="text/javascript" src="https://hia-unity-map.netlify.app/algoliasearchNetlify.js"></script>
       <link
         rel="icon"
         type="image/x-icon"
