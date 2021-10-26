@@ -381,6 +381,10 @@ const NewsroomPage = props => {
       </Helmet>
       <Headline title={description} />
       <Container>
+                <div id="search"></div>
+</Container>
+      <Container>
+
         {/* <div className="flex flex-wrap">
           <h1 className="mr3 flex-wrap mb0">Pollution 101</h1> &nbsp;{" "}
           <h1 className="mr3 flex-wrap mb0">/</h1> &nbsp;{" "}
@@ -393,7 +397,6 @@ const NewsroomPage = props => {
         <h2>From One Breath Partnership</h2> */}
 
         {/* {postNodes && postNodes.length > 0 && <BlogPostPreviewGrid nodes={postNodes} />} */}
-        <div id="search"></div>
         {postNodes && <BlogPostPreviewGrid nodes={postNodes} />}
         <PartnerHighlight01 />
         <br />
