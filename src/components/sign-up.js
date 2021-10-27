@@ -12,9 +12,9 @@ import "../layouts/custom.css";
 const PartnerHighlight = () => (
   <div className="flex flex-wrap mt6 mb6-ns">
     <Helmet>
-      <link rel="stylesheet" href="https://unpkg.com/aos@2.3.0/dist/aos.css" />
-      <script src="https://unpkg.com/aos@2.3.0/dist/aos.js"></script>
-      <script src="https://wp.evanoneil.net/one_breath/script.js"></script>
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
+<script type="text/javascript" src="https://hia-unity-map.netlify.app/algoliasearchNetlify.js"></script>
     </Helmet>
                   <div id="search"></div>
 
