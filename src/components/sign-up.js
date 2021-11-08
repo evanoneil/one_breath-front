@@ -12,11 +12,8 @@ import "../layouts/custom.css";
 const PartnerHighlight = () => (
   <div className="flex flex-wrap mt6 mb6-ns">
     <Helmet>
- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
-<script type="text/javascript" src="https://hia-unity-map.netlify.app/algoliasearchNetlify.js"></script>
+
     </Helmet>
-                  <div id="search"></div>
 
     <div className="pa5-ns pt4 pt3-ns pb0 flex flex-wrap w-50-ns w-100">
       <h3 className="mt0 mb0 gold">STAY UP TO DATE</h3>
