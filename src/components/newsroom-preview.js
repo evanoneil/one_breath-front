@@ -38,7 +38,7 @@ function NewsroomPreview (props) {
         </div> */}
           <div className={styles.text}>
             <h3 className={cn(responsiveTitle3, styles.title)}>
-              <a>{props.title}</a>
+              {props.title}
             </h3>
 
             <div className={styles.date}>

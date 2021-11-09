@@ -8,6 +8,7 @@ const clientConfig = require('./client-config')
 const isProd = process.env.NODE_ENV === 'production'
 
 // for Portable Text Serialization
+// const { imageUrlFor } = require("../lib/image-url");
 const PortableText = require("@sanity/block-content-to-html");
 const imageUrlBuilder = require("@sanity/image-url");
 const h = PortableText.h;
@@ -28,7 +29,7 @@ module.exports = {
   siteMetadata: {
     title: "One Breath Partnership",
     siteUrl: `https://www.onebreathhou.org`,
-    description: "The website of One Breath Partnership"
+    description: "Elevating the work for clean air"
   },
   plugins: [
     'gatsby-plugin-postcss',
@@ -84,7 +85,11 @@ module.exports = {
                         types: {
                           code: ({ node }) =>
                             h("pre", h("code", { lang: node.language }, node.code))
-                        }
+                        },
+                        mainImage: ({ node }) =>
+                                h('img', {
+                                  src: imageUrlFor(node.asset).url()
+                                }),
                       }
                     }),
                     custom_elements: [
@@ -96,7 +101,7 @@ module.exports = {
                               code: ({ node }) =>
                                 h("pre", h("code", { lang: node.language }, node.code)),
                               mainImage: ({ node }) =>
-                                h("img", {
+                                h('img', {
                                   src: imageUrlFor(node.asset).url()
                                 }),
                               authorReference: ({ node }) => h("p", "Author: " + node.author.name),
@@ -116,7 +121,9 @@ module.exports = {
                   };
                 });
             },
+            
             query: `{
+              
               allSanityPost(sort: {fields: publishedAt, order: DESC}) {
                 edges {
                   node {
@@ -124,6 +131,11 @@ module.exports = {
                     _rawBody(resolveReferences: {maxDepth: 10})
                     title
                     publishedAt
+                    mainImage {
+                     asset {
+                       _id
+                     }
+                    }
                     slug {
                       current
                     }
@@ -133,7 +145,7 @@ module.exports = {
             }
             `,
             output: "/rss.xml",
-            title: "OBP - RSS Feed",
+            title: "One Breath Partnership",
             // optional configuration to insert feed reference in pages:
             // if `string` is used, it will be used to create RegExp and then test if pathname
             // of current page satisfied this regular expression;
@@ -145,9 +157,7 @@ module.exports = {
     }
 
 
-
   ]
+  
 }
-
-
 

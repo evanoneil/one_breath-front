@@ -24,7 +24,8 @@ import NewGrid from '../components/new-grid'
 import styles from "../components/new-grid.module.css";
 import BlogPostPreviewGridShort from '../components/blog-post-preview-grid-short'
 import BlogPostPreviewGridNew from '../components/blog-post-preview-grid-new'
-import Search from '../components/search'
+import Search from '../components/search-2'
+import Autocomplete from '../components/autocomplete'
 
 
 export const query = graphql`
@@ -276,6 +277,10 @@ const IndexPageNew = props => {
         <meta name='twitter:creator' content='@onebreathhou' />
         <meta name='twitter:description' content={description} />
         <meta name='twitter:image' content={image} />
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
+<script type="text/javascript" src="https://hia-unity-map.netlify.app/algoliasearchNetlify.js"></script>
       </Helmet>
               {/*  <Headline title={description} />*/}
       {/* <SEO title={site.title} description={site.description} keywords={site.keywords} /> */}
@@ -299,7 +304,11 @@ const IndexPageNew = props => {
 </div> 
 
 <div className="bg-black w-100 pa6 mb5">
-  <Search />
+
+<div id="search"></div>
+{/* <Autocomplete />   */}
+{/* <Search /> */}
+  {/* <Item /> */}
   </div>
         <ArrowHighlight />
         <ReportHighlight />

@@ -120,9 +120,9 @@ var plugins = [{
     "plugins": [],
     "query": "\n        {\n          site {\n            siteMetadata {\n              title\n              description\n              siteUrl\n              site_url: siteUrl\n            }\n          }\n        }\n        ",
     "feeds": [{
-      "query": "{\n              allSanityPost(sort: {fields: publishedAt, order: DESC}) {\n                edges {\n                  node {\n                    _rawExcerpt\n                    _rawBody(resolveReferences: {maxDepth: 10})\n                    title\n                    publishedAt\n                    slug {\n                      current\n                    }\n                  }\n                }\n              }\n            }\n            ",
+      "query": "{\n              \n              allSanityPost(sort: {fields: publishedAt, order: DESC}) {\n                edges {\n                  node {\n                    _rawExcerpt\n                    _rawBody(resolveReferences: {maxDepth: 10})\n                    title\n                    publishedAt\n                    mainImage {\n                     asset {\n                       _id\n                     }\n                    }\n                    slug {\n                      current\n                    }\n                  }\n                }\n              }\n            }\n            ",
       "output": "/rss.xml",
-      "title": "OBP - RSS Feed",
+      "title": "One Breath Partnership",
       "match": "^/newsroom/"
     }]
   }
