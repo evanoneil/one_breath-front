@@ -24,7 +24,7 @@ import NewGrid from '../components/new-grid'
 import styles from "../components/new-grid.module.css";
 import BlogPostPreviewGridShort from '../components/blog-post-preview-grid-short'
 import BlogPostPreviewGridNew from '../components/blog-post-preview-grid-new'
-import Search from '../components/search-2'
+import Search from '../components/search'
 import Autocomplete from '../components/autocomplete'
 
 
@@ -278,9 +278,6 @@ const IndexPageNew = props => {
         <meta name='twitter:description' content={description} />
         <meta name='twitter:image' content={image} />
 
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
-<script type="text/javascript" src="https://hia-unity-map.netlify.app/algoliasearchNetlify.js"></script>
       </Helmet>
               {/*  <Headline title={description} />*/}
       {/* <SEO title={site.title} description={site.description} keywords={site.keywords} /> */}
@@ -305,9 +302,9 @@ const IndexPageNew = props => {
 
 <div className="bg-black w-100 pa6 mb5">
 
-<div id="search"></div>
+{/* <div id="search"></div> */}
 {/* <Autocomplete />   */}
-{/* <Search /> */}
+<Search />
   {/* <Item /> */}
   </div>
         <ArrowHighlight />
