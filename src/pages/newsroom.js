@@ -1,6 +1,6 @@
-import React from 'react'
-import { graphql } from 'gatsby'
-import { mapEdgesToNodes } from '../lib/helpers'
+import React, {useEffect} from 'react'
+import {graphql} from 'gatsby'
+import {mapEdgesToNodes} from '../lib/helpers'
 import BlogPostPreviewGrid from '../components/blog-post-preview-grid'
 import NewsroomPreviewGrid from '../components/newsroom-preview-grid'
 import VideoPostPreviewGrid from '../components/video-post-preview-grid'
@@ -15,7 +15,17 @@ import Helmet from 'react-helmet'
 import ogImage from '../assets/img/og.jpg'
 import YouTubeHighlight from '../components/youtube-highlight'
 import Carousel from '../components/carousel'
-import { responsiveTitle1 } from '../components/typography.module.css'
+import {responsiveTitle1} from '../components/typography.module.css'
+import {getAlgoliaResults} from '@algolia/autocomplete-js'
+import Autocomplete from '../components/Autocomplete'
+import SearchItem from '../components/SearchItem'
+import '@algolia/autocomplete-theme-classic/dist/theme.css'
+import Searchbar from '../components/Searchbar'
+import algoliasearch from 'algoliasearch'
+
+const appId = '79W2NPTLRJ'
+const apiKey = 'f2183a110c74f6068718cdf58ab60f32'
+const searchClient = algoliasearch(appId, apiKey)
 
 export const query = graphql`
   fragment SanityImage on SanityMainImage {
@@ -342,7 +352,7 @@ export const query = graphql`
 `
 
 const NewsroomPage = props => {
-  const { data, errors } = props
+  const {data, errors} = props
 
   if (errors) {
     return (
@@ -380,11 +390,34 @@ const NewsroomPage = props => {
         <meta name='twitter:image' content={image} />
       </Helmet>
       <Headline title={description} />
+      <Searchbar />
       <Container>
-                <div id="search"></div>
-</Container>
-      <Container>
-
+        {/* <Autocomplete
+          // openOnFocus={true}
+          getSources={({query}) => [
+            {
+              sourceId: 'products',
+              getItems() {
+                return getAlgoliaResults({
+                  searchClient,
+                  queries: [
+                    {
+                      indexName: 'netlify_ddf6d339-da4b-46d5-9c28-7d3f070c85d6_master_all',
+                      query
+                    }
+                  ]
+                })
+              },
+              templates: {
+                item({item, components}) {
+                  console.log('searchitem-', {item, components})
+                  return <li>{item.title}</li>
+                  // return <SearchItem hit={item} components={components} />
+                }
+              }
+            }
+          ]}
+        /> */}
         {/* <div className="flex flex-wrap">
           <h1 className="mr3 flex-wrap mb0">Pollution 101</h1> &nbsp;{" "}
           <h1 className="mr3 flex-wrap mb0">/</h1> &nbsp;{" "}
