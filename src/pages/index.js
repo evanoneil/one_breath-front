@@ -1,5 +1,5 @@
 import React from 'react'
-import { graphql } from 'gatsby'
+import {graphql} from 'gatsby'
 import {
   mapEdgesToNodes,
   filterOutDocsWithoutSlugs,
@@ -20,7 +20,6 @@ import Partners from '../components/partners'
 import Helmet from 'react-helmet'
 import ogImage from '../assets/img/og.jpg'
 import ArrowHighlight from '../components/arrow'
-
 
 export const query = graphql`
   fragment SanityImage on SanityMainImage {
@@ -75,7 +74,7 @@ export const query = graphql`
             _id
             id
             color
-            slug{
+            slug {
               current
             }
           }
@@ -183,7 +182,7 @@ export const query = graphql`
 const image = `https://onebreathhou.org${ogImage}`
 
 const IndexPage = props => {
-  const { data, errors } = props
+  const {data, errors} = props
 
   if (errors) {
     return (
@@ -196,8 +195,8 @@ const IndexPage = props => {
   const site = (data || {}).site
   const postNodes = (data || {}).posts
     ? mapEdgesToNodes(data.posts)
-      .filter(filterOutDocsWithoutSlugs)
-      .filter(filterOutDocsPublishedInTheFuture)
+        .filter(filterOutDocsWithoutSlugs)
+        .filter(filterOutDocsPublishedInTheFuture)
     : []
   const mediaNodes = data && data.media && mapEdgesToNodes(data.media)
   const videoNodes = data && data.media && mapEdgesToNodes(data.videos)
@@ -226,7 +225,7 @@ const IndexPage = props => {
         <meta name='twitter:description' content={description} />
         <meta name='twitter:image' content={image} />
       </Helmet>
-              {/*  <Headline title={description} />*/}
+      {/*  <Headline title={description} />*/}
       {/* <SEO title={site.title} description={site.description} keywords={site.keywords} /> */}
       {/* <SEO
         title={"One Breath Partnership"}
