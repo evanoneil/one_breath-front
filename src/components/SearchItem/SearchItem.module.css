@@ -1,2 +1,19 @@
-.ItemWrapper {
+.ResultWrapper .content {
+  margin-left: 20px;
+}
+
+.ResultWrapper .content em {
+  font-weight: bold;
+  font-style: normal;
+}
+
+.ResultWrapper .title {
+  font-size: 16px;
+  margin: 0;
+}
+.ResultWrapper .desc {
+  margin: 0;
+  padding-top: 5px;
+  font-size: 14px;
+  color: grey;
 }
