@@ -17,11 +17,13 @@ import YouTubeHighlight from '../components/youtube-highlight'
 import Carousel from '../components/carousel'
 import {responsiveTitle1} from '../components/typography.module.css'
 import {getAlgoliaResults} from '@algolia/autocomplete-js'
-import Autocomplete from '../components/Autocomplete'
+import Autocomplete from '../components/Autocomplete/Autocomplete'
 import SearchItem from '../components/SearchItem'
 import '@algolia/autocomplete-theme-classic/dist/theme.css'
 import Searchbar from '../components/Searchbar'
 import algoliasearch from 'algoliasearch'
+
+import * as searchClasses from '../components/Searchbar/Searchbar.module.css'
 
 const appId = '79W2NPTLRJ'
 const apiKey = 'f2183a110c74f6068718cdf58ab60f32'
@@ -390,34 +392,34 @@ const NewsroomPage = props => {
         <meta name='twitter:image' content={image} />
       </Helmet>
       <Headline title={description} />
-      <Searchbar />
       <Container>
-        {/* <Autocomplete
-          // openOnFocus={true}
-          getSources={({query}) => [
-            {
-              sourceId: 'products',
-              getItems() {
-                return getAlgoliaResults({
-                  searchClient,
-                  queries: [
-                    {
-                      indexName: 'netlify_ddf6d339-da4b-46d5-9c28-7d3f070c85d6_master_all',
-                      query
-                    }
-                  ]
-                })
-              },
-              templates: {
-                item({item, components}) {
-                  console.log('searchitem-', {item, components})
-                  return <li>{item.title}</li>
-                  // return <SearchItem hit={item} components={components} />
+        <Searchbar />
+        <div className={searchClasses.AutocompleteWrapper}>
+          <Autocomplete
+            openOnFocus={true}
+            getSources={({query}) => [
+              {
+                sourceId: 'search',
+                getItems() {
+                  return getAlgoliaResults({
+                    searchClient,
+                    queries: [
+                      {
+                        indexName: 'netlify_ddf6d339-da4b-46d5-9c28-7d3f070c85d6_master_all',
+                        query
+                      }
+                    ]
+                  })
+                },
+                templates: {
+                  item({item, components}) {
+                    return <SearchItem hit={item} components={components} />
+                  }
                 }
               }
-            }
-          ]}
-        /> */}
+            ]}
+          />
+        </div>
         {/* <div className="flex flex-wrap">
           <h1 className="mr3 flex-wrap mb0">Pollution 101</h1> &nbsp;{" "}
           <h1 className="mr3 flex-wrap mb0">/</h1> &nbsp;{" "}
