@@ -65,7 +65,7 @@ const TakeActionPage = props => {
 
   const postNodes = data && data.posts && mapEdgesToNodes(data.posts)
   const mediaNodes = data && data.media && mapEdgesToNodes(data.media)
-  const description = 'Tell TCEQ: How do you know ITC won't let another disaster happen?'
+  const description = 'Tell TCEQ: How do you know ITC won\'t let another disaster happen?'
   const image = `https://onebreathhou.org${ogImage}`
 
   return (
