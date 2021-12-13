@@ -21,7 +21,6 @@ const ReportHighlight = () => (
         In Houston, Hispanic and lower-income communities face increased cancer risk. One big reason why is formaldehyde.
       </h2>
 
-      <hr />
       <p className='mb5-ns slate-gray'>
         State and federal governments have the power to act to reduce the release of the chemicals that react in the air to form this cancer-causing pollutant.      </p>
       <a

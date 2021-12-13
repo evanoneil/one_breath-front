@@ -1,6 +1,6 @@
 import { Link } from "gatsby";
 import React from "react";
-import BlogPostPreviewShort from "./blog-post-preview-short";
+import BlogPostPreviewShort from "./blog-post-preview-short-nodate";
 
 import styles from "./blog-post-preview-grid-short-flex.module.css";
 

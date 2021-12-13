@@ -122,7 +122,7 @@ export const query = graphql`
       limit: 2
       sort: {fields: [publishedAt], order: DESC}
       filter: {
-        categories: {elemMatch: {title: {eq: "Topic Highlight"}}}
+        categories: {elemMatch: {title: {eq: "Topic Feature"}}}
         slug: {current: {ne: null}}
         publishedAt: {ne: null}
       }
@@ -354,12 +354,13 @@ const IndexPageNew = props => {
 
 <div class="w-50-l w-100 pr5-l"> 
 {featuredNodes && <BlogPostPreviewGridNew nodes={featuredNodes} />}
+
 </div>
 
-<div class="w-25-l w-50-m w-100 pr5-l">   {postNodes && <BlogPostPreviewGridShort nodes={postNodes} />}
+<div class="w-30-l w-50-m w-100 pr5-l pr4-m">   {postNodes && <BlogPostPreviewGridShort nodes={postNodes} />}
 </div>
 
-<div class="w-25-l w-50-m w-100">{topicNodes && <BlogPostPreviewGridTopic nodes={topicNodes} />}</div>
+<div class="w-20-l w-50-m w-100">{topicNodes && <BlogPostPreviewGridTopic nodes={topicNodes} />}</div>
 </div> 
 </Container>
 
