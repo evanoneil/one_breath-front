@@ -13,7 +13,7 @@ function BlogPostPreview(props) {
   return (
 
     <div>
-      <div className="mb3">
+      {/* <div className="mb3">
 
 
         {props.categories && (
@@ -34,7 +34,7 @@ function BlogPostPreview(props) {
 
 
 
-      </div>
+      </div> */}
 
       <Link
         className={props.isInList ? styles.inList : styles.inGrid}

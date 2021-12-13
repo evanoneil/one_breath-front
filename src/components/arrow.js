@@ -10,11 +10,10 @@ import "../layouts/tachyons/css/tachyons.css";
 import "../layouts/custom.css";
 
 const ArrowHighlight = () => (
-  <div className="flex flex-wrap mb6-ns">
+  <div className="flex flex-wrap-ns flex-wrap-reverse mb6-ns">
 
-    <div className="pa5-ns pt4 pt3-ns pb0 flex flex-wrap w-50-ns w-100">
+    <div className="pa5-ns pa4 pt4 pt3-ns pb0 flex flex-wrap w-50-ns w-100">
       <h3 className="mt0 mb0 gold">THE HOUSTON ARROW →</h3>
-      <hr />
       <h2 className="mb0">
       What "The Houston Arrow’ reveals about the connections between government, development and the concentration of opportunity. A four-part series by Leah Binkovitz.
             </h2>

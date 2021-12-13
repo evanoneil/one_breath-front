@@ -85,7 +85,7 @@
 }
 
 .displaygrid {
-  grid-row-gap: 5em;
+  /* grid-row-gap: 5em;
   padding-bottom: 3rem;
   @media (--media-max-small) {
     display: grid;
@@ -93,7 +93,7 @@
     grid-gap: 2em;
     border-bottom: 2px solid slategrey;
     padding-bottom: 40px;
-  }
+  } */
 }
 
 .zoom {

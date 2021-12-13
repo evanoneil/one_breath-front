@@ -125,7 +125,7 @@ animation-timing-function:ease-in-out;
         left:25%;
 width:15rem;
 height:15rem;
-background:green;
+background:#77cfcd;
 border-radius:999px;
 mix-blend-mode: multiply;
 opacity:.9;
@@ -142,11 +142,11 @@ animation-timing-function:ease-in-out;
     }
     .explore {
         display: block;
-overflow: visible;
-color:black;
+        overflow-x: -moz-hidden-unscrollable;
+        color:black;
 width:100%;
 position:relative;
-padding:6rem;
+padding:3rem;
 margin-top:6rem;
 margin-bottom:6rem;
 /* background: rgba(0,0,0,.05); */

@@ -72,7 +72,7 @@ const Searchbar = props => {
     <div className={`${classes.SearchBoxWrapper}`}>
       <input
         className={classes.Search}
-        placeholder='Search'
+        placeholder='Enter a topic to search our Newsroom'
         value={search}
         onChange={e => {
           const keywords = e.target.value

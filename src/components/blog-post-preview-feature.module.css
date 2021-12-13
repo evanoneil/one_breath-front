@@ -10,11 +10,11 @@
 .inList {
   composes: root;
 
-  @media (--media-min-medium) {
+  /* @media (--media-min-medium) {
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-gap: 2em;
-  }
+  } */
 }
 
 .inGrid {
@@ -85,7 +85,7 @@
 }
 
 .displaygrid {
-  grid-row-gap: 5em;
+  /* grid-row-gap: 5em;
   padding-bottom: 3rem;
   @media (--media-max-small) {
     display: grid;
@@ -93,7 +93,7 @@
     grid-gap: 2em;
     border-bottom: 2px solid slategrey;
     padding-bottom: 40px;
-  }
+  } */
 }
 
 .zoom {

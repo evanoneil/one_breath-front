@@ -64,13 +64,7 @@ function BlogPost (props) {
           />
           <div className={styles.example}>
             <div>
-              <span>
-                {categories.map(category => (
-                  <a className={styles.pill} key={category._id}>
-                    {category.title}
-                  </a>
-                ))}
-              </span>
+
               <div className={styles.publishedAt}> </div>
             </div>
             <h1 className={styles.title}>{title}</h1>
@@ -101,27 +95,22 @@ function BlogPost (props) {
               {authors && <AuthorList items={authors} />}
 
               {_rawBody && <PortableText blocks={_rawBody} serializers={serializers} />}
-              <div className={styles.takeaction}>
-                <h2>Take Action</h2>
-                <ol>
-                  <li>
-                    <a target='_blank' href={Action1URL}>
-                      {Action1Title}
-                    </a>
-                  </li>
-                  <li>
-                    <a target='_blank' href={Action2URL}>
-                      {Action2Title}
-                    </a>
-                  </li>
-                  <li>
-                    <a target='_blank' href={Action3URL}>
-                      {Action3Title}
-                    </a>
-                  </li>
-                </ol>
-              </div>
+              
               <div>
+              <span>
+                {categories.map(category => {
+                  console.log(categories)
+                const CatURL = `/categories/${category.slug.current}`
+return (
+                  <a href={CatURL} className={styles.pill} key={category._id}>
+                    {category.title}
+                  </a>
+                  )
+})}
+              </span>
+
+           
+              
                 <hr className='mt5 bw1 b--solid' />
 
                 <h4 className='ttu'>Share this article</h4>

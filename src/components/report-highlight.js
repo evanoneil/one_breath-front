@@ -15,9 +15,8 @@ const ReportHighlight = () => (
       <div className={styles.interiortext} />
     </div>
 
-    <div className='pa5-ns pt4 pt3-ns pb0 flex flex-wrap w-50-ns w-100'>
+    <div className='pa5-ns pa4 pt4 pt3-ns pb0 flex flex-wrap w-50-ns w-100'>
       <h3 className='mt0 mb0 blue ttu'>CANCER IN THE AIR</h3>
-      <hr />
       <h2 className='mb0'>
         In Houston, Hispanic and lower-income communities face increased cancer risk. One big reason why is formaldehyde.
       </h2>
