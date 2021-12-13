@@ -2,12 +2,12 @@
 @import "../styles/custom-properties.css";
 
 .root {
-  /* margin: 2em 0 4em;
-  padding-left: 5rem;
-  padding-right: 5rem;
+  margin: 2em 0 4em;
+  padding-left: 3rem;
+  padding-right: 3rem;
   @media (--media-max-small) {
     padding: 5rem 0.5rem;
-  } */
+  }
 }
 
 .headline {
@@ -16,23 +16,23 @@
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  margin: 1rem 0;
+  margin: 2rem 0;
 }
 
 .grid {
   margin: 0;
   padding: 0;
   list-style: none;
-  /* display: grid;
+  display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 2em; */
+  grid-gap: 2em;
 
   @media (--media-min-small) {
-    /* grid-template-columns: 1fr 1fr; */
+    grid-template-columns: 1fr;
   }
 
   @media (--media-min-medium) {
-    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: 1fr  ;
   }
 }
 

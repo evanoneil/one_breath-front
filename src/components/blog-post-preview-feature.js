@@ -5,11 +5,11 @@ import { buildImageObj, cn, getBlogUrl } from "../lib/helpers";
 import { imageUrlFor } from "../lib/image-url";
 import PortableText from "./portableText";
 import CategoryList from "./category-list"
-import styles from "./blog-post-preview.module.css";
-import { responsiveTitle4 } from "./typography.module.css";
+import styles from "./blog-post-preview-feature.module.css";
+import { responsiveTitle2 } from "./typography.module.css";
 
 
-function BlogPostPreviewShort(props) {
+function BlogPostPreviewFeature(props) {
   return (
 
     <div>
@@ -42,7 +42,7 @@ function BlogPostPreviewShort(props) {
       >
 
         <div className={styles.displaygrid}>
-          {/* <div className={styles.leadMediaThumb}>
+          <div className={styles.leadMediaThumb}>
             {props.mainImage && props.mainImage.asset && (
               <img
                 className={styles.zoom}
@@ -54,13 +54,16 @@ function BlogPostPreviewShort(props) {
                 alt={props.mainImage.alt}
               />
             )}
-          </div> */}
+          </div>
           <div className={styles.text}>
-            <h3 className={cn(responsiveTitle4, styles.title)}>
+            <h3 className={cn(responsiveTitle2, styles.title)}>
               <a>{props.title}</a>
             </h3>
-
-            <div className={styles.date}>
+            {props._rawExcerpt && (
+          <div className={styles.excerpt}>
+            <PortableText blocks={props._rawExcerpt} />
+          </div>
+        )}            <div className={styles.date}>
               <h4 className="fw1">
                 By {props.authors[0].author.name}
                 <br />
@@ -74,4 +77,4 @@ function BlogPostPreviewShort(props) {
   );
 }
 
-export default BlogPostPreviewShort;
+export default BlogPostPreviewFeature;

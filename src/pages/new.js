@@ -24,8 +24,23 @@ import NewGrid from '../components/new-grid'
 import styles from "../components/new-grid.module.css";
 import BlogPostPreviewGridShort from '../components/blog-post-preview-grid-short'
 import BlogPostPreviewGridNew from '../components/blog-post-preview-grid-new'
-import Search from '../components/search'
-import Autocomplete from '../components/autocomplete'
+import BlogPostPreviewGridTopic from '../components/blog-post-preview-grid-topic'
+import BlogPostPreviewGridShortFlex from '../components/blog-post-preview-grid-short-flex'
+
+
+import {getAlgoliaResults} from '@algolia/autocomplete-js'
+import Autocomplete from '../components/Autocomplete/Autocomplete'
+import SearchItem from '../components/SearchItem'
+import '@algolia/autocomplete-theme-classic/dist/theme.css'
+import Searchbar from '../components/Searchbar'
+import algoliasearch from 'algoliasearch'
+import * as searchClasses from '../components/Searchbar/Searchbar.module.css'
+const appId = '79W2NPTLRJ'
+const apiKey = 'f2183a110c74f6068718cdf58ab60f32'
+const searchClient = algoliasearch(appId, apiKey)
+
+// import Search from '../components/search'
+import App from '../components/app'
 
 
 export const query = graphql`
@@ -59,10 +74,55 @@ export const query = graphql`
       home_header
     }
     posts: allSanityPost(
-      limit: 3
+      skip:1
+      limit: 4
       sort: {fields: [publishedAt], order: DESC}
       filter: {
         categories: {elemMatch: {title: {eq: "From One Breath Partnership"}}}
+        slug: {current: {ne: null}}
+        publishedAt: {ne: null}
+      }
+    ) {
+      edges {
+        node {
+          id
+          authors {
+            author {
+              name
+            }
+          }
+          categories {
+            title
+            _type
+            _id
+            id
+            color
+            slug{
+              current
+            }
+          }
+          publishedAt
+          mainImage {
+            ...SanityImage
+            alt
+            caption
+          }
+          title
+          _rawExcerpt
+          Action1Title
+          Action1URL
+          slug {
+            current
+          }
+        }
+      }
+    }
+
+    topic: allSanityPost(
+      limit: 2
+      sort: {fields: [publishedAt], order: DESC}
+      filter: {
+        categories: {elemMatch: {title: {eq: "Environmental Justice"}}}
         slug: {current: {ne: null}}
         publishedAt: {ne: null}
       }
@@ -188,7 +248,7 @@ export const query = graphql`
     }
 
     media: allSanityPost(
-      limit: 4
+      limit: 6
       sort: {fields: [publishedAt], order: DESC}
       filter: {
         categories: {elemMatch: {title: {eq: "In the Media"}}}
@@ -252,6 +312,8 @@ const IndexPageNew = props => {
   const mediaNodes = data && data.media && mapEdgesToNodes(data.media)
   const videoNodes = data && data.media && mapEdgesToNodes(data.videos)
   const featuredNodes = data && data.media && mapEdgesToNodes(data.featured)
+  const topicNodes = data && data.media && mapEdgesToNodes(data.topic)
+
 
   const description = site.home_header
 
@@ -288,33 +350,83 @@ const IndexPageNew = props => {
       /> */}
 
       <Container>
-      <div class={styles.parent}>
+      <div class="flex flex-wrap">
 
-<div class={styles.div1}> 
+<div class="w-50-ns w-100"> 
 {featuredNodes && <BlogPostPreviewGridNew nodes={featuredNodes} />}
 </div>
 
-<div class={styles.div2}>   {postNodes && <BlogPostPreviewGridShort nodes={postNodes} />}
+<div class="w-25-ns w-100">   {postNodes && <BlogPostPreviewGridShort nodes={postNodes} />}
 </div>
 
-<div class={styles.div3}>Hey hey</div>
+<div class="w-25-ns w-100">{topicNodes && <BlogPostPreviewGridTopic nodes={topicNodes} />}</div>
 </div> 
+</Container>
 
-<div className="bg-black w-100 pa6 mb5">
-
-{/* <div id="search"></div> */}
-{/* <Autocomplete />   */}
-<Search />
-  {/* <Item /> */}
+<div className={styles.explore}>
+<div class={styles.blobpurple}></div>
+<div class={styles.blobyellow}></div>
+<div class={styles.center}>
+  <h2 className={"black text-center"}>Explore our Newsroom</h2>
   </div>
+  <div class={styles.blobpink}></div>
+  <div style={{zIndex: 999, position:'relative'}}>
+  <Searchbar />
+        <div className={searchClasses.AutocompleteWrapper}>
+          <Autocomplete
+            openOnFocus={true}
+            getSources={({query}) => [
+              {
+                sourceId: 'search',
+                getItems() {
+                  return getAlgoliaResults({
+                    searchClient,
+                    queries: [
+                      {
+                        indexName: 'netlify_ddf6d339-da4b-46d5-9c28-7d3f070c85d6_master_all',
+                        query
+                      }
+                    ]
+                  })
+                },
+                templates: {
+                  item({item, components}) {
+                    return <SearchItem hit={item} components={components} />
+                  }
+                }
+              }
+            ]}
+          />
+        </div>
+</div>
+
+
+
+  </div>
+  <Container>
+
         <ArrowHighlight />
         <ReportHighlight />
+        </Container>
+        <div className={styles.explore}>
+<div class={styles.blobblue}></div>
+<div class={styles.blobyellow}></div>
+<div class={styles.center}>
+
+  <h2 className={"darkgrey text-center f2"}>Sign Up For Our Newsletter</h2>
+  <p>Particulate Matters delivers the most important stories to your inbox from the intersections of climate, health and environmental justice on the Gulf Coast.</p>
+  <div class={styles.blobgreen}></div>
+  <a className="pa3 ttu mid-gray f5 fw7 blue no-underline dib-l enterprise mt5"
+        href="/sign-up">SUBSCRIBE</a>
+  </div>
+  </div>
+  <Container>
 
         {/* {postNodes && <BlogPostPreviewGrid nodes={postNodes} />} */}
-        {mediaNodes && <NewsroomPreviewGrid nodes={mediaNodes} />}
+        {mediaNodes && <BlogPostPreviewGridShortFlex nodes={mediaNodes} />}
         {/* {videoNodes && <VideoPostPreviewGrid nodes={videoNodes} />} */}
 
-        <SignUp />
+        {/* <SignUp /> */}
         {/* <YouTubeHighlight /> */}
       </Container>
     </Layout>
