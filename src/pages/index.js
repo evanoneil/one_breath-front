@@ -350,7 +350,7 @@ const IndexPageNew = props => {
       /> */}
 
       <Container>
-        <div class="w-70">
+        {/* <div class="w-70">
         <p class="f3">
         One Breath changes narratives to improve lives. Rooted in science and law, we work upward with communities from the intersections of climate, health and environmental justice to envision a better/the best future for the Gulf Coast.
         </p>
@@ -358,7 +358,7 @@ const IndexPageNew = props => {
         <div class="w-30">
         <div class={styles.blobyellow}></div>
 
-        </div>
+        </div> */}
 
 
 
@@ -380,7 +380,7 @@ const IndexPageNew = props => {
 <div class={styles.blobpurple}></div>
 <div class={styles.blobyellow}></div>
 <div class={styles.center}>
-  <h2 className={"black text-center"}>Explore our Newsroom</h2>
+  <h2 className={"black text-center"}>Explore our newsroom</h2>
   <p>We work upward with communities from the intersections of climate, health and environmental justice. Explore.</p>
   </div>
   <div class={styles.blobpink}></div>
@@ -425,8 +425,8 @@ const IndexPageNew = props => {
 <div class={styles.blobyellow}></div>
 <div class={styles.center}>
 
-  <h2 className={"darkgrey text-center f2"}>Sign Up For Our Newsletter</h2>
-  <p>Particulate Matters delivers the most important stories from the Gulf Coast [to your inbox] [to you].</p>
+  <h2 className={"darkgrey text-center f2"}>Sign up for our newsletter</h2>
+  <p>Particulate Matters delivers the most important stories from the Gulf Coast to you.</p>
   <div class={styles.blobgreen}></div>
   <a className="pa3 ttu mid-gray f5 fw7 blue no-underline dib-l enterprise mt5"
         href="/sign-up">SUBSCRIBE</a>
