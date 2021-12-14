@@ -428,7 +428,7 @@ const IndexPageNew = props => {
       <Container>
         <div class="w-70">
         <p class="f3 mb5">
-        One Breath changes narratives to improve lives. Rooted in science and law, we work upward with communities from the intersections of climate, health and environmental justice to envision a better/the best future for the Gulf Coast.
+        One Breath changes narratives to improve lives. Rooted in science and law, we work upward with communities from the intersections of climate, health and environmental justice to envision a better future for the Gulf Coast.
         </p>
         </div>
         <div class="w-30">
