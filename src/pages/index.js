@@ -428,7 +428,7 @@ const IndexPageNew = props => {
       <Container>
         <div class="w-70">
         <p class="f3 mb5 blue">
-        Rooted in science and law, One Breath works upward with communities from the intersections of climate health and environmental justice to envision a better future for the Gulf Coast.
+        Rooted in science and law, One Breath works upward with communities from the intersections of climate, health and environmental justice to envision a better future for the Gulf Coast.
         </p>
         </div>
         <div class="w-30">
