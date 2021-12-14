@@ -427,8 +427,8 @@ const IndexPageNew = props => {
 
       <Container>
         <div class="w-70">
-        <p class="f3 mb5">
-        One Breath changes narratives to improve lives. Rooted in science and law, we work upward with communities from the intersections of climate, health and environmental justice to envision a better future for the Gulf Coast.
+        <p class="f3 mb5 blue">
+        Rooted in science and law, One Breath works upward with communities from the intersections of climate health and environmental justice to envision a better future for the Gulf Coast.
         </p>
         </div>
         <div class="w-30">
@@ -456,8 +456,10 @@ const IndexPageNew = props => {
 <div class={styles.blobpurple}></div>
 <div class={styles.blobyellow}></div>
 <div class={styles.center}>
-  <h2 className={"darkgrey text-center f2"}>Explore our work</h2>
-  {/* <p>We work upward with communities from the intersections of climate, health and environmental justice. Explore.</p> */}
+  <h2 className={"darkgrey text-center f2 mb1"}>Explore our work</h2>
+  <p class="">
+    One Breath changes narratives to improve lives.
+    </p>
   </div>
   <div class={styles.blobpink}></div>
   <div style={{zIndex: 999, position:'relative'}}>

@@ -7,7 +7,7 @@ import styles from "./blog-post-preview-grid-short-flex.module.css";
 function BlogPostPreviewGrid(props) {
   return (
     <div className={styles.root}>
-      <h2 className="green">In Other News</h2>
+      <h2 className="green">In other news</h2>
 
       {props.title && <h2 className={styles.headline}>{props.title}</h2>}
       <ul className={styles.grid}>
