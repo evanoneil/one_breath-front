@@ -7,6 +7,7 @@ import PortableText from "./portableText";
 import CategoryList from "./category-list"
 import styles from "./blog-post-preview.module.css";
 import { responsiveTitle4 } from "./typography.module.css";
+import AuthorList from "./author-list";
 
 
 function BlogPostPreviewShort(props) {
@@ -61,10 +62,13 @@ function BlogPostPreviewShort(props) {
             </h3>
 
             <div className={styles.date}>
-              <h4 className="fw1">
-                By {props.authors[0].author.name}
+              <h4 className="fw1 mb4">
+              {/* {format(props.publishedAt, "MM.D.YYYY")} */}
+
+                {/* By {props.authors[0].author.name} */}
+                {props.authors && <AuthorList items={props.authors} />}
+
                 <br />
-                {format(props.publishedAt, "MM.D.YYYY")}
               </h4>
             </div>
           </div>

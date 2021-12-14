@@ -84,9 +84,7 @@ function BlogPost (props) {
       <Container>
         <div>
           <Helmet>
-            <link rel='stylesheet' href='https://unpkg.com/aos@2.3.0/dist/aos.css' />
-            <script src='https://unpkg.com/aos@2.3.0/dist/aos.js' />
-            <script src='https://wp.evanoneil.net/one_breath/script.js' />
+
           </Helmet>
           <p className={styles.caption}>{mainImage.caption}</p>
           <div className={styles.grid}>

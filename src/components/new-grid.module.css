@@ -83,7 +83,27 @@ top:0rem;
 left:40%;
 width:15rem;
 height:15rem;
-background:yellow;
+background:#ffd12b;
+border-radius:999px;
+mix-blend-mode: multiply;
+opacity:.7;
+filter: blur(40px);
+  -webkit-filter: blur(40px);
+
+  animation-name: blob;
+  animation-duration:13s;
+  animation-iteration-count:infinite;
+animation-timing-function:ease-in-out;
+    }
+
+    .blobyellowside{
+      z-index:0;
+        position:absolute;
+top:9rem;
+right:10%;
+width:17.5rem;
+height:12.5rem;
+background:#ffd12b;
 border-radius:999px;
 mix-blend-mode: multiply;
 opacity:.7;

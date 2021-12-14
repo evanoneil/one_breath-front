@@ -14,13 +14,9 @@
 }
 
 @font-face {
-  font-family: GT-America-Regular;
-  src: url("../assets/type/GT-America-Standard-Regular.eot");
-  src: url("../assets/type/GT-America-Standard-Regular.eot?#iefix")
-      format("embedded-opentype"),
-    url("../assets/type/GT-America-Standard-Regular.woff2") format("woff2"),
-    url("../assets/type/GT-America-Standard-Regular.woff") format("woff"),
-    url("../assets/type/GT-America-Standard-Regular.ttf") format("truetype");
+  font-family: Tiempos-Text-Regular;
+  src: 
+    url("../assets/type/tiempos-text-regular.woff2") format("woff2");
 }
 
 @font-face {
@@ -211,7 +207,7 @@ h3 {
 }
 
 p {
-  font-family: "GT-America-Regular";
+  font-family: "Tiempos-Text-Regular";
 }
 
 h4 {

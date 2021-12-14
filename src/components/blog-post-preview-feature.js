@@ -7,6 +7,7 @@ import PortableText from "./portableText";
 import CategoryList from "./category-list"
 import styles from "./blog-post-preview-feature.module.css";
 import { responsiveTitle2 } from "./typography.module.css";
+import AuthorList from "./author-list";
 
 
 function BlogPostPreviewFeature(props) {
@@ -64,10 +65,11 @@ function BlogPostPreviewFeature(props) {
             <PortableText blocks={props._rawExcerpt} />
           </div>
         )}            <div className={styles.date}>
-              <h4 className="fw1">
-                By {props.authors[0].author.name}
+                            <h4 className="fw1 mb4">
+              {/* {format(props.publishedAt, "MM.D.YYYY")} */}
+                {/* By {props.authors[0].author.name} */}
+                {props.authors && <AuthorList items={props.authors} />}
                 <br />
-                {format(props.publishedAt, "MM.D.YYYY")}
               </h4>
             </div>
           </div>

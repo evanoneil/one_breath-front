@@ -75,7 +75,7 @@ export const query = graphql`
     }
     posts: allSanityPost(
       skip:1
-      limit: 4
+      limit: 5
       sort: {fields: [publishedAt], order: DESC}
       filter: {
         categories: {elemMatch: {title: {eq: "From One Breath Partnership"}}}
@@ -87,7 +87,32 @@ export const query = graphql`
         node {
           id
           authors {
+            _key
             author {
+              slug {
+                current
+              }
+              image {
+                crop {
+                  _key
+                  _type
+                  top
+                  bottom
+                  left
+                  right
+                }
+                hotspot {
+                  _key
+                  _type
+                  x
+                  y
+                  height
+                  width
+                }
+                asset {
+                  _id
+                }
+              }
               name
             }
           }
@@ -131,7 +156,32 @@ export const query = graphql`
         node {
           id
           authors {
+            _key
             author {
+              slug {
+                current
+              }
+              image {
+                crop {
+                  _key
+                  _type
+                  top
+                  bottom
+                  left
+                  right
+                }
+                hotspot {
+                  _key
+                  _type
+                  x
+                  y
+                  height
+                  width
+                }
+                asset {
+                  _id
+                }
+              }
               name
             }
           }
@@ -175,7 +225,32 @@ export const query = graphql`
         node {
           id
           authors {
+            _key
             author {
+              slug {
+                current
+              }
+              image {
+                crop {
+                  _key
+                  _type
+                  top
+                  bottom
+                  left
+                  right
+                }
+                hotspot {
+                  _key
+                  _type
+                  x
+                  y
+                  height
+                  width
+                }
+                asset {
+                  _id
+                }
+              }
               name
             }
           }
@@ -262,6 +337,7 @@ export const query = graphql`
           authors {
             author {
               name
+              id
             }
           }
           categories {
@@ -350,15 +426,15 @@ const IndexPageNew = props => {
       /> */}
 
       <Container>
-        {/* <div class="w-70">
-        <p class="f3">
+        <div class="w-70">
+        <p class="f3 mb5">
         One Breath changes narratives to improve lives. Rooted in science and law, we work upward with communities from the intersections of climate, health and environmental justice to envision a better/the best future for the Gulf Coast.
         </p>
         </div>
         <div class="w-30">
-        <div class={styles.blobyellow}></div>
+        <div class={styles.blobyellowside}></div>
 
-        </div> */}
+        </div>
 
 
 
@@ -380,8 +456,8 @@ const IndexPageNew = props => {
 <div class={styles.blobpurple}></div>
 <div class={styles.blobyellow}></div>
 <div class={styles.center}>
-  <h2 className={"black text-center"}>Explore our newsroom</h2>
-  <p>We work upward with communities from the intersections of climate, health and environmental justice. Explore.</p>
+  <h2 className={"darkgrey text-center f2"}>Explore our work</h2>
+  {/* <p>We work upward with communities from the intersections of climate, health and environmental justice. Explore.</p> */}
   </div>
   <div class={styles.blobpink}></div>
   <div style={{zIndex: 999, position:'relative'}}>
@@ -412,6 +488,8 @@ const IndexPageNew = props => {
             ]}
           />
         </div>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
 </div>
 
 

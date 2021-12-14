@@ -7,7 +7,7 @@ import styles from "./blog-post-preview-grid-topic.module.css";
 function BlogPostPreviewGrid(props) {
   return (
     <div className={styles.root}>
-      <h2 className="gold">Who's TCEQ?</h2>
+      <h2 className="blue">Who's TCEQ?</h2>
 <p>The state environmental agency hasn't been working for Texas for a decade. See <a class="underline" href="https://onebreathhou.org/categories/tceq">our coverage</a>.</p>
       {props.title && <h2 className={styles.headline}>{props.title}</h2>}
       <ul className={styles.grid}>

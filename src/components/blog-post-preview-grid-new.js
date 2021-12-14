@@ -7,7 +7,7 @@ import styles from "./blog-post-preview-grid-new.module.css";
 function BlogPostPreviewGrid(props) {
   return (
     <div className={styles.root}>
-      <h2 className="blue">We change narratives</h2>
+      <h2 className="blue"></h2>
 
       {props.title && <h2 className={styles.headline}>{props.title}</h2>}
       <ul className={styles.grid}>
