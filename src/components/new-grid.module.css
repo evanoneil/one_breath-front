@@ -50,8 +50,8 @@ opacity:.4;
 filter: blur(40px);
   -webkit-filter: blur(40px);
 
-  animation-name: blob;
-  animation-duration:14s;
+  animation-name: blob3;
+  animation-duration:19s;
   animation-iteration-count:infinite;
 animation-timing-function:ease-in-out;
     }
@@ -90,8 +90,8 @@ opacity:.7;
 filter: blur(40px);
   -webkit-filter: blur(40px);
 
-  animation-name: blob;
-  animation-duration:13s;
+  animation-name: blob2;
+  animation-duration:19s;
   animation-iteration-count:infinite;
 animation-timing-function:ease-in-out;
     }
@@ -132,8 +132,8 @@ opacity:.9;
 filter: blur(40px);
   -webkit-filter: blur(40px);
 
-  animation-name: blob;
-animation-duration:12s;
+  animation-name: blob1;
+animation-duration:19s;
 animation-iteration-count:infinite;
 animation-timing-function:ease-in-out;
     }
@@ -180,4 +180,25 @@ border-radius:35px;
         100% { transform: translate(0px, 0px); transform: scale(1.25); }
       }
       
+
+      @keyframes blob1 {
+        0% { transform: translate(0px, 0px); transform: scale(1.25); }
+        22% { transform: translate(30px, -150px); transform: scale(2.5); }
+        100% { transform: translate(0px, 0px); transform: scale(1.25); }
+      }
+      
     
+      @keyframes blob2 {
+        0% { transform: translate(0px, 0px); transform: scale(1.25); }
+        22% { transform: translate(30px, -150px); transform: scale(1.25); }
+        68% { transform: translate(-10px, 10px); transform: scale(2.5);}
+        100% { transform: translate(0px, 0px); transform: scale(1.25); }
+      }
+
+
+      @keyframes blob3 {
+        0% { transform: translate(0px, 0px); transform: scale(2.5); }
+        22% { transform: translate(0px, 0px); transform: scale(1.25); }
+        68% { transform: translate(-10px, 10px); transform: scale(1.25);}
+        100% { transform: translate(0px, 0px); transform: scale(2.5); }
+      }
