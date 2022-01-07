@@ -26,6 +26,7 @@ export const query = graphql`
       slug {
         current
       }
+      description
     }
     posts: allSanityPost (filter: {categories: {elemMatch: {title: {eq: $title}}}}) {
       edges {
@@ -98,6 +99,9 @@ const CatPageTemplate = props => {
       <Container>
         <div className='dtc v-btm pl3'>
           <h1 className='db '>{post.title}</h1>
+          <p>
+            {post.description}
+            </p>
         </div>
         {/* <div className='ph4'>
           <div className='dt mw6'>
