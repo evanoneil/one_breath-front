@@ -14,7 +14,6 @@ import {
 } from '../lib/helpers'
 import PortableText from '../components/portableText.js'
 import BlogPostPreviewGridAuthor from '../components/blog-post-preview-grid-author'
-
 import { imageUrlFor } from '../lib/image-url'
 
 export const query = graphql`
@@ -81,12 +80,11 @@ const CatPageTemplate = props => {
     : []
   return (
     <Layout>
-      {errors && <SEO title='GraphQL Error' />}
-      {/* {post && (
+       {errors && <SEO title='GraphQL Error' />}
+      {post && (
         <SEO
-          title={post.title || post.name}
-          description={toPlainText(post._rawBio)}
-          image={post.socialImage}
+          title={post.title || 'Untitled'}
+          description={post.description}
         />
       )}
 
@@ -95,7 +93,7 @@ const CatPageTemplate = props => {
           {post.socialImage}
           <GraphQLErrorList errors={errors} />
         </Container>
-      )} */}
+      )}
       <Container>
         <div className='dtc v-btm pl3'>
           <h1 className='db '>{post.title}</h1>
