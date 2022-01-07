@@ -72,6 +72,13 @@ export const query = graphql`
       description
       keywords
       home_header
+      featured_title
+      featured_intro
+      search_title
+      search_intro
+      newsletter_title
+      newsletter_intro
+      bottom_header
     }
     posts: allSanityPost(
       skip:1
@@ -428,8 +435,7 @@ const IndexPageNew = props => {
       <Container>
         <div class="w-70">
         <p class="f3 mb5 blue">
-        Rooted in science and law, One Breath works upward with communities from the intersections of climate, health and environmental justice to envision a better future for the Gulf Coast.
-        </p>
+{home_header}</p>
         </div>
         <div class="w-30">
         <div class={styles.blobyellowside}></div>
@@ -456,10 +462,9 @@ const IndexPageNew = props => {
 <div class={styles.blobpurple}></div>
 <div class={styles.blobyellow}></div>
 <div class={styles.center}>
-  <h2 className={"darkgrey text-center f2 mb1"}>Explore our work</h2>
+  <h2 className={"darkgrey text-center f2 mb1"}>{dearch_title}</h2>
   <p class="">
-    One Breath changes narratives to improve lives.
-    </p>
+{search_intro}    </p>
   </div>
   <div class={styles.blobpink}></div>
   <div style={{zIndex: 999, position:'relative'}}>
@@ -505,8 +510,10 @@ const IndexPageNew = props => {
 <div class={styles.blobyellow}></div>
 <div class={styles.center}>
 
-  <h2 className={"darkgrey text-center f2"}>Sign up for our newsletter</h2>
-  <p>Particulate Matters delivers the most important stories from the Gulf Coast to you.</p>
+  <h2 className={"darkgrey text-center f2"}>{newsletter_title}</h2>
+  <p>
+{newsletter_intro}
+  </p>
   <div class={styles.blobgreen}></div>
   <a className="pa3 ttu mid-gray f5 fw7 blue no-underline dib-l enterprise mt5"
         href="/sign-up">SUBSCRIBE</a>
