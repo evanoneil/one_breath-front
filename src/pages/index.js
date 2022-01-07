@@ -73,7 +73,7 @@ export const query = graphql`
       keywords
       home_header
       featured_title
-      featured_intro
+      _rawFeaturedIntro
       search_title
       search_intro
       newsletter_title
@@ -435,7 +435,7 @@ const IndexPageNew = props => {
       <Container>
         <div class="w-70">
         <p class="f3 mb5 blue">
-{home_header}</p>
+{site.home_header}</p>
         </div>
         <div class="w-30">
         <div class={styles.blobyellowside}></div>
@@ -454,7 +454,7 @@ const IndexPageNew = props => {
 <div class="w-30-l w-50-m w-100 pr5-l pr4-m">   {postNodes && <BlogPostPreviewGridShort nodes={postNodes} />}
 </div>
 
-<div class="w-20-l w-50-m w-100">{topicNodes && <BlogPostPreviewGridTopic nodes={topicNodes} />}</div>
+<div class="w-20-l w-50-m w-100">{topicNodes && <BlogPostPreviewGridTopic title={site.featured_title} intro={site._rawFeaturedIntro} nodes={topicNodes} />}</div>
 </div> 
 </Container>
 
@@ -462,9 +462,9 @@ const IndexPageNew = props => {
 <div class={styles.blobpurple}></div>
 <div class={styles.blobyellow}></div>
 <div class={styles.center}>
-  <h2 className={"darkgrey text-center f2 mb1"}>{dearch_title}</h2>
+  <h2 className={"darkgrey text-center f2 mb1"}>{site.search_title}</h2>
   <p class="">
-{search_intro}    </p>
+{site.search_intro}    </p>
   </div>
   <div class={styles.blobpink}></div>
   <div style={{zIndex: 999, position:'relative'}}>
@@ -510,9 +510,9 @@ const IndexPageNew = props => {
 <div class={styles.blobyellow}></div>
 <div class={styles.center}>
 
-  <h2 className={"darkgrey text-center f2"}>{newsletter_title}</h2>
+  <h2 className={"darkgrey text-center f2"}>{site.newsletter_title}</h2>
   <p>
-{newsletter_intro}
+{site.newsletter_intro}
   </p>
   <div class={styles.blobgreen}></div>
   <a className="pa3 ttu mid-gray f5 fw7 blue no-underline dib-l enterprise mt5"
@@ -522,7 +522,7 @@ const IndexPageNew = props => {
   <Container>
 
         {/* {postNodes && <BlogPostPreviewGrid nodes={postNodes} />} */}
-        {mediaNodes && <BlogPostPreviewGridShortFlex nodes={mediaNodes} />}
+        {mediaNodes && <BlogPostPreviewGridShortFlex title={site.bottom_header} nodes={mediaNodes} />}
         {/* {videoNodes && <VideoPostPreviewGrid nodes={videoNodes} />} */}
 
         {/* <SignUp /> */}

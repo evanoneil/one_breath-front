@@ -3,13 +3,17 @@ import React from "react";
 import BlogPostPreviewShort from "./blog-post-preview-short-nodate";
 
 import styles from "./blog-post-preview-grid-short-flex.module.css";
+import SearchItem from "./SearchItem";
 
 function BlogPostPreviewGrid(props) {
   return (
     <div className={styles.root}>
-      <h2 className="green">In other news</h2>
+      {props.title && <h2 className="green">{props.title}</h2>}
 
-      {props.title && <h2 className={styles.headline}>{props.title}</h2>}
+      
+
+
+    
       <ul className={styles.grid}>
         {props.nodes &&
           props.nodes.map(node => (
@@ -34,3 +38,6 @@ BlogPostPreviewGrid.defaultProps = {
 };
 
 export default BlogPostPreviewGrid;
+
+
+
