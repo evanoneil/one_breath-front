@@ -65,7 +65,7 @@ const TakeActionPage = props => {
 
   const postNodes = data && data.posts && mapEdgesToNodes(data.posts)
   const mediaNodes = data && data.media && mapEdgesToNodes(data.media)
-  const description = 'Tell EPA that Houston`'`s smog problem is severe'
+  const description = 'Tell EPA that Houstons smog problem is severe'
   const image = `https://onebreathhou.org${ogImage}`
 
   return (
