@@ -97,7 +97,7 @@ function BlogPost (props) {
               <div>
               <span>
                 {categories.map(category => {
-                  console.log(categories)
+                 // console.log(categories)
                 const CatURL = `/categories/${category.slug.current}`
 return (
                   <a href={CatURL} className={styles.pill} key={category._id}>
