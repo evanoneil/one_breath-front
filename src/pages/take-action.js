@@ -9,7 +9,7 @@ import GraphQLErrorList from '../components/graphql-error-list'
 import SEO from '../components/seo'
 import Layout from '../containers/layout'
 import Helmet from 'react-helmet'
-import ogImage from '../assets/img/one_breath-petition-dec.jpg'
+import ogImage from '../assets/img/one_breath-petition-may2022.jpg'
 
 import { responsiveTitle1 } from '../components/typography.module.css'
 
@@ -65,7 +65,7 @@ const TakeActionPage = props => {
 
   const postNodes = data && data.posts && mapEdgesToNodes(data.posts)
   const mediaNodes = data && data.media && mapEdgesToNodes(data.media)
-  const description = 'Tell TCEQ: How do you know ITC won\'t let another disaster happen?'
+  const description = 'Tell EPA that Houston`'`s smog problem is severe'
   const image = `https://onebreathhou.org${ogImage}`
 
   return (
@@ -84,10 +84,8 @@ const TakeActionPage = props => {
         <meta name='twitter:image' content={image} />
 
 
-        <link href='https://actionnetwork.org/css/style-embed-v3.css' rel='stylesheet' type='text/css' />
-<script src='https://actionnetwork.org/widgets/v4/form/tell-tceq-how-do-you-know-itc-wont-let-another-disaster-happen?format=js&source=widget&style=full'></script>
-
-
+<link href='https://actionnetwork.org/css/style-embed-v3.css' rel='stylesheet' type='text/css' />
+  <script src='https://actionnetwork.org/widgets/v4/petition/tell-epa-that-houstons-smog-problem-is-severe?format=js&source=widget&style=full'></script>
 
 
 
@@ -96,8 +94,8 @@ const TakeActionPage = props => {
 
       <Container>
         <div>
-          <div id='can-form-area-tell-tceq-how-do-you-know-itc-wont-let-another-disaster-happen'></div>
-        </div>
+<div id='can-petition-area-tell-epa-that-houstons-smog-problem-is-severe'>
+</div>        </div>
       </Container>
     </Layout>
   )
