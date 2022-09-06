@@ -77,7 +77,7 @@ const fiveyrs = props => {
     <Container>
 
     <div>
-    <h1>Please wait for a redirect to EveryAction</h1>
+    <h1>Please wait for a redirect to Felt.com</h1>
   </div>
   </Container>
 
