@@ -1,10 +1,9 @@
 import React, { useEffect } from 'react';
 import { Scrollama, Step } from 'react-scrollama';
-import { mapEdgesToNodes } from '../../lib/helpers'
+import { mapEdgesToNodes } from '../lib/helpers'
 import { Link } from "gatsby"
-import GraphQLErrorList from '../../components/graphql-error-list'
-import SEO from '../../components/seo'
-import Layout from '../../containers/layout'
+import GraphQLErrorList from '../components/graphql-error-list'
+import Layout from '../containers/layout'
 import Helmet from 'react-helmet'
 import ogImage from '../assets/img/4-moving-og.jpg'
 
