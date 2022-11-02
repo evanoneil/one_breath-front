@@ -5,7 +5,16 @@ import { Link } from "gatsby"
 import GraphQLErrorList from '../components/graphql-error-list'
 import Layout from '../containers/layout'
 import Helmet from 'react-helmet'
-import ogImage from '../assets/img/4-moving-og.jpg'
+import ogImage from '../assets/img/mtns-og.png'
+import feltImg from '../assets/img/felt-map.png'
+import image1 from '../assets/img/R1-01723-027A.png'
+import image2 from '../assets/img/BCX30954.jpg'
+import image3 from '../assets/img/BCX31272.jpg'
+import image4 from '../assets/img/R1-01723-014A.JPG'
+import image5 from '../assets/img/R1-01723-009A.png'
+import image6 from '../assets/img/BCX32056.png'
+import image7 from '../assets/img/BCX32209.png'
+import image8 from '../assets/img/WhisperingPines_Illustration.jpg'
 
 
 const mountains = props => {
@@ -21,7 +30,7 @@ const mountains = props => {
 
   const postNodes = data && data.posts && mapEdgesToNodes(data.posts)
   const mediaNodes = data && data.media && mapEdgesToNodes(data.media)
-  const description = 'The Arrow shows leaders where their priorities should be. Will they act?'
+  const description = 'When you see mountains in Houston, be suspicious'
   const image = `https://onebreathhou.org${ogImage}`
 
 
@@ -32,7 +41,7 @@ const mountains = props => {
     <Layout>
       {/* <SEO title="HB 1820" /> */}
       <Helmet>
-        <title>Moving Beyond Maps → Houston Arrow | One Breath Partnership</title>
+        <title>The Mountains of Houston | One Breath Partnership</title>
         <meta property='og:title' content='Moving Beyond Maps → Houston Arrow | One Breath Partnership' />
         <meta name='description' content={description} />
         <meta name='image' content={image} />
@@ -47,26 +56,25 @@ const mountains = props => {
 
 
       </Helmet>
-      <body>
+      <body style={{background: '#d4876d'}}>
         <div>
           <div class="vh-100 dt w-100 tc bg-dark-gray white cover"
             style={{
-              backgroundImage: `url("https://houston-arrow.netlify.app/4-images/IMG_7335.JPG")`,
+              backgroundImage: `url("${image1}")`,
               backgroundPosition: 'center center',
             }}>
             <div class="dtc v-mid ">
               <div class="w-75 center">
 
-                <h1 class="center f1 f-subheadline-l b fw7 tl  mh-auto ttu animated fadeIn a1 d2 mb0" style={{ color: 'white' }}>The Mountains</h1>
-                <h1 class="center f1 f-subheadline-l b fw7 tl  mh-auto ttu animated fadeIn a5 d4 mt0" style={{ color: 'white' }}>of</h1>
-                <h1 class="center f1 f-subheadline-l b fw7 tl white mh-auto ttu animated fadeIn a5 d4 mt0">Houston</h1>
+                <h1 class="center f1 f-subheadline-l b fw7 tl  mh-auto  animated fadeIn a1 d2 mb0" style={{ color: 'white' }}>The Mountains</h1>
+                <h1 class="center f1 f-subheadline-l b fw7 tl  mh-auto  animated fadeIn a5 d4 mt0" style={{ color: 'white' }}>of Houston</h1>
               </div>
 
 
             </div>
           </div>
           <div class="w-100">
-            <blockquote class="ph0 mh0 mv0 w-100 pv3 ph2 f4-ns f5 lh-copy center bg-dark-gray fade b--none">
+            <blockquote class="ph0 mh0 mv0 w-100 pv3 ph2 f4-ns f5 lh-copy center bg-purple fade b--none">
 
               <center>
                 <cite class="f6 ttu tracked fs-normal center white">BY Dr. Robert Bullard</cite><br />
@@ -82,7 +90,7 @@ const mountains = props => {
             <div class="center w-70 f5 pt5 lh-copy ph2">
 
               <blockquote class="ph0 f5 f1-ns w-100 center b--none mb0">
-                <p class="fw7 lh-title orange f3 mb0">When you see mountains in Houston, be suspicious.
+                <p class="fw7 lh-title purple f2 mb0">When you see mountains in Houston, be suspicious.
 
                 </p></blockquote>
             </div></div></div>
@@ -94,8 +102,10 @@ const mountains = props => {
         <div class="wrapper">
 
           <div class="center measure-wide f5 pb5 pt2 lh-copy ph2">
-<iframe src="https://felt.com/map/Houston-Landfills-Map-Invisible-Houston-GKyE0QqbQVKzBOM784cuzB" class="w-100 vh50"></iframe>
-<img src="https://houston-arrow.netlify.app/4-images/skyline.JPG" class="w-100 w-90-ns"/>
+<a href="https://felt.com/map/Houston-Landfills-Map-Invisible-Houston-GKyE0QqbQVKzBOM784cuzB">
+  <img src={feltImg} class="w-100" />
+</a>
+<img src={image1} class="w-100 w-90-ns"/>
 
 <p>
 When I began research work in environmental justice at Texas Southern University in 1978, Houston was 52.3 percent White, 27.4 percent Black, 17.6 percent Hispanic and 2.7 percent Asian and other. The government, however, was all white and all male. This lack of equitable representation had consequences. In place of NIMBY (Not In My Back Yard) politics, Houston practiced a “PIBBY” (Place In Blacks’ Back Yard) policy. Government and private industry targeted Houston’s Black neighborhoods for landfills, incinerators, garbage dumps and garbage transfer stations.					
@@ -103,7 +113,7 @@ When I began research work in environmental justice at Texas Southern University
 </p><p>In that siting study, my graduate students and I mapped the location of every major landfill site in Houston using pushpins on paper. If we noticed a hill in the usually flat landscape, we investigated it, because a change in topography often indicated a dump. We found that although at that time Blacks made up just over 1/4th of Houston’s population,
 </p>
 <blockquote class="ph0 f5 f1-ns w-100 center b--none mb0">
-                <p class="fw7 lh-title orange f3 mb0">5 out of 5 city-owned landfills (100 percent) and 6 of the 8 city-owned incinerators (75 percent) were sitedinBlack neighborhoods.
+                <p class="fw7 lh-title purple f2 mb0">5 out of 5 city-owned landfills (100 percent) and 6 of the 8 city-owned incinerators (75 percent) were sited in Black neighborhoods.
                 </p></blockquote>
 <p>
 After my study for the Bean case, my career became linked with the environmental justice movement, and I have since then had the opportunity to work with communities all over the world. 
@@ -115,10 +125,10 @@ After my study for the Bean case, my career became linked with the environmental
 </p>
 
 <blockquote class="ph0 f5 f1-ns w-100 center b--none mb0">
-                <p class="fw7 lh-title orange f3 mb0">The original bucolic character of the neighborhood has been forever lost as the sprawling landfill looms near soccer fields, homes and places of worship.
+                <p class="fw7 lh-title purple f2 mb0">The original bucolic character of the neighborhood has been forever lost as the sprawling landfill looms near soccer fields, homes and places of worship.
                 </p></blockquote>
-                <img src="https://houston-arrow.netlify.app/4-images/skyline.JPG" class="w-100 w-90-ns"/>
-                <img src="https://houston-arrow.netlify.app/4-images/skyline.JPG" class="w-100 w-90-ns"/>
+                <img src={image2} class="w-100 w-90-ns"/>
+                <img src={image3} class="w-100 w-90-ns"/>
 
                <p>Research findings in the Bean case exposed a clear pattern of waste facility siting in Houston. From the 1920s through the late 1970s, Black Houston was unofficially zoned for garbage. Eleven of 13 city-owned landfills and incinerators (84.6 percent) were built in Black neighborhoods — a clear overrepresentation of one minority’s neighborhoods in the hosting of city-owned solid waste facilities.
                </p><p>This city siting pattern in turn set the stage for private waste disposal firms to follow. The Texas Department of Health (TDH) was the state agency charged with permitting Type I standard sanitary landfills. From 1970 to 1978, TDH issued 4 sanitary landfill permits for the disposal of Houston’s solid waste. All 4 of the privately owned Type I solid waste landfills were located in minority council districts.				
@@ -130,11 +140,11 @@ Changing the siting of city-owned and private landfills alone will not fully add
 </p>
 
 <blockquote class="ph0 f5 f1-ns w-100 center b--none mb0">
-                <p class="fw7 lh-title orange f3 mb0">It is clear that the same Houston council districts that have hosted solid waste facilities over the years have become prime targets for illegal dumping. This should have been easy to predict: Illegal dumping was already a problem near the Whispering Pines landfill in 1980.
+                <p class="fw7 lh-title purple f2 mb0">It is clear that the same Houston council districts that have hosted solid waste facilities over the years have become prime targets for illegal dumping. This should have been easy to predict: Illegal dumping was already a problem near the Whispering Pines landfill in 1980.
                 </p></blockquote>
 
-                <img src="https://houston-arrow.netlify.app/4-images/skyline.JPG" class="w-100 w-90-ns"/>
-                <img src="https://houston-arrow.netlify.app/4-images/skyline.JPG" class="w-100 w-90-ns"/>
+                <img src={image4} class="w-100 w-90-ns"/>
+                <img src={image5} class="w-100 w-90-ns"/>
 
                 <p>The Mayor’s Task Force on Illegal Dumping completed its work in June 2013, resulting in the Houston City Council’s passing a budget amendment that has allocated $250,000 for 25 surveillance cameras systems (the cameras cost about $10,000 per unit) to monitor illegal dumping “hot spots” in the 5 council districts — B, D, H, I and K —  identified by the Solid Waste Department as having major challenges with illegal dumping. Each of the illegal dumping “hot spot” council districts will receive 5 camera systems for surveillance purposes. This measure, however, is not likely to solve the problem. As I pointed out 25 years ago in Invisible Houston, illegal dumping will only end when the residents in the targeted neighborhoods and council districts “take back” their communities. The costs and penalties associated with illegally dumping in Houston have never been severe enough to serve as a serious deterrent.
 </p>
@@ -146,10 +156,10 @@ All recycling is not created equal. Which communities get access to recycling fi
 </p>
 
 <blockquote class="ph0 f5 f1-ns w-100 center b--none mb0">
-                <p class="fw7 lh-title orange f3 mb0">Houston has three garbage transfer stations, and all three are located in minority neighborhoods. 
+                <p class="fw7 lh-title purple f2 mb0">Houston has three garbage transfer stations, and all three are located in minority neighborhoods. 
                 </p></blockquote>
 
-                <img src="https://houston-arrow.netlify.app/4-images/skyline.JPG" class="w-100 w-90-ns"/>
+                <img src={image6} class="w-100 w-90-ns"/>
 
                 <p>In 1983, the first city-owned garbage transfer station was opened in the Carverdale neighborhood. Local residents understandably did not greet this “first'' as a victory. Transfer stations are dropoff points for the garbage trucks that make curbside collections and pickup sites for the much larger trucks that haul the garbage off to a landfill. These sites create noise and dust pollution, traffic hazards and odor problems for their neighbors.				
                 </p><p>Houston currently has 13 recycling facilities. Ten of these 13 recycling facilities (77 percent) are located in neighborhoods populated primarily by people of color. The 13 facilities include five “cleaner” recycling centers, which do not accept junk waste, tree waste or garbage, but generally accept aluminum and tin cans, glass bottles, paper and plastics. Three of these 5 city recycling centers (60 percent) are located in majority white areas. On the other hand, all six “dirtier” neighborhood depositories/recycling centers, which accept and dispose of tree waste, junk waste and used motor oil, in addition to household recyclables, are located in communities where people of color live.		
@@ -159,12 +169,12 @@ All recycling is not created equal. Which communities get access to recycling fi
 </p><p>Progress in Houston has been slow and uneven. Although Houston is a city with people of color in the majority, for some reason it has not developed a strong network of environmental justice organizations to address issues facing its people of color population such as those in New York, Los Angeles and Chicago. Although the city has several well-known environmental justice groups run by people of color (Texas Environmental Justice Advocacy Services among them), much of the heavy environmental lifting in Houston is still left to the white environmental groups. One need only examine the member groups of the Houston-Galveston Citizens’ Environmental Coalition (CEC) to see that Houston’s environmental community has a serious diversity problem. Of the 102 CEC member groups, only two are organized by people of color (Great Plains Restoration Council and Pleasantville Environmental Coalition).		
 </p><p>Given the diversity challenges of Houston’s environmental organizations and the limited capacity of local environmental justice groups, one has to wonder who is setting the environmental priorities for the city’s majority people of color population — including issues of waste management, pollution prevention, health equity, green schools, transportation equity, food security, parks justice and green services access, smart growth, just sustainability, clean and renewable energy and climate justice.	
 </p>
-<img src="https://houston-arrow.netlify.app/4-images/skyline.JPG" class="w-100 w-90-ns"/>
+<img src={image7} class="w-100 w-90-ns"/>
 <p>One also has to wonder if the historical targeting of Black and Hispanic neighborhoods for locally unwanted land uses (LULUs) would be allowed if Houston possessed strong environmental justice organizations and networks. Clearly, Houston is not New York or Chicago, cities that have produced some remarkable leaders who have built multiethnic organizations and networks. Majora Carter of Sustainable South Bronx won a 2005 MacArthur “Genius” Grant for her environmental justice work. Another New Yorker, Peggy Shepard of We Act for Environmental Justice in Harlem, won the 2006 Heinz Award for her work. And Kim Wasserman of Little Village for Environmental Justice in Chicago won the 2013 Goldman Prize for Environment in North America.	
 </p><p>Houston is not Los Angeles. Despite similarities in terms of racial and ethnic diversity, Houston has not been able to capitalize on its diversity to grow a robust multiracial, multi-issue network of environmental and social justice organizations that have expertise in organizing, education, policy making, legal action and scientific research.	
 </p><p>How much of the blame for this limited capacity in Houston rests with poor funding? No social movement can sustain itself over time without adequate funds. Nationally, funders spent a whopping $10 billion between 2000 and 2009 on environmental groups. However, just 15 percent of the environmental grant dollars benefited marginalized communities, and only 11 percent went to advancing “social justice” causes, such as community organizing. Environmental justice groups need funding to build capacity. Constrained funding in Houston has made it difficult for efforts at building organizational infrastructure, community organizing, leadership development and effective participation in the policy arena to succeed. This lack is particularly shortsighted given that building a potent environmental justice presence in Houston will make us a much healthier and more livable city for all.
 </p>
-<img src="https://houston-arrow.netlify.app/4-images/skyline.JPG" class="w-100 w-90-ns"/>
+<img src={image8} class="w-100 w-90-ns"/>
 
 <h2>CREDITS & ACKNOWLEDGEMENTS</h2>
 <p>Dr. Robert Bullard is founding director of the Bullard Center for Environmental and Climate Justice and distinguished professor of urban planning and environmental policy at Texas Southern University (bullardcenter.org)
