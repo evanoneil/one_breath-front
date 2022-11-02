@@ -60,7 +60,7 @@ const mountains = props => {
         <div>
           <div class="vh-100 dt w-100 tc bg-dark-gray white cover"
             style={{
-              backgroundImage: `url(${image1})`,
+              backgroundImage: `url('../assets/img/R1-01723-027A.png')`,
               backgroundPosition: 'center center',
             }}>
             <div class="dtc v-mid ">
