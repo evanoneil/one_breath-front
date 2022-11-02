@@ -76,7 +76,7 @@ const mountains = props => {
               </center>
             </blockquote>
           </div>
-=
+
           <div class="wrapper">
 
             <div class="center w-70 f5 pt5 lh-copy ph2">
