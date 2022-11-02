@@ -53,21 +53,20 @@ const mountains = props => {
         <div>
           <div class="vh-100 dt w-100 tc bg-dark-gray white cover"
             style={{
-              backgroundImage: `url('https://incomparable-syrniki-850129.netlify.app/R1-01723-027A.png')`,
-              backgroundPosition: 'center center',
+              backgroundColor: `purple`,
             }}>
             <div class="dtc v-mid ">
               <div class="w-75 center">
 
-                <h1 class="center f1 f-subheadline-l b fw7 tl  mh-auto  animated fadeIn a1 d2 mb0" style={{ color: 'white' }}>The Mountains</h1>
-                <h1 class="center f1 f-subheadline-l b fw7 tl  mh-auto  animated fadeIn a5 d4 mt0" style={{ color: 'white' }}>of Houston</h1>
+                <h1 class="center f1 f-subheadline-l b fw7 tl  mh-auto  animated fadeIn a1 d2 mb0" style={{ color: 'peach' }}>The Mountains</h1>
+                <h1 class="center f1 f-subheadline-l b fw7 tl  mh-auto  animated fadeIn a5 d4 mt0" style={{ color: 'peach' }}>of Houston</h1>
               </div>
 
 
             </div>
           </div>
           <div class="w-100">
-            <blockquote class="ph0 mh0 mv0 w-100 pv3 ph2 f4-ns f5 lh-copy center bg-purple fade b--none">
+            <blockquote style={{background: 'none'}} class="ph0 mh0 mv0 w-100 pv3 ph2 f4-ns f5 lh-copy center bg-purple fade b--none">
 
               <center>
                 <cite class="f6 ttu tracked fs-normal center white">BY Dr Robert Bullard</cite><br />
@@ -82,7 +81,7 @@ const mountains = props => {
 
             <div class="center w-70 f5 pt5 lh-copy ph2">
 
-              <blockquote class="ph0 f5 f1-ns w-100 center b--none mb0">
+              <blockquote style={{background: 'none'}} class="ph0 f5 f1-ns w-100 center b--none mb0">
                 <p class="fw7 lh-title purple f2 mb0">When you see mountains in Houston, be suspicious.
 
                 </p></blockquote>
@@ -97,14 +96,20 @@ const mountains = props => {
           <div class="center measure-wide f5 pb5 pt2 lh-copy ph2">
 <a href="https://felt.com/map/Houston-Landfills-Map-Invisible-Houston-GKyE0QqbQVKzBOM784cuzB">
   <img src="https://incomparable-syrniki-850129.netlify.app/felt-map.png" class="w-100" />
+  <center>
+                <cite class="f6 ttu tracked fs-normal center black">Interactive, collaborative map created on Felt.com. Please add any details and stories you have about these locations.</cite><br />
+</center>
+
 </a>
+
+<img src="https://incomparable-syrniki-850129.netlify.app/R1-01723-027A.png" class="w-100" />
 
 <p>
 When I began research work in environmental justice at Texas Southern University in 1978, Houston was 52.3 percent White, 27.4 percent Black, 17.6 percent Hispanic and 2.7 percent Asian and other. The government, however, was all white and all male. This lack of equitable representation had consequences. In place of NIMBY (Not In My Back Yard) politics, Houston practiced a “PIBBY” (Place In Blacks’ Back Yard) policy. Government and private industry targeted Houston’s Black neighborhoods for landfills, incinerators, garbage dumps and garbage transfer stations.					
 </p><p>The year I arrived at the university, controversy erupted over a proposal to build the Whispering Pines sanitary landfill near Northwood Manor, a mostly Black middle-class neighborhood. In 1979, as a young sociologist, I was asked to conduct a study of solid waste disposal siting in Houston for a class-action lawsuit (Bean v. Southwestern Waste Management) that had been filed against the City of Houston, the State of Texas and the locally based Browning Ferris Industries. The Northwood Manor neighborhood of trees, single-family homes and schools was an unlikely location for a garbage landfill — except that more than 82 percent of its residents were Black. Though the Bean case was lost, it marked an important beginning as the first lawsuit in the United States that charged environmental discrimination in solid-waste facility siting under the Civil Rights Act.
 </p><p>In that siting study, my graduate students and I mapped the location of every major landfill site in Houston using pushpins on paper. If we noticed a hill in the usually flat landscape, we investigated it, because a change in topography often indicated a dump. We found that although at that time Blacks made up just over 1/4th of Houston’s population,
 </p>
-<blockquote class="ph0 f5 f1-ns w-100 center b--none mb0">
+<blockquote style={{background: 'none'}} class="ph0 f5 f1-ns w-100 center b--none mb0">
                 <p class="fw7 lh-title purple f2 mb0">5 out of 5 city-owned landfills (100 percent) and 6 of the 8 city-owned incinerators (75 percent) were sited in Black neighborhoods.
                 </p></blockquote>
 <p>
@@ -116,7 +121,7 @@ After my study for the Bean case, my career became linked with the environmental
 </p><p>In 1978, residents of Northwood Manor began resisting plans for the aforementioned Whispering Pines landfill and instead requested a park. The court case dragged on for years. In 1985, Mayor Kathy Whitmire made sure that the neighborhood got a park — the J.T. Trotter Park on East Little York Road. Unfortunately, the court case was lost the same year, and the Whispering Pines landfill was built less than a mile from the new park. Today, as a result of this downgrading intrusion, Northwood Manor residents have numerous industrial facilities — not just the landfill — as neighbors. 
 </p>
 
-<blockquote class="ph0 f5 f1-ns w-100 center b--none mb0">
+<blockquote style={{background: 'none'}} class="ph0 f5 f1-ns w-100 center b--none mb0">
                 <p class="fw7 lh-title purple f2 mb0">The original bucolic character of the neighborhood has been forever lost as the sprawling landfill looms near soccer fields, homes and places of worship.
                 </p></blockquote>
                 <img src="https://incomparable-syrniki-850129.netlify.app/BCX30954.jpg" class="w-100 w-90-ns"/>
@@ -131,7 +136,7 @@ Changing the siting of city-owned and private landfills alone will not fully add
 </p><p>Between 2008 and 2011, a total of 18,367 non-emergency “311” calls reporting illegal dumping were made to the Houston Solid Waste Department. The predominantly Black and Hispanic council districts B, D and H were the source of a disproportionately large share of the illegal dumping calls for each of the four reporting years — 59 percent of the calls in 2008, and 66 percent of the calls in the 2009-2011 period.	
 </p>
 
-<blockquote class="ph0 f5 f1-ns w-100 center b--none mb0">
+<blockquote style={{background: 'none'}} class="ph0 f5 f1-ns w-100 center b--none mb0">
                 <p class="fw7 lh-title purple f2 mb0">It is clear that the same Houston council districts that have hosted solid waste facilities over the years have become prime targets for illegal dumping. This should have been easy to predict: Illegal dumping was already a problem near the Whispering Pines landfill in 1980.
                 </p></blockquote>
 
@@ -147,7 +152,7 @@ Changing the siting of city-owned and private landfills alone will not fully add
 All recycling is not created equal. Which communities get access to recycling first and which communities get the “cleanest” or “dirtiest” recycling facilities are key environmental justice issues. 
 </p>
 
-<blockquote class="ph0 f5 f1-ns w-100 center b--none mb0">
+<blockquote style={{background: 'none'}} class="ph0 f5 f1-ns w-100 center b--none mb0">
                 <p class="fw7 lh-title purple f2 mb0">Houston has three garbage transfer stations, and all three are located in minority neighborhoods. 
                 </p></blockquote>
 
