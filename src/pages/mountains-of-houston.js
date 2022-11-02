@@ -56,7 +56,7 @@ const mountains = props => {
 
 
       </Helmet>
-      <body style={{background-color: '#d4876d'}}>
+      <body style={{backgroundColor: '#d4876d'}}>
         <div>
           <div class="vh-100 dt w-100 tc bg-dark-gray white cover"
             style={{
