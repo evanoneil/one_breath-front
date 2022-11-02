@@ -53,20 +53,20 @@ const mountains = props => {
         <div>
           <div class="vh-100 dt w-100 tc bg-dark-gray white cover"
             style={{
-              backgroundColor: `purple`,
+              backgroundColor: `#241a4a`,
             }}>
             <div class="dtc v-mid ">
               <div class="w-75 center">
 
-                <h1 class="center f1 f-subheadline-l b fw7 tl  mh-auto  animated fadeIn a1 d2 mb0" style={{ color: 'peach' }}>The Mountains</h1>
-                <h1 class="center f1 f-subheadline-l b fw7 tl  mh-auto  animated fadeIn a5 d4 mt0" style={{ color: 'peach' }}>of Houston</h1>
+                <h1 class="center f1 f-subheadline-l b fw1 tl  mh-auto  animated fadeIn a1 d2 mb0" style={{ color: '#d4876d' }}>The Mountains</h1>
+                <h1 class="center f1 f-subheadline-l b fw1 tl  mh-auto  animated fadeIn a5 d4 mt0" style={{ color: '#d4876d' }}>of Houston</h1>
               </div>
 
 
             </div>
           </div>
           <div class="w-100">
-            <blockquote style={{background: 'none'}} class="ph0 mh0 mv0 w-100 pv3 ph2 f4-ns f5 lh-copy center bg-purple fade b--none">
+            <blockquote style={{background: 'black'}} class="ph0 mh0 mv0 w-100 pv3 ph2 f4-ns f5 lh-copy center bg-purple fade b--none">
 
               <center>
                 <cite class="f6 ttu tracked fs-normal center white">BY Dr Robert Bullard</cite><br />
@@ -101,9 +101,10 @@ const mountains = props => {
 </center>
 
 </a>
-
+<br />
+                  
 <img src="https://incomparable-syrniki-850129.netlify.app/R1-01723-027A.png" class="w-100" />
-
+<br />
 <p>
 When I began research work in environmental justice at Texas Southern University in 1978, Houston was 52.3 percent White, 27.4 percent Black, 17.6 percent Hispanic and 2.7 percent Asian and other. The government, however, was all white and all male. This lack of equitable representation had consequences. In place of NIMBY (Not In My Back Yard) politics, Houston practiced a “PIBBY” (Place In Blacks’ Back Yard) policy. Government and private industry targeted Houston’s Black neighborhoods for landfills, incinerators, garbage dumps and garbage transfer stations.					
 </p><p>The year I arrived at the university, controversy erupted over a proposal to build the Whispering Pines sanitary landfill near Northwood Manor, a mostly Black middle-class neighborhood. In 1979, as a young sociologist, I was asked to conduct a study of solid waste disposal siting in Houston for a class-action lawsuit (Bean v. Southwestern Waste Management) that had been filed against the City of Houston, the State of Texas and the locally based Browning Ferris Industries. The Northwood Manor neighborhood of trees, single-family homes and schools was an unlikely location for a garbage landfill — except that more than 82 percent of its residents were Black. Though the Bean case was lost, it marked an important beginning as the first lawsuit in the United States that charged environmental discrimination in solid-waste facility siting under the Civil Rights Act.
@@ -124,9 +125,10 @@ After my study for the Bean case, my career became linked with the environmental
 <blockquote style={{background: 'none'}} class="ph0 f5 f1-ns w-100 center b--none mb0">
                 <p class="fw7 lh-title purple f2 mb0">The original bucolic character of the neighborhood has been forever lost as the sprawling landfill looms near soccer fields, homes and places of worship.
                 </p></blockquote>
+                  <br />
                 <img src="https://incomparable-syrniki-850129.netlify.app/BCX30954.jpg" class="w-100 w-90-ns"/>
                 <img src="https://incomparable-syrniki-850129.netlify.app/BCX31272.jpg" class="w-100 w-90-ns"/>
-
+                  <br />
                <p>Research findings in the Bean case exposed a clear pattern of waste facility siting in Houston. From the 1920s through the late 1970s, Black Houston was unofficially zoned for garbage. Eleven of 13 city-owned landfills and incinerators (84.6 percent) were built in Black neighborhoods — a clear overrepresentation of one minority’s neighborhoods in the hosting of city-owned solid waste facilities.
                </p><p>This city siting pattern in turn set the stage for private waste disposal firms to follow. The Texas Department of Health (TDH) was the state agency charged with permitting Type I standard sanitary landfills. From 1970 to 1978, TDH issued 4 sanitary landfill permits for the disposal of Houston’s solid waste. All 4 of the privately owned Type I solid waste landfills were located in minority council districts.				
                </p><p>Today, the ethnic makeup of Harris County’s 4 million residents is now mostly people of color — 41 percent Hispanic, 18.4 percent Black, and 7.7 percent Asian, compared to 33 percent White. Yet the brunt of waste disposal is still borne disproportionately by low-income minorities of color. Two Type I landfills, McCarty and Whispering Pines, now operate in Houston, and both are in council district B, which is 93 percent people of color (53 percent Black and 40 percent Hispanic).		
@@ -139,10 +141,10 @@ Changing the siting of city-owned and private landfills alone will not fully add
 <blockquote style={{background: 'none'}} class="ph0 f5 f1-ns w-100 center b--none mb0">
                 <p class="fw7 lh-title purple f2 mb0">It is clear that the same Houston council districts that have hosted solid waste facilities over the years have become prime targets for illegal dumping. This should have been easy to predict: Illegal dumping was already a problem near the Whispering Pines landfill in 1980.
                 </p></blockquote>
-
+                  <br />
                 <img src="https://incomparable-syrniki-850129.netlify.app/R1-01723-014A.JPG" class="w-100 w-90-ns"/>
                 <img src="https://incomparable-syrniki-850129.netlify.app/R1-01723-009A.png" class="w-100 w-90-ns"/>
-
+                  <br />
                 <p>The Mayor’s Task Force on Illegal Dumping completed its work in June 2013, resulting in the Houston City Council’s passing a budget amendment that has allocated $250,000 for 25 surveillance cameras systems (the cameras cost about $10,000 per unit) to monitor illegal dumping “hot spots” in the 5 council districts — B, D, H, I and K —  identified by the Solid Waste Department as having major challenges with illegal dumping. Each of the illegal dumping “hot spot” council districts will receive 5 camera systems for surveillance purposes. This measure, however, is not likely to solve the problem. As I pointed out 25 years ago in Invisible Houston, illegal dumping will only end when the residents in the targeted neighborhoods and council districts “take back” their communities. The costs and penalties associated with illegally dumping in Houston have never been severe enough to serve as a serious deterrent.
 </p>
 <h2>RECYCLING IN HOUSTON</h2>
@@ -155,9 +157,9 @@ All recycling is not created equal. Which communities get access to recycling fi
 <blockquote style={{background: 'none'}} class="ph0 f5 f1-ns w-100 center b--none mb0">
                 <p class="fw7 lh-title purple f2 mb0">Houston has three garbage transfer stations, and all three are located in minority neighborhoods. 
                 </p></blockquote>
-
+                  <br />
                 <img src="https://incomparable-syrniki-850129.netlify.app/BCX32056-lr.png" class="w-100 w-90-ns"/>
-
+                  <br />
                 <p>In 1983, the first city-owned garbage transfer station was opened in the Carverdale neighborhood. Local residents understandably did not greet this “first'' as a victory. Transfer stations are dropoff points for the garbage trucks that make curbside collections and pickup sites for the much larger trucks that haul the garbage off to a landfill. These sites create noise and dust pollution, traffic hazards and odor problems for their neighbors.				
                 </p><p>Houston currently has 13 recycling facilities. Ten of these 13 recycling facilities (77 percent) are located in neighborhoods populated primarily by people of color. The 13 facilities include five “cleaner” recycling centers, which do not accept junk waste, tree waste or garbage, but generally accept aluminum and tin cans, glass bottles, paper and plastics. Three of these 5 city recycling centers (60 percent) are located in majority white areas. On the other hand, all six “dirtier” neighborhood depositories/recycling centers, which accept and dispose of tree waste, junk waste and used motor oil, in addition to household recyclables, are located in communities where people of color live.		
                 </p><p>Four of the 6 neighborhood depositories/recycling centers are located in council districts (B, D, H and I) designated as illegal dumping “hot spots,” and 3 are located in the same council districts having garbage transfer stations (J, A and I).
@@ -171,8 +173,9 @@ All recycling is not created equal. Which communities get access to recycling fi
 </p><p>Houston is not Los Angeles. Despite similarities in terms of racial and ethnic diversity, Houston has not been able to capitalize on its diversity to grow a robust multiracial, multi-issue network of environmental and social justice organizations that have expertise in organizing, education, policy making, legal action and scientific research.	
 </p><p>How much of the blame for this limited capacity in Houston rests with poor funding? No social movement can sustain itself over time without adequate funds. Nationally, funders spent a whopping $10 billion between 2000 and 2009 on environmental groups. However, just 15 percent of the environmental grant dollars benefited marginalized communities, and only 11 percent went to advancing “social justice” causes, such as community organizing. Environmental justice groups need funding to build capacity. Constrained funding in Houston has made it difficult for efforts at building organizational infrastructure, community organizing, leadership development and effective participation in the policy arena to succeed. This lack is particularly shortsighted given that building a potent environmental justice presence in Houston will make us a much healthier and more livable city for all.
 </p>
+                  <br />
 <img src="https://incomparable-syrniki-850129.netlify.app/WhisperingPines_Illustration.png" class="w-100 w-90-ns"/>
-
+                  <br />
 <h2>CREDITS & ACKNOWLEDGEMENTS</h2>
 <p>Dr. Robert Bullard is founding director of the Bullard Center for Environmental and Climate Justice and distinguished professor of urban planning and environmental policy at Texas Southern University (bullardcenter.org)
 </p><p>Originally published by the Rice Design Alliance in 2014 in Cite 93
