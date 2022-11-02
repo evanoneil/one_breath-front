@@ -98,7 +98,6 @@ const mountains = props => {
 <a href="https://felt.com/map/Houston-Landfills-Map-Invisible-Houston-GKyE0QqbQVKzBOM784cuzB">
   <img src="https://incomparable-syrniki-850129.netlify.app/felt-map.png" class="w-100" />
 </a>
-<img src={image1} class="w-100 w-90-ns"/>
 
 <p>
 When I began research work in environmental justice at Texas Southern University in 1978, Houston was 52.3 percent White, 27.4 percent Black, 17.6 percent Hispanic and 2.7 percent Asian and other. The government, however, was all white and all male. This lack of equitable representation had consequences. In place of NIMBY (Not In My Back Yard) politics, Houston practiced a “PIBBY” (Place In Blacks’ Back Yard) policy. Government and private industry targeted Houston’s Black neighborhoods for landfills, incinerators, garbage dumps and garbage transfer stations.					
