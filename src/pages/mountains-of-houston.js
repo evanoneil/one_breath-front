@@ -56,11 +56,10 @@ const mountains = props => {
 
 
       </Helmet>
-      <body style={{background: '#d4876d'}}>
+      <body style={{background-color: '#d4876d'}}>
         <div>
           <div class="vh-100 dt w-100 tc bg-dark-gray white cover"
             style={{
-              backgroundImage: `url('../assets/img/R1-01723-027A.png')`,
               backgroundPosition: 'center center',
             }}>
             <div class="dtc v-mid ">
@@ -77,10 +76,10 @@ const mountains = props => {
             <blockquote class="ph0 mh0 mv0 w-100 pv3 ph2 f4-ns f5 lh-copy center bg-purple fade b--none">
 
               <center>
-                <cite class="f6 ttu tracked fs-normal center white">BY Dr. Robert Bullard</cite><br />
+                <cite class="f6 ttu tracked fs-normal center white">BY Dr Robert Bullard</cite><br />
 
 
-                <cite class="f6 ttu tracked fs-normal center white">Photography of the Whispering Pines landfill, Kelley Street incinerator and J.T. Trotter Park in northeast Houston by Ben Corda</cite><br />
+                <cite class="f6 ttu tracked fs-normal center white">Photography of the Whispering Pines landfill, Kelley Street incinerator and J T Trotter Park in northeast Houston by Ben Corda</cite><br />
               </center>
             </blockquote>
           </div>
