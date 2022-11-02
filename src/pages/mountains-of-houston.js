@@ -12,9 +12,9 @@ import image2 from '../assets/img/BCX30954.jpg'
 import image3 from '../assets/img/BCX31272.jpg'
 import image4 from '../assets/img/R1-01723-014A.JPG'
 import image5 from '../assets/img/R1-01723-009A.png'
-import image6 from '../assets/img/BCX32056.png'
+import image6 from '../assets/img/BCX32056-lr.png'
 import image7 from '../assets/img/BCX32209.png'
-import image8 from '../assets/img/WhisperingPines_Illustration.jpg'
+import image8 from '../assets/img/WhisperingPines_Illustration.png'
 
 
 const mountains = props => {
