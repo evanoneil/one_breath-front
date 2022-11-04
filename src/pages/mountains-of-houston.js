@@ -35,11 +35,11 @@ const mountains = props => {
       {/* <SEO title="HB 1820" /> */}
       <Helmet>
         <title>The Mountains of Houston | One Breath Partnership</title>
-        <meta property='og:title' content='Moving Beyond Maps → Houston Arrow | One Breath Partnership' />
+        <meta property='og:title' content='The Mountains of Houston | One Breath Partnership' />
         <meta name='description' content={description} />
         <meta name='image' content={image} />
         <meta name='og:image' content={image} />
-        <meta name='twitter:title' content='Moving Beyond Maps → Houston Arrow | One Breath Partnership' />
+        <meta name='twitter:title' content='The Mountains of Houston | One Breath Partnership' />
         <meta name='twitter:card' content='summary_large_image' />
         <meta name='twitter:creator' content='@onebreathhou' />
         <meta name='twitter:description' content={description} />
