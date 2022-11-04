@@ -58,8 +58,8 @@ const mountains = props => {
             <div class="dtc v-mid ">
               <div class="w-75 center">
 
-                <h1 class="center f1 f-subheadline-l b fw1 tl  mh-auto  animated fadeIn a1 d2 mb0" style={{ color: '#d4876d' }}>The Mountains</h1>
-                <h1 class="center f1 f-subheadline-l b fw1 tl  mh-auto  animated fadeIn a5 d4 mt0" style={{ color: '#d4876d' }}>of Houston</h1>
+                <h1 class="center f1 f-subheadline-l b fw1 tl  mh-auto  animated fadeIn a1 d2 mb0" style={{ color: '#d4876d'; fontFamily: 'Inter,sans-serif'; letterSpacing: '-.2rem'; }}>The Mountains</h1>
+                <h1 class="center f1 f-subheadline-l b fw1 tl  mh-auto  animated fadeIn a5 d4 mt0" style={{ color: '#d4876d'; fontFamily: 'Inter,sans-serif'; letterSpacing: '-.2rem'; }}>of Houston</h1>
               </div>
 
 
