@@ -202,7 +202,7 @@ return (
           </p>
           <p>After 1978, as the Bean case began making its way through the courts, no other Type I landfills were built
             in the city. Houston instead began sending some of its household garbage to four landfills located outside
-            of the city. But the discriminatory pattern did not change: 3 of the 4 non-Houston landfills are located in
+            of the city. <b>But the discriminatory pattern did not change:</b> 3 of the 4 non-Houston landfills are located in
             census tracts where the majority of the population are people of color — Waste Management (76.6 percent),
             Atascocita (86.0 percent) and BFI Blue Ridge (85.7 percent).
           </p>
