@@ -217,7 +217,6 @@ return (
           {/* </a> */}
           <br />
       </div>
-    </div>
           <h2>ILLEGAL DUMPING GROUNDS </h2>
           <p>
             Changing the siting of city-owned and private landfills alone will not fully address Houston’s problems with
@@ -405,9 +404,6 @@ return (
     <div>
       <div class="wrapper">
         <div class="center measure-wide f5 pb5 pt2 lh-copy ph2">
-
-
-
           <br />
           <h2>CREDITS & ACKNOWLEDGEMENTS</h2>
           <p>Dr. Robert Bullard is founding director of the Bullard Center for Environmental and Climate Justice and
@@ -425,19 +421,11 @@ return (
           </p>
           <p>Illustration of a possible healthier and more livable city for all by Sanbles (<a href="https://www.sanbles.com" target="_blank">sanbles.com</a>)
           </p>
-
-
-
         </div>
       </div>
     </div>
+          
   </body>
-
-
-
-
-
-
 </Layout>
 )
 
