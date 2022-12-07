@@ -87,23 +87,10 @@ return (
       </div>
     </div>
 
-    <div>
-      <div class="wrapper">
-        <div class="center measure-wide f5 pb5 pt2 lh-copy ph2">
-          <a href="https://felt.com/map/Houston-Landfills-Map-Invisible-Houston-GKyE0QqbQVKzBOM784cuzB">
-            <img src="https://incomparable-syrniki-850129.netlify.app/felt-map.png" class="w-100" />
-            <center>
-              <cite class="f6 ttu tracked fs-normal center black">Interactive, collaborative map created on Felt.com.
-                Please add any details and stories you have about these locations.</cite><br />
-            </center>
-          </a>
-          <br />
-          </div>
-      </div>
-    </div>
 
-    <div>
-    <img src="https://incomparable-syrniki-850129.netlify.app/R1-01723-027A.png" class="w-100" />
+
+    <div class="tc">
+    <img src="https://incomparable-syrniki-850129.netlify.app/R1-01723-027A.png" class="w-100 w-80-ns" />
           <br />
     </div>
 
@@ -184,9 +171,9 @@ return (
       </div>
     </div>
 
-    <div>
-        <img src="https://incomparable-syrniki-850129.netlify.app/BCX30954.jpg" class="w-100 w-90-ns" />
-        <img src="https://incomparable-syrniki-850129.netlify.app/BCX31272.jpg" class="w-100 w-90-ns" />
+    <div class="tc">
+        <img src="https://incomparable-syrniki-850129.netlify.app/BCX30954.jpg" class="w-100 w-80-ns" />
+        <img src="https://incomparable-syrniki-850129.netlify.app/BCX31272.jpg" class="w-100 w-80-ns" />
         <br />
     </div>
 
@@ -219,6 +206,18 @@ return (
             census tracts where the majority of the population are people of color — Waste Management (76.6 percent),
             Atascocita (86.0 percent) and BFI Blue Ridge (85.7 percent).
           </p>
+          <div>
+          <iframe width="100%" height="450" frameborder="0" title="Felt Map" src="https://felt.com/embed/map/Houston-Landfills-Map-Invisible-Houston-GKyE0QqbQVKzBOM784cuzB?lat=29.76536&lon=-95.395817&zoom=11.59682921148329"></iframe>
+          {/* <a href="https://felt.com/map/Houston-Landfills-Map-Invisible-Houston-GKyE0QqbQVKzBOM784cuzB">
+            <img src="https://incomparable-syrniki-850129.netlify.app/felt-map.png" class="w-100" /> */}
+            <center>
+              <cite class="f6 ttu tracked fs-normal center black">Interactive, collaborative map created on Felt.com.
+                Please add any details and stories you have about these locations.</cite><br />
+            </center>
+          {/* </a> */}
+          <br />
+      </div>
+    </div>
           <h2>ILLEGAL DUMPING GROUNDS </h2>
           <p>
             Changing the siting of city-owned and private landfills alone will not fully address Houston’s problems with
@@ -244,9 +243,9 @@ return (
       </div>
     </div>
 
-    <div>
-    <img src="https://incomparable-syrniki-850129.netlify.app/R1-01723-014A.JPG" class="w-100 w-90-ns" />
-          <img src="https://incomparable-syrniki-850129.netlify.app/R1-01723-009A.png" class="w-100 w-90-ns" />
+    <div class="tc">
+    <img src="https://incomparable-syrniki-850129.netlify.app/R1-01723-014A.JPG" class="w-100 w-80-ns" />
+          <img src="https://incomparable-syrniki-850129.netlify.app/R1-01723-009A.png" class="w-100 w-80-ns" />
         <br />
     </div>
 
@@ -301,8 +300,8 @@ return (
       </div>
     </div>
 
-    <div>
-    <img src="https://incomparable-syrniki-850129.netlify.app/BCX32056-lr.png" class="w-100 w-90-ns" />
+    <div class="tc">
+    <img src="https://incomparable-syrniki-850129.netlify.app/BCX32056-lr.png" class="w-100 w-80-ns" />
         <br />
     </div>
 
@@ -359,8 +358,8 @@ return (
       </div>
     </div>
 
-    <div>
-    <img src="https://incomparable-syrniki-850129.netlify.app/BCX32209.png" class="w-100 w-90-ns" />
+    <div class="tc">
+    <img src="https://incomparable-syrniki-850129.netlify.app/BCX32209.png" class="w-100 w-80-ns" />
         <br />
     </div>
 
@@ -399,7 +398,7 @@ return (
 
     <div>
     <img src="https://incomparable-syrniki-850129.netlify.app/WhisperingPines_Illustration.png"
-            class="w-100 w-90-ns" />
+            class="w-100 w-70-ns" />
                     <br />
     </div>
 
