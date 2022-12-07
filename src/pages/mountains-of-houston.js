@@ -207,8 +207,7 @@ return (
             Atascocita (86.0 percent) and BFI Blue Ridge (85.7 percent).
           </p>
           <div>
-          <iframe width="100%" height="450" frameborder="0" title="Felt Map" src="https://felt.com/embed/map/Houston-Landfills-Map-Invisible-Houston-GKyE0QqbQVKzBOM784cuzB?lat=29.76536&lon=-95.395817&zoom=11.59682921148329"></iframe>
-          {/* <a href="https://felt.com/map/Houston-Landfills-Map-Invisible-Houston-GKyE0QqbQVKzBOM784cuzB">
+<iframe width="100%" height="450" frameborder="0" title="Felt Map" src="https://felt.com/embed/map/Houston-Landfills-Map-Invisible-Houston-GKyE0QqbQVKzBOM784cuzB?lat=29.754779&lon=-95.366627&zoom=10.553"></iframe>          {/* <a href="https://felt.com/map/Houston-Landfills-Map-Invisible-Houston-GKyE0QqbQVKzBOM784cuzB">
             <img src="https://incomparable-syrniki-850129.netlify.app/felt-map.png" class="w-100" /> */}
             <center>
               <cite class="f6 ttu tracked fs-normal center black">Interactive, collaborative map created on Felt.com.
@@ -395,7 +394,7 @@ return (
       </div>
     </div>
 
-    <div>
+    <div class="tc">
     <img src="https://incomparable-syrniki-850129.netlify.app/WhisperingPines_Illustration.png"
             class="w-100 w-70-ns" />
                     <br />
