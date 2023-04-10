@@ -26,7 +26,7 @@ import BlogPostPreviewGridShort from '../components/blog-post-preview-grid-short
 import BlogPostPreviewGridNew from '../components/blog-post-preview-grid-new'
 import BlogPostPreviewGridTopic from '../components/blog-post-preview-grid-topic'
 import BlogPostPreviewGridShortFlex from '../components/blog-post-preview-grid-short-flex'
-
+import ChildComponent from "../components/ChildComponent"
 
 import {getAlgoliaResults} from '@algolia/autocomplete-js'
 import Autocomplete from '../components/Autocomplete/Autocomplete'
@@ -147,6 +147,17 @@ export const query = graphql`
             current
           }
         }
+      }
+    }
+
+    mp: allSanityMajorProject {
+      edges {
+        node {
+            url
+            title
+           _rawMainImage
+            description
+       }
       }
     }
 
@@ -396,9 +407,11 @@ const IndexPageNew = props => {
   const videoNodes = data && data.media && mapEdgesToNodes(data.videos)
   const featuredNodes = data && data.media && mapEdgesToNodes(data.featured)
   const topicNodes = data && data.media && mapEdgesToNodes(data.topic)
-
+  const majoroneNodes = data && data.media && mapEdgesToNodes(data.mp)
 
   const description = site.home_header
+
+
 
   if (!site) {
     throw new Error(
@@ -500,9 +513,9 @@ const IndexPageNew = props => {
 </div>
 
 
-
   </div>
 
+ {/* <ArrowHighlight nodes={majoroneNodes} /> */}
         <ArrowHighlight />
         <ReportHighlight />
         <div className={styles.explore}>
