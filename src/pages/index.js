@@ -529,7 +529,7 @@ const IndexPageNew = props => {
   </p>
   <div class={styles.blobgreen}></div>
   <a className="pa3 ttu mid-gray f5 fw7 blue no-underline dib-l enterprise mt5"
-        href="/sign-up">SUBSCRIBE</a>
+        href="/subscribe">SUBSCRIBE</a>
   </div>
   </div>
   <Container>
