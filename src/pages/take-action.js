@@ -9,7 +9,7 @@ import GraphQLErrorList from '../components/graphql-error-list'
 import SEO from '../components/seo'
 import Layout from '../containers/layout'
 import Helmet from 'react-helmet'
-import ogImage from '../assets/img/one_breath-petition-may2022.jpg'
+import ogImage from '../assets/img/one_breath-petition-april2023.jpg'
 
 import { responsiveTitle1 } from '../components/typography.module.css'
 
@@ -85,7 +85,7 @@ const TakeActionPage = props => {
 
 
 <link href='https://actionnetwork.org/css/style-embed-v3.css' rel='stylesheet' type='text/css' />
-  <script src='https://actionnetwork.org/widgets/v4/petition/tell-epa-that-houstons-smog-problem-is-severe?format=js&source=widget&style=full'></script>
+  <script src='https://actionnetwork.org/widgets/v5/petition/tell-epa-reject-itcs-permit?format=js&source=widget&style=full'></script>
 
 
 
@@ -94,8 +94,9 @@ const TakeActionPage = props => {
 
       <Container>
         <div>
-<div id='can-petition-area-tell-epa-that-houstons-smog-problem-is-severe'>
-</div>        </div>
+<div id='can-petition-area-tell-epa-reject-itcs-permit'>
+</div>    
+</div>
       </Container>
     </Layout>
   )
