@@ -74,14 +74,16 @@ const TakeActionPage = props => {
       <Helmet>
         <title>Take Action | One Breath Partnership</title>
         <meta property='og:title' content='Take Action | One Breath Partnership' />
+        <meta name='twitter:description' content={description} />
         <meta name='description' content={description} />
         <meta name='image' content={image} />
         <meta name='og:image' content={image} />
         <meta name='twitter:title' content='Take Action | One Breath Partnership' />
         <meta name='twitter:card' content='summary_large_image' />
         <meta name='twitter:creator' content='@onebreathhou' />
-        <meta name='twitter:description' content={description} />
         <meta name='twitter:image' content={image} />
+      <meta name='og:description' content={description} />
+
 
 
 <link href='https://actionnetwork.org/css/style-embed-v3.css' rel='stylesheet' type='text/css' />
