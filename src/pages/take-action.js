@@ -9,7 +9,8 @@ import GraphQLErrorList from '../components/graphql-error-list'
 import SEO from '../components/seo'
 import Layout from '../containers/layout'
 import Helmet from 'react-helmet'
-import ogImage from '../assets/img/one_breath-petition-april2023.jpg'
+import ogImage from '../../assets/img/one_breath-petition-may-2023.png'
+
 
 import { responsiveTitle1 } from '../components/typography.module.css'
 
@@ -65,14 +66,14 @@ const TakeActionPage = props => {
 
   const postNodes = data && data.posts && mapEdgesToNodes(data.posts)
   const mediaNodes = data && data.media && mapEdgesToNodes(data.media)
-  const description = "Tell EPA: Reject ITC Deer Park's permit"
+  const description = "Tell TCEQ: Enhance air monitoring in Houston's historically Black Pleasantville"
   const image = `https://onebreathhou.org${ogImage}`
 
   return (
     <Layout>
       {/* <SEO title="Take Action" /> */}
       <Helmet>
-        <title>Take Action | One Breath Partnership</title>
+        <title>Tell TCEQ: Enhance air monitoring in Houston's historically Black Pleasantville | Take Action | One Breath Partnership</title>
         <meta property='og:title' content='Take Action | One Breath Partnership' />
         <meta name='twitter:description' content={description} />
         <meta name='description' content={description} />
@@ -87,16 +88,15 @@ const TakeActionPage = props => {
 
 
 <link href='https://actionnetwork.org/css/style-embed-v3.css' rel='stylesheet' type='text/css' />
-  <script src='https://actionnetwork.org/widgets/v5/petition/tell-epa-reject-itcs-permit?format=js&source=widget&style=full'></script>
-
-
+<script src='https://actionnetwork.org/widgets/v5/petition/tell-tceq-enhance-air-monitoring-in-houstons-historically-black-pleasantville?format=js&source=widget&style=full'>
+</script>
 
 
       </Helmet>
 
       <Container>
         <div>
-<div id='can-petition-area-tell-epa-reject-itcs-permit'>
+<div id='can-petition-area-tell-tceq-enhance-air-monitoring-in-houstons-historically-black-pleasantville'>
 </div>    
 </div>
       </Container>
