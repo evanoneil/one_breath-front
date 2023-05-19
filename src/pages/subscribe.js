@@ -86,7 +86,7 @@ const SubscribePage = props => {
         <meta name="twitter:image" content={image} />
           
         <link href='https://actionnetwork.org/css/style-embed-v3.css' rel='stylesheet' type='text/css' />
-        <script src='https://actionnetwork.org/widgets/v5/form/sign-up-for-updates-77?format=js&source=widget&style=full'></script>
+<script src='https://actionnetwork.org/widgets/v5/form/sign-up-for-updates-163?format=js&source=widget&style=full'></script>
 
           
          
@@ -95,8 +95,7 @@ const SubscribePage = props => {
       <Container>
         <Subscribe />
         <div className="mt5 mb3 w-80 center">
-<div id='can-form-area-sign-up-for-updates-77'></div>
-
+<div id='can-form-area-sign-up-for-updates-163'></div>
         </div>
       </Container>
     </Layout>
