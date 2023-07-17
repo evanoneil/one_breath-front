@@ -15,7 +15,7 @@ import { graphql, useStaticQuery } from "gatsby"
 const ParentComponentSecond = () => {
   const data = useStaticQuery(graphql`
     query MyQueryTwo {
-      allSanityMajorProject (limit: 1, skip: 1) {
+      allSanityMajorProject (limit: 1, skip: 1, sort: {fields: [publishedAt], order: DESC}) {
         edges {
           node {
             url
