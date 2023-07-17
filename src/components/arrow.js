@@ -15,7 +15,7 @@ import { graphql, useStaticQuery } from "gatsby"
 const ParentComponent = () => {
   const data = useStaticQuery(graphql`
     query MyQuery {
-      allSanityMajorProject (limit: 1) {
+      allSanityMajorProject (limit: 1, sort: {fields: [publishedAt], order: DESC}) {
         edges {
           node {
             url
