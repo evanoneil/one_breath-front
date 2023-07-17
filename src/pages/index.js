@@ -518,8 +518,8 @@ const IndexPageNew = props => {
   </div>
 
  {/* <ArrowHighlight nodes={majoroneNodes} /> */}
-        <ArrowHighlight />
-        <ReportHighlight />
+               <ReportHighlight />
+ <ArrowHighlight />
         <div className={styles.explore}>
 <div class={styles.blobblue}></div>
 <div class={styles.blobyellow}></div>
