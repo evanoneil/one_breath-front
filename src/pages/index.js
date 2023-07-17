@@ -150,7 +150,9 @@ export const query = graphql`
       }
     }
 
-    mp: allSanityMajorProject {
+    mp: allSanityMajorProject (limit: 2
+      sort: {fields: [publishedAt], order: DESC}
+      ) {
       edges {
         node {
             url
